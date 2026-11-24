@@ -33,6 +33,13 @@ try{
   assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth));
   await page.screenshot({path:report+'-mobile.png',fullPage:true});
   console.log('Avatar, four training languages, English default, independent Chinese UI, tone audio and mobile width verified');
+  await page.evaluate(()=>{
+    const getUserMedia=navigator.mediaDevices.getUserMedia.bind(navigator.mediaDevices);
+    navigator.mediaDevices.getUserMedia=constraints=>constraints.video ?
+      Promise.reject(new DOMException('Test camera denial','NotAllowedError')) : getUserMedia(constraints);
+  });
+  await page.locator('#camera-toggle').click();
+  await page.waitForFunction(()=>document.querySelector('#camera-status').textContent.includes('摄像头不可用'));
   await page.locator('#record').click();
   await page.waitForFunction(()=>document.querySelector('#status').textContent.includes('正在录音'));
   await page.waitForTimeout(2800);
@@ -41,5 +48,5 @@ try{
   await page.waitForFunction(()=>document.querySelector('#record').textContent.includes('重新练习'),null,{timeout:140000});
   console.log('RECORDING',await page.locator('#status').textContent(),await page.locator('#recognition').textContent());
   assert.ok((await page.locator('#recognition').textContent()).includes('·'), 'Real Whisper transcription expected');
-  console.log('Browser microphone pipeline, local Whisper inference, and attempt count verified');
+  console.log('Camera denial, microphone pipeline, local Whisper inference, and attempt count verified');
 }finally{await browser.close();}

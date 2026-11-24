@@ -616,8 +616,15 @@
   "tone-ma-1": {
     "audio": "data/audio/tone-ma-1.mp3",
     "animation": "data/artic/tone-ma-1.json",
-    "audio_kind": "espeak",
-    "duration": 0.606
+    "audio_kind": "human",
+    "duration": 0.38,
+    "credit": {
+      "author": "Wei Gao, Vion Nicolas",
+      "license": "CC BY 2.0 fr",
+      "license_url": "https://creativecommons.org/licenses/by/2.0/fr/deed.en",
+      "source": "https://commons.wikimedia.org/wiki/File:Zh-m%C4%81ma.ogg",
+      "edits": "First syllable taken from māma from 0.18 to 0.62 seconds, faded, and transcoded to mono MP3."
+    }
   },
   "tone-ma-2": {
     "audio": "data/audio/tone-ma-2.mp3",

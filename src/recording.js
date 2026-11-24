@@ -70,3 +70,21 @@ export function pitchPreview(samples) {
   }
   return results;
 }
+
+export function audiblePitchDirection(points, calibration) {
+  const usable = points.filter(point => Number.isFinite(point.hz) && point.hz > 0);
+  if (usable.length < 8 || usable.length / points.length < .35) return null;
+  const duration = usable.at(-1).seconds - usable[0].seconds;
+  if (duration < .14) return null;
+  const logarithms = usable.map(point => 12 * Math.log2(point.hz));
+  if (logarithms.some((value, i) => i > 0 && Math.abs(value - logarithms[i - 1]) > 7)) return null;
+  const percentiles = calibration.filter(hz => Number.isFinite(hz) && hz > 0).sort((a,b)=>a-b);
+  const range = percentiles.length >= 8 ? 12*Math.log2(percentiles[Math.floor(.9*percentiles.length)] / percentiles[Math.floor(.1*percentiles.length)]) : 0;
+  const threshold = Math.max(.9, .17*range);
+  const window = Math.max(2, Math.floor(logarithms.length/4));
+  const median = values => [...values].sort((a,b)=>a-b)[Math.floor(values.length/2)];
+  const change = median(logarithms.slice(-window)) - median(logarithms.slice(0,window));
+  if (change > threshold) return 'pitchRise';
+  if (change < -threshold) return 'pitchFall';
+  return null;
+}

@@ -1,7 +1,7 @@
 import './style.css';
 import {Converter} from 'opencc-js';
 import {copy} from './copy.js';
-import {capture,decode,pitchPreview,wav} from './recording.js';
+import {audiblePitchDirection,capture,decode,pitchPreview,wav} from './recording.js';
 
 const $ = id => document.getElementById(id);
 const translate = Converter({from:'tw',to:'cn'});
@@ -134,6 +134,14 @@ function showResult(){
   const textMatches=Boolean(hasText && reference && reference===observed);
   $('recognition').textContent=result.match==='matched'?t().match:
     hasText?(result.text?`${textMatches?t().matching:t().transcript} · ${result.text}`:t().noText):'';
+  if(item.mode==='tone'){
+    const direction=audiblePitchDirection(state.observed,state.sessionPitch);
+    if(direction){
+      const observation=state.locale==='zh-CN'?(direction==='pitchRise'?'录音中可测到的音高总体上升。':'录音中可测到的音高总体下降。'):
+        (direction==='pitchRise'?'Pitch rose across the voiced part of your recording.':'Pitch fell across the voiced part of your recording.');
+      const line=document.createElement('div');line.textContent=observation;$('recognition').append(line);
+    }
+  }
   addDetail(list,t().score,hasText&&reference?`${Math.round(100*diffs/[...reference].length)}%`:null);
   addDetail(list,t().segment,result.segments?.length?`${t().uncertain} · ${result.segments.join(' ')}`:t().unavailable);
   if(state.lang==='zh-CN')addDetail(list,t().tone,result.tone==='matched'?t().matching:t().uncertain);

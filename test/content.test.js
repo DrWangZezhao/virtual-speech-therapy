@@ -2,7 +2,7 @@ import {readFileSync, existsSync} from 'node:fs';
 import {test} from 'node:test';
 import assert from 'node:assert/strict';
 import {copy} from '../src/copy.js';
-import {pitchPreview,wav} from '../src/recording.js';
+import {audiblePitchDirection,pitchPreview,wav} from '../src/recording.js';
 
 const data = new URL('../public/data/',import.meta.url);
 const read = name => JSON.parse(readFileSync(new URL(name,data),'utf8'));
@@ -32,4 +32,15 @@ test('microphone PCM and pitch diagnostic preserve actual input',()=>{
   assert.equal(header.getUint32(40,true),32000);
   assert.ok(pitchPreview(samples).every(point=>Math.abs(point.hz-200)<5));
   assert.ok(pitchPreview(new Float32Array(16000)).every(point=>point.hz===null));
+});
+
+test('pitch observations use relative motion and abstain on unreliable frames',()=>{
+  for(const start of [100,200]){
+    const points=Array.from({length:15},(_,i)=>({seconds:i*.025,hz:start*(1+i*.025)}));
+    const calibration=points.map(point=>point.hz);
+    assert.equal(audiblePitchDirection(points,calibration),'pitchRise');
+    assert.equal(audiblePitchDirection(points.map((point,i)=>({...point,hz:calibration.at(-i-1)})),calibration),'pitchFall');
+    assert.equal(audiblePitchDirection(points.map(point=>({...point,hz:start})),calibration),null);
+  }
+  assert.equal(audiblePitchDirection([],[]),null);
 });
