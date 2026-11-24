@@ -43,7 +43,9 @@ try{
   await page.locator('#record').click();
   await page.waitForFunction(()=>document.querySelector('#status').textContent.includes('正在录音'));
   await page.waitForTimeout(2800);
-  await page.locator('#record').click();
+  await page.locator('#record').evaluate(button=>{
+    if(!button.disabled && button.textContent.includes('结束录音'))button.click();
+  });
   await page.locator('#recording').waitFor({state:'visible'});
   await page.waitForFunction(()=>document.querySelector('#record').textContent.includes('重新练习'),null,{timeout:140000});
   console.log('RECORDING',await page.locator('#status').textContent(),await page.locator('#recognition').textContent());

@@ -31,12 +31,16 @@ export async function createAvatar(container) {
   let last = 0;
   let handle;
   let activeGesture = false;
+  let redraw = true;
+  let wasPlaying = false;
+  controls.addEventListener('change',()=>{redraw=true;});
 
   const reset = () => {
     const pose = head.poses(model);
     controls.target.copy(pose.target);
     head.camera.position.copy(pose.home);
     controls.update();
+    redraw = true;
   };
   const resize = () => {
     const {width, height} = container.getBoundingClientRect();
@@ -52,6 +56,10 @@ export async function createAvatar(container) {
   const frame = now => {
     handle = requestAnimationFrame(frame);
     if (document.hidden || now - last < 26) return;
+    const playing = Boolean(animation && currentAudio && !currentAudio.paused && !currentAudio.ended);
+    if (!redraw && !playing && !wasPlaying) return;
+    redraw = false;
+    wasPlaying = playing;
     const dt = Math.min((now - last) / 1000, .06);
     last = now;
     let artic = REST_ARTIC;
@@ -64,15 +72,15 @@ export async function createAvatar(container) {
       for (const [i, key] of animation.keys.entries()) artic[key] = a[i] + (b[i] - a[i]) * (position - index);
     }
     head.update(model, model.frame(artic), artic, null, view, dt);
-    focusMarker.visible = Boolean(activeGesture && currentAudio && !currentAudio.paused && head.caliper);
+    focusMarker.visible = Boolean(activeGesture && playing && head.caliper);
     if (focusMarker.visible) focusMarker.position.set(head.caliper.x, head.caliper.y, head.caliper.z);
     gl.render(head.scene, head.camera);
   };
   handle = requestAnimationFrame(frame);
   return {
     reset,
-    demonstrate(track, audio, focus) { animation = track; currentAudio = audio; activeGesture = focus; head.resetMotion(); },
-    clear() { animation = null; currentAudio = null; },
+    demonstrate(track, audio, focus) { animation = track; currentAudio = audio; activeGesture = focus; head.resetMotion(); redraw=true; },
+    clear() { animation = null; currentAudio = null; redraw=true; },
     dispose() { cancelAnimationFrame(handle);observer.disconnect();controls.dispose();gl.dispose();model.dispose(); }
   };
 }
