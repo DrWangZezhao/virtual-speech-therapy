@@ -900,7 +900,7 @@ export class Anatomy3D {
   }
 
   // ------------------------------------------------------------------ one frame
-  update(model: VoiceModel, f: HumanFrame, a: HumanArtic, tele: TelemetryMessage | null, view: ViewFlags, dt: number): void {
+  update(model: VoiceModel, f: HumanFrame, a: HumanArtic, tele: TelemetryMessage | null, view: ViewFlags, dt: number, tongueSide?: number): void {
     this.clock += dt;
     const rest = this.restFor(model);
     const k = model.tract.scale;
@@ -1023,8 +1023,9 @@ export class Anatomy3D {
       });
     }
 
-    this.tongue(f, a, k);
-    B.line(tongueOutline, f.tongue.length, V.green, 1.6, { hot: true, alpha: artCut });
+    const tongueColor = tongueSide === undefined ? V.green : "#ee9b86";
+    this.tongue(f, a, k, tongueColor, tongueSide ?? 0);
+    if (tongueSide === undefined) B.line(tongueOutline, f.tongue.length, tongueColor, 1.6, { hot: true, alpha: artCut });
     B.gain = d.bone;
     B.line(chinNow, chinNow.length / 3, V.red, 1.5, { hot: true, alpha: artCut });
     B.gain = 1;
@@ -1224,7 +1225,7 @@ export class Anatomy3D {
   }
 
   // ------------------------------------------------------------------ the tongue
-  private tongue(f: HumanFrame, a: HumanArtic, k: number): void {
+  private tongue(f: HumanFrame, a: HumanArtic, k: number, color: string, side: number): void {
     const T = f.tongue;
     let iTip = 0, bd = Infinity;
     T.forEach((p, i) => {
@@ -1246,22 +1247,29 @@ export class Anatomy3D {
       ty /= tl;
       const sg = i / (N - 1);
       // outward: the surface runs root → tip with the tongue below it, so its left normal
-      return { p, nx: -ty, ny: tx, W: interp(TONGUE_W, sg) * k, h: (interp(TONGUE_H, sg) + 0.8 * lateral * smooth(0.45, 0.8, sg)) * k };
+      return { p, nx: -ty, ny: tx, W: interp(TONGUE_W, sg) * k, z: side * 1.35 * k * smooth(0.58, 1, sg),
+        h: (interp(TONGUE_H, sg) + 0.8 * lateral * smooth(0.45, 0.8, sg)) * k };
     });
     const at = (fr: (typeof frames)[number], ph: number): V3 => {
       const drop = fr.h * (1 - Math.cos(ph));
-      return [fr.p.x - fr.nx * drop, fr.p.y - fr.ny * drop, fr.W * Math.sin(ph)];
+      return [fr.p.x - fr.nx * drop, fr.p.y - fr.ny * drop, fr.z + fr.W * Math.sin(ph)];
     };
     const P = this.tmp;
     for (let i = 1; i < N - 1; i += 2) {
       P.reset();
       for (let j = 0; j <= 12; j++) P.p(...at(frames[i], -Math.PI / 2 + (Math.PI * j) / 12));
-      this.beams.poly(P, V.green, 1.0, { alpha: 0.5 });
+      this.beams.poly(P, color, 1.0, { alpha: 0.5 });
     }
     for (const ph of [-Math.PI / 2, -Math.PI / 4, Math.PI / 4, Math.PI / 2]) {
       P.reset();
       for (const fr of frames) P.p(...at(fr, ph));
-      this.beams.poly(P, V.green, Math.abs(ph) > 1 ? 1.25 : 1.0, { alpha: Math.abs(ph) > 1 ? 0.8 : 0.45 });
+      this.beams.poly(P, color, Math.abs(ph) > 1 ? 1.25 : 1.0, { alpha: Math.abs(ph) > 1 ? 0.8 : 0.45 });
+    }
+    if (color !== V.green) {
+      const tip = frames[N - 1];
+      P.reset();
+      for (let j = 0; j <= 12; j++) P.p(...at(tip, -Math.PI / 2 + (Math.PI * j) / 12));
+      this.beams.poly(P, color, 2.1, { hot: true });
     }
   }
 

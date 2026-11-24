@@ -138,6 +138,20 @@ button.quiet-button:not(:disabled):hover { background: transparent; border-color
   min-height: clamp(225px, 42svh, 390px);
   max-height: 760px;
 }
+.live-mirror {
+  position: absolute;
+  inset: 0 0 auto auto;
+  display: flex;
+  align-items: center;
+  gap: .55rem;
+  z-index: 1;
+  padding-inline-start: .65rem;
+  background: #111012;
+  border-radius: 999px;
+  color: var(--muted);
+  font-size: .75rem;
+}
+.live-mirror button { font-size: .75rem; min-height: 38px; padding-inline: .65rem; }
 #avatar { position: absolute; inset: 0; display: grid; place-items: center; }
 #avatar canvas { display: block; width: 100%; height: 100%; touch-action: none; }
 #avatar p { color: var(--muted); margin: 0; }
@@ -158,6 +172,20 @@ button.quiet-button:not(:disabled):hover { background: transparent; border-color
   line-height: 1;
   font-size: .8125rem;
   font-weight: 550;
+}
+.exercise-options { display: flex; align-items: center; justify-content: center; gap: .5rem; flex-wrap: wrap; }
+.coach-entry { border-color: var(--line); color: #f3f1f2; min-height: 38px; padding-inline: .8rem; }
+.coach-panel { padding-block: .6rem .85rem; }
+#coach-phase { color: var(--accent); margin: 0 0 .65rem; font-size: .8125rem; font-weight: 600; }
+#coach-caption {
+  font-size: clamp(1.35rem, 3.8vw, 2.35rem);
+  font-weight: 570;
+  line-height: 1.19;
+  letter-spacing: -.035em;
+  margin: 0;
+  min-height: 2.4em;
+  text-wrap: balance;
+  overflow-wrap: anywhere;
 }
 #item-position {
   color: var(--dim);
@@ -261,7 +289,7 @@ dialog::backdrop { background: #000b; backdrop-filter: blur(10px); }
 .switch input { accent-color: var(--accent); width: 16px; height: 16px; margin: 0; flex: 0 0 16px; }
 .utility-actions { display: flex; flex-wrap: wrap; gap: .55rem; margin: .55rem 0; }
 .muted { color: var(--muted); font-size: .875rem; line-height: 1.5; }
-#camera { width: 100%; max-height: 200px; margin-top: 8px; border-radius: 12px; object-fit: contain; background: #000; }
+#camera { width: 100%; max-height: 200px; margin-top: 8px; border-radius: 12px; object-fit: contain; background: #000; transform: scaleX(-1); }
 details { border-top: 1px solid var(--line); margin-top: 12px; }
 summary { cursor: pointer; min-height: 44px; padding: 12px 2px; font-size: .875rem; }
 details a { color: #e7bbca; }

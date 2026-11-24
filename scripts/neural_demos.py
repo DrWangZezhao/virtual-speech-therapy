@@ -28,11 +28,13 @@ def credits(name, language):
             'source': f'https://huggingface.co/{VOICE_REPO}/tree/{KOKORO_REV}'}
 
 
-def generate(destination, piper_model, reference):
+def generate(destination, piper_model, reference, items=None):
     destination.mkdir(parents=True, exist_ok=True)
     neural_cache = destination / 'kokoro-cache'
     data = ROOT / 'public' / 'data'
-    items = json.loads((data / 'curriculum.zh-CN.json').read_text())['items'] + json.loads((data / 'curriculum.other.json').read_text())
+    if items is None:
+        items = (json.loads((data / 'curriculum.zh-CN.json').read_text())['items']
+                 + json.loads((data / 'curriculum.other.json').read_text()))
     manifest = json.loads(reference.read_text()) if reference else {}
     if 'tone-ma-1' in manifest:
         manifest.setdefault('妈', manifest['tone-ma-1'])

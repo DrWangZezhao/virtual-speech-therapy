@@ -40,6 +40,8 @@ export async function createAvatar(container) {
   let handle;
   let redraw = true;
   let wasPlaying = false;
+  let liveMouth;
+  let speaking = false;
   controls.addEventListener('change',()=>{redraw=true;});
 
   const reset = () => {
@@ -64,12 +66,13 @@ export async function createAvatar(container) {
     handle = requestAnimationFrame(frame);
     if (document.hidden || now - last < 26) return;
     const playing = Boolean(animation && currentAudio && !currentAudio.paused && !currentAudio.ended);
-    if (!redraw && !playing && !wasPlaying) return;
+    if (!redraw && !playing && !wasPlaying && !speaking) return;
     redraw = false;
     wasPlaying = playing;
     const dt = Math.min((now - last) / 1000, .06);
     last = now;
     let artic = REST_ARTIC;
+    let tongueSide;
     if (playing) {
       const position = Math.min(1, currentAudio.currentTime / animation.duration) * (animation.frames.length - 1);
       const index = Math.floor(position);
@@ -77,14 +80,27 @@ export async function createAvatar(container) {
       const b = animation.frames[Math.min(index + 1, animation.frames.length - 1)];
       artic = {...REST_ARTIC};
       for (const [i, key] of animation.keys.entries()) artic[key] = a[i] + (b[i] - a[i]) * (position - index);
+    } else if (speaking) {
+      const opening = Math.max(0,Math.sin(now/91)+.45*Math.sin(now/53)) * .65;
+      artic = {...REST_ARTIC,jaw:opening,lipAp:opening*.68,lipWidth:.50+.09*Math.sin(now/113)};
+    } else if (liveMouth) {
+      const {tongue,...mouth} = liveMouth;
+      artic = {...REST_ARTIC,...mouth};
+      if (tongue) {
+        artic.ttX = 8.2+1.6*tongue.extension;
+        artic.ttY = 7.75-.40*mouth.jaw-.7*tongue.extension;
+        tongueSide = -tongue.side;
+      }
     }
-    head.update(model, model.frame(artic), artic, null, view, dt);
+    head.update(model, model.frame(artic), artic, null, view, dt, tongueSide);
     gl.render(head.scene, head.camera);
   };
   handle = requestAnimationFrame(frame);
   return {
     reset,
     demonstrate(track, audio) { animation = track; currentAudio = audio; head.resetMotion(); redraw=true; },
+    setSpeaking(value) { speaking=value; redraw=true; },
+    setLiveMouth(pose) { if (pose || liveMouth) redraw=true; liveMouth=pose; },
     clear() { animation = null; currentAudio = null; redraw=true; },
     dispose() { cancelAnimationFrame(handle);observer.disconnect();controls.dispose();head.dispose();gl.dispose();model.dispose(); }
   };

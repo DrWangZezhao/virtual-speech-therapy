@@ -63,3 +63,15 @@ Model sources are [Whisper tiny ONNX](https://huggingface.co/onnx-community/whis
 这是言语康复中的发音练习工具，默认打开英文界面。练习语言包括英语、芬兰语、西班牙语和普通话。点右上角的设置可以把界面切换到简体中文。点目标词上方的分类按钮可以选择日常短句、辨音词对或普通话声调。先听示范并观察三维头像的嘴部动作，再录下自己的发音。摄像头功能是可选项，在本机追踪外部可见的面部和嘴唇。
 
 在线版默认在浏览器内运行 Whisper。录完后直接显示文字匹配结果，打开「详情」可以查看识别全文和回放录音。可在「设置 → 分析设置」开启云端 Praat、音素输出和普通话强制对齐。
+
+## Voice coach and camera following
+
+Choose **Talk with coach** to hear one prompt at a time, reply through the microphone, and receive spoken guidance with captions. Whisper transcribes each turn locally. The coach accepts repeat, slower, next and stop commands in the selected practice language. Silence ends a spoken turn. Ending the conversation releases the microphone.
+
+The default coach uses prepared guidance with the same Kokoro and Piper voices as the exercise examples. In **Settings → Voice coach settings**, an optional DeepSeek API key enables generated replies using DeepSeek Flash. Keys stay in page memory. Written transcripts and the two most recent turns are sent directly to DeepSeek when a key is supplied. Generated replies use an available local system voice. Prepared guidance remains available when the API or voice cannot respond.
+
+The optional browser DeepSeek R1 Distill Qwen 1.5B model requires WebGPU and downloads approximately 1.4 GB. This experimental integration needs validation on the intended device. API-backed generation requires a valid funded key. Neither model option was verified with a live generated response in this release. Guidance animation during speech is illustrative. Exercise demonstrations use the existing CHIMERA tracks.
+
+**Mirror my mouth** uses MediaPipe Face Landmarker 0.10.32, its 478 surface landmarks and expression scores to drive jaw opening, lip aperture, lip width and rounding. Frames stay on device. A conservative color and connected-component heuristic estimates tongue extension only when a region crosses the lower-lip contour. This experimental estimate is sensitive to light, skin color, lipstick and occlusion. It has not been validated as a tongue tracker. Internal tongue posture is unavailable from the front camera. Demonstration audio and coach speech take priority over camera movement.
+
+Sources and licenses are [MediaPipe, Apache 2.0](https://github.com/google-ai-edge/mediapipe), [MediaPipe's blendshape definitions](https://github.com/google-ai-edge/mediapipe/blob/master/mediapipe/tasks/cc/vision/face_landmarker/face_blendshapes_graph.cc), [DeepSeek R1](https://github.com/deepseek-ai/DeepSeek-R1), [ONNX conversion](https://huggingface.co/onnx-community/DeepSeek-R1-Distill-Qwen-1.5B-ONNX/tree/90c5edf28c2538b20f85a3c83e6413810b7579ee), and [DeepSeek API documentation](https://api-docs.deepseek.com/api/create-chat-completion/). The coach's prepared recordings retain the Kokoro and Piper voice licenses described above. Regenerate them with `scripts/coach_audio.py`.

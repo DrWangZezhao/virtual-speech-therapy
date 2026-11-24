@@ -41,14 +41,23 @@
   </header>
 
   <main id="practice">
-    <div class="stage"><div id="avatar" role="img" aria-label="Three-dimensional articulation demonstration"></div></div>
+    <div class="stage">
+      <div id="avatar" role="img" aria-label="Three-dimensional articulation demonstration"></div>
+      <div id="live-mirror" class="live-mirror" hidden>
+        <span id="mirror-status" role="status"></span>
+        <button id="stop-camera" type="button" data-copy="cameraOff">Turn off camera</button>
+      </div>
+    </div>
 
-    <section class="exercise" aria-labelledby="item-title">
-      <button id="open-exercises" class="exercise-picker" type="button" aria-haspopup="dialog">
-        <span id="current-level">Sounds</span><span id="item-position"></span>
-        <svg class="icon chevron" aria-hidden="true"><use href="#icon-chevron"/></svg>
-        <span class="sr-only" data-copy="chooseExercise">Choose exercise</span>
-      </button>
+    <section id="exercise-panel" class="exercise" aria-labelledby="item-title">
+      <div class="exercise-options">
+        <button id="open-exercises" class="exercise-picker" type="button" aria-haspopup="dialog">
+          <span id="current-level">Sounds</span><span id="item-position"></span>
+          <svg class="icon chevron" aria-hidden="true"><use href="#icon-chevron"/></svg>
+          <span class="sr-only" data-copy="chooseExercise">Choose exercise</span>
+        </button>
+        <button id="coach-entry" class="exercise-picker coach-entry" type="button" data-copy="coachEntry">Talk with coach</button>
+      </div>
       <h1 id="item-title">me</h1>
       <p id="pronunciation" class="pronunciation"></p>
       <p id="subtarget" class="subtarget" hidden></p>
@@ -81,6 +90,13 @@
         </section>
       </div>
     </section>
+    <section id="coach-panel" class="exercise coach-panel" aria-label="Voice coach" hidden>
+      <p id="coach-phase" role="status"></p>
+      <p id="coach-caption" aria-live="polite"></p>
+      <div class="practice-actions">
+        <button id="coach-end" type="button" data-copy="coachEnd">End conversation</button>
+      </div>
+    </section>
   </main>
 
   <dialog id="exercises-dialog" aria-labelledby="exercises-title">
@@ -103,10 +119,16 @@
     <label class="switch"><input id="slow" type="checkbox" /><span data-copy="slow">Slow example playback</span></label>
     <div class="utility-actions">
       <button id="reset-view" type="button" data-copy="resetView">Reset view</button>
-      <button id="camera-toggle" type="button" data-copy="cameraOn">Enable camera</button>
+      <button id="camera-toggle" type="button" data-copy="cameraOn">Mirror my mouth</button>
     </div>
     <span id="camera-status" class="muted" role="status"></span>
     <video id="camera" muted playsinline hidden></video>
+    <details>
+      <summary data-copy="coachSettings">Voice coach settings</summary>
+      <label id="local-model-option" class="switch" hidden><input id="coach-local" type="checkbox" /><span data-copy="coachLocal">Use DeepSeek on this device (1.4 GB download)</span></label>
+      <label class="field"><span data-copy="coachKey">DeepSeek API key (optional)</span><input id="coach-key" type="password" autocomplete="off" spellcheck="false" /></label>
+      <p class="muted" data-copy="coachPrivacy">With an API key, the coach sends written transcripts to DeepSeek. Voice recordings stay in this browser. The key is held until you close or reload this page.</p>
+    </details>
     <details>
       <summary data-copy="analysisSettings">Analysis settings</summary>
       <label class="switch" id="hosted-choice" hidden><input id="hosted-analysis" type="checkbox" /><span data-copy="hostedAnalysis">Send my recordings to the analysis server</span></label>

@@ -2,11 +2,12 @@ import './style.css';
 import {copy} from './copy.js';
 import {audiblePitchDirection,capture,decode,pitchPreview,wav} from './recording.js';
 import {compareTranscription} from './transcription.js';
+import {transcribe} from './whisper-client.js';
 
 const $ = id => document.getElementById(id);
 const hostedApi = (import.meta.env.VITE_API_URL || '').replace(/\/$/,'');
 const apiDefault = import.meta.env.DEV ? '/api' : '';
-const voices = {'en':'english','fi-FI':'finnish','es-ES':'spanish','zh-CN':'chinese'};
+const languages = ['en','fi-FI','es-ES','zh-CN'];
 const contours = {1:[.78,.81,.83,.81,.79],2:[.29,.32,.48,.67,.88],3:[.48,.28,.17,.25,.59],4:[.91,.73,.51,.32,.18],5:[.52,.49,.41]};
 const readStorage = (key, fallback) => {
   try {return JSON.parse(localStorage.getItem(key)) ?? fallback;}
@@ -16,13 +17,14 @@ const saveStorage = (key,value) => {try {localStorage.setItem(key,JSON.stringify
 const state = {lang:readStorage('vst-language','en'),locale:readStorage('vst-interface','en'),level:1,category:null,
   counts:readStorage('vst-counts',{}),position:0,status:'ready',recording:false,busy:false,result:null,observed:[],
   sessionPitch:[],api:readStorage('vst-api',apiDefault),request:0,drillReturn:null};
-if(!voices[state.lang])state.lang='en';
+if(!languages.includes(state.lang))state.lang='en';
 if(!copy[state.locale])state.locale='en';
 const t = () => copy[state.locale];
 const demoAudio = new Audio();
 demoAudio.preload='auto';
-let courses=[], media={}, avatar, cameraStop, micStop, worker, recordingURL;
-let cameraState;
+let courses=[], media={}, avatar, micStop, recordingURL;
+let cameraController, cameraState, livePose;
+let coachController, coachState, coachOpen=false;
 
 async function fetchJSON(path, options){
   const response=await fetch(new URL(path,document.baseURI),options);
@@ -53,6 +55,8 @@ function labelFor(item){return item.focus ? `${item.focus.value} · ${item.text}
 function setButtonState(){
   const lock=state.recording || state.busy;
   for(const id of ['language','item','levels','open-exercises','contrast'])$(id).disabled=lock;
+  $('language').disabled=lock || coachOpen;
+  $('coach-entry').disabled=lock || !active();
   $('play').disabled=lock || !active();
   $('next').disabled=lock || !active();
   $('record').disabled=state.busy || !active();
@@ -66,8 +70,8 @@ function showCopy(){
   $('avatar').setAttribute('aria-label',t().avatar);
   $('pitch').setAttribute('aria-label',t().pitch);
   $('recognition').setAttribute('aria-label',t().transcript);
-  if(cameraState)$('camera-status').textContent=t()[cameraState];
-  $('camera-toggle').textContent=cameraStop?t().cameraOff:t().cameraOn;
+  showCamera();
+  showCoachState();
 }
 function showExercise(){
   showCopy();
@@ -187,19 +191,26 @@ function showResult(){
     }
   }
 }
-async function play(speed){
-  const item=active(), asset=media[item?.id];if(!asset || !item)return;
-  const exerciseRequest=state.request;
+async function playAsset(item,speed,current){
+  const asset=media[item?.id];
+  if(!asset || !current())return false;
   demoAudio.pause();
   const audioURL=versionedAsset(asset.audio,asset.audio_revision).href;
   if(demoAudio.src!==audioURL)demoAudio.src=audioURL;
   demoAudio.currentTime=0;demoAudio.playbackRate=speed;
   try{
     const [,track]=await Promise.all([demoAudio.play(),fetchJSON(versionedAsset(asset.animation,asset.animation_revision))]);
-    if(exerciseRequest===state.request)avatar?.demonstrate(track,demoAudio);
+    if(!current())return false;
+    avatar?.demonstrate(track,demoAudio);
+    return true;
   }catch(error){
-    if(exerciseRequest===state.request && error.name!=='AbortError')status('audioFailed');
+    if(current() && error.name!=='AbortError' && !coachOpen)status('audioFailed');
+    return false;
   }
+}
+function play(speed){
+  const request=state.request;
+  return playAsset(active(),speed,()=>request===state.request);
 }
 function showRecording(blob){
   if(recordingURL)URL.revokeObjectURL(recordingURL);
@@ -233,21 +244,9 @@ async function analyzeRecording(blob,item,id){
     }
     status('loadingModel');
     try{
-      worker ??= new Worker(new URL('./whisper-worker.js',import.meta.url),{type:'module'});
-      const text=await new Promise((resolve,reject)=>{
-        const timer=setTimeout(()=>reject(new Error('timeout')),120000);
-        worker.onmessage=({data})=>{
-          if(data.id!==id)return;
-          if(data.ready){status('analyzing');return;}
-          clearTimeout(timer);
-          if(data.error){console.warn('Whisper',data.error);reject(new Error(data.error));}
-          else resolve(data.text);
-        };
-        worker.onerror=error=>{clearTimeout(timer);reject(error);};
-        worker.postMessage({id,samples,language:voices[item.language]},[samples.buffer]);
-      });
+      const text=await transcribe(samples,item.language,{onReady:()=>status('analyzing')});
       state.result={text,source:'browser'};status('saved');
-    }catch{worker?.terminate();worker=null;state.result={source:'browser'};status('localFailed');}
+    }catch{state.result={source:'browser'};status('localFailed');}
   }catch{status('unclear');}
   finally{state.busy=false;showExercise();}
 }
@@ -297,17 +296,109 @@ function paintPitch(){
     trace(state.observed.map(point=>[point.seconds/duration,point.hz?(.5+(Math.log2(point.hz)-median)/span*.75):null]),'#f4afbe');
   }
 }
+function showCamera(){
+  const message=t()[cameraState] ?? '';
+  if($('camera-status').textContent!==message)$('camera-status').textContent=message;
+  if($('mirror-status').textContent!==message)$('mirror-status').textContent=message;
+  $('live-mirror').hidden=!cameraController || cameraState==='cameraLoading';
+  $('camera-toggle').textContent=cameraController?t().cameraOff:t().cameraOn;
+}
+function stopCamera(reason=null){
+  cameraController?.abort();
+  cameraController=null;
+  cameraState=reason;
+  livePose=null;
+  avatar?.setLiveMouth(null);
+  showCamera();
+}
 async function toggleCamera(){
-  if(cameraStop){cameraStop();cameraStop=null;cameraState=null;$('camera-status').textContent='';showCopy();return;}
-  $('camera-toggle').disabled=true;
-  cameraState='cameraLoading';$('camera-status').textContent=t()[cameraState];
+  if(cameraController){stopCamera();return;}
+  const controller=new AbortController();
+  cameraController=controller;
+  cameraState='cameraLoading';
+  showCamera();
   try{
     const {createCamera}=await import('./camera.js');
-    cameraStop=await createCamera($('camera'),visible=>{
-      cameraState=visible?'face':'noFace';$('camera-status').textContent=t()[cameraState];
+    await createCamera($('camera'),(pose,ended)=>{
+      if(controller.signal.aborted)return;
+      if(ended){stopCamera('cameraFailed');return;}
+      livePose=pose;
+      avatar?.setLiveMouth(pose);
+      cameraState=pose?.tongue?'tongueVisible':pose?'face':'noFace';
+      showCamera();
+    },controller.signal);
+    if(controller.signal.aborted)return;
+    cameraState='noFace';
+    showCamera();
+    $('settings-dialog').close();
+  }catch{
+    if(cameraController===controller)stopCamera('cameraFailed');
+  }
+}
+
+function showCoachState(){
+  $('coach-panel').hidden=!coachOpen;
+  $('exercise-panel').hidden=coachOpen;
+  const message=t()[coachState] ?? '';
+  if($('coach-phase').textContent!==message)$('coach-phase').textContent=message;
+  $('coach-end').textContent=coachController?t().coachEnd:t().coachBack;
+}
+
+function closeCoach(){
+  coachController?.abort();
+  coachController=null;
+  coachOpen=false;
+  demoAudio.pause();
+  avatar?.setSpeaking(false);
+  avatar?.clear();
+  showCoachState();
+  setButtonState();
+  $('coach-entry').focus();
+}
+
+async function startCoach(){
+  if(!active() || state.recording || state.busy || coachOpen)return;
+  const language=state.lang;
+  const shortPhrases=courses.filter(item=>item.language===language && item.practice_set==='everyday');
+  const prompts=!state.category && state.level===1 && state.position===0 && shortPhrases.length
+    ? shortPhrases : choices().slice(state.position);
+  let position=0;
+  const controller=new AbortController();
+  const {signal}=controller;
+  coachController=controller;
+  coachOpen=true;
+  coachState='coachStarting';
+  $('coach-caption').textContent='';
+  $('coach-caption').lang=language;
+  demoAudio.pause();
+  avatar?.clear();
+  showCoachState();
+  setButtonState();
+  $('coach-end').focus();
+  try{
+    const {runCoachSession,waitForAudio}=await import('./coach-session.js');
+    if(signal.aborted)return;
+    const target=()=>prompts[position];
+    await runCoachSession({
+      language,signal,target,
+      apiKey:$('coach-key').value.trim(),useLocal:$('coach-local').checked,
+      advance:()=>position+1<prompts.length && Boolean(prompts[++position]),
+      demo:(speed,turnSignal)=>waitForAudio(demoAudio,()=>playAsset(target(),speed,()=>!signal.aborted),turnSignal),
+      caption:text=>{if(!signal.aborted)$('coach-caption').textContent=text;},
+      phase:key=>{if(!signal.aborted){coachState=key;showCoachState();}},
+      speaking:value=>{if(coachController===controller)avatar?.setSpeaking(value);},
     });
-  }catch{cameraState='cameraFailed';}
-  finally{$('camera-toggle').disabled=false;showCopy();setButtonState();}
+    if(!signal.aborted)coachState='coachFinished';
+  }catch{
+    if(!signal.aborted)coachState=coachState==='coachStarting'?'micError':'coachError';
+  }finally{
+    if(coachController===controller){
+      controller.abort();
+      coachController=null;
+      avatar?.setSpeaking(false);
+      showCoachState();
+    }
+  }
 }
 async function setApi(){
   const desired=$('api').value.trim().replace(/\/$/,'');
@@ -342,6 +433,13 @@ $('slow').checked=Boolean(readStorage('vst-slow',false));
 $('slow').onchange=event=>saveStorage('vst-slow',event.target.checked);
 $('record').onclick=toggleCapture;
 $('camera-toggle').onclick=toggleCamera;
+$('stop-camera').onclick=()=>{stopCamera();$('open-settings').focus();};
+$('coach-entry').onclick=startCoach;
+$('coach-end').onclick=closeCoach;
+$('local-model-option').hidden=!navigator.gpu;
+$('coach-local').checked=Boolean(readStorage('vst-coach-local',false));
+$('coach-local').onchange=event=>saveStorage('vst-coach-local',event.target.checked);
+window.addEventListener('pagehide',()=>{coachController?.abort();cameraController?.abort();});
 $('save-api').onclick=setApi;
 $('api').value=state.api.startsWith('/')?'':state.api;
 $('hosted-choice').hidden=!hostedApi;
@@ -356,6 +454,6 @@ setButtonState();
 Promise.all(['curriculum.zh-CN','curriculum.other','demos'].map(name=>fetchJSON(`data/${name}.json`,{cache:'no-cache'}))).then(([mandarin,others,assets])=>{
   courses=[...mandarin.items,...others];media=assets;showExercise();
 }).catch(error=>{console.error(error);status('startupFailed');});
-import('./avatar.js').then(module=>module.createAvatar($('avatar'))).then(result=>{avatar=result;}).catch(error=>{
+import('./avatar.js').then(module=>module.createAvatar($('avatar'))).then(result=>{avatar=result;avatar.setLiveMouth(livePose);}).catch(error=>{
   console.error(error);const fallback=document.createElement('p');fallback.textContent=t().headFailed;$('avatar').replaceChildren(fallback);
 });
