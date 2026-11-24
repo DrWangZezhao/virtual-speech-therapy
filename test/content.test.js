@@ -13,8 +13,15 @@ test('every training language has four playable levels',()=>{
   for(const language of ['en','fi-FI','es-ES','zh-CN']){
     const cohort=items.filter(item=>item.language===language);
     assert.deepEqual([...new Set(cohort.map(item=>item.level))],[1,2,3,4]);
-    for(const {id} of cohort){
+    assert.ok(cohort.some(item=>item.practice_set==='everyday' && item.level===4));
+    assert.ok(cohort.some(item=>item.practice_set==='pairs' && item.level===3));
+    for(const {id,practice_set,partner} of cohort){
       for(const file of [assets[id].audio,assets[id].animation])assert.ok(existsSync(new URL(file.replace('data/',''),data)));
+      if(practice_set==='pairs'){
+        const alternate=cohort.find(item=>item.id===partner);
+        assert.equal(alternate?.partner,id);
+        assert.notEqual(assets[id].audio_revision,assets[partner].audio_revision);
+      }
     }
   }
   assert.equal(items.filter(item=>item.mode==='tone').length,5);

@@ -16,7 +16,7 @@ import { LineMaterial } from "three/addons/lines/LineMaterial.js";
 import { core } from "../colors.ts";
 
 /** line widths (CSS px) the batches draw at; a beam takes the nearest */
-const WIDTHS = [0.6, 0.85, 1.05, 1.3, 1.6, 2.1];
+const WIDTHS = [0.6, 0.85, 1.05, 1.3, 1.6, 2.1, 2.8];
 
 /** A growable polyline of xyz points, reused between frames. */
 export class Poly {
@@ -132,7 +132,7 @@ export class Beams {
    *  whose neck gives way to a body drawn under it */
   fade: { y: number; band: number } | null = null;
 
-  constructor() {
+  constructor(private readonly palette: Readonly<Record<string, string>> = {}) {
     this.batches = WIDTHS.map((w) => {
       const m = new LineMaterial({ linewidth: w, vertexColors: true, transparent: true, depthTest: false, depthWrite: false, toneMapped: false });
       m.blending = THREE.CustomBlending;
@@ -166,6 +166,7 @@ export class Beams {
   /** a polyline through the first n points of a flat xyz array */
   line(a: ArrayLike<number>, n: number, color: string, width: number, o: Beam3Opts = {}): void {
     if (n < 2) return;
+    color = this.palette[color] ?? color;
     const al = o.alpha ?? 1;
     this.strokes(a, n, rgb(color), al, this.batch(width), o.close ?? false);
     if (o.hot) this.strokes(a, n, rgb(core(color)), al, this.batch(width * 0.42), o.close ?? false);
@@ -177,7 +178,7 @@ export class Beams {
 
   /** one segment */
   seg(x0: number, y0: number, z0: number, x1: number, y1: number, z1: number, color: string, width: number, alpha = 1): void {
-    const [r, g, b] = rgb(color);
+    const [r, g, b] = rgb(this.palette[color] ?? color);
     this.put(this.batch(width), x0, y0, z0, x1, y1, z1, r * alpha, g * alpha, b * alpha);
   }
 

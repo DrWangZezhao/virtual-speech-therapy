@@ -1960,5 +1960,929 @@
     },
     "audio_revision": "0d25426d1c47",
     "animation_revision": "9e650b43e149"
+  },
+  "zh-CN-pair-1-a": {
+    "audio": "data/audio/zh-CN-pair-1-a.mp3",
+    "animation": "data/artic/zh-CN-pair-1-a.json",
+    "audio_kind": "neural",
+    "duration": 1.259,
+    "credit": {
+      "author": "Kokoro (zf_xiaobei)",
+      "license": "Apache 2.0 model",
+      "license_url": "https://www.apache.org/licenses/LICENSE-2.0",
+      "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
+    },
+    "audio_revision": "6cbe0e8b0b10",
+    "animation_revision": "d156a9e728bb"
+  },
+  "zh-CN-pair-1-b": {
+    "audio": "data/audio/zh-CN-pair-1-b.mp3",
+    "animation": "data/artic/zh-CN-pair-1-b.json",
+    "audio_kind": "neural",
+    "duration": 1.337,
+    "credit": {
+      "author": "Kokoro (zf_xiaobei)",
+      "license": "Apache 2.0 model",
+      "license_url": "https://www.apache.org/licenses/LICENSE-2.0",
+      "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
+    },
+    "audio_revision": "49dd5ae9b4a8",
+    "animation_revision": "725ed9ac2e9d"
+  },
+  "zh-CN-pair-2-a": {
+    "audio": "data/audio/zh-CN-pair-2-a.mp3",
+    "animation": "data/artic/zh-CN-pair-2-a.json",
+    "audio_kind": "neural",
+    "duration": 1.309,
+    "credit": {
+      "author": "Kokoro (zf_xiaobei)",
+      "license": "Apache 2.0 model",
+      "license_url": "https://www.apache.org/licenses/LICENSE-2.0",
+      "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
+    },
+    "audio_revision": "bd34d761342e",
+    "animation_revision": "f700a4fae0c9"
+  },
+  "zh-CN-pair-2-b": {
+    "audio": "data/audio/zh-CN-pair-2-b.mp3",
+    "animation": "data/artic/zh-CN-pair-2-b.json",
+    "audio_kind": "neural",
+    "duration": 1.138,
+    "credit": {
+      "author": "Kokoro (zf_xiaobei)",
+      "license": "Apache 2.0 model",
+      "license_url": "https://www.apache.org/licenses/LICENSE-2.0",
+      "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
+    },
+    "audio_revision": "ad48325124c1",
+    "animation_revision": "0495ef002872"
+  },
+  "zh-CN-pair-3-a": {
+    "audio": "data/audio/zh-CN-pair-3-a.mp3",
+    "animation": "data/artic/zh-CN-pair-3-a.json",
+    "audio_kind": "neural",
+    "duration": 0.783,
+    "credit": {
+      "author": "Kokoro (zf_xiaobei)",
+      "license": "Apache 2.0 model",
+      "license_url": "https://www.apache.org/licenses/LICENSE-2.0",
+      "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
+    },
+    "audio_revision": "76f996b6fc64",
+    "animation_revision": "6463f8c1df2a"
+  },
+  "zh-CN-pair-3-b": {
+    "audio": "data/audio/zh-CN-pair-3-b.mp3",
+    "animation": "data/artic/zh-CN-pair-3-b.json",
+    "audio_kind": "neural",
+    "duration": 0.886,
+    "credit": {
+      "author": "Kokoro (zf_xiaobei)",
+      "license": "Apache 2.0 model",
+      "license_url": "https://www.apache.org/licenses/LICENSE-2.0",
+      "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
+    },
+    "audio_revision": "b2779d6d9fe5",
+    "animation_revision": "55bdf10875b6"
+  },
+  "zh-CN-everyday-1": {
+    "audio": "data/audio/zh-CN-everyday-1.mp3",
+    "animation": "data/artic/zh-CN-everyday-1.json",
+    "audio_kind": "neural",
+    "duration": 2.292,
+    "credit": {
+      "author": "Kokoro (zf_xiaobei)",
+      "license": "Apache 2.0 model",
+      "license_url": "https://www.apache.org/licenses/LICENSE-2.0",
+      "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
+    },
+    "audio_revision": "b4b0b3d0b01f",
+    "animation_revision": "5a791ba2df87"
+  },
+  "zh-CN-everyday-2": {
+    "audio": "data/audio/zh-CN-everyday-2.mp3",
+    "animation": "data/artic/zh-CN-everyday-2.json",
+    "audio_kind": "neural",
+    "duration": 2.444,
+    "credit": {
+      "author": "Kokoro (zf_xiaobei)",
+      "license": "Apache 2.0 model",
+      "license_url": "https://www.apache.org/licenses/LICENSE-2.0",
+      "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
+    },
+    "audio_revision": "f316ecbcf0e7",
+    "animation_revision": "55ba1173b6c6"
+  },
+  "zh-CN-everyday-3": {
+    "audio": "data/audio/zh-CN-everyday-3.mp3",
+    "animation": "data/artic/zh-CN-everyday-3.json",
+    "audio_kind": "neural",
+    "duration": 2.636,
+    "credit": {
+      "author": "Kokoro (zf_xiaobei)",
+      "license": "Apache 2.0 model",
+      "license_url": "https://www.apache.org/licenses/LICENSE-2.0",
+      "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
+    },
+    "audio_revision": "37bd68524e7c",
+    "animation_revision": "8396a1139f40"
+  },
+  "zh-CN-everyday-4": {
+    "audio": "data/audio/zh-CN-everyday-4.mp3",
+    "animation": "data/artic/zh-CN-everyday-4.json",
+    "audio_kind": "neural",
+    "duration": 2.419,
+    "credit": {
+      "author": "Kokoro (zf_xiaobei)",
+      "license": "Apache 2.0 model",
+      "license_url": "https://www.apache.org/licenses/LICENSE-2.0",
+      "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
+    },
+    "audio_revision": "0365eaec8ea9",
+    "animation_revision": "9302330d3f20"
+  },
+  "zh-CN-everyday-5": {
+    "audio": "data/audio/zh-CN-everyday-5.mp3",
+    "animation": "data/artic/zh-CN-everyday-5.json",
+    "audio_kind": "neural",
+    "duration": 2.138,
+    "credit": {
+      "author": "Kokoro (zf_xiaobei)",
+      "license": "Apache 2.0 model",
+      "license_url": "https://www.apache.org/licenses/LICENSE-2.0",
+      "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
+    },
+    "audio_revision": "fe193b82afce",
+    "animation_revision": "b55e9c08853e"
+  },
+  "en-3-5": {
+    "audio": "data/audio/en-3-5.mp3",
+    "animation": "data/artic/en-3-5.json",
+    "audio_kind": "neural",
+    "duration": 0.805,
+    "credit": {
+      "author": "Kokoro (af_heart)",
+      "license": "Apache 2.0 model",
+      "license_url": "https://www.apache.org/licenses/LICENSE-2.0",
+      "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
+    },
+    "audio_revision": "efb4c3108d6e",
+    "animation_revision": "e95f266f634a"
+  },
+  "en-3-6": {
+    "audio": "data/audio/en-3-6.mp3",
+    "animation": "data/artic/en-3-6.json",
+    "audio_kind": "neural",
+    "duration": 1.017,
+    "credit": {
+      "author": "Kokoro (af_heart)",
+      "license": "Apache 2.0 model",
+      "license_url": "https://www.apache.org/licenses/LICENSE-2.0",
+      "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
+    },
+    "audio_revision": "f63b274f55ad",
+    "animation_revision": "6385ac610722"
+  },
+  "en-3-7": {
+    "audio": "data/audio/en-3-7.mp3",
+    "animation": "data/artic/en-3-7.json",
+    "audio_kind": "neural",
+    "duration": 1.075,
+    "credit": {
+      "author": "Kokoro (af_heart)",
+      "license": "Apache 2.0 model",
+      "license_url": "https://www.apache.org/licenses/LICENSE-2.0",
+      "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
+    },
+    "audio_revision": "a6dadf7f88a8",
+    "animation_revision": "b40b1554f9f8"
+  },
+  "en-3-8": {
+    "audio": "data/audio/en-3-8.mp3",
+    "animation": "data/artic/en-3-8.json",
+    "audio_kind": "neural",
+    "duration": 1.052,
+    "credit": {
+      "author": "Kokoro (af_heart)",
+      "license": "Apache 2.0 model",
+      "license_url": "https://www.apache.org/licenses/LICENSE-2.0",
+      "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
+    },
+    "audio_revision": "baefbed900e0",
+    "animation_revision": "2c52e6771bab"
+  },
+  "en-pair-1-a": {
+    "audio": "data/audio/en-pair-1-a.mp3",
+    "animation": "data/artic/en-pair-1-a.json",
+    "audio_kind": "neural",
+    "duration": 1.0,
+    "credit": {
+      "author": "Kokoro (af_heart)",
+      "license": "Apache 2.0 model",
+      "license_url": "https://www.apache.org/licenses/LICENSE-2.0",
+      "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
+    },
+    "audio_revision": "f02537f7a845",
+    "animation_revision": "7891c9a2da48"
+  },
+  "en-pair-1-b": {
+    "audio": "data/audio/en-pair-1-b.mp3",
+    "animation": "data/artic/en-pair-1-b.json",
+    "audio_kind": "neural",
+    "duration": 0.971,
+    "credit": {
+      "author": "Kokoro (af_heart)",
+      "license": "Apache 2.0 model",
+      "license_url": "https://www.apache.org/licenses/LICENSE-2.0",
+      "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
+    },
+    "audio_revision": "39d9936a93a6",
+    "animation_revision": "57f84904a579"
+  },
+  "en-pair-2-a": {
+    "audio": "data/audio/en-pair-2-a.mp3",
+    "animation": "data/artic/en-pair-2-a.json",
+    "audio_kind": "neural",
+    "duration": 0.857,
+    "credit": {
+      "author": "Kokoro (af_heart)",
+      "license": "Apache 2.0 model",
+      "license_url": "https://www.apache.org/licenses/LICENSE-2.0",
+      "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
+    },
+    "audio_revision": "a044de3d4b00",
+    "animation_revision": "eeac2d54795e"
+  },
+  "en-pair-2-b": {
+    "audio": "data/audio/en-pair-2-b.mp3",
+    "animation": "data/artic/en-pair-2-b.json",
+    "audio_kind": "neural",
+    "duration": 0.922,
+    "credit": {
+      "author": "Kokoro (af_heart)",
+      "license": "Apache 2.0 model",
+      "license_url": "https://www.apache.org/licenses/LICENSE-2.0",
+      "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
+    },
+    "audio_revision": "1b03361b42b7",
+    "animation_revision": "b5ec94305606"
+  },
+  "en-pair-3-a": {
+    "audio": "data/audio/en-pair-3-a.mp3",
+    "animation": "data/artic/en-pair-3-a.json",
+    "audio_kind": "neural",
+    "duration": 0.876,
+    "credit": {
+      "author": "Kokoro (af_heart)",
+      "license": "Apache 2.0 model",
+      "license_url": "https://www.apache.org/licenses/LICENSE-2.0",
+      "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
+    },
+    "audio_revision": "a99b162b99f0",
+    "animation_revision": "2bfca6247524"
+  },
+  "en-pair-3-b": {
+    "audio": "data/audio/en-pair-3-b.mp3",
+    "animation": "data/artic/en-pair-3-b.json",
+    "audio_kind": "neural",
+    "duration": 1.014,
+    "credit": {
+      "author": "Kokoro (af_heart)",
+      "license": "Apache 2.0 model",
+      "license_url": "https://www.apache.org/licenses/LICENSE-2.0",
+      "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
+    },
+    "audio_revision": "a4ded540665c",
+    "animation_revision": "ffd45ea2d4b5"
+  },
+  "en-pair-4-a": {
+    "audio": "data/audio/en-pair-4-a.mp3",
+    "animation": "data/artic/en-pair-4-a.json",
+    "audio_kind": "neural",
+    "duration": 0.896,
+    "credit": {
+      "author": "Kokoro (af_heart)",
+      "license": "Apache 2.0 model",
+      "license_url": "https://www.apache.org/licenses/LICENSE-2.0",
+      "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
+    },
+    "audio_revision": "755a77b0b141",
+    "animation_revision": "232079fdf18a"
+  },
+  "en-pair-4-b": {
+    "audio": "data/audio/en-pair-4-b.mp3",
+    "animation": "data/artic/en-pair-4-b.json",
+    "audio_kind": "neural",
+    "duration": 0.878,
+    "credit": {
+      "author": "Kokoro (af_heart)",
+      "license": "Apache 2.0 model",
+      "license_url": "https://www.apache.org/licenses/LICENSE-2.0",
+      "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
+    },
+    "audio_revision": "3b98808cf30a",
+    "animation_revision": "7ef7369882d9"
+  },
+  "en-everyday-1": {
+    "audio": "data/audio/en-everyday-1.mp3",
+    "animation": "data/artic/en-everyday-1.json",
+    "audio_kind": "neural",
+    "duration": 1.347,
+    "credit": {
+      "author": "Kokoro (af_heart)",
+      "license": "Apache 2.0 model",
+      "license_url": "https://www.apache.org/licenses/LICENSE-2.0",
+      "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
+    },
+    "audio_revision": "98b50d3f601a",
+    "animation_revision": "225135f16ec1"
+  },
+  "en-everyday-2": {
+    "audio": "data/audio/en-everyday-2.mp3",
+    "animation": "data/artic/en-everyday-2.json",
+    "audio_kind": "neural",
+    "duration": 1.468,
+    "credit": {
+      "author": "Kokoro (af_heart)",
+      "license": "Apache 2.0 model",
+      "license_url": "https://www.apache.org/licenses/LICENSE-2.0",
+      "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
+    },
+    "audio_revision": "a45fbdff8214",
+    "animation_revision": "9a5a3eac2d08"
+  },
+  "en-everyday-3": {
+    "audio": "data/audio/en-everyday-3.mp3",
+    "animation": "data/artic/en-everyday-3.json",
+    "audio_kind": "neural",
+    "duration": 1.447,
+    "credit": {
+      "author": "Kokoro (af_heart)",
+      "license": "Apache 2.0 model",
+      "license_url": "https://www.apache.org/licenses/LICENSE-2.0",
+      "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
+    },
+    "audio_revision": "07f9562c8ac8",
+    "animation_revision": "64a9e1d87c4d"
+  },
+  "en-everyday-4": {
+    "audio": "data/audio/en-everyday-4.mp3",
+    "animation": "data/artic/en-everyday-4.json",
+    "audio_kind": "neural",
+    "duration": 1.298,
+    "credit": {
+      "author": "Kokoro (af_heart)",
+      "license": "Apache 2.0 model",
+      "license_url": "https://www.apache.org/licenses/LICENSE-2.0",
+      "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
+    },
+    "audio_revision": "d9c37c2d52c1",
+    "animation_revision": "fff7e1ed390b"
+  },
+  "es-ES-3-5": {
+    "audio": "data/audio/es-ES-3-5.mp3",
+    "animation": "data/artic/es-ES-3-5.json",
+    "audio_kind": "neural",
+    "duration": 0.547,
+    "credit": {
+      "author": "Kokoro (ef_dora)",
+      "license": "Apache 2.0 model",
+      "license_url": "https://www.apache.org/licenses/LICENSE-2.0",
+      "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
+    },
+    "audio_revision": "81de0465f5f5",
+    "animation_revision": "f8a021dc0d91"
+  },
+  "es-ES-3-6": {
+    "audio": "data/audio/es-ES-3-6.mp3",
+    "animation": "data/artic/es-ES-3-6.json",
+    "audio_kind": "neural",
+    "duration": 0.386,
+    "credit": {
+      "author": "Kokoro (ef_dora)",
+      "license": "Apache 2.0 model",
+      "license_url": "https://www.apache.org/licenses/LICENSE-2.0",
+      "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
+    },
+    "audio_revision": "cb52c0cb3bfc",
+    "animation_revision": "b0c70524a872"
+  },
+  "es-ES-3-7": {
+    "audio": "data/audio/es-ES-3-7.mp3",
+    "animation": "data/artic/es-ES-3-7.json",
+    "audio_kind": "neural",
+    "duration": 0.492,
+    "credit": {
+      "author": "Kokoro (ef_dora)",
+      "license": "Apache 2.0 model",
+      "license_url": "https://www.apache.org/licenses/LICENSE-2.0",
+      "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
+    },
+    "audio_revision": "f9e497e9ed4f",
+    "animation_revision": "12062ed311c6"
+  },
+  "es-ES-3-8": {
+    "audio": "data/audio/es-ES-3-8.mp3",
+    "animation": "data/artic/es-ES-3-8.json",
+    "audio_kind": "neural",
+    "duration": 0.571,
+    "credit": {
+      "author": "Kokoro (ef_dora)",
+      "license": "Apache 2.0 model",
+      "license_url": "https://www.apache.org/licenses/LICENSE-2.0",
+      "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
+    },
+    "audio_revision": "44d36bab86f1",
+    "animation_revision": "cfcda5cefdf0"
+  },
+  "es-ES-3-9": {
+    "audio": "data/audio/es-ES-3-9.mp3",
+    "animation": "data/artic/es-ES-3-9.json",
+    "audio_kind": "neural",
+    "duration": 0.527,
+    "credit": {
+      "author": "Kokoro (ef_dora)",
+      "license": "Apache 2.0 model",
+      "license_url": "https://www.apache.org/licenses/LICENSE-2.0",
+      "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
+    },
+    "audio_revision": "4df2fb2818de",
+    "animation_revision": "bc44984af79b"
+  },
+  "es-ES-pair-1-a": {
+    "audio": "data/audio/es-ES-pair-1-a.mp3",
+    "animation": "data/artic/es-ES-pair-1-a.json",
+    "audio_kind": "neural",
+    "duration": 0.386,
+    "credit": {
+      "author": "Kokoro (ef_dora)",
+      "license": "Apache 2.0 model",
+      "license_url": "https://www.apache.org/licenses/LICENSE-2.0",
+      "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
+    },
+    "audio_revision": "2a5970434f4a",
+    "animation_revision": "6c0cfe8b96cf"
+  },
+  "es-ES-pair-1-b": {
+    "audio": "data/audio/es-ES-pair-1-b.mp3",
+    "animation": "data/artic/es-ES-pair-1-b.json",
+    "audio_kind": "neural",
+    "duration": 0.518,
+    "credit": {
+      "author": "Kokoro (ef_dora)",
+      "license": "Apache 2.0 model",
+      "license_url": "https://www.apache.org/licenses/LICENSE-2.0",
+      "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
+    },
+    "audio_revision": "943b8b692056",
+    "animation_revision": "bfe16f14bd9a"
+  },
+  "es-ES-pair-2-a": {
+    "audio": "data/audio/es-ES-pair-2-a.mp3",
+    "animation": "data/artic/es-ES-pair-2-a.json",
+    "audio_kind": "neural",
+    "duration": 0.521,
+    "credit": {
+      "author": "Kokoro (ef_dora)",
+      "license": "Apache 2.0 model",
+      "license_url": "https://www.apache.org/licenses/LICENSE-2.0",
+      "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
+    },
+    "audio_revision": "bca4ee92807f",
+    "animation_revision": "d6905252181e"
+  },
+  "es-ES-pair-2-b": {
+    "audio": "data/audio/es-ES-pair-2-b.mp3",
+    "animation": "data/artic/es-ES-pair-2-b.json",
+    "audio_kind": "neural",
+    "duration": 0.546,
+    "credit": {
+      "author": "Kokoro (ef_dora)",
+      "license": "Apache 2.0 model",
+      "license_url": "https://www.apache.org/licenses/LICENSE-2.0",
+      "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
+    },
+    "audio_revision": "de459b944d35",
+    "animation_revision": "6d6607fed18e"
+  },
+  "es-ES-pair-3-a": {
+    "audio": "data/audio/es-ES-pair-3-a.mp3",
+    "animation": "data/artic/es-ES-pair-3-a.json",
+    "audio_kind": "neural",
+    "duration": 0.496,
+    "credit": {
+      "author": "Kokoro (ef_dora)",
+      "license": "Apache 2.0 model",
+      "license_url": "https://www.apache.org/licenses/LICENSE-2.0",
+      "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
+    },
+    "audio_revision": "1087e29dbb17",
+    "animation_revision": "0bd1e0415dcf"
+  },
+  "es-ES-pair-3-b": {
+    "audio": "data/audio/es-ES-pair-3-b.mp3",
+    "animation": "data/artic/es-ES-pair-3-b.json",
+    "audio_kind": "neural",
+    "duration": 0.494,
+    "credit": {
+      "author": "Kokoro (ef_dora)",
+      "license": "Apache 2.0 model",
+      "license_url": "https://www.apache.org/licenses/LICENSE-2.0",
+      "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
+    },
+    "audio_revision": "abdc4062e480",
+    "animation_revision": "80afcffd9126"
+  },
+  "es-ES-pair-4-a": {
+    "audio": "data/audio/es-ES-pair-4-a.mp3",
+    "animation": "data/artic/es-ES-pair-4-a.json",
+    "audio_kind": "neural",
+    "duration": 0.503,
+    "credit": {
+      "author": "Kokoro (ef_dora)",
+      "license": "Apache 2.0 model",
+      "license_url": "https://www.apache.org/licenses/LICENSE-2.0",
+      "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
+    },
+    "audio_revision": "6582bf0ecbbc",
+    "animation_revision": "175d19ee35d2"
+  },
+  "es-ES-pair-4-b": {
+    "audio": "data/audio/es-ES-pair-4-b.mp3",
+    "animation": "data/artic/es-ES-pair-4-b.json",
+    "audio_kind": "neural",
+    "duration": 0.517,
+    "credit": {
+      "author": "Kokoro (ef_dora)",
+      "license": "Apache 2.0 model",
+      "license_url": "https://www.apache.org/licenses/LICENSE-2.0",
+      "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
+    },
+    "audio_revision": "1217fde2f160",
+    "animation_revision": "1526369555da"
+  },
+  "es-ES-pair-5-a": {
+    "audio": "data/audio/es-ES-pair-5-a.mp3",
+    "animation": "data/artic/es-ES-pair-5-a.json",
+    "audio_kind": "neural",
+    "duration": 0.43,
+    "credit": {
+      "author": "Kokoro (ef_dora)",
+      "license": "Apache 2.0 model",
+      "license_url": "https://www.apache.org/licenses/LICENSE-2.0",
+      "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
+    },
+    "audio_revision": "146b6cb59777",
+    "animation_revision": "fa4fec7bbd21"
+  },
+  "es-ES-pair-5-b": {
+    "audio": "data/audio/es-ES-pair-5-b.mp3",
+    "animation": "data/artic/es-ES-pair-5-b.json",
+    "audio_kind": "neural",
+    "duration": 0.381,
+    "credit": {
+      "author": "Kokoro (ef_dora)",
+      "license": "Apache 2.0 model",
+      "license_url": "https://www.apache.org/licenses/LICENSE-2.0",
+      "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
+    },
+    "audio_revision": "8c7d25e060a3",
+    "animation_revision": "e687e04e170e"
+  },
+  "es-ES-pair-6-a": {
+    "audio": "data/audio/es-ES-pair-6-a.mp3",
+    "animation": "data/artic/es-ES-pair-6-a.json",
+    "audio_kind": "neural",
+    "duration": 0.526,
+    "credit": {
+      "author": "Kokoro (ef_dora)",
+      "license": "Apache 2.0 model",
+      "license_url": "https://www.apache.org/licenses/LICENSE-2.0",
+      "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
+    },
+    "audio_revision": "2d7793d24650",
+    "animation_revision": "1e2551bf4254"
+  },
+  "es-ES-pair-6-b": {
+    "audio": "data/audio/es-ES-pair-6-b.mp3",
+    "animation": "data/artic/es-ES-pair-6-b.json",
+    "audio_kind": "neural",
+    "duration": 0.53,
+    "credit": {
+      "author": "Kokoro (ef_dora)",
+      "license": "Apache 2.0 model",
+      "license_url": "https://www.apache.org/licenses/LICENSE-2.0",
+      "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
+    },
+    "audio_revision": "348e6a80e6a5",
+    "animation_revision": "f5a7af43ff69"
+  },
+  "es-ES-everyday-1": {
+    "audio": "data/audio/es-ES-everyday-1.mp3",
+    "animation": "data/artic/es-ES-everyday-1.json",
+    "audio_kind": "neural",
+    "duration": 0.946,
+    "credit": {
+      "author": "Kokoro (ef_dora)",
+      "license": "Apache 2.0 model",
+      "license_url": "https://www.apache.org/licenses/LICENSE-2.0",
+      "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
+    },
+    "audio_revision": "5fbfd9b8d83b",
+    "animation_revision": "506692fb925e"
+  },
+  "es-ES-everyday-2": {
+    "audio": "data/audio/es-ES-everyday-2.mp3",
+    "animation": "data/artic/es-ES-everyday-2.json",
+    "audio_kind": "neural",
+    "duration": 0.928,
+    "credit": {
+      "author": "Kokoro (ef_dora)",
+      "license": "Apache 2.0 model",
+      "license_url": "https://www.apache.org/licenses/LICENSE-2.0",
+      "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
+    },
+    "audio_revision": "2edbb760ffdc",
+    "animation_revision": "b246fa5c31b6"
+  },
+  "es-ES-everyday-3": {
+    "audio": "data/audio/es-ES-everyday-3.mp3",
+    "animation": "data/artic/es-ES-everyday-3.json",
+    "audio_kind": "neural",
+    "duration": 1.223,
+    "credit": {
+      "author": "Kokoro (ef_dora)",
+      "license": "Apache 2.0 model",
+      "license_url": "https://www.apache.org/licenses/LICENSE-2.0",
+      "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
+    },
+    "audio_revision": "5f2267d989e8",
+    "animation_revision": "a6de3788a1d6"
+  },
+  "es-ES-everyday-4": {
+    "audio": "data/audio/es-ES-everyday-4.mp3",
+    "animation": "data/artic/es-ES-everyday-4.json",
+    "audio_kind": "neural",
+    "duration": 1.606,
+    "credit": {
+      "author": "Kokoro (ef_dora)",
+      "license": "Apache 2.0 model",
+      "license_url": "https://www.apache.org/licenses/LICENSE-2.0",
+      "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
+    },
+    "audio_revision": "90295758ee43",
+    "animation_revision": "3f3e4cfcdcac"
+  },
+  "es-ES-everyday-5": {
+    "audio": "data/audio/es-ES-everyday-5.mp3",
+    "animation": "data/artic/es-ES-everyday-5.json",
+    "audio_kind": "neural",
+    "duration": 1.78,
+    "credit": {
+      "author": "Kokoro (ef_dora)",
+      "license": "Apache 2.0 model",
+      "license_url": "https://www.apache.org/licenses/LICENSE-2.0",
+      "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
+    },
+    "audio_revision": "57784a3a49ff",
+    "animation_revision": "94d8ce1a4111"
+  },
+  "fi-FI-3-5": {
+    "audio": "data/audio/fi-FI-3-5.mp3",
+    "animation": "data/artic/fi-FI-3-5.json",
+    "audio_kind": "neural",
+    "duration": 0.755,
+    "credit": {
+      "author": "Piper Harri (fi-FI)",
+      "license": "CC0 voice dataset",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "source": "https://huggingface.co/rhasspy/piper-voices/tree/375a0fe641dea077c2a47b4e9a056d6da521eed3/fi/fi_FI/harri/medium"
+    },
+    "audio_revision": "7aed14e9b310",
+    "animation_revision": "c65d8c9f95c9"
+  },
+  "fi-FI-3-6": {
+    "audio": "data/audio/fi-FI-3-6.mp3",
+    "animation": "data/artic/fi-FI-3-6.json",
+    "audio_kind": "neural",
+    "duration": 0.665,
+    "credit": {
+      "author": "Piper Harri (fi-FI)",
+      "license": "CC0 voice dataset",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "source": "https://huggingface.co/rhasspy/piper-voices/tree/375a0fe641dea077c2a47b4e9a056d6da521eed3/fi/fi_FI/harri/medium"
+    },
+    "audio_revision": "1b5b54e99245",
+    "animation_revision": "ed26a64566eb"
+  },
+  "fi-FI-3-7": {
+    "audio": "data/audio/fi-FI-3-7.mp3",
+    "animation": "data/artic/fi-FI-3-7.json",
+    "audio_kind": "neural",
+    "duration": 1.215,
+    "credit": {
+      "author": "Piper Harri (fi-FI)",
+      "license": "CC0 voice dataset",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "source": "https://huggingface.co/rhasspy/piper-voices/tree/375a0fe641dea077c2a47b4e9a056d6da521eed3/fi/fi_FI/harri/medium"
+    },
+    "audio_revision": "1d16fc3cfde0",
+    "animation_revision": "6ef0647636f2"
+  },
+  "fi-FI-3-8": {
+    "audio": "data/audio/fi-FI-3-8.mp3",
+    "animation": "data/artic/fi-FI-3-8.json",
+    "audio_kind": "neural",
+    "duration": 0.76,
+    "credit": {
+      "author": "Piper Harri (fi-FI)",
+      "license": "CC0 voice dataset",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "source": "https://huggingface.co/rhasspy/piper-voices/tree/375a0fe641dea077c2a47b4e9a056d6da521eed3/fi/fi_FI/harri/medium"
+    },
+    "audio_revision": "e0665fd73636",
+    "animation_revision": "a58d63b56025"
+  },
+  "fi-FI-3-9": {
+    "audio": "data/audio/fi-FI-3-9.mp3",
+    "animation": "data/artic/fi-FI-3-9.json",
+    "audio_kind": "neural",
+    "duration": 0.804,
+    "credit": {
+      "author": "Piper Harri (fi-FI)",
+      "license": "CC0 voice dataset",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "source": "https://huggingface.co/rhasspy/piper-voices/tree/375a0fe641dea077c2a47b4e9a056d6da521eed3/fi/fi_FI/harri/medium"
+    },
+    "audio_revision": "5021f0c472fa",
+    "animation_revision": "451cc9524851"
+  },
+  "fi-FI-pair-1-a": {
+    "audio": "data/audio/fi-FI-pair-1-a.mp3",
+    "animation": "data/artic/fi-FI-pair-1-a.json",
+    "audio_kind": "neural",
+    "duration": 1.302,
+    "credit": {
+      "author": "Piper Harri (fi-FI)",
+      "license": "CC0 voice dataset",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "source": "https://huggingface.co/rhasspy/piper-voices/tree/375a0fe641dea077c2a47b4e9a056d6da521eed3/fi/fi_FI/harri/medium"
+    },
+    "audio_revision": "f345367b848c",
+    "animation_revision": "5f4171ccb472"
+  },
+  "fi-FI-pair-1-b": {
+    "audio": "data/audio/fi-FI-pair-1-b.mp3",
+    "animation": "data/artic/fi-FI-pair-1-b.json",
+    "audio_kind": "neural",
+    "duration": 0.74,
+    "credit": {
+      "author": "Piper Harri (fi-FI)",
+      "license": "CC0 voice dataset",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "source": "https://huggingface.co/rhasspy/piper-voices/tree/375a0fe641dea077c2a47b4e9a056d6da521eed3/fi/fi_FI/harri/medium"
+    },
+    "audio_revision": "5195c9be4d06",
+    "animation_revision": "3951eff54d8a"
+  },
+  "fi-FI-pair-2-a": {
+    "audio": "data/audio/fi-FI-pair-2-a.mp3",
+    "animation": "data/artic/fi-FI-pair-2-a.json",
+    "audio_kind": "neural",
+    "duration": 1.362,
+    "credit": {
+      "author": "Piper Harri (fi-FI)",
+      "license": "CC0 voice dataset",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "source": "https://huggingface.co/rhasspy/piper-voices/tree/375a0fe641dea077c2a47b4e9a056d6da521eed3/fi/fi_FI/harri/medium"
+    },
+    "audio_revision": "c965fb5f76c0",
+    "animation_revision": "3abb15dfe324"
+  },
+  "fi-FI-pair-2-b": {
+    "audio": "data/audio/fi-FI-pair-2-b.mp3",
+    "animation": "data/artic/fi-FI-pair-2-b.json",
+    "audio_kind": "neural",
+    "duration": 1.062,
+    "credit": {
+      "author": "Piper Harri (fi-FI)",
+      "license": "CC0 voice dataset",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "source": "https://huggingface.co/rhasspy/piper-voices/tree/375a0fe641dea077c2a47b4e9a056d6da521eed3/fi/fi_FI/harri/medium"
+    },
+    "audio_revision": "7941327c6beb",
+    "animation_revision": "6d069e9caa99"
+  },
+  "fi-FI-pair-3-a": {
+    "audio": "data/audio/fi-FI-pair-3-a.mp3",
+    "animation": "data/artic/fi-FI-pair-3-a.json",
+    "audio_kind": "neural",
+    "duration": 1.002,
+    "credit": {
+      "author": "Piper Harri (fi-FI)",
+      "license": "CC0 voice dataset",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "source": "https://huggingface.co/rhasspy/piper-voices/tree/375a0fe641dea077c2a47b4e9a056d6da521eed3/fi/fi_FI/harri/medium"
+    },
+    "audio_revision": "d0bd5ca338c0",
+    "animation_revision": "ff7be3cc8e53"
+  },
+  "fi-FI-pair-3-b": {
+    "audio": "data/audio/fi-FI-pair-3-b.mp3",
+    "animation": "data/artic/fi-FI-pair-3-b.json",
+    "audio_kind": "neural",
+    "duration": 1.443,
+    "credit": {
+      "author": "Piper Harri (fi-FI)",
+      "license": "CC0 voice dataset",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "source": "https://huggingface.co/rhasspy/piper-voices/tree/375a0fe641dea077c2a47b4e9a056d6da521eed3/fi/fi_FI/harri/medium"
+    },
+    "audio_revision": "50cb39d24f7d",
+    "animation_revision": "5dc624a1c41f"
+  },
+  "fi-FI-pair-4-a": {
+    "audio": "data/audio/fi-FI-pair-4-a.mp3",
+    "animation": "data/artic/fi-FI-pair-4-a.json",
+    "audio_kind": "neural",
+    "duration": 0.545,
+    "credit": {
+      "author": "Piper Harri (fi-FI)",
+      "license": "CC0 voice dataset",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "source": "https://huggingface.co/rhasspy/piper-voices/tree/375a0fe641dea077c2a47b4e9a056d6da521eed3/fi/fi_FI/harri/medium"
+    },
+    "audio_revision": "afab433fb567",
+    "animation_revision": "2ee64322c5ea"
+  },
+  "fi-FI-pair-4-b": {
+    "audio": "data/audio/fi-FI-pair-4-b.mp3",
+    "animation": "data/artic/fi-FI-pair-4-b.json",
+    "audio_kind": "neural",
+    "duration": 0.682,
+    "credit": {
+      "author": "Piper Harri (fi-FI)",
+      "license": "CC0 voice dataset",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "source": "https://huggingface.co/rhasspy/piper-voices/tree/375a0fe641dea077c2a47b4e9a056d6da521eed3/fi/fi_FI/harri/medium"
+    },
+    "audio_revision": "39c2f6d29397",
+    "animation_revision": "5b58290feaa7"
+  },
+  "fi-FI-everyday-1": {
+    "audio": "data/audio/fi-FI-everyday-1.mp3",
+    "animation": "data/artic/fi-FI-everyday-1.json",
+    "audio_kind": "neural",
+    "duration": 1.323,
+    "credit": {
+      "author": "Piper Harri (fi-FI)",
+      "license": "CC0 voice dataset",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "source": "https://huggingface.co/rhasspy/piper-voices/tree/375a0fe641dea077c2a47b4e9a056d6da521eed3/fi/fi_FI/harri/medium"
+    },
+    "audio_revision": "ea5bac734ef8",
+    "animation_revision": "3fbe3d3d19a0"
+  },
+  "fi-FI-everyday-2": {
+    "audio": "data/audio/fi-FI-everyday-2.mp3",
+    "animation": "data/artic/fi-FI-everyday-2.json",
+    "audio_kind": "neural",
+    "duration": 1.443,
+    "credit": {
+      "author": "Piper Harri (fi-FI)",
+      "license": "CC0 voice dataset",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "source": "https://huggingface.co/rhasspy/piper-voices/tree/375a0fe641dea077c2a47b4e9a056d6da521eed3/fi/fi_FI/harri/medium"
+    },
+    "audio_revision": "c3f4896950e6",
+    "animation_revision": "297c5430a48e"
+  },
+  "fi-FI-everyday-3": {
+    "audio": "data/audio/fi-FI-everyday-3.mp3",
+    "animation": "data/artic/fi-FI-everyday-3.json",
+    "audio_kind": "neural",
+    "duration": 1.414,
+    "credit": {
+      "author": "Piper Harri (fi-FI)",
+      "license": "CC0 voice dataset",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "source": "https://huggingface.co/rhasspy/piper-voices/tree/375a0fe641dea077c2a47b4e9a056d6da521eed3/fi/fi_FI/harri/medium"
+    },
+    "audio_revision": "2dca36aba353",
+    "animation_revision": "696048e1a7d5"
+  },
+  "fi-FI-everyday-4": {
+    "audio": "data/audio/fi-FI-everyday-4.mp3",
+    "animation": "data/artic/fi-FI-everyday-4.json",
+    "audio_kind": "neural",
+    "duration": 1.276,
+    "credit": {
+      "author": "Piper Harri (fi-FI)",
+      "license": "CC0 voice dataset",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "source": "https://huggingface.co/rhasspy/piper-voices/tree/375a0fe641dea077c2a47b4e9a056d6da521eed3/fi/fi_FI/harri/medium"
+    },
+    "audio_revision": "7bb63beb5707",
+    "animation_revision": "c931c9c7bc16"
   }
 }

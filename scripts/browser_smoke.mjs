@@ -20,12 +20,21 @@ try{
   assert.equal(await page.locator('#language').inputValue(),'en');
   for(const language of ['fi-FI','es-ES','zh-CN']){
     await page.locator('#language').selectOption(language);
-    await page.locator('#levels button').last().click();
+    await page.locator('#open-exercises').click();
+    await page.locator('#levels').selectOption('4');
     assert.ok((await page.locator('#item option').count())>=3);
+    await page.locator('#levels').selectOption('everyday');
+    assert.ok((await page.locator('#item option').count())>=4);
+    await page.keyboard.press('Escape');
   }
+  await page.locator('#open-settings').click();
   await page.locator('#interface').selectOption('zh-CN');
   assert.equal(await page.locator('html').getAttribute('lang'),'zh-CN');
-  await page.locator('#tone-mode').click();
+  await page.keyboard.press('Escape');
+  await page.locator('#open-exercises').click();
+  await page.locator('#levels').selectOption('tone');
+  await page.locator('#item').selectOption({label:'马'});
+  await page.keyboard.press('Escape');
   assert.equal(await page.locator('#item-title').textContent(),'马');
   await Promise.all([page.waitForResponse(response=>response.url().includes('tone-ma-3.json')&&response.ok(),{timeout:12000}),page.locator('#play').click()]);
   await page.screenshot({path:report+'-desktop.png'});
@@ -38,19 +47,22 @@ try{
     navigator.mediaDevices.getUserMedia=constraints=>constraints.video ?
       Promise.reject(new DOMException('Test camera denial','NotAllowedError')) : getUserMedia(constraints);
   });
+  await page.locator('#open-settings').click();
   await page.locator('#camera-toggle').click();
   await page.waitForFunction(()=>document.querySelector('#camera-status').textContent.includes('摄像头不可用'));
+  await page.keyboard.press('Escape');
   await page.locator('#record').click();
   await page.waitForFunction(()=>document.querySelector('#status').textContent.includes('正在录音'));
   await page.waitForTimeout(2800);
   await page.locator('#record').evaluate(button=>{
     if(!button.disabled && button.textContent.includes('结束录音'))button.click();
   });
-  await page.locator('#recording').waitFor({state:'visible'});
   await page.waitForFunction(()=>document.querySelector('#record').textContent.includes('重新练习'),null,{timeout:140000});
   console.log('RECORDING',await page.locator('#status').textContent(),await page.locator('#recognition').textContent());
   assert.equal(await page.locator('#transcript-target').textContent(),'马');
   assert.ok((await page.locator('#transcript-heard').textContent()).trim().length>0,'Real Whisper transcription expected');
   assert.equal(await page.locator('#transcript-verdict').textContent(),'文字不一致');
+  await page.locator('#open-result').click();
+  await page.locator('#recording').waitFor({state:'visible'});
   console.log('Camera denial, microphone pipeline, local Whisper inference, and attempt count verified');
 }finally{await browser.close();}

@@ -663,7 +663,7 @@ export const APP_DRAWING: Readonly<HeadDrawing> = { inner: 1, bone: 1, outline: 
 export class Anatomy3D {
   readonly scene = new THREE.Scene();
   readonly camera = new THREE.PerspectiveCamera(24, 1, 5, 2000);
-  private readonly beams = new Beams();
+  private readonly beams: Beams;
   private rest: Rest | null = null;
   private w = 1;
   private h = 1;
@@ -698,7 +698,8 @@ export class Anatomy3D {
   /** the narrowest constriction this frame (for the measurement label), body cm */
   caliper: { x: number; y: number; z: number; area: number } | null = null;
 
-  constructor() {
+  constructor(palette?: Readonly<Record<string, string>>, private readonly emphasizeLips = false) {
+    this.beams = new Beams(palette);
     this.scene.add(this.beams.group);
     this.scene.fog = new THREE.Fog(0x000000, 50, 100);
     for (let i = 0; i < 200; i++) this.particles.push({ s: Math.random() * 17, u: Math.random() * 2 - 1, v: Math.random() * 2 - 1, life: Math.random(), px: NaN, py: NaN, pz: NaN });
@@ -1027,8 +1028,10 @@ export class Anatomy3D {
     B.gain = d.bone;
     B.line(chinNow, chinNow.length / 3, V.red, 1.5, { hot: true, alpha: artCut });
     B.gain = 1;
-    B.line(upperLip, upperLip.length / 3, V.pink, 1.5, { hot: true, alpha: artCut });
-    B.line(lowerLip, lowerLip.length / 3, V.pink, 1.5, { hot: true, alpha: artCut });
+    const lipSection = this.emphasizeLips ? V.blueMid : V.pink;
+    const lipSectionAlpha = this.emphasizeLips ? 0.55 * side : artCut;
+    B.line(upperLip, upperLip.length / 3, lipSection, 1.5, { hot: !this.emphasizeLips, alpha: lipSectionAlpha });
+    B.line(lowerLip, lowerLip.length / 3, lipSection, 1.5, { hot: !this.emphasizeLips, alpha: lipSectionAlpha });
     B.gain = d.inner;
     line(chaikin(f.velum.map((p) => [p.x, p.y] as Pt), 3).map(([x, y]) => ({ x, y })), V.white, 1.25, { alpha: 0.92 }, artCut);
 
@@ -1161,8 +1164,12 @@ export class Anatomy3D {
         const bow = upper ? -0.07 * Math.exp(-((z / (0.32 * k)) ** 2)) + 0.05 * Math.exp(-(((Math.abs(z) - 0.55 * k) / (0.3 * k)) ** 2)) : 0;
         return Math.max(0, (upper ? 0.42 : 0.45) * s + bow * s);
       };
-      B.poly(row(upper, border, -Wv, Wv, 28), V.pink, 1.3 * widen, { alpha: 0.95 });
-      B.poly(row(upper, (z) => 0.45 * border(z), -Wv, Wv, 28), V.pink, 1.0 * widen, { alpha: 0.45 });
+      B.poly(row(upper, border, -Wv, Wv, 28), V.pink, (this.emphasizeLips ? 2.1 : 1.3) * widen, { alpha: 0.95 });
+      const bands = this.emphasizeLips ? [0.15, 0.35, 0.55, 0.75] : [0.45];
+      for (const band of bands) {
+        B.poly(row(upper, (z) => band * border(z), -Wv, Wv, 28), V.pink, this.emphasizeLips ? 2.1 : widen,
+          { alpha: this.emphasizeLips && !upper ? 0.72 : 0.45 });
+      }
     }
     // where the lips meet beyond the corners
     for (const s of [1, -1]) B.poly(row(true, () => 0, s * Wm, s * Wl, 6), V.pink, 1.0 * widen, { alpha: 0.6 });
@@ -1171,7 +1178,7 @@ export class Anatomy3D {
     P.reset();
     for (let i = 0; i <= n; i++) P.p(...pt(true, 0, -Wm + (2 * Wm * i) / n));
     if (open) for (let i = n - 1; i > 0; i--) P.p(...pt(false, 0, -Wm + (2 * Wm * i) / n));
-    B.poly(P, V.pink, 2.1, { hot: true, close: open });
+    B.poly(P, V.pink, this.emphasizeLips ? 2.8 : 2.1, { hot: true, close: open });
     return open ? P.a.slice(0, P.n * 3) : null;
   }
 

@@ -3,65 +3,147 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="theme-color" content="#f3f5f2" />
+  <meta name="theme-color" content="#000000" />
   <link rel="icon" href="data:," />
-  <meta name="description" content="Virtual Speech Therapy pronunciation practice in English, Finnish, Spanish and Mandarin with the original CHIMERA 3D head." />
+  <meta name="description" content="Pronunciation practice in English, Finnish, Spanish and Mandarin with an interactive 3D articulation model." />
   <title>Virtual Speech Therapy</title>
 </head>
 <body>
+  <svg class="icon-library" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+    <symbol id="icon-brand" viewBox="0 0 24 24"><path d="M3 12h2l3-5v10l4-13v16l4-13v10l3-5h2"/></symbol>
+    <symbol id="icon-language" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><ellipse cx="12" cy="12" rx="4" ry="9"/><path d="M3 12h18"/></symbol>
+    <symbol id="icon-options" viewBox="0 0 24 24"><path d="M4 7h7m4 0h5M4 17h3m4 0h9M11 4v6M7 14v6"/></symbol>
+    <symbol id="icon-chevron" viewBox="0 0 24 24"><path d="m7 10 5 5 5-5"/></symbol>
+    <symbol id="icon-listen" viewBox="0 0 24 24"><path d="m11 5-6 4H3v6h2l6 4zM15 9a4 4 0 0 1 0 6m3-9a8 8 0 0 1 0 12"/></symbol>
+    <symbol id="icon-mic" viewBox="0 0 24 24"><rect x="9" y="3" width="6" height="12" rx="3"/><path d="M5 11v1a7 7 0 0 0 14 0v-1m-7 8v3"/></symbol>
+    <symbol id="icon-stop" viewBox="0 0 24 24"><rect x="6" y="6" width="12" height="12" rx="2"/></symbol>
+    <symbol id="icon-next" viewBox="0 0 24 24"><path d="M4 12h15m-6-6 6 6-6 6"/></symbol>
+    <symbol id="icon-close" viewBox="0 0 24 24"><path d="m6 6 12 12M18 6 6 18"/></symbol>
+  </svg>
+
   <header class="masthead">
-    <div class="mast-inner">
-      <div class="brand"><span class="brand-icon" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></span><strong data-copy="brand">Virtual Speech Therapy</strong></div>
-      <div class="preferences">
-        <label><span data-copy="practiceLanguage">Practice language</span><select id="language"><option value="en">English</option><option value="fi-FI">Suomi</option><option value="es-ES">Español</option><option value="zh-CN">中文</option></select></label>
-        <label><span data-copy="interfaceLanguage">Interface</span><select id="interface"><option value="en">English</option><option value="zh-CN">简体中文</option></select></label>
-      </div>
+    <div class="brand">
+      <svg class="icon mark" aria-hidden="true"><use href="#icon-brand"/></svg>
+      <span data-copy="brand">Virtual Speech Therapy</span>
+    </div>
+    <div class="header-actions">
+      <label class="language-control">
+        <svg class="icon" aria-hidden="true"><use href="#icon-language"/></svg>
+        <span class="sr-only" data-copy="practiceLanguage">Practice language</span>
+        <select id="language"><option value="en">English</option><option value="fi-FI">Suomi</option><option value="es-ES">Español</option><option value="zh-CN">中文</option></select>
+        <svg class="icon chevron" aria-hidden="true"><use href="#icon-chevron"/></svg>
+      </label>
+      <button id="open-settings" class="icon-button" type="button" aria-haspopup="dialog">
+        <svg class="icon" aria-hidden="true"><use href="#icon-options"/></svg>
+        <span class="sr-only" data-copy="settings">Settings</span>
+      </button>
     </div>
   </header>
+
   <main id="practice">
-    <div class="topline"><h1 data-copy="heading">Pronunciation practice</h1><span id="progress" class="progress" aria-live="polite"></span></div>
-    <nav id="levels" aria-label="Practice levels"></nav>
-    <div class="practice-grid">
-      <section class="studio" aria-labelledby="demo-title">
-        <div class="studio-label"><h2 id="demo-title" data-copy="articulation">Articulation</h2><span class="engine-label">CHIMERA 3D</span></div>
-        <div id="avatar" aria-label="Three-dimensional articulation demonstration"></div>
-        <div class="studio-controls"><span id="gesture"></span><button type="button" id="reset-view" data-copy="resetView">Reset view</button></div>
-      </section>
-      <section class="exercise" aria-labelledby="item-title">
-        <div class="exercise-top"><div><div class="small-label" data-copy="target">Current target</div><h2 id="item-title">me</h2></div><button id="tone-mode" type="button" hidden data-copy="tones">Tone practice</button></div>
-        <div id="pronunciation" class="pronunciation"></div><div id="subtarget" class="subtarget" hidden></div>
-        <label class="item-picker"><span data-copy="exercise">Exercise</span><select id="item"></select></label>
-        <div class="demo-actions"><button id="play" type="button" data-copy="listen">Listen</button><button id="slow" type="button" data-copy="slow">Slow playback</button></div>
-        <div class="record-area"><button id="record" type="button" class="primary" data-copy="record">Start practice</button><button id="next" type="button" data-copy="next">Next</button></div>
-        <div class="result" aria-live="polite">
-          <p id="status"></p>
-          <section id="recognition" class="transcript-card" aria-labelledby="transcript-title" hidden>
-            <div class="transcript-heading"><h3 id="transcript-title" data-copy="transcript">Transcription</h3><span id="transcript-verdict" class="verdict"></span></div>
-            <dl class="transcript-rows">
-              <div><dt data-copy="targetText">Target text</dt><dd id="transcript-target"></dd></div>
-              <div><dt data-copy="heard">Heard</dt><dd id="transcript-heard"></dd></div>
-            </dl>
-            <p id="pitch-observation" hidden></p>
-            <p id="pronunciation-result" class="pronunciation-result"></p>
-          </section>
-          <button id="drill" type="button" hidden></button>
-        </div>
-        <audio id="recording" controls hidden></audio>
-      </section>
-    </div>
-    <section class="analysis-grid">
-      <section id="pitch-card" class="section-card" hidden><h2 data-copy="pitch">Pitch contour</h2><canvas id="pitch" role="img"></canvas><div class="legend"><span class="target-key" data-copy="targetPitch">Illustrative target</span><span class="observed-key" data-copy="measuredPitch">Your recording</span></div></section>
-      <section class="section-card support">
-        <h2 data-copy="session">Practice settings</h2>
-        <label id="hosted-choice" hidden><input id="hosted-analysis" type="checkbox" /><span data-copy="hostedAnalysis">Send my recordings to the analysis server</span></label>
-        <button id="camera-toggle" type="button" data-copy="cameraOn">Enable camera</button><span id="camera-status" role="status"></span>
-        <video id="camera" muted playsinline hidden></video>
-        <details><summary data-copy="advanced">Advanced analysis</summary><dl id="advanced"></dl><label class="api-label"><span data-copy="apiUrl">Analysis server URL (optional)</span><input id="api" inputmode="url" placeholder="https://…" /></label><button id="save-api" type="button" data-copy="save">Save</button><p id="api-status" role="status"></p></details>
-        <details><summary data-copy="privacy">Privacy and use</summary><p data-copy="privacyText"></p></details>
-      </section>
+    <div class="stage"><div id="avatar" role="img" aria-label="Three-dimensional articulation demonstration"></div></div>
+
+    <section class="exercise" aria-labelledby="item-title">
+      <button id="open-exercises" class="exercise-picker" type="button" aria-haspopup="dialog">
+        <span id="current-level">Sounds</span><span id="item-position"></span>
+        <svg class="icon chevron" aria-hidden="true"><use href="#icon-chevron"/></svg>
+        <span class="sr-only" data-copy="chooseExercise">Choose exercise</span>
+      </button>
+      <h1 id="item-title">me</h1>
+      <p id="pronunciation" class="pronunciation"></p>
+      <p id="subtarget" class="subtarget" hidden></p>
+      <button id="contrast" class="quiet-button" type="button" hidden></button>
+
+      <div class="practice-actions">
+        <button id="play" type="button">
+          <svg class="icon" aria-hidden="true"><use href="#icon-listen"/></svg>
+          <span data-copy="listen">Listen</span>
+        </button>
+        <button id="record" class="primary" type="button">
+          <svg class="icon mic-icon" aria-hidden="true"><use href="#icon-mic"/></svg>
+          <svg class="icon stop-icon" aria-hidden="true"><use href="#icon-stop"/></svg>
+          <span id="record-label" data-copy="record">Record</span>
+        </button>
+        <button id="next" type="button">
+          <span id="next-label" data-copy="next">Next</span>
+          <svg class="icon" aria-hidden="true"><use href="#icon-next"/></svg>
+        </button>
+      </div>
+
+      <div class="feedback">
+        <p id="status" role="status"></p>
+        <section id="recognition" class="feedback-line" aria-label="Transcription" hidden>
+          <div class="feedback-summary" role="status">
+            <span id="transcript-verdict"></span>
+            <span id="summary-heard" hidden><span data-copy="heard">Heard</span> <q id="heard-text"></q></span>
+          </div>
+          <button id="open-result" class="quiet-button" type="button" aria-haspopup="dialog" data-copy="details">Details</button>
+        </section>
+      </div>
     </section>
-    <footer><a href="https://github.com/DrWangZezhao/virtual-speech-therapy" data-copy="source">Source and licenses</a><span data-copy="clinical">Practice aid for speech rehabilitation</span></footer>
   </main>
+
+  <dialog id="exercises-dialog" aria-labelledby="exercises-title">
+    <div class="dialog-heading">
+      <h2 id="exercises-title" data-copy="chooseExercise">Choose exercise</h2>
+      <form method="dialog"><button class="icon-button" type="submit"><svg class="icon" aria-hidden="true"><use href="#icon-close"/></svg><span class="sr-only" data-copy="close">Close</span></button></form>
+    </div>
+    <label class="field"><span data-copy="category">Category</span><select id="levels"></select></label>
+    <label class="field"><span data-copy="exercise">Exercise</span><select id="item"></select></label>
+    <p id="progress" class="muted"></p>
+    <form method="dialog" class="dialog-actions"><button class="primary" type="submit" data-copy="done">Done</button></form>
+  </dialog>
+
+  <dialog id="settings-dialog" aria-labelledby="settings-title">
+    <div class="dialog-heading">
+      <h2 id="settings-title" data-copy="settings">Settings</h2>
+      <form method="dialog"><button class="icon-button" type="submit"><svg class="icon" aria-hidden="true"><use href="#icon-close"/></svg><span class="sr-only" data-copy="close">Close</span></button></form>
+    </div>
+    <label class="field"><span data-copy="interfaceLanguage">Interface</span><select id="interface"><option value="en">English</option><option value="zh-CN">简体中文</option></select></label>
+    <label class="switch"><input id="slow" type="checkbox" /><span data-copy="slow">Slow example playback</span></label>
+    <div class="utility-actions">
+      <button id="reset-view" type="button" data-copy="resetView">Reset view</button>
+      <button id="camera-toggle" type="button" data-copy="cameraOn">Enable camera</button>
+    </div>
+    <span id="camera-status" class="muted" role="status"></span>
+    <video id="camera" muted playsinline hidden></video>
+    <details>
+      <summary data-copy="analysisSettings">Analysis settings</summary>
+      <label class="switch" id="hosted-choice" hidden><input id="hosted-analysis" type="checkbox" /><span data-copy="hostedAnalysis">Send my recordings to the analysis server</span></label>
+      <label class="field"><span data-copy="apiUrl">Analysis server URL (optional)</span><input id="api" inputmode="url" placeholder="https://…" /></label>
+      <button id="save-api" type="button" data-copy="save">Save</button><p id="api-status" class="muted" role="status"></p>
+    </details>
+    <details>
+      <summary data-copy="privacy">Privacy and use</summary>
+      <p class="muted" data-copy="privacyText"></p>
+      <a href="https://github.com/DrWangZezhao/virtual-speech-therapy#practice-materials" target="_blank" rel="noopener noreferrer" data-copy="materials">Practice material sources</a>
+      <a href="https://github.com/DrWangZezhao/virtual-speech-therapy" target="_blank" rel="noopener noreferrer" data-copy="source">Source and licenses</a>
+    </details>
+  </dialog>
+
+  <dialog id="result-dialog" aria-labelledby="result-title">
+    <div class="dialog-heading">
+      <h2 id="result-title" data-copy="transcript">Transcription</h2>
+      <form method="dialog"><button class="icon-button" type="submit"><svg class="icon" aria-hidden="true"><use href="#icon-close"/></svg><span class="sr-only" data-copy="close">Close</span></button></form>
+    </div>
+    <dl class="transcript-rows">
+      <dt data-copy="targetText">Target text</dt><dd id="transcript-target"></dd>
+      <dt data-copy="heard">Heard</dt><dd id="transcript-heard"></dd>
+    </dl>
+    <p id="pitch-observation" hidden></p>
+    <p id="pronunciation-result" class="muted"></p>
+    <audio id="recording" controls hidden></audio>
+    <button id="drill" type="button" hidden></button>
+    <details>
+      <summary data-copy="advanced">Advanced analysis</summary>
+      <dl id="advanced"></dl>
+      <section id="pitch-card" hidden>
+        <h3 data-copy="pitch">Pitch contour</h3>
+        <canvas id="pitch" role="img"></canvas>
+        <div class="legend"><span class="target-key" data-copy="targetPitch">Illustrative target</span><span class="observed-key" data-copy="measuredPitch">Your recording</span></div>
+      </section>
+    </details>
+  </dialog>
   <script type="module" src="/src/app.js"></script>
 </body>
 </html>

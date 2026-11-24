@@ -4,13 +4,23 @@
 
 Virtual Speech Therapy is a pronunciation practice aid for speech rehabilitation. The English interface opens by default. Choose **English, Suomi, Español or 中文** for practice and switch the interface independently to Simplified Chinese. The original CHIMERA 3D head shows tongue, lip and jaw movements alongside each pronunciation example.
 
-The four courses include sounds, syllables, words and sentences. Mandarin also includes five tone exercises, Pinyin, lexical and surface tones and a pitch-contour view. Listen at normal or slow speed, record a microphone attempt and replay it. The optional camera tracks external face and lip landmarks on the device. A recording can be made and reviewed with the camera off.
+The four courses include sounds, syllables, words, sentences, sound pairs and everyday phrases. The full-screen studio puts the articulating head, the current prompt and the Listen, Record and Next buttons in one view. Open the category control above the prompt to select an exercise. Mandarin also includes five tone exercises, Pinyin, lexical and surface tones and a pitch-contour view. Settings include slow examples, a view reset and on-device camera tracking of external face and lip landmarks.
+
+## Practice materials
+
+The curated prompts use one-sound contrasts and progress from syllables and words to phrases. **Sound pairs** lets you hear each item alongside its partner, including English *fan/van*, Spanish *pero/perro*, Finnish *tuli/tuuli* and Mandarin *汤/糖*. **Everyday phrases** covers common needs such as asking for help, requesting water, asking for repetition and taking a break.
+
+- [ASHA's Speech Sound Disorders practice portal](https://www.asha.org/practice-portal/clinical-topics/articulation-and-phonology/) describes minimum phoneme contrasts and practice at increasing levels of complexity.
+- [ARASAAC's Spanish /p/ activities](https://static.arasaac.org/materials/2526/Fonema_P_Actividades_para_articulacion.pdf) and [Spanish /r/ activities](https://static.arasaac.org/materials/2526/Fonema_R_Actividades_para_articulacion.pdf) by Almudena Vergara and Elena Serrano informed the choice of sound families. [Víctor Serrano González's social script for asking for help](https://static.arasaac.org/materials/4554/es/Guion_social_pedir_y_ofrecer_ayuda.pdf) informed the everyday topic. These public references are available under [ARASAAC's terms](https://aulaabierta.arasaac.org/condiciones-de-uso). The app contains its own exercise selections, illustration and demonstration audio.
+- [The Institute for the Languages of Finland](https://kotus.fi/suomen-puhumisen-haasteita/) discusses the distinction between single and double consonants in spoken Finnish.
+
+The exercises are practice prompts for the existing recognizer. Text comparison uses Whisper. A speech-language professional can select the prompts that suit an individual's goals.
 
 ## Online and server-assisted practice
 
-On GitHub Pages, multilingual Whisper runs in the browser on the captured audio. The first recording downloads the model. The result card shows the target text, what Whisper heard and a text match verdict. The page also shows a browser pitch preview and tracks session attempts. Mandarin comparison normalizes Simplified and Traditional Chinese. The other languages compare words and preserve accents. A transcription match cannot pass an unverified pronunciation check. The application is a practice aid. Use it with the guidance of a speech-language professional.
+On GitHub Pages, multilingual Whisper runs in the browser on the captured audio. The first recording downloads the model. The main screen shows a short text comparison and, when the transcript differs, what Whisper heard. Open **Details** to compare the texts, replay the recording and view available measurements. Mandarin comparison normalizes Simplified and Traditional Chinese. The other languages compare words and preserve accents. Pronunciation assessment requires separate acoustic evidence.
 
-The optional Python analysis service provides real multilingual Whisper, Wav2Vec2 phoneme output, Praat-Parselmouth F0 and Mandarin Montreal Forced Aligner timing. GitHub Pages serves static assets. Run the service on a computer or HTTPS host and set **Advanced analysis → Analysis server URL** to its `/api` endpoint. For a deployment with a shared server, set the repository Actions variable `VST_API_URL` to that endpoint and redeploy. Default practice keeps audio in the browser. Enable **Send my recordings to the analysis server** to use the shared service. The service processes audio in memory or temporary alignment files and retains no recordings.
+The optional Python analysis service provides multilingual Whisper, Wav2Vec2 phoneme output, Praat-Parselmouth F0 and Mandarin Montreal Forced Aligner timing. GitHub Pages serves static assets. Run the service on a computer or HTTPS host and set **Settings → Analysis settings → Analysis server URL** to its `/api` endpoint. For a deployment with a shared server, set the repository Actions variable `VST_API_URL` to that endpoint and redeploy. Default practice keeps audio in the browser. Enable **Send my recordings to the analysis server** to use the shared service. The service processes audio in memory or temporary alignment files and retains no recordings.
 
 The phoneme and tone grading interface reports uncertainty until its contrast-specific acceptance tests pass. The browser preview uses real recorded audio and reports relative pitch. On isolated tones it reports audible upward or downward movement when voiced frames support it. It is a separate diagnostic from the server's Praat output. MFA aligns the known prompt for timing. Corpus validation found weak discrimination for several aspirated contrasts and overlapping tone tokens. These outputs remain diagnostic. On GitHub Pages, advanced segment and forced-alignment results require a configured service.
 
@@ -50,6 +60,6 @@ Model sources are [Whisper tiny ONNX](https://huggingface.co/onnx-community/whis
 
 ## 简体中文
 
-这是言语康复中的发音练习工具，默认打开英文界面。练习语言包括英语、芬兰语、西班牙语和普通话。可以在顶部单独把界面切换到简体中文。先听示范，观察 CHIMERA 三维头像的发音动作，再用麦克风录下自己的发音。普通话的单音练习里可以进入声调训练。摄像头是可选项，只追踪外部可见的面部和嘴唇。
+这是言语康复中的发音练习工具，默认打开英文界面。练习语言包括英语、芬兰语、西班牙语和普通话。点右上角的设置可以把界面切换到简体中文。点目标词上方的分类按钮可以选择日常短句、辨音词对或普通话声调。先听示范并观察三维头像的嘴部动作，再录下自己的发音。摄像头功能是可选项，在本机追踪外部可见的面部和嘴唇。
 
-在线版默认在浏览器内运行 Whisper。若要启用 Praat、音素输出和普通话强制对齐，需要在详细分析中连接分析服务。识别出目标文字后，音素和声调仍按各自的证据显示结果。
+在线版默认在浏览器内运行 Whisper。录完后直接显示文字匹配结果，打开「详情」可以查看识别全文和回放录音。可在「设置 → 分析设置」开启云端 Praat、音素输出和普通话强制对齐。

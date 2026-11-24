@@ -25,8 +25,13 @@ def run(*args, cwd=None):
 def european_syllables(phonetics):
     for group in phonetics.split():
         before, vowel, after = group.split(':')
-        yield {'text': group, 'onset': [{'ipa': p} for p in before], 'nucleus': {'ipa': vowel},
-               'coda': [{'ipa': p} for p in after], 'wordEnd': False, 'phraseEnd': False}
+        nucleus = vowel.removesuffix('ː')
+        coda = [{'ipa': p} for p in after]
+        if nucleus in ('oi', 'ɑu'):
+            coda.insert(0, {'ipa': 'j' if nucleus == 'oi' else 'w', 'dur': 0.06})
+            nucleus = nucleus[0]
+        yield {'text': group, 'onset': [{'ipa': p} for p in before], 'nucleus': {'ipa': nucleus},
+               'coda': coda, 'wordEnd': False, 'phraseEnd': False}
 
 
 def mandarin_syllables(item, mappings):
@@ -54,7 +59,9 @@ def build_item(item, cli, upstream, mappings, reference):
             run('espeak-ng', '-v', VOICES[item['language']], '-s', '155', '-w', str(voice_wav), item['text'])
         run('ffmpeg', '-v', 'error', '-y', '-i', str(source), '-ac', '1', '-af', 'silenceremove=start_periods=1:start_duration=0.02:start_threshold=-44dB', '-codec:a', 'libmp3lame', '-q:a', '6', str(audio_path))
         source_duration = float(run('ffprobe', '-v', 'error', '-show_entries', 'format=duration', '-of', 'csv=p=0', str(audio_path)))
-        notes = [[60, max(0.5, 2 * source_duration / len(syllables))] for _ in syllables]
+        lengths = [1.5 if 'ː' in syllable['text'] else 1 for syllable in syllables]
+        beats = max(0.5, 2 * source_duration / sum(lengths))
+        notes = [[60, beats * length] for length in lengths]
         score = scratch / 'score.json'
         score.write_text(json.dumps({'bpm': 120, 'syllables': syllables, 'notes': notes,
                                      'vibrato': 0, 't0': 0.08}, ensure_ascii=False))
@@ -66,12 +73,12 @@ def build_item(item, cli, upstream, mappings, reference):
         track = {'keys': original['keys'], 'frames': frames[::2], 'duration': source_duration}
         track_path.write_text(json.dumps(track, separators=(',', ':')) + '\n')
     media = {'audio': f'data/audio/{stem}.mp3', 'animation': f'data/artic/{stem}.json',
-             'audio_revision': sha256(audio_path.read_bytes()).hexdigest()[:12],
-             'animation_revision': sha256(track_path.read_bytes()).hexdigest()[:12],
              'audio_kind': reference_file.get('kind', 'human') if reference_file else 'espeak',
              'duration': round(source_duration, 3)}
     if reference_file:
         media['credit'] = {k: v for k, v in reference_file.items() if k not in ('path', 'kind')}
+    media['audio_revision'] = sha256(audio_path.read_bytes()).hexdigest()[:12]
+    media['animation_revision'] = sha256(track_path.read_bytes()).hexdigest()[:12]
     return stem, media
 
 
@@ -93,6 +100,10 @@ if __name__ == '__main__':
     (DATA / 'chimera-mandarin-map.json').write_text(json.dumps(mappings, ensure_ascii=False, separators=(',', ':')) + '\n')
     with ThreadPoolExecutor(max_workers=4) as pool:
         media = dict(pool.map(lambda item: build_item(item, args.chimera_cli.resolve(), args.chimera_source.resolve(), mappings, references), mandarin + others))
-    (DATA / 'demos.json').write_text(json.dumps(media, ensure_ascii=False, indent=2) + '\n')
+    manifest = DATA / 'demos.json'
+    if manifest.exists():
+        existing = json.loads(manifest.read_text())
+        media = {**{identifier: media[identifier] for identifier in existing if identifier in media}, **media}
+    manifest.write_text(json.dumps(media, ensure_ascii=False, indent=2) + '\n')
     kinds = {kind: sum(item['audio_kind'] == kind for item in media.values()) for kind in ('human', 'neural', 'espeak')}
     print(f'Built {len(media)} demonstrations: {kinds}')

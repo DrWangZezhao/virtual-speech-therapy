@@ -13,7 +13,7 @@ const readStorage = (key, fallback) => {
   catch {return fallback;}
 };
 const saveStorage = (key,value) => {try {localStorage.setItem(key,JSON.stringify(value));}catch{}};
-const state = {lang:readStorage('vst-language','en'),locale:readStorage('vst-interface','en'),level:1,tones:false,
+const state = {lang:readStorage('vst-language','en'),locale:readStorage('vst-interface','en'),level:1,category:null,
   counts:readStorage('vst-counts',{}),position:0,status:'ready',recording:false,busy:false,result:null,observed:[],
   sessionPitch:[],api:readStorage('vst-api',apiDefault),request:0,drillReturn:null};
 if(!voices[state.lang])state.lang='en';
@@ -34,18 +34,30 @@ function versionedAsset(path, revision){
   if(revision)url.searchParams.set('v',revision);
   return url;
 }
-function choices(){return courses.filter(item=>item.language===state.lang && (state.tones ? item.mode==='tone':item.level===state.level && item.mode!=='tone'));}
+function choices(){
+  return courses.filter(item=>{
+    if(item.language!==state.lang)return false;
+    if(state.category==='tone')return item.mode==='tone';
+    if(state.category)return item.practice_set===state.category;
+    return item.level===state.level && item.mode!=='tone' && !item.practice_set;
+  });
+}
 function active(){return choices()[state.position];}
 function syllables(item){return item?.groups.flatMap(group=>group.syllables) ?? [];}
-function status(key){state.status=key; $('status').textContent=t()[key]??'';}
+function status(key){
+  state.status=key;
+  $('status').textContent=['ready','saved'].includes(key)?'':t()[key]??'';
+  $('status').hidden=!$('status').textContent;
+}
 function labelFor(item){return item.focus ? `${item.focus.value} · ${item.text}` : item.text;}
 function setButtonState(){
   const lock=state.recording || state.busy;
-  for(const id of ['language','item','tone-mode','play','slow'])$(id).disabled=lock;
-  for(const button of $('levels').children)button.disabled=lock;
+  for(const id of ['language','item','levels','open-exercises','contrast'])$(id).disabled=lock;
+  $('play').disabled=lock || !active();
   $('next').disabled=lock || !active();
   $('record').disabled=state.busy || !active();
-  $('record').textContent=t()[state.recording?'stop':state.counts[active()?.id]?'retry':'record'];
+  $('record').dataset.recording=String(state.recording);
+  $('record-label').textContent=t()[state.recording?'stop':state.counts[active()?.id]?'retry':'record'];
 }
 function showCopy(){
   document.documentElement.lang=state.locale;
@@ -53,8 +65,7 @@ function showCopy(){
   for(const element of document.querySelectorAll('[data-copy]')) element.textContent=t()[element.dataset.copy];
   $('avatar').setAttribute('aria-label',t().avatar);
   $('pitch').setAttribute('aria-label',t().pitch);
-  const labels=state.locale==='en'?'Practice levels':'练习级别';
-  $('levels').setAttribute('aria-label',labels);
+  $('recognition').setAttribute('aria-label',t().transcript);
   if(cameraState)$('camera-status').textContent=t()[cameraState];
   $('camera-toggle').textContent=cameraStop?t().cameraOff:t().cameraOn;
 }
@@ -62,31 +73,41 @@ function showExercise(){
   showCopy();
   $('language').value=state.lang;
   $('interface').value=state.locale;
-  const item=active();
-  $('levels').replaceChildren(...t().levels.map((label,index)=>{
-    const button=document.createElement('button');button.type='button';button.textContent=label;
-    button.setAttribute('aria-pressed',String(!state.tones && state.level===index+1));
-    button.onclick=()=>select({level:index+1,tones:false,drillReturn:null});return button;
-  }));
-  $('tone-mode').hidden=state.lang!=='zh-CN';
-  $('tone-mode').textContent=t()[state.tones?'backLevels':'tones'];
-  $('item').replaceChildren(...choices().map((entry,index)=>new Option(labelFor(entry),String(index),false,index===state.position)));
+  const exercises=choices(), item=exercises[state.position];
+  const categories=t().levels.map((label,index)=>new Option(label,String(index+1)));
+  for(const name of ['everyday','pairs','tone']){
+    if(courses.some(entry=>entry.language===state.lang && (entry.practice_set===name || entry.mode===name))){
+      categories.push(new Option(t()[name==='tone'?'tones':name],name));
+    }
+  }
+  $('levels').replaceChildren(...categories);
+  $('levels').value=state.category??String(state.level);
+  $('current-level').textContent=$('levels').selectedOptions[0]?.textContent??t().exercise;
+  $('item-position').textContent=item?`${state.position+1} / ${exercises.length}`:'';
+  $('item').replaceChildren(...exercises.map((entry,index)=>new Option(labelFor(entry),String(index),false,index===state.position)));
   if(!item){setButtonState();return;}
   const sounds=syllables(item), focus=item.focus;
   $('item-title').textContent=focus?.value??item.text;
-  $('item-title').classList.toggle('long',item.text.length>11);
-  $('pronunciation').textContent=sounds.length?sounds.map(s=>s.pinyin).join(' '):`/${item.phonetics.replaceAll(':','')}/`;
+  $('item-title').lang=state.lang;
+  $('item-title').classList.toggle('long',item.text.length>(state.lang==='zh-CN'?8:11));
+  $('pronunciation').textContent=sounds.length?sounds.map(s=>s.pinyin).join(' '):'';
   const toneNames=sounds.length===1 && !focus ? t().toneNames[sounds[0].lexical_tone] : '';
   const carrier=focus?.type==='initial' ? `${t().initial} · ${t().carrier} ${item.text}`:
     focus?.type==='final'?`${t().final} /${focus.ipa}/ · ${t().carrier} ${item.text}`:'';
   $('subtarget').textContent=carrier||toneNames;
   $('subtarget').hidden=!(carrier||toneNames);
-  const goals=sounds.flatMap(sound=>sound.gestures);
-  const gesture=Object.keys(t().gesture).find(key=>goals.some(goal=>goal.startsWith(key)||goal.includes(key)));
-  $('gesture').textContent=gesture?t().gesture[gesture]:t().illustration;
+  const partnerIndex=exercises.findIndex(entry=>entry.id===item.partner);
+  $('contrast').hidden=partnerIndex<0;
+  if(partnerIndex>=0){
+    $('contrast').textContent=t().compareWith(exercises[partnerIndex].text);
+    $('contrast').onclick=()=>{
+      select({position:partnerIndex});
+      play($('slow').checked ? .78 : 1);
+    };
+  }
   $('pitch-card').hidden=state.lang!=='zh-CN' || Boolean(focus);
   $('progress').textContent=t().mark(Object.values(state.counts).filter(Boolean).length);
-  $('next').textContent=t()[state.drillReturn?'backSentence':'next'];
+  $('next-label').textContent=t()[state.drillReturn?'backSentence':'next'];
   status(state.status);
   showResult();setButtonState();paintPitch();
 }
@@ -110,7 +131,7 @@ function showResult(){
   const result=state.result;
   const sounds=syllables(item);
   addDetail(list,t().targetText,item.text);
-  addDetail(list,t().ipalabel,sounds.map(sound=>sound.ipa).join(' '));
+  addDetail(list,t().ipalabel,sounds.length?sounds.map(sound=>sound.ipa).join(' '):item.phonetics?.replaceAll(':',''));
   addDetail(list,t().surface,sounds.map(sound=>sound.surface_pinyin_numbered).join(' '));
   const asset=media[item.id];
   if(asset?.credit){
@@ -120,18 +141,26 @@ function showResult(){
     const license=document.createElement('a');license.href=asset.credit.license_url;license.rel='noopener noreferrer';license.target='_blank';license.textContent=asset.credit.license;
     list.lastElementChild.append(' ',link,' · ',license);
   }else addDetail(list,t().listen,t().audioSynth);
-  $('recognition').hidden=!result;
+  $('recognition').hidden=!result && !recordingURL;
+  $('transcript-verdict').hidden=!result;
+  $('summary-heard').hidden=true;
   $('drill').hidden=true;
-  $('status').hidden=Boolean(result && state.status==='saved');
+  $('pitch-observation').hidden=true;
+  $('transcript-target').textContent=item.text;
+  $('transcript-target').lang=state.lang;
+  $('transcript-heard').textContent=t().transcriptVerdicts.unavailable;
+  $('transcript-heard').lang=state.locale;
+  $('pronunciation-result').textContent='';
   if(!result)return;
   const comparison=compareTranscription(item.text,result.text,state.lang);
   const verdict=$('transcript-verdict');
   verdict.dataset.result=comparison.status;
   verdict.textContent=t().transcriptVerdicts[comparison.status];
-  $('transcript-target').textContent=item.text;
-  $('transcript-target').lang=state.lang;
   $('transcript-heard').textContent=comparison.actual.length?result.text:t().transcriptVerdicts[comparison.status];
   $('transcript-heard').lang=comparison.actual.length?state.lang:state.locale;
+  $('summary-heard').hidden=comparison.status!=='different';
+  $('heard-text').textContent=result.text??'';
+  $('heard-text').lang=state.lang;
   const direction=item.mode==='tone'?audiblePitchDirection(state.observed,state.sessionPitch):null;
   $('pitch-observation').hidden=!direction;
   $('pitch-observation').textContent=direction?t()[direction]:'';
@@ -147,26 +176,30 @@ function showResult(){
   const targetWord=state.lang==='zh-CN'&&edits===1&&item.level===4&&expected.length===actual.length?
     item.word_spans.find(word=>expected.some((c,i)=>c!==actual[i]&&i>=word.start&&i<word.end)):null;
   if(targetWord){
-    const candidates=courses.filter(word=>word.language===state.lang&&word.level===3&&word.mode!=='tone');
+    const candidates=courses.filter(word=>word.language===state.lang&&word.level===3&&!word.practice_set&&word.mode!=='tone');
     const position=candidates.findIndex(word=>word.text===targetWord.text);
     if(position>=0){
       $('drill').hidden=false;$('drill').textContent=`${t().word} · ${targetWord.text}`;
-      $('drill').onclick=()=>select({level:3,position,drillReturn:{lang:state.lang,level:4,position:state.position}});
+      $('drill').onclick=()=>{
+        $('result-dialog').close();
+        select({level:3,category:null,position,drillReturn:{lang:state.lang,level:4,category:state.category,position:state.position}});
+      };
     }
   }
 }
 async function play(speed){
   const item=active(), asset=media[item?.id];if(!asset || !item)return;
+  const exerciseRequest=state.request;
   demoAudio.pause();
   const audioURL=versionedAsset(asset.audio,asset.audio_revision).href;
   if(demoAudio.src!==audioURL)demoAudio.src=audioURL;
   demoAudio.currentTime=0;demoAudio.playbackRate=speed;
-  const playing=demoAudio.play();
   try{
-    await playing;
-    const track=await fetchJSON(versionedAsset(asset.animation,asset.animation_revision));
-    if(item===active())avatar?.demonstrate(track,demoAudio,Boolean(item.focus || syllables(item).length===1));
-  }catch{status('audioFailed');}
+    const [,track]=await Promise.all([demoAudio.play(),fetchJSON(versionedAsset(asset.animation,asset.animation_revision))]);
+    if(exerciseRequest===state.request)avatar?.demonstrate(track,demoAudio);
+  }catch(error){
+    if(exerciseRequest===state.request && error.name!=='AbortError')status('audioFailed');
+  }
 }
 function showRecording(blob){
   if(recordingURL)URL.revokeObjectURL(recordingURL);
@@ -222,6 +255,8 @@ async function toggleCapture(){
   if(state.recording){micStop?.();return;}
   if(!active()||state.busy)return;
   demoAudio.pause();avatar?.clear();
+  if(recordingURL){URL.revokeObjectURL(recordingURL);recordingURL=null;}
+  $('recording').hidden=true;$('recording').removeAttribute('src');
   state.busy=true;state.result=null;state.observed=[];const item=active(),id=++state.request;
   showResult();
   setButtonState();
@@ -238,7 +273,7 @@ function paintPitch(){
   const ratio=Math.min(2,devicePixelRatio||1);
   canvas.width=width*ratio;canvas.height=height*ratio;
   const ctx=canvas.getContext('2d');ctx.scale(ratio,ratio);
-  ctx.strokeStyle='#e0e9e3';ctx.lineWidth=1;
+  ctx.strokeStyle='#38343c';ctx.lineWidth=1;
   for(let i=1;i<4;i++){
     ctx.beginPath();ctx.moveTo(4,height*i/4);ctx.lineTo(width-4,height*i/4);ctx.stroke();
   }
@@ -253,13 +288,13 @@ function paintPitch(){
   };
   const sounds=syllables(active());
   const guide=sounds.flatMap(sound=>sound.contour==='low_third'?[.42,.29,.23,.20]:contours[sound.surface_tone]??[]);
-  if(guide.length>1)trace(guide.map((value,i)=>[i/(guide.length-1),value]),'#0b7859');
+  if(guide.length>1)trace(guide.map((value,i)=>[i/(guide.length-1),value]),'#9c9be9');
   if(state.observed.length>1){
     const range=[...state.sessionPitch,...state.observed.filter(point=>point.hz).map(point=>point.hz)].sort((a,b)=>a-b);
     if(range.length<5)return;
     const low=Math.log2(range[Math.floor(range.length*.1)]),high=Math.log2(range[Math.floor(range.length*.9)]),median=(high+low)/2;
     const span=Math.max(high-low,3/12), duration=state.observed.at(-1).seconds;
-    trace(state.observed.map(point=>[point.seconds/duration,point.hz?(.5+(Math.log2(point.hz)-median)/span*.75):null]),'#ac591a');
+    trace(state.observed.map(point=>[point.seconds/duration,point.hz?(.5+(Math.log2(point.hz)-median)/span*.75):null]),'#f4afbe');
   }
 }
 async function toggleCamera(){
@@ -290,17 +325,21 @@ async function setApi(){
 }
 
 $('interface').onchange=event=>{state.locale=event.target.value;saveStorage('vst-interface',state.locale);showExercise();};
-$('language').onchange=event=>select({lang:event.target.value,level:1,tones:false,drillReturn:null});
+$('language').onchange=event=>select({lang:event.target.value,level:1,category:null,drillReturn:null});
+$('levels').onchange=({target})=>{
+  const level=Number(target.value);
+  select({level:level||1,category:level?null:target.value,drillReturn:null});
+};
 $('item').onchange=event=>select({position:Number(event.target.value)});
-$('tone-mode').onclick=()=>select({tones:!state.tones,level:1,drillReturn:null,position:state.tones?0:2});
 $('next').onclick=()=>{
   if(state.drillReturn){select({...state.drillReturn,drillReturn:null});return;}
   if(state.position+1<choices().length){select({position:state.position+1});return;}
-  if(!state.tones&&state.level<4)select({level:state.level+1});
+  if(!state.category&&state.level<4)select({level:state.level+1});
   else status('allSet');
 };
-$('play').onclick=()=>play(1);
-$('slow').onclick=()=>play(.78);
+$('play').onclick=()=>play($('slow').checked ? .78 : 1);
+$('slow').checked=Boolean(readStorage('vst-slow',false));
+$('slow').onchange=event=>saveStorage('vst-slow',event.target.checked);
 $('record').onclick=toggleCapture;
 $('camera-toggle').onclick=toggleCamera;
 $('save-api').onclick=setApi;
@@ -309,9 +348,12 @@ $('hosted-choice').hidden=!hostedApi;
 $('hosted-analysis').checked=Boolean(hostedApi && readStorage('vst-hosted-consent','')===hostedApi);
 $('hosted-analysis').onchange=event=>saveStorage('vst-hosted-consent',event.target.checked?hostedApi:'');
 $('reset-view').onclick=()=>avatar?.reset();
+for(const [button,dialog] of [['open-exercises','exercises-dialog'],['open-settings','settings-dialog'],['open-result','result-dialog']]){
+  $(button).onclick=()=>$(dialog).showModal();
+}
 new ResizeObserver(paintPitch).observe($('pitch'));
 setButtonState();
-Promise.all([fetchJSON('data/curriculum.zh-CN.json'),fetchJSON('data/curriculum.other.json'),fetchJSON('data/demos.json',{cache:'no-cache'})]).then(([mandarin,others,assets])=>{
+Promise.all(['curriculum.zh-CN','curriculum.other','demos'].map(name=>fetchJSON(`data/${name}.json`,{cache:'no-cache'}))).then(([mandarin,others,assets])=>{
   courses=[...mandarin.items,...others];media=assets;showExercise();
 }).catch(error=>{console.error(error);status('startupFailed');});
 import('./avatar.js').then(module=>module.createAvatar($('avatar'))).then(result=>{avatar=result;}).catch(error=>{
