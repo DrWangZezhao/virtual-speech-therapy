@@ -1,0 +1,920 @@
+{
+  "initial-b": {
+    "audio": "data/audio/initial-b.mp3",
+    "animation": "data/artic/initial-b.json",
+    "audio_kind": "espeak",
+    "duration": 0.574
+  },
+  "initial-p": {
+    "audio": "data/audio/initial-p.mp3",
+    "animation": "data/artic/initial-p.json",
+    "audio_kind": "espeak",
+    "duration": 0.593
+  },
+  "initial-m": {
+    "audio": "data/audio/initial-m.mp3",
+    "animation": "data/artic/initial-m.json",
+    "audio_kind": "espeak",
+    "duration": 0.606
+  },
+  "initial-f": {
+    "audio": "data/audio/initial-f.mp3",
+    "animation": "data/artic/initial-f.json",
+    "audio_kind": "espeak",
+    "duration": 0.631
+  },
+  "initial-d": {
+    "audio": "data/audio/initial-d.mp3",
+    "animation": "data/artic/initial-d.json",
+    "audio_kind": "espeak",
+    "duration": 0.551
+  },
+  "initial-t": {
+    "audio": "data/audio/initial-t.mp3",
+    "animation": "data/artic/initial-t.json",
+    "audio_kind": "espeak",
+    "duration": 0.589
+  },
+  "initial-n": {
+    "audio": "data/audio/initial-n.mp3",
+    "animation": "data/artic/initial-n.json",
+    "audio_kind": "espeak",
+    "duration": 0.679
+  },
+  "initial-l": {
+    "audio": "data/audio/initial-l.mp3",
+    "animation": "data/artic/initial-l.json",
+    "audio_kind": "espeak",
+    "duration": 0.607
+  },
+  "initial-g": {
+    "audio": "data/audio/initial-g.mp3",
+    "animation": "data/artic/initial-g.json",
+    "audio_kind": "espeak",
+    "duration": 0.568
+  },
+  "initial-k": {
+    "audio": "data/audio/initial-k.mp3",
+    "animation": "data/artic/initial-k.json",
+    "audio_kind": "espeak",
+    "duration": 0.612
+  },
+  "initial-h": {
+    "audio": "data/audio/initial-h.mp3",
+    "animation": "data/artic/initial-h.json",
+    "audio_kind": "espeak",
+    "duration": 0.65
+  },
+  "initial-j": {
+    "audio": "data/audio/initial-j.mp3",
+    "animation": "data/artic/initial-j.json",
+    "audio_kind": "espeak",
+    "duration": 0.629
+  },
+  "initial-q": {
+    "audio": "data/audio/initial-q.mp3",
+    "animation": "data/artic/initial-q.json",
+    "audio_kind": "espeak",
+    "duration": 0.659
+  },
+  "initial-x": {
+    "audio": "data/audio/initial-x.mp3",
+    "animation": "data/artic/initial-x.json",
+    "audio_kind": "espeak",
+    "duration": 0.659
+  },
+  "initial-zh": {
+    "audio": "data/audio/initial-zh.mp3",
+    "animation": "data/artic/initial-zh.json",
+    "audio_kind": "espeak",
+    "duration": 0.666
+  },
+  "initial-ch": {
+    "audio": "data/audio/initial-ch.mp3",
+    "animation": "data/artic/initial-ch.json",
+    "audio_kind": "espeak",
+    "duration": 0.676
+  },
+  "initial-sh": {
+    "audio": "data/audio/initial-sh.mp3",
+    "animation": "data/artic/initial-sh.json",
+    "audio_kind": "espeak",
+    "duration": 0.636
+  },
+  "initial-r": {
+    "audio": "data/audio/initial-r.mp3",
+    "animation": "data/artic/initial-r.json",
+    "audio_kind": "espeak",
+    "duration": 0.615
+  },
+  "initial-z": {
+    "audio": "data/audio/initial-z.mp3",
+    "animation": "data/artic/initial-z.json",
+    "audio_kind": "espeak",
+    "duration": 0.617
+  },
+  "initial-c": {
+    "audio": "data/audio/initial-c.mp3",
+    "animation": "data/artic/initial-c.json",
+    "audio_kind": "espeak",
+    "duration": 0.636
+  },
+  "initial-s": {
+    "audio": "data/audio/initial-s.mp3",
+    "animation": "data/artic/initial-s.json",
+    "audio_kind": "espeak",
+    "duration": 0.621
+  },
+  "vowel-a": {
+    "audio": "data/audio/vowel-a.mp3",
+    "animation": "data/artic/vowel-a.json",
+    "audio_kind": "espeak",
+    "duration": 0.491
+  },
+  "vowel-o": {
+    "audio": "data/audio/vowel-o.mp3",
+    "animation": "data/artic/vowel-o.json",
+    "audio_kind": "espeak",
+    "duration": 0.552
+  },
+  "vowel-e": {
+    "audio": "data/audio/vowel-e.mp3",
+    "animation": "data/artic/vowel-e.json",
+    "audio_kind": "espeak",
+    "duration": 0.588
+  },
+  "vowel-i": {
+    "audio": "data/audio/vowel-i.mp3",
+    "animation": "data/artic/vowel-i.json",
+    "audio_kind": "espeak",
+    "duration": 0.606
+  },
+  "vowel-u": {
+    "audio": "data/audio/vowel-u.mp3",
+    "animation": "data/artic/vowel-u.json",
+    "audio_kind": "espeak",
+    "duration": 0.609
+  },
+  "vowel-ü": {
+    "audio": "data/audio/vowel-ü.mp3",
+    "animation": "data/artic/vowel-ü.json",
+    "audio_kind": "espeak",
+    "duration": 0.606
+  },
+  "level-2-01": {
+    "audio": "data/audio/level-2-01.mp3",
+    "animation": "data/artic/level-2-01.json",
+    "audio_kind": "espeak",
+    "duration": 0.574
+  },
+  "level-2-02": {
+    "audio": "data/audio/level-2-02.mp3",
+    "animation": "data/artic/level-2-02.json",
+    "audio_kind": "espeak",
+    "duration": 0.593
+  },
+  "level-2-03": {
+    "audio": "data/audio/level-2-03.mp3",
+    "animation": "data/artic/level-2-03.json",
+    "audio_kind": "espeak",
+    "duration": 0.606
+  },
+  "level-2-04": {
+    "audio": "data/audio/level-2-04.mp3",
+    "animation": "data/artic/level-2-04.json",
+    "audio_kind": "espeak",
+    "duration": 0.631
+  },
+  "level-2-05": {
+    "audio": "data/audio/level-2-05.mp3",
+    "animation": "data/artic/level-2-05.json",
+    "audio_kind": "espeak",
+    "duration": 0.551
+  },
+  "level-2-06": {
+    "audio": "data/audio/level-2-06.mp3",
+    "animation": "data/artic/level-2-06.json",
+    "audio_kind": "espeak",
+    "duration": 0.589
+  },
+  "level-2-07": {
+    "audio": "data/audio/level-2-07.mp3",
+    "animation": "data/artic/level-2-07.json",
+    "audio_kind": "espeak",
+    "duration": 0.679
+  },
+  "level-2-08": {
+    "audio": "data/audio/level-2-08.mp3",
+    "animation": "data/artic/level-2-08.json",
+    "audio_kind": "espeak",
+    "duration": 0.607
+  },
+  "level-2-09": {
+    "audio": "data/audio/level-2-09.mp3",
+    "animation": "data/artic/level-2-09.json",
+    "audio_kind": "espeak",
+    "duration": 0.629
+  },
+  "level-2-10": {
+    "audio": "data/audio/level-2-10.mp3",
+    "animation": "data/artic/level-2-10.json",
+    "audio_kind": "espeak",
+    "duration": 0.659
+  },
+  "level-2-11": {
+    "audio": "data/audio/level-2-11.mp3",
+    "animation": "data/artic/level-2-11.json",
+    "audio_kind": "espeak",
+    "duration": 0.659
+  },
+  "level-2-12": {
+    "audio": "data/audio/level-2-12.mp3",
+    "animation": "data/artic/level-2-12.json",
+    "audio_kind": "espeak",
+    "duration": 0.666
+  },
+  "level-2-13": {
+    "audio": "data/audio/level-2-13.mp3",
+    "animation": "data/artic/level-2-13.json",
+    "audio_kind": "espeak",
+    "duration": 0.676
+  },
+  "level-2-14": {
+    "audio": "data/audio/level-2-14.mp3",
+    "animation": "data/artic/level-2-14.json",
+    "audio_kind": "espeak",
+    "duration": 0.636
+  },
+  "level-2-15": {
+    "audio": "data/audio/level-2-15.mp3",
+    "animation": "data/artic/level-2-15.json",
+    "audio_kind": "espeak",
+    "duration": 0.617
+  },
+  "level-2-16": {
+    "audio": "data/audio/level-2-16.mp3",
+    "animation": "data/artic/level-2-16.json",
+    "audio_kind": "espeak",
+    "duration": 0.636
+  },
+  "level-2-17": {
+    "audio": "data/audio/level-2-17.mp3",
+    "animation": "data/artic/level-2-17.json",
+    "audio_kind": "espeak",
+    "duration": 0.621
+  },
+  "level-2-18": {
+    "audio": "data/audio/level-2-18.mp3",
+    "animation": "data/artic/level-2-18.json",
+    "audio_kind": "espeak",
+    "duration": 0.542
+  },
+  "level-2-19": {
+    "audio": "data/audio/level-2-19.mp3",
+    "animation": "data/artic/level-2-19.json",
+    "audio_kind": "espeak",
+    "duration": 0.588
+  },
+  "level-2-20": {
+    "audio": "data/audio/level-2-20.mp3",
+    "animation": "data/artic/level-2-20.json",
+    "audio_kind": "espeak",
+    "duration": 0.541
+  },
+  "level-2-21": {
+    "audio": "data/audio/level-2-21.mp3",
+    "animation": "data/artic/level-2-21.json",
+    "audio_kind": "espeak",
+    "duration": 0.552
+  },
+  "level-2-22": {
+    "audio": "data/audio/level-2-22.mp3",
+    "animation": "data/artic/level-2-22.json",
+    "audio_kind": "espeak",
+    "duration": 0.614
+  },
+  "level-2-23": {
+    "audio": "data/audio/level-2-23.mp3",
+    "animation": "data/artic/level-2-23.json",
+    "audio_kind": "espeak",
+    "duration": 0.592
+  },
+  "level-2-24": {
+    "audio": "data/audio/level-2-24.mp3",
+    "animation": "data/artic/level-2-24.json",
+    "audio_kind": "espeak",
+    "duration": 0.69
+  },
+  "level-2-25": {
+    "audio": "data/audio/level-2-25.mp3",
+    "animation": "data/artic/level-2-25.json",
+    "audio_kind": "espeak",
+    "duration": 0.701
+  },
+  "level-2-26": {
+    "audio": "data/audio/level-2-26.mp3",
+    "animation": "data/artic/level-2-26.json",
+    "audio_kind": "espeak",
+    "duration": 0.621
+  },
+  "level-2-27": {
+    "audio": "data/audio/level-2-27.mp3",
+    "animation": "data/artic/level-2-27.json",
+    "audio_kind": "espeak",
+    "duration": 0.607
+  },
+  "level-2-28": {
+    "audio": "data/audio/level-2-28.mp3",
+    "animation": "data/artic/level-2-28.json",
+    "audio_kind": "espeak",
+    "duration": 0.606
+  },
+  "level-2-29": {
+    "audio": "data/audio/level-2-29.mp3",
+    "animation": "data/artic/level-2-29.json",
+    "audio_kind": "espeak",
+    "duration": 0.609
+  },
+  "level-2-30": {
+    "audio": "data/audio/level-2-30.mp3",
+    "animation": "data/artic/level-2-30.json",
+    "audio_kind": "espeak",
+    "duration": 0.609
+  },
+  "level-2-31": {
+    "audio": "data/audio/level-2-31.mp3",
+    "animation": "data/artic/level-2-31.json",
+    "audio_kind": "espeak",
+    "duration": 0.616
+  },
+  "level-2-32": {
+    "audio": "data/audio/level-2-32.mp3",
+    "animation": "data/artic/level-2-32.json",
+    "audio_kind": "espeak",
+    "duration": 0.57
+  },
+  "level-2-33": {
+    "audio": "data/audio/level-2-33.mp3",
+    "animation": "data/artic/level-2-33.json",
+    "audio_kind": "espeak",
+    "duration": 0.663
+  },
+  "level-2-34": {
+    "audio": "data/audio/level-2-34.mp3",
+    "animation": "data/artic/level-2-34.json",
+    "audio_kind": "espeak",
+    "duration": 0.629
+  },
+  "level-2-35": {
+    "audio": "data/audio/level-2-35.mp3",
+    "animation": "data/artic/level-2-35.json",
+    "audio_kind": "espeak",
+    "duration": 0.672
+  },
+  "level-2-36": {
+    "audio": "data/audio/level-2-36.mp3",
+    "animation": "data/artic/level-2-36.json",
+    "audio_kind": "espeak",
+    "duration": 0.609
+  },
+  "level-2-37": {
+    "audio": "data/audio/level-2-37.mp3",
+    "animation": "data/artic/level-2-37.json",
+    "audio_kind": "human",
+    "duration": 0.876,
+    "credit": {
+      "author": "Wei Gao, Vion Nicolas",
+      "license": "CC BY 2.0 fr",
+      "license_url": "https://creativecommons.org/licenses/by/2.0/fr/deed.en",
+      "source": "https://commons.wikimedia.org/wiki/File:Zh-m%C4%81ma.ogg",
+      "edits": "Transcoded to mono MP3 and leading silence trimmed."
+    }
+  },
+  "level-2-38": {
+    "audio": "data/audio/level-2-38.mp3",
+    "animation": "data/artic/level-2-38.json",
+    "audio_kind": "espeak",
+    "duration": 0.838
+  },
+  "level-3-01": {
+    "audio": "data/audio/level-3-01.mp3",
+    "animation": "data/artic/level-3-01.json",
+    "audio_kind": "human",
+    "duration": 0.84,
+    "credit": {
+      "author": "Wei Gao, Vion Nicolas",
+      "license": "CC BY 2.0 fr",
+      "license_url": "https://creativecommons.org/licenses/by/2.0/fr/deed.en",
+      "source": "https://commons.wikimedia.org/wiki/File:Zh-m%C7%8E.ogg",
+      "edits": "Transcoded to mono MP3 and leading silence trimmed."
+    }
+  },
+  "level-3-02": {
+    "audio": "data/audio/level-3-02.mp3",
+    "animation": "data/artic/level-3-02.json",
+    "audio_kind": "espeak",
+    "duration": 0.755
+  },
+  "level-3-03": {
+    "audio": "data/audio/level-3-03.mp3",
+    "animation": "data/artic/level-3-03.json",
+    "audio_kind": "espeak",
+    "duration": 0.606
+  },
+  "level-3-04": {
+    "audio": "data/audio/level-3-04.mp3",
+    "animation": "data/artic/level-3-04.json",
+    "audio_kind": "human",
+    "duration": 0.876,
+    "credit": {
+      "author": "Wei Gao, Vion Nicolas",
+      "license": "CC BY 2.0 fr",
+      "license_url": "https://creativecommons.org/licenses/by/2.0/fr/deed.en",
+      "source": "https://commons.wikimedia.org/wiki/File:Zh-m%C4%81ma.ogg",
+      "edits": "Transcoded to mono MP3 and leading silence trimmed."
+    }
+  },
+  "level-3-05": {
+    "audio": "data/audio/level-3-05.mp3",
+    "animation": "data/artic/level-3-05.json",
+    "audio_kind": "human",
+    "duration": 0.658,
+    "credit": {
+      "author": "Wei Gao, Vion Nicolas",
+      "license": "CC BY 2.0 fr",
+      "license_url": "https://creativecommons.org/licenses/by/2.0/fr/deed.en",
+      "source": "https://commons.wikimedia.org/wiki/File:Zh-b%C3%A0ba.ogg",
+      "edits": "Transcoded to mono MP3 and leading silence trimmed."
+    }
+  },
+  "level-3-06": {
+    "audio": "data/audio/level-3-06.mp3",
+    "animation": "data/artic/level-3-06.json",
+    "audio_kind": "human",
+    "duration": 1.132,
+    "credit": {
+      "author": "Wei Gao, Vion Nicolas",
+      "license": "CC BY 2.0 fr",
+      "license_url": "https://creativecommons.org/licenses/by/2.0/fr/deed.en",
+      "source": "https://commons.wikimedia.org/wiki/File:Zh-p%C3%ADnggu%C7%92.ogg",
+      "edits": "Transcoded to mono MP3 and leading silence trimmed."
+    }
+  },
+  "level-3-07": {
+    "audio": "data/audio/level-3-07.mp3",
+    "animation": "data/artic/level-3-07.json",
+    "audio_kind": "human",
+    "duration": 1.047,
+    "credit": {
+      "author": "Wei Gao, Vion Nicolas",
+      "license": "CC BY 2.0 fr",
+      "license_url": "https://creativecommons.org/licenses/by/2.0/fr/deed.en",
+      "source": "https://commons.wikimedia.org/wiki/File:Zh-xi%C4%81ngji%C4%81o.ogg",
+      "edits": "Transcoded to mono MP3 and leading silence trimmed."
+    }
+  },
+  "level-3-08": {
+    "audio": "data/audio/level-3-08.mp3",
+    "animation": "data/artic/level-3-08.json",
+    "audio_kind": "human",
+    "duration": 1.126,
+    "credit": {
+      "author": "Wei Gao, Vion Nicolas",
+      "license": "CC BY 2.0 fr",
+      "license_url": "https://creativecommons.org/licenses/by/2.0/fr/deed.en",
+      "source": "https://commons.wikimedia.org/wiki/File:Zh-xu%C3%A9xi%C3%A0o.ogg",
+      "edits": "Transcoded to mono MP3 and leading silence trimmed."
+    }
+  },
+  "level-3-09": {
+    "audio": "data/audio/level-3-09.mp3",
+    "animation": "data/artic/level-3-09.json",
+    "audio_kind": "human",
+    "duration": 1.179,
+    "credit": {
+      "author": "Wei Gao, Vion Nicolas",
+      "license": "CC BY 2.0 fr",
+      "license_url": "https://creativecommons.org/licenses/by/2.0/fr/deed.en",
+      "source": "https://commons.wikimedia.org/wiki/File:Zh-l%C7%8Eosh%C4%AB.ogg",
+      "edits": "Transcoded to mono MP3 and leading silence trimmed."
+    }
+  },
+  "level-3-10": {
+    "audio": "data/audio/level-3-10.mp3",
+    "animation": "data/artic/level-3-10.json",
+    "audio_kind": "espeak",
+    "duration": 0.92
+  },
+  "level-3-11": {
+    "audio": "data/audio/level-3-11.mp3",
+    "animation": "data/artic/level-3-11.json",
+    "audio_kind": "espeak",
+    "duration": 0.864
+  },
+  "level-3-12": {
+    "audio": "data/audio/level-3-12.mp3",
+    "animation": "data/artic/level-3-12.json",
+    "audio_kind": "espeak",
+    "duration": 0.864
+  },
+  "level-3-13": {
+    "audio": "data/audio/level-3-13.mp3",
+    "animation": "data/artic/level-3-13.json",
+    "audio_kind": "espeak",
+    "duration": 1.08
+  },
+  "level-3-14": {
+    "audio": "data/audio/level-3-14.mp3",
+    "animation": "data/artic/level-3-14.json",
+    "audio_kind": "espeak",
+    "duration": 1.286
+  },
+  "level-3-15": {
+    "audio": "data/audio/level-3-15.mp3",
+    "animation": "data/artic/level-3-15.json",
+    "audio_kind": "espeak",
+    "duration": 1.008
+  },
+  "level-3-16": {
+    "audio": "data/audio/level-3-16.mp3",
+    "animation": "data/artic/level-3-16.json",
+    "audio_kind": "espeak",
+    "duration": 1.175
+  },
+  "level-3-17": {
+    "audio": "data/audio/level-3-17.mp3",
+    "animation": "data/artic/level-3-17.json",
+    "audio_kind": "espeak",
+    "duration": 1.005
+  },
+  "level-3-18": {
+    "audio": "data/audio/level-3-18.mp3",
+    "animation": "data/artic/level-3-18.json",
+    "audio_kind": "espeak",
+    "duration": 0.927
+  },
+  "level-3-19": {
+    "audio": "data/audio/level-3-19.mp3",
+    "animation": "data/artic/level-3-19.json",
+    "audio_kind": "espeak",
+    "duration": 1.012
+  },
+  "level-3-20": {
+    "audio": "data/audio/level-3-20.mp3",
+    "animation": "data/artic/level-3-20.json",
+    "audio_kind": "espeak",
+    "duration": 1.064
+  },
+  "level-3-21": {
+    "audio": "data/audio/level-3-21.mp3",
+    "animation": "data/artic/level-3-21.json",
+    "audio_kind": "espeak",
+    "duration": 1.045
+  },
+  "sentence-01": {
+    "audio": "data/audio/sentence-01.mp3",
+    "animation": "data/artic/sentence-01.json",
+    "audio_kind": "espeak",
+    "duration": 1.68
+  },
+  "sentence-02": {
+    "audio": "data/audio/sentence-02.mp3",
+    "animation": "data/artic/sentence-02.json",
+    "audio_kind": "espeak",
+    "duration": 2.162
+  },
+  "sentence-03": {
+    "audio": "data/audio/sentence-03.mp3",
+    "animation": "data/artic/sentence-03.json",
+    "audio_kind": "espeak",
+    "duration": 2.545
+  },
+  "sentence-04": {
+    "audio": "data/audio/sentence-04.mp3",
+    "animation": "data/artic/sentence-04.json",
+    "audio_kind": "espeak",
+    "duration": 2.409
+  },
+  "sentence-05": {
+    "audio": "data/audio/sentence-05.mp3",
+    "animation": "data/artic/sentence-05.json",
+    "audio_kind": "espeak",
+    "duration": 2.541
+  },
+  "sentence-06": {
+    "audio": "data/audio/sentence-06.mp3",
+    "animation": "data/artic/sentence-06.json",
+    "audio_kind": "espeak",
+    "duration": 2.423
+  },
+  "sentence-07": {
+    "audio": "data/audio/sentence-07.mp3",
+    "animation": "data/artic/sentence-07.json",
+    "audio_kind": "espeak",
+    "duration": 2.005
+  },
+  "tone-ma-1": {
+    "audio": "data/audio/tone-ma-1.mp3",
+    "animation": "data/artic/tone-ma-1.json",
+    "audio_kind": "espeak",
+    "duration": 0.606
+  },
+  "tone-ma-2": {
+    "audio": "data/audio/tone-ma-2.mp3",
+    "animation": "data/artic/tone-ma-2.json",
+    "audio_kind": "human",
+    "duration": 0.686,
+    "credit": {
+      "author": "Yue Tan",
+      "license": "CC BY-SA 3.0 us",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/us/deed.en",
+      "source": "https://commons.wikimedia.org/wiki/File:Zh-m%C3%A1.ogg",
+      "edits": "Transcoded to mono MP3 and leading silence trimmed."
+    }
+  },
+  "tone-ma-3": {
+    "audio": "data/audio/tone-ma-3.mp3",
+    "animation": "data/artic/tone-ma-3.json",
+    "audio_kind": "human",
+    "duration": 0.84,
+    "credit": {
+      "author": "Wei Gao, Vion Nicolas",
+      "license": "CC BY 2.0 fr",
+      "license_url": "https://creativecommons.org/licenses/by/2.0/fr/deed.en",
+      "source": "https://commons.wikimedia.org/wiki/File:Zh-m%C7%8E.ogg",
+      "edits": "Transcoded to mono MP3 and leading silence trimmed."
+    }
+  },
+  "tone-ma-4": {
+    "audio": "data/audio/tone-ma-4.mp3",
+    "animation": "data/artic/tone-ma-4.json",
+    "audio_kind": "human",
+    "duration": 0.605,
+    "credit": {
+      "author": "Yue Tan",
+      "license": "CC BY-SA 3.0 us",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/us/deed.en",
+      "source": "https://commons.wikimedia.org/wiki/File:Zh-m%C3%A0.ogg",
+      "edits": "Transcoded to mono MP3 and leading silence trimmed."
+    }
+  },
+  "tone-ma-5": {
+    "audio": "data/audio/tone-ma-5.mp3",
+    "animation": "data/artic/tone-ma-5.json",
+    "audio_kind": "human",
+    "duration": 0.482,
+    "credit": {
+      "author": "Wei Gao, Vion Nicolas",
+      "license": "CC BY 2.0 fr",
+      "license_url": "https://creativecommons.org/licenses/by/2.0/fr/deed.en",
+      "source": "https://commons.wikimedia.org/wiki/File:Zh-ma.ogg",
+      "edits": "Transcoded to mono MP3 and leading silence trimmed."
+    }
+  },
+  "en-1-1": {
+    "audio": "data/audio/en-1-1.mp3",
+    "animation": "data/artic/en-1-1.json",
+    "audio_kind": "espeak",
+    "duration": 0.722
+  },
+  "en-1-2": {
+    "audio": "data/audio/en-1-2.mp3",
+    "animation": "data/artic/en-1-2.json",
+    "audio_kind": "espeak",
+    "duration": 0.696
+  },
+  "en-1-3": {
+    "audio": "data/audio/en-1-3.mp3",
+    "animation": "data/artic/en-1-3.json",
+    "audio_kind": "espeak",
+    "duration": 0.76
+  },
+  "en-2-1": {
+    "audio": "data/audio/en-2-1.mp3",
+    "animation": "data/artic/en-2-1.json",
+    "audio_kind": "espeak",
+    "duration": 0.765
+  },
+  "en-2-2": {
+    "audio": "data/audio/en-2-2.mp3",
+    "animation": "data/artic/en-2-2.json",
+    "audio_kind": "espeak",
+    "duration": 0.788
+  },
+  "en-2-3": {
+    "audio": "data/audio/en-2-3.mp3",
+    "animation": "data/artic/en-2-3.json",
+    "audio_kind": "espeak",
+    "duration": 0.957
+  },
+  "en-3-1": {
+    "audio": "data/audio/en-3-1.mp3",
+    "animation": "data/artic/en-3-1.json",
+    "audio_kind": "espeak",
+    "duration": 0.787
+  },
+  "en-3-2": {
+    "audio": "data/audio/en-3-2.mp3",
+    "animation": "data/artic/en-3-2.json",
+    "audio_kind": "espeak",
+    "duration": 0.812
+  },
+  "en-3-3": {
+    "audio": "data/audio/en-3-3.mp3",
+    "animation": "data/artic/en-3-3.json",
+    "audio_kind": "espeak",
+    "duration": 0.832
+  },
+  "en-3-4": {
+    "audio": "data/audio/en-3-4.mp3",
+    "animation": "data/artic/en-3-4.json",
+    "audio_kind": "espeak",
+    "duration": 0.743
+  },
+  "en-4-1": {
+    "audio": "data/audio/en-4-1.mp3",
+    "animation": "data/artic/en-4-1.json",
+    "audio_kind": "espeak",
+    "duration": 0.91
+  },
+  "en-4-2": {
+    "audio": "data/audio/en-4-2.mp3",
+    "animation": "data/artic/en-4-2.json",
+    "audio_kind": "espeak",
+    "duration": 1.018
+  },
+  "en-4-3": {
+    "audio": "data/audio/en-4-3.mp3",
+    "animation": "data/artic/en-4-3.json",
+    "audio_kind": "espeak",
+    "duration": 1.262
+  },
+  "es-ES-1-1": {
+    "audio": "data/audio/es-ES-1-1.mp3",
+    "animation": "data/artic/es-ES-1-1.json",
+    "audio_kind": "espeak",
+    "duration": 0.551
+  },
+  "es-ES-1-2": {
+    "audio": "data/audio/es-ES-1-2.mp3",
+    "animation": "data/artic/es-ES-1-2.json",
+    "audio_kind": "espeak",
+    "duration": 0.551
+  },
+  "es-ES-1-3": {
+    "audio": "data/audio/es-ES-1-3.mp3",
+    "animation": "data/artic/es-ES-1-3.json",
+    "audio_kind": "espeak",
+    "duration": 0.551
+  },
+  "es-ES-2-1": {
+    "audio": "data/audio/es-ES-2-1.mp3",
+    "animation": "data/artic/es-ES-2-1.json",
+    "audio_kind": "espeak",
+    "duration": 0.624
+  },
+  "es-ES-2-2": {
+    "audio": "data/audio/es-ES-2-2.mp3",
+    "animation": "data/artic/es-ES-2-2.json",
+    "audio_kind": "espeak",
+    "duration": 0.57
+  },
+  "es-ES-2-3": {
+    "audio": "data/audio/es-ES-2-3.mp3",
+    "animation": "data/artic/es-ES-2-3.json",
+    "audio_kind": "espeak",
+    "duration": 0.615
+  },
+  "es-ES-2-4": {
+    "audio": "data/audio/es-ES-2-4.mp3",
+    "animation": "data/artic/es-ES-2-4.json",
+    "audio_kind": "espeak",
+    "duration": 0.864
+  },
+  "es-ES-3-1": {
+    "audio": "data/audio/es-ES-3-1.mp3",
+    "animation": "data/artic/es-ES-3-1.json",
+    "audio_kind": "espeak",
+    "duration": 0.631
+  },
+  "es-ES-3-2": {
+    "audio": "data/audio/es-ES-3-2.mp3",
+    "animation": "data/artic/es-ES-3-2.json",
+    "audio_kind": "espeak",
+    "duration": 0.713
+  },
+  "es-ES-3-3": {
+    "audio": "data/audio/es-ES-3-3.mp3",
+    "animation": "data/artic/es-ES-3-3.json",
+    "audio_kind": "espeak",
+    "duration": 0.742
+  },
+  "es-ES-3-4": {
+    "audio": "data/audio/es-ES-3-4.mp3",
+    "animation": "data/artic/es-ES-3-4.json",
+    "audio_kind": "espeak",
+    "duration": 0.698
+  },
+  "es-ES-4-1": {
+    "audio": "data/audio/es-ES-4-1.mp3",
+    "animation": "data/artic/es-ES-4-1.json",
+    "audio_kind": "espeak",
+    "duration": 1.086
+  },
+  "es-ES-4-2": {
+    "audio": "data/audio/es-ES-4-2.mp3",
+    "animation": "data/artic/es-ES-4-2.json",
+    "audio_kind": "espeak",
+    "duration": 1.091
+  },
+  "es-ES-4-3": {
+    "audio": "data/audio/es-ES-4-3.mp3",
+    "animation": "data/artic/es-ES-4-3.json",
+    "audio_kind": "espeak",
+    "duration": 1.524
+  },
+  "fi-FI-1-1": {
+    "audio": "data/audio/fi-FI-1-1.mp3",
+    "animation": "data/artic/fi-FI-1-1.json",
+    "audio_kind": "espeak",
+    "duration": 0.762
+  },
+  "fi-FI-1-2": {
+    "audio": "data/audio/fi-FI-1-2.mp3",
+    "animation": "data/artic/fi-FI-1-2.json",
+    "audio_kind": "espeak",
+    "duration": 0.74
+  },
+  "fi-FI-1-3": {
+    "audio": "data/audio/fi-FI-1-3.mp3",
+    "animation": "data/artic/fi-FI-1-3.json",
+    "audio_kind": "espeak",
+    "duration": 0.74
+  },
+  "fi-FI-2-1": {
+    "audio": "data/audio/fi-FI-2-1.mp3",
+    "animation": "data/artic/fi-FI-2-1.json",
+    "audio_kind": "espeak",
+    "duration": 0.66
+  },
+  "fi-FI-2-2": {
+    "audio": "data/audio/fi-FI-2-2.mp3",
+    "animation": "data/artic/fi-FI-2-2.json",
+    "audio_kind": "espeak",
+    "duration": 0.594
+  },
+  "fi-FI-2-3": {
+    "audio": "data/audio/fi-FI-2-3.mp3",
+    "animation": "data/artic/fi-FI-2-3.json",
+    "audio_kind": "espeak",
+    "duration": 0.577
+  },
+  "fi-FI-2-4": {
+    "audio": "data/audio/fi-FI-2-4.mp3",
+    "animation": "data/artic/fi-FI-2-4.json",
+    "audio_kind": "espeak",
+    "duration": 0.73
+  },
+  "fi-FI-3-1": {
+    "audio": "data/audio/fi-FI-3-1.mp3",
+    "animation": "data/artic/fi-FI-3-1.json",
+    "audio_kind": "espeak",
+    "duration": 0.687
+  },
+  "fi-FI-3-2": {
+    "audio": "data/audio/fi-FI-3-2.mp3",
+    "animation": "data/artic/fi-FI-3-2.json",
+    "audio_kind": "espeak",
+    "duration": 0.709
+  },
+  "fi-FI-3-3": {
+    "audio": "data/audio/fi-FI-3-3.mp3",
+    "animation": "data/artic/fi-FI-3-3.json",
+    "audio_kind": "espeak",
+    "duration": 0.741
+  },
+  "fi-FI-3-4": {
+    "audio": "data/audio/fi-FI-3-4.mp3",
+    "animation": "data/artic/fi-FI-3-4.json",
+    "audio_kind": "espeak",
+    "duration": 0.685
+  },
+  "fi-FI-4-1": {
+    "audio": "data/audio/fi-FI-4-1.mp3",
+    "animation": "data/artic/fi-FI-4-1.json",
+    "audio_kind": "espeak",
+    "duration": 1.167
+  },
+  "fi-FI-4-2": {
+    "audio": "data/audio/fi-FI-4-2.mp3",
+    "animation": "data/artic/fi-FI-4-2.json",
+    "audio_kind": "espeak",
+    "duration": 1.12
+  },
+  "fi-FI-4-3": {
+    "audio": "data/audio/fi-FI-4-3.mp3",
+    "animation": "data/artic/fi-FI-4-3.json",
+    "audio_kind": "espeak",
+    "duration": 1.031
+  }
+}

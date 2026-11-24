@@ -1,0 +1,6670 @@
+{
+  "schema_version": 1,
+  "items": [
+    {
+      "id": "initial-b",
+      "language": "zh-CN",
+      "level": 1,
+      "mode": "pronunciation",
+      "text": "八",
+      "groups": [
+        {
+          "start": 0,
+          "end": 1,
+          "syllables": [
+            {
+              "hanzi": "八",
+              "pinyin": "bā",
+              "pinyin_numbered": "ba1",
+              "initial": "b",
+              "final": "a",
+              "phones": [
+                "p",
+                "a"
+              ],
+              "lexical_tone": 1,
+              "surface_tone": 1,
+              "surface_phones": [
+                "p",
+                "a"
+              ],
+              "contour": "high_level",
+              "gestures": [
+                "bilabial_closure",
+                "lower_vowel",
+                "front_vowel_or_glide"
+              ],
+              "ipa": "pa",
+              "surface_pinyin_numbered": "ba1"
+            }
+          ]
+        }
+      ],
+      "word_spans": [
+        {
+          "text": "八",
+          "start": 0,
+          "end": 1
+        }
+      ],
+      "focus": {
+        "type": "initial",
+        "value": "b",
+        "practice": "carrier"
+      }
+    },
+    {
+      "id": "initial-p",
+      "language": "zh-CN",
+      "level": 1,
+      "mode": "pronunciation",
+      "text": "趴",
+      "groups": [
+        {
+          "start": 0,
+          "end": 1,
+          "syllables": [
+            {
+              "hanzi": "趴",
+              "pinyin": "pā",
+              "pinyin_numbered": "pa1",
+              "initial": "p",
+              "final": "a",
+              "phones": [
+                "pʰ",
+                "a"
+              ],
+              "lexical_tone": 1,
+              "surface_tone": 1,
+              "surface_phones": [
+                "pʰ",
+                "a"
+              ],
+              "contour": "high_level",
+              "gestures": [
+                "bilabial_closure",
+                "aspiration",
+                "lower_vowel",
+                "front_vowel_or_glide"
+              ],
+              "ipa": "pʰa",
+              "surface_pinyin_numbered": "pa1"
+            }
+          ]
+        }
+      ],
+      "word_spans": [
+        {
+          "text": "趴",
+          "start": 0,
+          "end": 1
+        }
+      ],
+      "focus": {
+        "type": "initial",
+        "value": "p",
+        "practice": "carrier"
+      }
+    },
+    {
+      "id": "initial-m",
+      "language": "zh-CN",
+      "level": 1,
+      "mode": "pronunciation",
+      "text": "妈",
+      "groups": [
+        {
+          "start": 0,
+          "end": 1,
+          "syllables": [
+            {
+              "hanzi": "妈",
+              "pinyin": "mā",
+              "pinyin_numbered": "ma1",
+              "initial": "m",
+              "final": "a",
+              "phones": [
+                "m",
+                "a"
+              ],
+              "lexical_tone": 1,
+              "surface_tone": 1,
+              "surface_phones": [
+                "m",
+                "a"
+              ],
+              "contour": "high_level",
+              "gestures": [
+                "bilabial_nasal",
+                "lower_vowel",
+                "front_vowel_or_glide"
+              ],
+              "ipa": "ma",
+              "surface_pinyin_numbered": "ma1"
+            }
+          ]
+        }
+      ],
+      "word_spans": [
+        {
+          "text": "妈",
+          "start": 0,
+          "end": 1
+        }
+      ],
+      "focus": {
+        "type": "initial",
+        "value": "m",
+        "practice": "carrier"
+      }
+    },
+    {
+      "id": "initial-f",
+      "language": "zh-CN",
+      "level": 1,
+      "mode": "pronunciation",
+      "text": "发",
+      "groups": [
+        {
+          "start": 0,
+          "end": 1,
+          "syllables": [
+            {
+              "hanzi": "发",
+              "pinyin": "fā",
+              "pinyin_numbered": "fa1",
+              "initial": "f",
+              "final": "a",
+              "phones": [
+                "f",
+                "a"
+              ],
+              "lexical_tone": 1,
+              "surface_tone": 1,
+              "surface_phones": [
+                "f",
+                "a"
+              ],
+              "contour": "high_level",
+              "gestures": [
+                "labiodental_constriction",
+                "lower_vowel",
+                "front_vowel_or_glide"
+              ],
+              "ipa": "fa",
+              "surface_pinyin_numbered": "fa1"
+            }
+          ]
+        }
+      ],
+      "word_spans": [
+        {
+          "text": "发",
+          "start": 0,
+          "end": 1
+        }
+      ],
+      "focus": {
+        "type": "initial",
+        "value": "f",
+        "practice": "carrier"
+      }
+    },
+    {
+      "id": "initial-d",
+      "language": "zh-CN",
+      "level": 1,
+      "mode": "pronunciation",
+      "text": "搭",
+      "groups": [
+        {
+          "start": 0,
+          "end": 1,
+          "syllables": [
+            {
+              "hanzi": "搭",
+              "pinyin": "dā",
+              "pinyin_numbered": "da1",
+              "initial": "d",
+              "final": "a",
+              "phones": [
+                "t",
+                "a"
+              ],
+              "lexical_tone": 1,
+              "surface_tone": 1,
+              "surface_phones": [
+                "t",
+                "a"
+              ],
+              "contour": "high_level",
+              "gestures": [
+                "alveolar_closure",
+                "lower_vowel",
+                "front_vowel_or_glide"
+              ],
+              "ipa": "ta",
+              "surface_pinyin_numbered": "da1"
+            }
+          ]
+        }
+      ],
+      "word_spans": [
+        {
+          "text": "搭",
+          "start": 0,
+          "end": 1
+        }
+      ],
+      "focus": {
+        "type": "initial",
+        "value": "d",
+        "practice": "carrier"
+      }
+    },
+    {
+      "id": "initial-t",
+      "language": "zh-CN",
+      "level": 1,
+      "mode": "pronunciation",
+      "text": "他",
+      "groups": [
+        {
+          "start": 0,
+          "end": 1,
+          "syllables": [
+            {
+              "hanzi": "他",
+              "pinyin": "tā",
+              "pinyin_numbered": "ta1",
+              "initial": "t",
+              "final": "a",
+              "phones": [
+                "tʰ",
+                "a"
+              ],
+              "lexical_tone": 1,
+              "surface_tone": 1,
+              "surface_phones": [
+                "tʰ",
+                "a"
+              ],
+              "contour": "high_level",
+              "gestures": [
+                "alveolar_closure",
+                "aspiration",
+                "lower_vowel",
+                "front_vowel_or_glide"
+              ],
+              "ipa": "tʰa",
+              "surface_pinyin_numbered": "ta1"
+            }
+          ]
+        }
+      ],
+      "word_spans": [
+        {
+          "text": "他",
+          "start": 0,
+          "end": 1
+        }
+      ],
+      "focus": {
+        "type": "initial",
+        "value": "t",
+        "practice": "carrier"
+      }
+    },
+    {
+      "id": "initial-n",
+      "language": "zh-CN",
+      "level": 1,
+      "mode": "pronunciation",
+      "text": "拿",
+      "groups": [
+        {
+          "start": 0,
+          "end": 1,
+          "syllables": [
+            {
+              "hanzi": "拿",
+              "pinyin": "ná",
+              "pinyin_numbered": "na2",
+              "initial": "n",
+              "final": "a",
+              "phones": [
+                "n",
+                "a"
+              ],
+              "lexical_tone": 2,
+              "surface_tone": 2,
+              "surface_phones": [
+                "n",
+                "a"
+              ],
+              "contour": "rising",
+              "gestures": [
+                "alveolar_nasal",
+                "lower_vowel",
+                "front_vowel_or_glide"
+              ],
+              "ipa": "na",
+              "surface_pinyin_numbered": "na2"
+            }
+          ]
+        }
+      ],
+      "word_spans": [
+        {
+          "text": "拿",
+          "start": 0,
+          "end": 1
+        }
+      ],
+      "focus": {
+        "type": "initial",
+        "value": "n",
+        "practice": "carrier"
+      }
+    },
+    {
+      "id": "initial-l",
+      "language": "zh-CN",
+      "level": 1,
+      "mode": "pronunciation",
+      "text": "拉",
+      "groups": [
+        {
+          "start": 0,
+          "end": 1,
+          "syllables": [
+            {
+              "hanzi": "拉",
+              "pinyin": "lā",
+              "pinyin_numbered": "la1",
+              "initial": "l",
+              "final": "a",
+              "phones": [
+                "l",
+                "a"
+              ],
+              "lexical_tone": 1,
+              "surface_tone": 1,
+              "surface_phones": [
+                "l",
+                "a"
+              ],
+              "contour": "high_level",
+              "gestures": [
+                "alveolar_lateral",
+                "lower_vowel",
+                "front_vowel_or_glide"
+              ],
+              "ipa": "la",
+              "surface_pinyin_numbered": "la1"
+            }
+          ]
+        }
+      ],
+      "word_spans": [
+        {
+          "text": "拉",
+          "start": 0,
+          "end": 1
+        }
+      ],
+      "focus": {
+        "type": "initial",
+        "value": "l",
+        "practice": "carrier"
+      }
+    },
+    {
+      "id": "initial-g",
+      "language": "zh-CN",
+      "level": 1,
+      "mode": "pronunciation",
+      "text": "哥",
+      "groups": [
+        {
+          "start": 0,
+          "end": 1,
+          "syllables": [
+            {
+              "hanzi": "哥",
+              "pinyin": "gē",
+              "pinyin_numbered": "ge1",
+              "initial": "g",
+              "final": "e",
+              "phones": [
+                "k",
+                "ɤ"
+              ],
+              "lexical_tone": 1,
+              "surface_tone": 1,
+              "surface_phones": [
+                "k",
+                "ɤ"
+              ],
+              "contour": "high_level",
+              "gestures": [
+                "velar_closure",
+                "back_vowel_or_glide"
+              ],
+              "ipa": "kɤ",
+              "surface_pinyin_numbered": "ge1"
+            }
+          ]
+        }
+      ],
+      "word_spans": [
+        {
+          "text": "哥",
+          "start": 0,
+          "end": 1
+        }
+      ],
+      "focus": {
+        "type": "initial",
+        "value": "g",
+        "practice": "carrier"
+      }
+    },
+    {
+      "id": "initial-k",
+      "language": "zh-CN",
+      "level": 1,
+      "mode": "pronunciation",
+      "text": "科",
+      "groups": [
+        {
+          "start": 0,
+          "end": 1,
+          "syllables": [
+            {
+              "hanzi": "科",
+              "pinyin": "kē",
+              "pinyin_numbered": "ke1",
+              "initial": "k",
+              "final": "e",
+              "phones": [
+                "kʰ",
+                "ɤ"
+              ],
+              "lexical_tone": 1,
+              "surface_tone": 1,
+              "surface_phones": [
+                "kʰ",
+                "ɤ"
+              ],
+              "contour": "high_level",
+              "gestures": [
+                "velar_closure",
+                "aspiration",
+                "back_vowel_or_glide"
+              ],
+              "ipa": "kʰɤ",
+              "surface_pinyin_numbered": "ke1"
+            }
+          ]
+        }
+      ],
+      "word_spans": [
+        {
+          "text": "科",
+          "start": 0,
+          "end": 1
+        }
+      ],
+      "focus": {
+        "type": "initial",
+        "value": "k",
+        "practice": "carrier"
+      }
+    },
+    {
+      "id": "initial-h",
+      "language": "zh-CN",
+      "level": 1,
+      "mode": "pronunciation",
+      "text": "喝",
+      "groups": [
+        {
+          "start": 0,
+          "end": 1,
+          "syllables": [
+            {
+              "hanzi": "喝",
+              "pinyin": "hē",
+              "pinyin_numbered": "he1",
+              "initial": "h",
+              "final": "e",
+              "phones": [
+                "x",
+                "ɤ"
+              ],
+              "lexical_tone": 1,
+              "surface_tone": 1,
+              "surface_phones": [
+                "x",
+                "ɤ"
+              ],
+              "contour": "high_level",
+              "gestures": [
+                "velar_constriction",
+                "back_vowel_or_glide"
+              ],
+              "ipa": "xɤ",
+              "surface_pinyin_numbered": "he1"
+            }
+          ]
+        }
+      ],
+      "word_spans": [
+        {
+          "text": "喝",
+          "start": 0,
+          "end": 1
+        }
+      ],
+      "focus": {
+        "type": "initial",
+        "value": "h",
+        "practice": "carrier"
+      }
+    },
+    {
+      "id": "initial-j",
+      "language": "zh-CN",
+      "level": 1,
+      "mode": "pronunciation",
+      "text": "鸡",
+      "groups": [
+        {
+          "start": 0,
+          "end": 1,
+          "syllables": [
+            {
+              "hanzi": "鸡",
+              "pinyin": "jī",
+              "pinyin_numbered": "ji1",
+              "initial": "j",
+              "final": "i",
+              "phones": [
+                "tɕ",
+                "i"
+              ],
+              "lexical_tone": 1,
+              "surface_tone": 1,
+              "surface_phones": [
+                "tɕ",
+                "i"
+              ],
+              "contour": "high_level",
+              "gestures": [
+                "alveolopalatal_affrication",
+                "higher_vowel",
+                "front_vowel_or_glide"
+              ],
+              "ipa": "tɕi",
+              "surface_pinyin_numbered": "ji1"
+            }
+          ]
+        }
+      ],
+      "word_spans": [
+        {
+          "text": "鸡",
+          "start": 0,
+          "end": 1
+        }
+      ],
+      "focus": {
+        "type": "initial",
+        "value": "j",
+        "practice": "carrier"
+      }
+    },
+    {
+      "id": "initial-q",
+      "language": "zh-CN",
+      "level": 1,
+      "mode": "pronunciation",
+      "text": "七",
+      "groups": [
+        {
+          "start": 0,
+          "end": 1,
+          "syllables": [
+            {
+              "hanzi": "七",
+              "pinyin": "qī",
+              "pinyin_numbered": "qi1",
+              "initial": "q",
+              "final": "i",
+              "phones": [
+                "tɕʰ",
+                "i"
+              ],
+              "lexical_tone": 1,
+              "surface_tone": 1,
+              "surface_phones": [
+                "tɕʰ",
+                "i"
+              ],
+              "contour": "high_level",
+              "gestures": [
+                "alveolopalatal_affrication",
+                "aspiration",
+                "higher_vowel",
+                "front_vowel_or_glide"
+              ],
+              "ipa": "tɕʰi",
+              "surface_pinyin_numbered": "qi1"
+            }
+          ]
+        }
+      ],
+      "word_spans": [
+        {
+          "text": "七",
+          "start": 0,
+          "end": 1
+        }
+      ],
+      "focus": {
+        "type": "initial",
+        "value": "q",
+        "practice": "carrier"
+      }
+    },
+    {
+      "id": "initial-x",
+      "language": "zh-CN",
+      "level": 1,
+      "mode": "pronunciation",
+      "text": "西",
+      "groups": [
+        {
+          "start": 0,
+          "end": 1,
+          "syllables": [
+            {
+              "hanzi": "西",
+              "pinyin": "xī",
+              "pinyin_numbered": "xi1",
+              "initial": "x",
+              "final": "i",
+              "phones": [
+                "ɕ",
+                "i"
+              ],
+              "lexical_tone": 1,
+              "surface_tone": 1,
+              "surface_phones": [
+                "ɕ",
+                "i"
+              ],
+              "contour": "high_level",
+              "gestures": [
+                "alveolopalatal_constriction",
+                "higher_vowel",
+                "front_vowel_or_glide"
+              ],
+              "ipa": "ɕi",
+              "surface_pinyin_numbered": "xi1"
+            }
+          ]
+        }
+      ],
+      "word_spans": [
+        {
+          "text": "西",
+          "start": 0,
+          "end": 1
+        }
+      ],
+      "focus": {
+        "type": "initial",
+        "value": "x",
+        "practice": "carrier"
+      }
+    },
+    {
+      "id": "initial-zh",
+      "language": "zh-CN",
+      "level": 1,
+      "mode": "pronunciation",
+      "text": "知",
+      "groups": [
+        {
+          "start": 0,
+          "end": 1,
+          "syllables": [
+            {
+              "hanzi": "知",
+              "pinyin": "zhī",
+              "pinyin_numbered": "zhi1",
+              "initial": "zh",
+              "final": "i",
+              "phones": [
+                "ʈʂ",
+                "ʐ̩"
+              ],
+              "lexical_tone": 1,
+              "surface_tone": 1,
+              "surface_phones": [
+                "ʈʂ",
+                "ʐ̩"
+              ],
+              "contour": "high_level",
+              "gestures": [
+                "retroflex_affrication"
+              ],
+              "ipa": "ʈʂʐ̩",
+              "surface_pinyin_numbered": "zhi1"
+            }
+          ]
+        }
+      ],
+      "word_spans": [
+        {
+          "text": "知",
+          "start": 0,
+          "end": 1
+        }
+      ],
+      "focus": {
+        "type": "initial",
+        "value": "zh",
+        "practice": "carrier"
+      }
+    },
+    {
+      "id": "initial-ch",
+      "language": "zh-CN",
+      "level": 1,
+      "mode": "pronunciation",
+      "text": "吃",
+      "groups": [
+        {
+          "start": 0,
+          "end": 1,
+          "syllables": [
+            {
+              "hanzi": "吃",
+              "pinyin": "chī",
+              "pinyin_numbered": "chi1",
+              "initial": "ch",
+              "final": "i",
+              "phones": [
+                "ʈʂʰ",
+                "ʐ̩"
+              ],
+              "lexical_tone": 1,
+              "surface_tone": 1,
+              "surface_phones": [
+                "ʈʂʰ",
+                "ʐ̩"
+              ],
+              "contour": "high_level",
+              "gestures": [
+                "retroflex_affrication",
+                "aspiration"
+              ],
+              "ipa": "ʈʂʰʐ̩",
+              "surface_pinyin_numbered": "chi1"
+            }
+          ]
+        }
+      ],
+      "word_spans": [
+        {
+          "text": "吃",
+          "start": 0,
+          "end": 1
+        }
+      ],
+      "focus": {
+        "type": "initial",
+        "value": "ch",
+        "practice": "carrier"
+      }
+    },
+    {
+      "id": "initial-sh",
+      "language": "zh-CN",
+      "level": 1,
+      "mode": "pronunciation",
+      "text": "诗",
+      "groups": [
+        {
+          "start": 0,
+          "end": 1,
+          "syllables": [
+            {
+              "hanzi": "诗",
+              "pinyin": "shī",
+              "pinyin_numbered": "shi1",
+              "initial": "sh",
+              "final": "i",
+              "phones": [
+                "ʂ",
+                "ʐ̩"
+              ],
+              "lexical_tone": 1,
+              "surface_tone": 1,
+              "surface_phones": [
+                "ʂ",
+                "ʐ̩"
+              ],
+              "contour": "high_level",
+              "gestures": [
+                "retroflex_constriction"
+              ],
+              "ipa": "ʂʐ̩",
+              "surface_pinyin_numbered": "shi1"
+            }
+          ]
+        }
+      ],
+      "word_spans": [
+        {
+          "text": "诗",
+          "start": 0,
+          "end": 1
+        }
+      ],
+      "focus": {
+        "type": "initial",
+        "value": "sh",
+        "practice": "carrier"
+      }
+    },
+    {
+      "id": "initial-r",
+      "language": "zh-CN",
+      "level": 1,
+      "mode": "pronunciation",
+      "text": "日",
+      "groups": [
+        {
+          "start": 0,
+          "end": 1,
+          "syllables": [
+            {
+              "hanzi": "日",
+              "pinyin": "rì",
+              "pinyin_numbered": "ri4",
+              "initial": "r",
+              "final": "i",
+              "phones": [
+                "ɻ",
+                "ʐ̩"
+              ],
+              "lexical_tone": 4,
+              "surface_tone": 4,
+              "surface_phones": [
+                "ɻ",
+                "ʐ̩"
+              ],
+              "contour": "falling",
+              "gestures": [
+                "retroflex_approximant"
+              ],
+              "ipa": "ɻʐ̩",
+              "surface_pinyin_numbered": "ri4"
+            }
+          ]
+        }
+      ],
+      "word_spans": [
+        {
+          "text": "日",
+          "start": 0,
+          "end": 1
+        }
+      ],
+      "focus": {
+        "type": "initial",
+        "value": "r",
+        "practice": "carrier"
+      }
+    },
+    {
+      "id": "initial-z",
+      "language": "zh-CN",
+      "level": 1,
+      "mode": "pronunciation",
+      "text": "资",
+      "groups": [
+        {
+          "start": 0,
+          "end": 1,
+          "syllables": [
+            {
+              "hanzi": "资",
+              "pinyin": "zī",
+              "pinyin_numbered": "zi1",
+              "initial": "z",
+              "final": "i",
+              "phones": [
+                "ts",
+                "z̩"
+              ],
+              "lexical_tone": 1,
+              "surface_tone": 1,
+              "surface_phones": [
+                "ts",
+                "z̩"
+              ],
+              "contour": "high_level",
+              "gestures": [
+                "alveolar_affrication"
+              ],
+              "ipa": "tsz̩",
+              "surface_pinyin_numbered": "zi1"
+            }
+          ]
+        }
+      ],
+      "word_spans": [
+        {
+          "text": "资",
+          "start": 0,
+          "end": 1
+        }
+      ],
+      "focus": {
+        "type": "initial",
+        "value": "z",
+        "practice": "carrier"
+      }
+    },
+    {
+      "id": "initial-c",
+      "language": "zh-CN",
+      "level": 1,
+      "mode": "pronunciation",
+      "text": "疵",
+      "groups": [
+        {
+          "start": 0,
+          "end": 1,
+          "syllables": [
+            {
+              "hanzi": "疵",
+              "pinyin": "cī",
+              "pinyin_numbered": "ci1",
+              "initial": "c",
+              "final": "i",
+              "phones": [
+                "tsʰ",
+                "z̩"
+              ],
+              "lexical_tone": 1,
+              "surface_tone": 1,
+              "surface_phones": [
+                "tsʰ",
+                "z̩"
+              ],
+              "contour": "high_level",
+              "gestures": [
+                "alveolar_affrication",
+                "aspiration"
+              ],
+              "ipa": "tsʰz̩",
+              "surface_pinyin_numbered": "ci1"
+            }
+          ]
+        }
+      ],
+      "word_spans": [
+        {
+          "text": "疵",
+          "start": 0,
+          "end": 1
+        }
+      ],
+      "focus": {
+        "type": "initial",
+        "value": "c",
+        "practice": "carrier"
+      }
+    },
+    {
+      "id": "initial-s",
+      "language": "zh-CN",
+      "level": 1,
+      "mode": "pronunciation",
+      "text": "思",
+      "groups": [
+        {
+          "start": 0,
+          "end": 1,
+          "syllables": [
+            {
+              "hanzi": "思",
+              "pinyin": "sī",
+              "pinyin_numbered": "si1",
+              "initial": "s",
+              "final": "i",
+              "phones": [
+                "s",
+                "z̩"
+              ],
+              "lexical_tone": 1,
+              "surface_tone": 1,
+              "surface_phones": [
+                "s",
+                "z̩"
+              ],
+              "contour": "high_level",
+              "gestures": [
+                "alveolar_constriction"
+              ],
+              "ipa": "sz̩",
+              "surface_pinyin_numbered": "si1"
+            }
+          ]
+        }
+      ],
+      "word_spans": [
+        {
+          "text": "思",
+          "start": 0,
+          "end": 1
+        }
+      ],
+      "focus": {
+        "type": "initial",
+        "value": "s",
+        "practice": "carrier"
+      }
+    },
+    {
+      "id": "vowel-a",
+      "language": "zh-CN",
+      "level": 1,
+      "mode": "pronunciation",
+      "text": "啊",
+      "groups": [
+        {
+          "start": 0,
+          "end": 1,
+          "syllables": [
+            {
+              "hanzi": "啊",
+              "pinyin": "ā",
+              "pinyin_numbered": "a1",
+              "initial": "",
+              "final": "a",
+              "phones": [
+                "a"
+              ],
+              "lexical_tone": 1,
+              "surface_tone": 1,
+              "surface_phones": [
+                "a"
+              ],
+              "contour": "high_level",
+              "gestures": [
+                "lower_vowel",
+                "front_vowel_or_glide"
+              ],
+              "ipa": "a",
+              "surface_pinyin_numbered": "a1"
+            }
+          ]
+        }
+      ],
+      "word_spans": [
+        {
+          "text": "啊",
+          "start": 0,
+          "end": 1
+        }
+      ],
+      "focus": {
+        "type": "final",
+        "value": "a",
+        "ipa": "a",
+        "practice": "sustain"
+      }
+    },
+    {
+      "id": "vowel-o",
+      "language": "zh-CN",
+      "level": 1,
+      "mode": "pronunciation",
+      "text": "喔",
+      "groups": [
+        {
+          "start": 0,
+          "end": 1,
+          "syllables": [
+            {
+              "hanzi": "喔",
+              "pinyin": "ō",
+              "pinyin_numbered": "o1",
+              "initial": "",
+              "final": "o",
+              "phones": [
+                "ɔ"
+              ],
+              "lexical_tone": 1,
+              "surface_tone": 1,
+              "surface_phones": [
+                "ɔ"
+              ],
+              "contour": "high_level",
+              "gestures": [
+                "lip_rounding",
+                "back_vowel_or_glide"
+              ],
+              "ipa": "ɔ",
+              "surface_pinyin_numbered": "o1"
+            }
+          ]
+        }
+      ],
+      "word_spans": [
+        {
+          "text": "喔",
+          "start": 0,
+          "end": 1
+        }
+      ],
+      "focus": {
+        "type": "final",
+        "value": "o",
+        "ipa": "ɔ",
+        "practice": "sustain"
+      }
+    },
+    {
+      "id": "vowel-e",
+      "language": "zh-CN",
+      "level": 1,
+      "mode": "pronunciation",
+      "text": "鹅",
+      "groups": [
+        {
+          "start": 0,
+          "end": 1,
+          "syllables": [
+            {
+              "hanzi": "鹅",
+              "pinyin": "é",
+              "pinyin_numbered": "e2",
+              "initial": "",
+              "final": "e",
+              "phones": [
+                "ɤ"
+              ],
+              "lexical_tone": 2,
+              "surface_tone": 2,
+              "surface_phones": [
+                "ɤ"
+              ],
+              "contour": "rising",
+              "gestures": [
+                "back_vowel_or_glide"
+              ],
+              "ipa": "ɤ",
+              "surface_pinyin_numbered": "e2"
+            }
+          ]
+        }
+      ],
+      "word_spans": [
+        {
+          "text": "鹅",
+          "start": 0,
+          "end": 1
+        }
+      ],
+      "focus": {
+        "type": "final",
+        "value": "e",
+        "ipa": "ɤ",
+        "practice": "sustain"
+      }
+    },
+    {
+      "id": "vowel-i",
+      "language": "zh-CN",
+      "level": 1,
+      "mode": "pronunciation",
+      "text": "衣",
+      "groups": [
+        {
+          "start": 0,
+          "end": 1,
+          "syllables": [
+            {
+              "hanzi": "衣",
+              "pinyin": "yī",
+              "pinyin_numbered": "yi1",
+              "initial": "",
+              "final": "i",
+              "phones": [
+                "i"
+              ],
+              "lexical_tone": 1,
+              "surface_tone": 1,
+              "surface_phones": [
+                "i"
+              ],
+              "contour": "high_level",
+              "gestures": [
+                "higher_vowel",
+                "front_vowel_or_glide"
+              ],
+              "ipa": "i",
+              "surface_pinyin_numbered": "yi1"
+            }
+          ]
+        }
+      ],
+      "word_spans": [
+        {
+          "text": "衣",
+          "start": 0,
+          "end": 1
+        }
+      ],
+      "focus": {
+        "type": "final",
+        "value": "i",
+        "ipa": "i",
+        "practice": "sustain"
+      }
+    },
+    {
+      "id": "vowel-u",
+      "language": "zh-CN",
+      "level": 1,
+      "mode": "pronunciation",
+      "text": "乌",
+      "groups": [
+        {
+          "start": 0,
+          "end": 1,
+          "syllables": [
+            {
+              "hanzi": "乌",
+              "pinyin": "wū",
+              "pinyin_numbered": "wu1",
+              "initial": "",
+              "final": "u",
+              "phones": [
+                "u"
+              ],
+              "lexical_tone": 1,
+              "surface_tone": 1,
+              "surface_phones": [
+                "u"
+              ],
+              "contour": "high_level",
+              "gestures": [
+                "lip_rounding",
+                "higher_vowel",
+                "back_vowel_or_glide"
+              ],
+              "ipa": "u",
+              "surface_pinyin_numbered": "wu1"
+            }
+          ]
+        }
+      ],
+      "word_spans": [
+        {
+          "text": "乌",
+          "start": 0,
+          "end": 1
+        }
+      ],
+      "focus": {
+        "type": "final",
+        "value": "u",
+        "ipa": "u",
+        "practice": "sustain"
+      }
+    },
+    {
+      "id": "vowel-ü",
+      "language": "zh-CN",
+      "level": 1,
+      "mode": "pronunciation",
+      "text": "迂",
+      "groups": [
+        {
+          "start": 0,
+          "end": 1,
+          "syllables": [
+            {
+              "hanzi": "迂",
+              "pinyin": "yū",
+              "pinyin_numbered": "yu1",
+              "initial": "",
+              "final": "ü",
+              "phones": [
+                "y"
+              ],
+              "lexical_tone": 1,
+              "surface_tone": 1,
+              "surface_phones": [
+                "y"
+              ],
+              "contour": "high_level",
+              "gestures": [
+                "lip_rounding",
+                "higher_vowel",
+                "front_vowel_or_glide"
+              ],
+              "ipa": "y",
+              "surface_pinyin_numbered": "yu1"
+            }
+          ]
+        }
+      ],
+      "word_spans": [
+        {
+          "text": "迂",
+          "start": 0,
+          "end": 1
+        }
+      ],
+      "focus": {
+        "type": "final",
+        "value": "ü",
+        "ipa": "y",
+        "practice": "sustain"
+      }
+    },
+    {
+      "id": "level-2-01",
+      "language": "zh-CN",
+      "level": 2,
+      "mode": "pronunciation",
+      "text": "八",
+      "groups": [
+        {
+          "start": 0,
+          "end": 1,
+          "syllables": [
+            {
+              "hanzi": "八",
+              "pinyin": "bā",
+              "pinyin_numbered": "ba1",
+              "initial": "b",
+              "final": "a",
+              "phones": [
+                "p",
+                "a"
+              ],
+              "lexical_tone": 1,
+              "surface_tone": 1,
+              "surface_phones": [
+                "p",
+                "a"
+              ],
+              "contour": "high_level",
+              "gestures": [
+                "bilabial_closure",
+                "lower_vowel",
+                "front_vowel_or_glide"
+              ],
+              "ipa": "pa",
+              "surface_pinyin_numbered": "ba1"
+            }
+          ]
+        }
+      ],
+      "word_spans": [
+        {
+          "text": "八",
+          "start": 0,
+          "end": 1
+        }
+      ],
+      "focus": null
+    },
+    {
+      "id": "level-2-02",
+      "language": "zh-CN",
+      "level": 2,
+      "mode": "pronunciation",
+      "text": "趴",
+      "groups": [
+        {
+          "start": 0,
+          "end": 1,
+          "syllables": [
+            {
+              "hanzi": "趴",
+              "pinyin": "pā",
+              "pinyin_numbered": "pa1",
+              "initial": "p",
+              "final": "a",
+              "phones": [
+                "pʰ",
+                "a"
+              ],
+              "lexical_tone": 1,
+              "surface_tone": 1,
+              "surface_phones": [
+                "pʰ",
+                "a"
+              ],
+              "contour": "high_level",
+              "gestures": [
+                "bilabial_closure",
+                "aspiration",
+                "lower_vowel",
+                "front_vowel_or_glide"
+              ],
+              "ipa": "pʰa",
+              "surface_pinyin_numbered": "pa1"
+            }
+          ]
+        }
+      ],
+      "word_spans": [
+        {
+          "text": "趴",
+          "start": 0,
+          "end": 1
+        }
+      ],
+      "focus": null
+    },
+    {
+      "id": "level-2-03",
+      "language": "zh-CN",
+      "level": 2,
+      "mode": "pronunciation",
+      "text": "妈",
+      "groups": [
+        {
+          "start": 0,
+          "end": 1,
+          "syllables": [
+            {
+              "hanzi": "妈",
+              "pinyin": "mā",
+              "pinyin_numbered": "ma1",
+              "initial": "m",
+              "final": "a",
+              "phones": [
+                "m",
+                "a"
+              ],
+              "lexical_tone": 1,
+              "surface_tone": 1,
+              "surface_phones": [
+                "m",
+                "a"
+              ],
+              "contour": "high_level",
+              "gestures": [
+                "bilabial_nasal",
+                "lower_vowel",
+                "front_vowel_or_glide"
+              ],
+              "ipa": "ma",
+              "surface_pinyin_numbered": "ma1"
+            }
+          ]
+        }
+      ],
+      "word_spans": [
+        {
+          "text": "妈",
+          "start": 0,
+          "end": 1
+        }
+      ],
+      "focus": null
+    },
+    {
+      "id": "level-2-04",
+      "language": "zh-CN",
+      "level": 2,
+      "mode": "pronunciation",
+      "text": "发",
+      "groups": [
+        {
+          "start": 0,
+          "end": 1,
+          "syllables": [
+            {
+              "hanzi": "发",
+              "pinyin": "fā",
+              "pinyin_numbered": "fa1",
+              "initial": "f",
+              "final": "a",
+              "phones": [
+                "f",
+                "a"
+              ],
+              "lexical_tone": 1,
+              "surface_tone": 1,
+              "surface_phones": [
+                "f",
+                "a"
+              ],
+              "contour": "high_level",
+              "gestures": [
+                "labiodental_constriction",
+                "lower_vowel",
+                "front_vowel_or_glide"
+              ],
+              "ipa": "fa",
+              "surface_pinyin_numbered": "fa1"
+            }
+          ]
+        }
+      ],
+      "word_spans": [
+        {
+          "text": "发",
+          "start": 0,
+          "end": 1
+        }
+      ],
+      "focus": null
+    },
+    {
+      "id": "level-2-05",
+      "language": "zh-CN",
+      "level": 2,
+      "mode": "pronunciation",
+      "text": "搭",
+      "groups": [
+        {
+          "start": 0,
+          "end": 1,
+          "syllables": [
+            {
+              "hanzi": "搭",
+              "pinyin": "dā",
+              "pinyin_numbered": "da1",
+              "initial": "d",
+              "final": "a",
+              "phones": [
+                "t",
+                "a"
+              ],
+              "lexical_tone": 1,
+              "surface_tone": 1,
+              "surface_phones": [
+                "t",
+                "a"
+              ],
+              "contour": "high_level",
+              "gestures": [
+                "alveolar_closure",
+                "lower_vowel",
+                "front_vowel_or_glide"
+              ],
+              "ipa": "ta",
+              "surface_pinyin_numbered": "da1"
+            }
+          ]
+        }
+      ],
+      "word_spans": [
+        {
+          "text": "搭",
+          "start": 0,
+          "end": 1
+        }
+      ],
+      "focus": null
+    },
+    {
+      "id": "level-2-06",
+      "language": "zh-CN",
+      "level": 2,
+      "mode": "pronunciation",
+      "text": "他",
+      "groups": [
+        {
+          "start": 0,
+          "end": 1,
+          "syllables": [
+            {
+              "hanzi": "他",
+              "pinyin": "tā",
+              "pinyin_numbered": "ta1",
+              "initial": "t",
+              "final": "a",
+              "phones": [
+                "tʰ",
+                "a"
+              ],
+              "lexical_tone": 1,
+              "surface_tone": 1,
+              "surface_phones": [
+                "tʰ",
+                "a"
+              ],
+              "contour": "high_level",
+              "gestures": [
+                "alveolar_closure",
+                "aspiration",
+                "lower_vowel",
+                "front_vowel_or_glide"
+              ],
+              "ipa": "tʰa",
+              "surface_pinyin_numbered": "ta1"
+            }
+          ]
+        }
+      ],
+      "word_spans": [
+        {
+          "text": "他",
+          "start": 0,
+          "end": 1
+        }
+      ],
+      "focus": null
+    },
+    {
+      "id": "level-2-07",
+      "language": "zh-CN",
+      "level": 2,
+      "mode": "pronunciation",
+      "text": "拿",
+      "groups": [
+        {
+          "start": 0,
+          "end": 1,
+          "syllables": [
+            {
+              "hanzi": "拿",
+              "pinyin": "ná",
+              "pinyin_numbered": "na2",
+              "initial": "n",
+              "final": "a",
+              "phones": [
+                "n",
+                "a"
+              ],
+              "lexical_tone": 2,
+              "surface_tone": 2,
+              "surface_phones": [
+                "n",
+                "a"
+              ],
+              "contour": "rising",
+              "gestures": [
+                "alveolar_nasal",
+                "lower_vowel",
+                "front_vowel_or_glide"
+              ],
+              "ipa": "na",
+              "surface_pinyin_numbered": "na2"
+            }
+          ]
+        }
+      ],
+      "word_spans": [
+        {
+          "text": "拿",
+          "start": 0,
+          "end": 1
+        }
+      ],
+      "focus": null
+    },
+    {
+      "id": "level-2-08",
+      "language": "zh-CN",
+      "level": 2,
+      "mode": "pronunciation",
+      "text": "拉",
+      "groups": [
+        {
+          "start": 0,
+          "end": 1,
+          "syllables": [
+            {
+              "hanzi": "拉",
+              "pinyin": "lā",
+              "pinyin_numbered": "la1",
+              "initial": "l",
+              "final": "a",
+              "phones": [
+                "l",
+                "a"
+              ],
+              "lexical_tone": 1,
+              "surface_tone": 1,
+              "surface_phones": [
+                "l",
+                "a"
+              ],
+              "contour": "high_level",
+              "gestures": [
+                "alveolar_lateral",
+                "lower_vowel",
+                "front_vowel_or_glide"
+              ],
+              "ipa": "la",
+              "surface_pinyin_numbered": "la1"
+            }
+          ]
+        }
+      ],
+      "word_spans": [
+        {
+          "text": "拉",
+          "start": 0,
+          "end": 1
+        }
+      ],
+      "focus": null
+    },
+    {
+      "id": "level-2-09",
+      "language": "zh-CN",
+      "level": 2,
+      "mode": "pronunciation",
+      "text": "鸡",
+      "groups": [
+        {
+          "start": 0,
+          "end": 1,
+          "syllables": [
+            {
+              "hanzi": "鸡",
+              "pinyin": "jī",
+              "pinyin_numbered": "ji1",
+              "initial": "j",
+              "final": "i",
+              "phones": [
+                "tɕ",
+                "i"
+              ],
+              "lexical_tone": 1,
+              "surface_tone": 1,
+              "surface_phones": [
+                "tɕ",
+                "i"
+              ],
+              "contour": "high_level",
+              "gestures": [
+                "alveolopalatal_affrication",
+                "higher_vowel",
+                "front_vowel_or_glide"
+              ],
+              "ipa": "tɕi",
+              "surface_pinyin_numbered": "ji1"
+            }
+          ]
+        }
+      ],
+      "word_spans": [
+        {
+          "text": "鸡",
+          "start": 0,
+          "end": 1
+        }
+      ],
+      "focus": null
+    },
+    {
+      "id": "level-2-10",
+      "language": "zh-CN",
+      "level": 2,
+      "mode": "pronunciation",
+      "text": "七",
+      "groups": [
+        {
+          "start": 0,
+          "end": 1,
+          "syllables": [
+            {
+              "hanzi": "七",
+              "pinyin": "qī",
+              "pinyin_numbered": "qi1",
+              "initial": "q",
+              "final": "i",
+              "phones": [
+                "tɕʰ",
+                "i"
+              ],
+              "lexical_tone": 1,
+              "surface_tone": 1,
+              "surface_phones": [
+                "tɕʰ",
+                "i"
+              ],
+              "contour": "high_level",
+              "gestures": [
+                "alveolopalatal_affrication",
+                "aspiration",
+                "higher_vowel",
+                "front_vowel_or_glide"
+              ],
+              "ipa": "tɕʰi",
+              "surface_pinyin_numbered": "qi1"
+            }
+          ]
+        }
+      ],
+      "word_spans": [
+        {
+          "text": "七",
+          "start": 0,
+          "end": 1
+        }
+      ],
+      "focus": null
+    },
+    {
+      "id": "level-2-11",
+      "language": "zh-CN",
+      "level": 2,
+      "mode": "pronunciation",
+      "text": "西",
+      "groups": [
+        {
+          "start": 0,
+          "end": 1,
+          "syllables": [
+            {
+              "hanzi": "西",
+              "pinyin": "xī",
+              "pinyin_numbered": "xi1",
+              "initial": "x",
+              "final": "i",
+              "phones": [
+                "ɕ",
+                "i"
+              ],
+              "lexical_tone": 1,
+              "surface_tone": 1,
+              "surface_phones": [
+                "ɕ",
+                "i"
+              ],
+              "contour": "high_level",
+              "gestures": [
+                "alveolopalatal_constriction",
+                "higher_vowel",
+                "front_vowel_or_glide"
+              ],
+              "ipa": "ɕi",
+              "surface_pinyin_numbered": "xi1"
+            }
+          ]
+        }
+      ],
+      "word_spans": [
+        {
+          "text": "西",
+          "start": 0,
+          "end": 1
+        }
+      ],
+      "focus": null
+    },
+    {
+      "id": "level-2-12",
+      "language": "zh-CN",
+      "level": 2,
+      "mode": "pronunciation",
+      "text": "知",
+      "groups": [
+        {
+          "start": 0,
+          "end": 1,
+          "syllables": [
+            {
+              "hanzi": "知",
+              "pinyin": "zhī",
+              "pinyin_numbered": "zhi1",
+              "initial": "zh",
+              "final": "i",
+              "phones": [
+                "ʈʂ",
+                "ʐ̩"
+              ],
+              "lexical_tone": 1,
+              "surface_tone": 1,
+              "surface_phones": [
+                "ʈʂ",
+                "ʐ̩"
+              ],
+              "contour": "high_level",
+              "gestures": [
+                "retroflex_affrication"
+              ],
+              "ipa": "ʈʂʐ̩",
+              "surface_pinyin_numbered": "zhi1"
+            }
+          ]
+        }
+      ],
+      "word_spans": [
+        {
+          "text": "知",
+          "start": 0,
+          "end": 1
+        }
+      ],
+      "focus": null
+    },
+    {
+      "id": "level-2-13",
+      "language": "zh-CN",
+      "level": 2,
+      "mode": "pronunciation",
+      "text": "吃",
+      "groups": [
+        {
+          "start": 0,
+          "end": 1,
+          "syllables": [
+            {
+              "hanzi": "吃",
+              "pinyin": "chī",
+              "pinyin_numbered": "chi1",
+              "initial": "ch",
+              "final": "i",
+              "phones": [
+                "ʈʂʰ",
+                "ʐ̩"
+              ],
+              "lexical_tone": 1,
+              "surface_tone": 1,
+              "surface_phones": [
+                "ʈʂʰ",
+                "ʐ̩"
+              ],
+              "contour": "high_level",
+              "gestures": [
+                "retroflex_affrication",
+                "aspiration"
+              ],
+              "ipa": "ʈʂʰʐ̩",
+              "surface_pinyin_numbered": "chi1"
+            }
+          ]
+        }
+      ],
+      "word_spans": [
+        {
+          "text": "吃",
+          "start": 0,
+          "end": 1
+        }
+      ],
+      "focus": null
+    },
+    {
+      "id": "level-2-14",
+      "language": "zh-CN",
+      "level": 2,
+      "mode": "pronunciation",
+      "text": "诗",
+      "groups": [
+        {
+          "start": 0,
+          "end": 1,
+          "syllables": [
+            {
+              "hanzi": "诗",
+              "pinyin": "shī",
+              "pinyin_numbered": "shi1",
+              "initial": "sh",
+              "final": "i",
+              "phones": [
+                "ʂ",
+                "ʐ̩"
+              ],
+              "lexical_tone": 1,
+              "surface_tone": 1,
+              "surface_phones": [
+                "ʂ",
+                "ʐ̩"
+              ],
+              "contour": "high_level",
+              "gestures": [
+                "retroflex_constriction"
+              ],
+              "ipa": "ʂʐ̩",
+              "surface_pinyin_numbered": "shi1"
+            }
+          ]
+        }
+      ],
+      "word_spans": [
+        {
+          "text": "诗",
+          "start": 0,
+          "end": 1
+        }
+      ],
+      "focus": null
+    },
+    {
+      "id": "level-2-15",
+      "language": "zh-CN",
+      "level": 2,
+      "mode": "pronunciation",
+      "text": "资",
+      "groups": [
+        {
+          "start": 0,
+          "end": 1,
+          "syllables": [
+            {
+              "hanzi": "资",
+              "pinyin": "zī",
+              "pinyin_numbered": "zi1",
+              "initial": "z",
+              "final": "i",
+              "phones": [
+                "ts",
+                "z̩"
+              ],
+              "lexical_tone": 1,
+              "surface_tone": 1,
+              "surface_phones": [
+                "ts",
+                "z̩"
+              ],
+              "contour": "high_level",
+              "gestures": [
+                "alveolar_affrication"
+              ],
+              "ipa": "tsz̩",
+              "surface_pinyin_numbered": "zi1"
+            }
+          ]
+        }
+      ],
+      "word_spans": [
+        {
+          "text": "资",
+          "start": 0,
+          "end": 1
+        }
+      ],
+      "focus": null
+    },
+    {
+      "id": "level-2-16",
+      "language": "zh-CN",
+      "level": 2,
+      "mode": "pronunciation",
+      "text": "疵",
+      "groups": [
+        {
+          "start": 0,
+          "end": 1,
+          "syllables": [
+            {
+              "hanzi": "疵",
+              "pinyin": "cī",
+              "pinyin_numbered": "ci1",
+              "initial": "c",
+              "final": "i",
+              "phones": [
+                "tsʰ",
+                "z̩"
+              ],
+              "lexical_tone": 1,
+              "surface_tone": 1,
+              "surface_phones": [
+                "tsʰ",
+                "z̩"
+              ],
+              "contour": "high_level",
+              "gestures": [
+                "alveolar_affrication",
+                "aspiration"
+              ],
+              "ipa": "tsʰz̩",
+              "surface_pinyin_numbered": "ci1"
+            }
+          ]
+        }
+      ],
+      "word_spans": [
+        {
+          "text": "疵",
+          "start": 0,
+          "end": 1
+        }
+      ],
+      "focus": null
+    },
+    {
+      "id": "level-2-17",
+      "language": "zh-CN",
+      "level": 2,
+      "mode": "pronunciation",
+      "text": "思",
+      "groups": [
+        {
+          "start": 0,
+          "end": 1,
+          "syllables": [
+            {
+              "hanzi": "思",
+              "pinyin": "sī",
+              "pinyin_numbered": "si1",
+              "initial": "s",
+              "final": "i",
+              "phones": [
+                "s",
+                "z̩"
+              ],
+              "lexical_tone": 1,
+              "surface_tone": 1,
+              "surface_phones": [
+                "s",
+                "z̩"
+              ],
+              "contour": "high_level",
+              "gestures": [
+                "alveolar_constriction"
+              ],
+              "ipa": "sz̩",
+              "surface_pinyin_numbered": "si1"
+            }
+          ]
+        }
+      ],
+      "word_spans": [
+        {
+          "text": "思",
+          "start": 0,
+          "end": 1
+        }
+      ],
+      "focus": null
+    },
+    {
+      "id": "level-2-18",
+      "language": "zh-CN",
+      "level": 2,
+      "mode": "pronunciation",
+      "text": "哀",
+      "groups": [
+        {
+          "start": 0,
+          "end": 1,
+          "syllables": [
+            {
+              "hanzi": "哀",
+              "pinyin": "āi",
+              "pinyin_numbered": "ai1",
+              "initial": "",
+              "final": "ai",
+              "phones": [
+                "a",
+                "ɪ̯"
+              ],
+              "lexical_tone": 1,
+              "surface_tone": 1,
+              "surface_phones": [
+                "a",
+                "ɪ̯"
+              ],
+              "contour": "high_level",
+              "gestures": [
+                "lower_vowel",
+                "front_vowel_or_glide",
+                "rhyme_transition"
+              ],
+              "ipa": "aɪ̯",
+              "surface_pinyin_numbered": "ai1"
+            }
+          ]
+        }
+      ],
+      "word_spans": [
+        {
+          "text": "哀",
+          "start": 0,
+          "end": 1
+        }
+      ],
+      "focus": null
+    },
+    {
+      "id": "level-2-19",
+      "language": "zh-CN",
+      "level": 2,
+      "mode": "pronunciation",
+      "text": "诶",
+      "groups": [
+        {
+          "start": 0,
+          "end": 1,
+          "syllables": [
+            {
+              "hanzi": "诶",
+              "pinyin": "ēi",
+              "pinyin_numbered": "ei1",
+              "initial": "",
+              "final": "ei",
+              "phones": [
+                "e",
+                "ɪ̯"
+              ],
+              "lexical_tone": 1,
+              "surface_tone": 1,
+              "surface_phones": [
+                "e",
+                "ɪ̯"
+              ],
+              "contour": "high_level",
+              "gestures": [
+                "front_vowel_or_glide",
+                "rhyme_transition"
+              ],
+              "ipa": "eɪ̯",
+              "surface_pinyin_numbered": "ei1"
+            }
+          ]
+        }
+      ],
+      "word_spans": [
+        {
+          "text": "诶",
+          "start": 0,
+          "end": 1
+        }
+      ],
+      "focus": null
+    },
+    {
+      "id": "level-2-20",
+      "language": "zh-CN",
+      "level": 2,
+      "mode": "pronunciation",
+      "text": "凹",
+      "groups": [
+        {
+          "start": 0,
+          "end": 1,
+          "syllables": [
+            {
+              "hanzi": "凹",
+              "pinyin": "āo",
+              "pinyin_numbered": "ao1",
+              "initial": "",
+              "final": "ao",
+              "phones": [
+                "a",
+                "ʊ̯"
+              ],
+              "lexical_tone": 1,
+              "surface_tone": 1,
+              "surface_phones": [
+                "a",
+                "ʊ̯"
+              ],
+              "contour": "high_level",
+              "gestures": [
+                "lip_rounding",
+                "lower_vowel",
+                "front_vowel_or_glide",
+                "back_vowel_or_glide",
+                "rhyme_transition"
+              ],
+              "ipa": "aʊ̯",
+              "surface_pinyin_numbered": "ao1"
+            }
+          ]
+        }
+      ],
+      "word_spans": [
+        {
+          "text": "凹",
+          "start": 0,
+          "end": 1
+        }
+      ],
+      "focus": null
+    },
+    {
+      "id": "level-2-21",
+      "language": "zh-CN",
+      "level": 2,
+      "mode": "pronunciation",
+      "text": "欧",
+      "groups": [
+        {
+          "start": 0,
+          "end": 1,
+          "syllables": [
+            {
+              "hanzi": "欧",
+              "pinyin": "ōu",
+              "pinyin_numbered": "ou1",
+              "initial": "",
+              "final": "ou",
+              "phones": [
+                "ə",
+                "ʊ̯"
+              ],
+              "lexical_tone": 1,
+              "surface_tone": 1,
+              "surface_phones": [
+                "ə",
+                "ʊ̯"
+              ],
+              "contour": "high_level",
+              "gestures": [
+                "lip_rounding",
+                "back_vowel_or_glide",
+                "rhyme_transition"
+              ],
+              "ipa": "əʊ̯",
+              "surface_pinyin_numbered": "ou1"
+            }
+          ]
+        }
+      ],
+      "word_spans": [
+        {
+          "text": "欧",
+          "start": 0,
+          "end": 1
+        }
+      ],
+      "focus": null
+    },
+    {
+      "id": "level-2-22",
+      "language": "zh-CN",
+      "level": 2,
+      "mode": "pronunciation",
+      "text": "安",
+      "groups": [
+        {
+          "start": 0,
+          "end": 1,
+          "syllables": [
+            {
+              "hanzi": "安",
+              "pinyin": "ān",
+              "pinyin_numbered": "an1",
+              "initial": "",
+              "final": "an",
+              "phones": [
+                "a",
+                "n"
+              ],
+              "lexical_tone": 1,
+              "surface_tone": 1,
+              "surface_phones": [
+                "a",
+                "n"
+              ],
+              "contour": "high_level",
+              "gestures": [
+                "lower_vowel",
+                "front_vowel_or_glide",
+                "alveolar_nasal_coda",
+                "rhyme_transition"
+              ],
+              "ipa": "an",
+              "surface_pinyin_numbered": "an1"
+            }
+          ]
+        }
+      ],
+      "word_spans": [
+        {
+          "text": "安",
+          "start": 0,
+          "end": 1
+        }
+      ],
+      "focus": null
+    },
+    {
+      "id": "level-2-23",
+      "language": "zh-CN",
+      "level": 2,
+      "mode": "pronunciation",
+      "text": "恩",
+      "groups": [
+        {
+          "start": 0,
+          "end": 1,
+          "syllables": [
+            {
+              "hanzi": "恩",
+              "pinyin": "ēn",
+              "pinyin_numbered": "en1",
+              "initial": "",
+              "final": "en",
+              "phones": [
+                "ə",
+                "n"
+              ],
+              "lexical_tone": 1,
+              "surface_tone": 1,
+              "surface_phones": [
+                "ə",
+                "n"
+              ],
+              "contour": "high_level",
+              "gestures": [
+                "alveolar_nasal_coda",
+                "rhyme_transition"
+              ],
+              "ipa": "ən",
+              "surface_pinyin_numbered": "en1"
+            }
+          ]
+        }
+      ],
+      "word_spans": [
+        {
+          "text": "恩",
+          "start": 0,
+          "end": 1
+        }
+      ],
+      "focus": null
+    },
+    {
+      "id": "level-2-24",
+      "language": "zh-CN",
+      "level": 2,
+      "mode": "pronunciation",
+      "text": "昂",
+      "groups": [
+        {
+          "start": 0,
+          "end": 1,
+          "syllables": [
+            {
+              "hanzi": "昂",
+              "pinyin": "áng",
+              "pinyin_numbered": "ang2",
+              "initial": "",
+              "final": "ang",
+              "phones": [
+                "ɑ",
+                "ŋ"
+              ],
+              "lexical_tone": 2,
+              "surface_tone": 2,
+              "surface_phones": [
+                "ɑ",
+                "ŋ"
+              ],
+              "contour": "rising",
+              "gestures": [
+                "lower_vowel",
+                "back_vowel_or_glide",
+                "velar_nasal_coda",
+                "rhyme_transition"
+              ],
+              "ipa": "ɑŋ",
+              "surface_pinyin_numbered": "ang2"
+            }
+          ]
+        }
+      ],
+      "word_spans": [
+        {
+          "text": "昂",
+          "start": 0,
+          "end": 1
+        }
+      ],
+      "focus": null
+    },
+    {
+      "id": "level-2-25",
+      "language": "zh-CN",
+      "level": 2,
+      "mode": "pronunciation",
+      "text": "亨",
+      "groups": [
+        {
+          "start": 0,
+          "end": 1,
+          "syllables": [
+            {
+              "hanzi": "亨",
+              "pinyin": "hēng",
+              "pinyin_numbered": "heng1",
+              "initial": "h",
+              "final": "eng",
+              "phones": [
+                "x",
+                "ɤ",
+                "ŋ"
+              ],
+              "lexical_tone": 1,
+              "surface_tone": 1,
+              "surface_phones": [
+                "x",
+                "ɤ",
+                "ŋ"
+              ],
+              "contour": "high_level",
+              "gestures": [
+                "velar_constriction",
+                "back_vowel_or_glide",
+                "velar_nasal_coda",
+                "rhyme_transition"
+              ],
+              "ipa": "xɤŋ",
+              "surface_pinyin_numbered": "heng1"
+            }
+          ]
+        }
+      ],
+      "word_spans": [
+        {
+          "text": "亨",
+          "start": 0,
+          "end": 1
+        }
+      ],
+      "focus": null
+    },
+    {
+      "id": "level-2-26",
+      "language": "zh-CN",
+      "level": 2,
+      "mode": "pronunciation",
+      "text": "东",
+      "groups": [
+        {
+          "start": 0,
+          "end": 1,
+          "syllables": [
+            {
+              "hanzi": "东",
+              "pinyin": "dōng",
+              "pinyin_numbered": "dong1",
+              "initial": "d",
+              "final": "ong",
+              "phones": [
+                "t",
+                "ʊ",
+                "ŋ"
+              ],
+              "lexical_tone": 1,
+              "surface_tone": 1,
+              "surface_phones": [
+                "t",
+                "ʊ",
+                "ŋ"
+              ],
+              "contour": "high_level",
+              "gestures": [
+                "alveolar_closure",
+                "lip_rounding",
+                "back_vowel_or_glide",
+                "velar_nasal_coda",
+                "rhyme_transition"
+              ],
+              "ipa": "tʊŋ",
+              "surface_pinyin_numbered": "dong1"
+            }
+          ]
+        }
+      ],
+      "word_spans": [
+        {
+          "text": "东",
+          "start": 0,
+          "end": 1
+        }
+      ],
+      "focus": null
+    },
+    {
+      "id": "level-2-27",
+      "language": "zh-CN",
+      "level": 2,
+      "mode": "pronunciation",
+      "text": "腰",
+      "groups": [
+        {
+          "start": 0,
+          "end": 1,
+          "syllables": [
+            {
+              "hanzi": "腰",
+              "pinyin": "yāo",
+              "pinyin_numbered": "yao1",
+              "initial": "",
+              "final": "iao",
+              "phones": [
+                "j",
+                "a",
+                "ʊ̯"
+              ],
+              "lexical_tone": 1,
+              "surface_tone": 1,
+              "surface_phones": [
+                "j",
+                "a",
+                "ʊ̯"
+              ],
+              "contour": "high_level",
+              "gestures": [
+                "lip_rounding",
+                "lower_vowel",
+                "front_vowel_or_glide",
+                "back_vowel_or_glide",
+                "rhyme_transition"
+              ],
+              "ipa": "jaʊ̯",
+              "surface_pinyin_numbered": "yao1"
+            }
+          ]
+        }
+      ],
+      "word_spans": [
+        {
+          "text": "腰",
+          "start": 0,
+          "end": 1
+        }
+      ],
+      "focus": null
+    },
+    {
+      "id": "level-2-28",
+      "language": "zh-CN",
+      "level": 2,
+      "mode": "pronunciation",
+      "text": "优",
+      "groups": [
+        {
+          "start": 0,
+          "end": 1,
+          "syllables": [
+            {
+              "hanzi": "优",
+              "pinyin": "yōu",
+              "pinyin_numbered": "you1",
+              "initial": "",
+              "final": "iou",
+              "phones": [
+                "j",
+                "ə",
+                "ʊ̯"
+              ],
+              "lexical_tone": 1,
+              "surface_tone": 1,
+              "surface_phones": [
+                "j",
+                "ə",
+                "ʊ̯"
+              ],
+              "contour": "high_level",
+              "gestures": [
+                "lip_rounding",
+                "front_vowel_or_glide",
+                "back_vowel_or_glide",
+                "rhyme_transition"
+              ],
+              "ipa": "jəʊ̯",
+              "surface_pinyin_numbered": "you1"
+            }
+          ]
+        }
+      ],
+      "word_spans": [
+        {
+          "text": "优",
+          "start": 0,
+          "end": 1
+        }
+      ],
+      "focus": null
+    },
+    {
+      "id": "level-2-29",
+      "language": "zh-CN",
+      "level": 2,
+      "mode": "pronunciation",
+      "text": "歪",
+      "groups": [
+        {
+          "start": 0,
+          "end": 1,
+          "syllables": [
+            {
+              "hanzi": "歪",
+              "pinyin": "wāi",
+              "pinyin_numbered": "wai1",
+              "initial": "",
+              "final": "uai",
+              "phones": [
+                "w",
+                "a",
+                "ɪ̯"
+              ],
+              "lexical_tone": 1,
+              "surface_tone": 1,
+              "surface_phones": [
+                "w",
+                "a",
+                "ɪ̯"
+              ],
+              "contour": "high_level",
+              "gestures": [
+                "lip_rounding",
+                "lower_vowel",
+                "front_vowel_or_glide",
+                "back_vowel_or_glide",
+                "rhyme_transition"
+              ],
+              "ipa": "waɪ̯",
+              "surface_pinyin_numbered": "wai1"
+            }
+          ]
+        }
+      ],
+      "word_spans": [
+        {
+          "text": "歪",
+          "start": 0,
+          "end": 1
+        }
+      ],
+      "focus": null
+    },
+    {
+      "id": "level-2-30",
+      "language": "zh-CN",
+      "level": 2,
+      "mode": "pronunciation",
+      "text": "威",
+      "groups": [
+        {
+          "start": 0,
+          "end": 1,
+          "syllables": [
+            {
+              "hanzi": "威",
+              "pinyin": "wēi",
+              "pinyin_numbered": "wei1",
+              "initial": "",
+              "final": "uei",
+              "phones": [
+                "w",
+                "e",
+                "ɪ̯"
+              ],
+              "lexical_tone": 1,
+              "surface_tone": 1,
+              "surface_phones": [
+                "w",
+                "e",
+                "ɪ̯"
+              ],
+              "contour": "high_level",
+              "gestures": [
+                "lip_rounding",
+                "front_vowel_or_glide",
+                "back_vowel_or_glide",
+                "rhyme_transition"
+              ],
+              "ipa": "weɪ̯",
+              "surface_pinyin_numbered": "wei1"
+            }
+          ]
+        }
+      ],
+      "word_spans": [
+        {
+          "text": "威",
+          "start": 0,
+          "end": 1
+        }
+      ],
+      "focus": null
+    },
+    {
+      "id": "level-2-31",
+      "language": "zh-CN",
+      "level": 2,
+      "mode": "pronunciation",
+      "text": "六",
+      "groups": [
+        {
+          "start": 0,
+          "end": 1,
+          "syllables": [
+            {
+              "hanzi": "六",
+              "pinyin": "liù",
+              "pinyin_numbered": "liu4",
+              "initial": "l",
+              "final": "iou",
+              "phones": [
+                "l",
+                "j",
+                "ə",
+                "ʊ̯"
+              ],
+              "lexical_tone": 4,
+              "surface_tone": 4,
+              "surface_phones": [
+                "l",
+                "j",
+                "ə",
+                "ʊ̯"
+              ],
+              "contour": "falling",
+              "gestures": [
+                "alveolar_lateral",
+                "lip_rounding",
+                "front_vowel_or_glide",
+                "back_vowel_or_glide",
+                "rhyme_transition"
+              ],
+              "ipa": "ljəʊ̯",
+              "surface_pinyin_numbered": "liu4"
+            }
+          ]
+        }
+      ],
+      "word_spans": [
+        {
+          "text": "六",
+          "start": 0,
+          "end": 1
+        }
+      ],
+      "focus": null
+    },
+    {
+      "id": "level-2-32",
+      "language": "zh-CN",
+      "level": 2,
+      "mode": "pronunciation",
+      "text": "贵",
+      "groups": [
+        {
+          "start": 0,
+          "end": 1,
+          "syllables": [
+            {
+              "hanzi": "贵",
+              "pinyin": "guì",
+              "pinyin_numbered": "gui4",
+              "initial": "g",
+              "final": "uei",
+              "phones": [
+                "k",
+                "w",
+                "e",
+                "ɪ̯"
+              ],
+              "lexical_tone": 4,
+              "surface_tone": 4,
+              "surface_phones": [
+                "k",
+                "w",
+                "e",
+                "ɪ̯"
+              ],
+              "contour": "falling",
+              "gestures": [
+                "velar_closure",
+                "lip_rounding",
+                "front_vowel_or_glide",
+                "back_vowel_or_glide",
+                "rhyme_transition"
+              ],
+              "ipa": "kweɪ̯",
+              "surface_pinyin_numbered": "gui4"
+            }
+          ]
+        }
+      ],
+      "word_spans": [
+        {
+          "text": "贵",
+          "start": 0,
+          "end": 1
+        }
+      ],
+      "focus": null
+    },
+    {
+      "id": "level-2-33",
+      "language": "zh-CN",
+      "level": 2,
+      "mode": "pronunciation",
+      "text": "论",
+      "groups": [
+        {
+          "start": 0,
+          "end": 1,
+          "syllables": [
+            {
+              "hanzi": "论",
+              "pinyin": "lùn",
+              "pinyin_numbered": "lun4",
+              "initial": "l",
+              "final": "uen",
+              "phones": [
+                "l",
+                "w",
+                "ə",
+                "n"
+              ],
+              "lexical_tone": 4,
+              "surface_tone": 4,
+              "surface_phones": [
+                "l",
+                "w",
+                "ə",
+                "n"
+              ],
+              "contour": "falling",
+              "gestures": [
+                "alveolar_lateral",
+                "lip_rounding",
+                "back_vowel_or_glide",
+                "alveolar_nasal_coda",
+                "rhyme_transition"
+              ],
+              "ipa": "lwən",
+              "surface_pinyin_numbered": "lun4"
+            }
+          ]
+        }
+      ],
+      "word_spans": [
+        {
+          "text": "论",
+          "start": 0,
+          "end": 1
+        }
+      ],
+      "focus": null
+    },
+    {
+      "id": "level-2-34",
+      "language": "zh-CN",
+      "level": 2,
+      "mode": "pronunciation",
+      "text": "居",
+      "groups": [
+        {
+          "start": 0,
+          "end": 1,
+          "syllables": [
+            {
+              "hanzi": "居",
+              "pinyin": "jū",
+              "pinyin_numbered": "ju1",
+              "initial": "j",
+              "final": "ü",
+              "phones": [
+                "tɕ",
+                "y"
+              ],
+              "lexical_tone": 1,
+              "surface_tone": 1,
+              "surface_phones": [
+                "tɕ",
+                "y"
+              ],
+              "contour": "high_level",
+              "gestures": [
+                "alveolopalatal_affrication",
+                "lip_rounding",
+                "higher_vowel",
+                "front_vowel_or_glide"
+              ],
+              "ipa": "tɕy",
+              "surface_pinyin_numbered": "ju1"
+            }
+          ]
+        }
+      ],
+      "word_spans": [
+        {
+          "text": "居",
+          "start": 0,
+          "end": 1
+        }
+      ],
+      "focus": null
+    },
+    {
+      "id": "level-2-35",
+      "language": "zh-CN",
+      "level": 2,
+      "mode": "pronunciation",
+      "text": "女",
+      "groups": [
+        {
+          "start": 0,
+          "end": 1,
+          "syllables": [
+            {
+              "hanzi": "女",
+              "pinyin": "nǚ",
+              "pinyin_numbered": "nü3",
+              "initial": "n",
+              "final": "ü",
+              "phones": [
+                "n",
+                "y"
+              ],
+              "lexical_tone": 3,
+              "surface_tone": 3,
+              "surface_phones": [
+                "n",
+                "y"
+              ],
+              "contour": "full_third",
+              "gestures": [
+                "alveolar_nasal",
+                "lip_rounding",
+                "higher_vowel",
+                "front_vowel_or_glide"
+              ],
+              "ipa": "ny",
+              "surface_pinyin_numbered": "nü3"
+            }
+          ]
+        }
+      ],
+      "word_spans": [
+        {
+          "text": "女",
+          "start": 0,
+          "end": 1
+        }
+      ],
+      "focus": null
+    },
+    {
+      "id": "level-2-36",
+      "language": "zh-CN",
+      "level": 2,
+      "mode": "pronunciation",
+      "text": "乌",
+      "groups": [
+        {
+          "start": 0,
+          "end": 1,
+          "syllables": [
+            {
+              "hanzi": "乌",
+              "pinyin": "wū",
+              "pinyin_numbered": "wu1",
+              "initial": "",
+              "final": "u",
+              "phones": [
+                "u"
+              ],
+              "lexical_tone": 1,
+              "surface_tone": 1,
+              "surface_phones": [
+                "u"
+              ],
+              "contour": "high_level",
+              "gestures": [
+                "lip_rounding",
+                "higher_vowel",
+                "back_vowel_or_glide"
+              ],
+              "ipa": "u",
+              "surface_pinyin_numbered": "wu1"
+            }
+          ]
+        }
+      ],
+      "word_spans": [
+        {
+          "text": "乌",
+          "start": 0,
+          "end": 1
+        }
+      ],
+      "focus": null
+    },
+    {
+      "id": "level-2-37",
+      "language": "zh-CN",
+      "level": 2,
+      "mode": "pronunciation",
+      "text": "妈妈",
+      "groups": [
+        {
+          "start": 0,
+          "end": 2,
+          "syllables": [
+            {
+              "hanzi": "妈",
+              "pinyin": "mā",
+              "pinyin_numbered": "ma1",
+              "initial": "m",
+              "final": "a",
+              "phones": [
+                "m",
+                "a"
+              ],
+              "lexical_tone": 1,
+              "surface_tone": 1,
+              "surface_phones": [
+                "m",
+                "a"
+              ],
+              "contour": "high_level",
+              "gestures": [
+                "bilabial_nasal",
+                "lower_vowel",
+                "front_vowel_or_glide"
+              ],
+              "ipa": "ma",
+              "surface_pinyin_numbered": "ma1"
+            },
+            {
+              "hanzi": "妈",
+              "pinyin": "ma",
+              "pinyin_numbered": "ma5",
+              "initial": "m",
+              "final": "a",
+              "phones": [
+                "m",
+                "a"
+              ],
+              "lexical_tone": 5,
+              "surface_tone": 5,
+              "surface_phones": [
+                "m",
+                "a"
+              ],
+              "contour": "neutral",
+              "gestures": [
+                "bilabial_nasal",
+                "lower_vowel",
+                "front_vowel_or_glide"
+              ],
+              "ipa": "ma",
+              "surface_pinyin_numbered": "ma5"
+            }
+          ]
+        }
+      ],
+      "word_spans": [
+        {
+          "text": "妈妈",
+          "start": 0,
+          "end": 2
+        }
+      ],
+      "focus": null
+    },
+    {
+      "id": "level-2-38",
+      "language": "zh-CN",
+      "level": 2,
+      "mode": "pronunciation",
+      "text": "拉拉",
+      "groups": [
+        {
+          "start": 0,
+          "end": 2,
+          "syllables": [
+            {
+              "hanzi": "拉",
+              "pinyin": "lā",
+              "pinyin_numbered": "la1",
+              "initial": "l",
+              "final": "a",
+              "phones": [
+                "l",
+                "a"
+              ],
+              "lexical_tone": 1,
+              "surface_tone": 1,
+              "surface_phones": [
+                "l",
+                "a"
+              ],
+              "contour": "high_level",
+              "gestures": [
+                "alveolar_lateral",
+                "lower_vowel",
+                "front_vowel_or_glide"
+              ],
+              "ipa": "la",
+              "surface_pinyin_numbered": "la1"
+            },
+            {
+              "hanzi": "拉",
+              "pinyin": "lā",
+              "pinyin_numbered": "la1",
+              "initial": "l",
+              "final": "a",
+              "phones": [
+                "l",
+                "a"
+              ],
+              "lexical_tone": 1,
+              "surface_tone": 1,
+              "surface_phones": [
+                "l",
+                "a"
+              ],
+              "contour": "high_level",
+              "gestures": [
+                "alveolar_lateral",
+                "lower_vowel",
+                "front_vowel_or_glide"
+              ],
+              "ipa": "la",
+              "surface_pinyin_numbered": "la1"
+            }
+          ]
+        }
+      ],
+      "word_spans": [
+        {
+          "text": "拉拉",
+          "start": 0,
+          "end": 2
+        }
+      ],
+      "focus": null
+    },
+    {
+      "id": "level-3-01",
+      "language": "zh-CN",
+      "level": 3,
+      "mode": "pronunciation",
+      "text": "马",
+      "groups": [
+        {
+          "start": 0,
+          "end": 1,
+          "syllables": [
+            {
+              "hanzi": "马",
+              "pinyin": "mǎ",
+              "pinyin_numbered": "ma3",
+              "initial": "m",
+              "final": "a",
+              "phones": [
+                "m",
+                "a"
+              ],
+              "lexical_tone": 3,
+              "surface_tone": 3,
+              "surface_phones": [
+                "m",
+                "a"
+              ],
+              "contour": "full_third",
+              "gestures": [
+                "bilabial_nasal",
+                "lower_vowel",
+                "front_vowel_or_glide"
+              ],
+              "ipa": "ma",
+              "surface_pinyin_numbered": "ma3"
+            }
+          ]
+        }
+      ],
+      "word_spans": [
+        {
+          "text": "马",
+          "start": 0,
+          "end": 1
+        }
+      ],
+      "focus": null
+    },
+    {
+      "id": "level-3-02",
+      "language": "zh-CN",
+      "level": 3,
+      "mode": "pronunciation",
+      "text": "水",
+      "groups": [
+        {
+          "start": 0,
+          "end": 1,
+          "syllables": [
+            {
+              "hanzi": "水",
+              "pinyin": "shuǐ",
+              "pinyin_numbered": "shui3",
+              "initial": "sh",
+              "final": "uei",
+              "phones": [
+                "ʂ",
+                "w",
+                "e",
+                "ɪ̯"
+              ],
+              "lexical_tone": 3,
+              "surface_tone": 3,
+              "surface_phones": [
+                "ʂ",
+                "w",
+                "e",
+                "ɪ̯"
+              ],
+              "contour": "full_third",
+              "gestures": [
+                "retroflex_constriction",
+                "lip_rounding",
+                "front_vowel_or_glide",
+                "back_vowel_or_glide",
+                "rhyme_transition"
+              ],
+              "ipa": "ʂweɪ̯",
+              "surface_pinyin_numbered": "shui3"
+            }
+          ]
+        }
+      ],
+      "word_spans": [
+        {
+          "text": "水",
+          "start": 0,
+          "end": 1
+        }
+      ],
+      "focus": null
+    },
+    {
+      "id": "level-3-03",
+      "language": "zh-CN",
+      "level": 3,
+      "mode": "pronunciation",
+      "text": "妈",
+      "groups": [
+        {
+          "start": 0,
+          "end": 1,
+          "syllables": [
+            {
+              "hanzi": "妈",
+              "pinyin": "mā",
+              "pinyin_numbered": "ma1",
+              "initial": "m",
+              "final": "a",
+              "phones": [
+                "m",
+                "a"
+              ],
+              "lexical_tone": 1,
+              "surface_tone": 1,
+              "surface_phones": [
+                "m",
+                "a"
+              ],
+              "contour": "high_level",
+              "gestures": [
+                "bilabial_nasal",
+                "lower_vowel",
+                "front_vowel_or_glide"
+              ],
+              "ipa": "ma",
+              "surface_pinyin_numbered": "ma1"
+            }
+          ]
+        }
+      ],
+      "word_spans": [
+        {
+          "text": "妈",
+          "start": 0,
+          "end": 1
+        }
+      ],
+      "focus": null
+    },
+    {
+      "id": "level-3-04",
+      "language": "zh-CN",
+      "level": 3,
+      "mode": "pronunciation",
+      "text": "妈妈",
+      "groups": [
+        {
+          "start": 0,
+          "end": 2,
+          "syllables": [
+            {
+              "hanzi": "妈",
+              "pinyin": "mā",
+              "pinyin_numbered": "ma1",
+              "initial": "m",
+              "final": "a",
+              "phones": [
+                "m",
+                "a"
+              ],
+              "lexical_tone": 1,
+              "surface_tone": 1,
+              "surface_phones": [
+                "m",
+                "a"
+              ],
+              "contour": "high_level",
+              "gestures": [
+                "bilabial_nasal",
+                "lower_vowel",
+                "front_vowel_or_glide"
+              ],
+              "ipa": "ma",
+              "surface_pinyin_numbered": "ma1"
+            },
+            {
+              "hanzi": "妈",
+              "pinyin": "ma",
+              "pinyin_numbered": "ma5",
+              "initial": "m",
+              "final": "a",
+              "phones": [
+                "m",
+                "a"
+              ],
+              "lexical_tone": 5,
+              "surface_tone": 5,
+              "surface_phones": [
+                "m",
+                "a"
+              ],
+              "contour": "neutral",
+              "gestures": [
+                "bilabial_nasal",
+                "lower_vowel",
+                "front_vowel_or_glide"
+              ],
+              "ipa": "ma",
+              "surface_pinyin_numbered": "ma5"
+            }
+          ]
+        }
+      ],
+      "word_spans": [
+        {
+          "text": "妈妈",
+          "start": 0,
+          "end": 2
+        }
+      ],
+      "focus": null
+    },
+    {
+      "id": "level-3-05",
+      "language": "zh-CN",
+      "level": 3,
+      "mode": "pronunciation",
+      "text": "爸爸",
+      "groups": [
+        {
+          "start": 0,
+          "end": 2,
+          "syllables": [
+            {
+              "hanzi": "爸",
+              "pinyin": "bà",
+              "pinyin_numbered": "ba4",
+              "initial": "b",
+              "final": "a",
+              "phones": [
+                "p",
+                "a"
+              ],
+              "lexical_tone": 4,
+              "surface_tone": 4,
+              "surface_phones": [
+                "p",
+                "a"
+              ],
+              "contour": "falling",
+              "gestures": [
+                "bilabial_closure",
+                "lower_vowel",
+                "front_vowel_or_glide"
+              ],
+              "ipa": "pa",
+              "surface_pinyin_numbered": "ba4"
+            },
+            {
+              "hanzi": "爸",
+              "pinyin": "ba",
+              "pinyin_numbered": "ba5",
+              "initial": "b",
+              "final": "a",
+              "phones": [
+                "p",
+                "a"
+              ],
+              "lexical_tone": 5,
+              "surface_tone": 5,
+              "surface_phones": [
+                "p",
+                "a"
+              ],
+              "contour": "neutral",
+              "gestures": [
+                "bilabial_closure",
+                "lower_vowel",
+                "front_vowel_or_glide"
+              ],
+              "ipa": "pa",
+              "surface_pinyin_numbered": "ba5"
+            }
+          ]
+        }
+      ],
+      "word_spans": [
+        {
+          "text": "爸爸",
+          "start": 0,
+          "end": 2
+        }
+      ],
+      "focus": null
+    },
+    {
+      "id": "level-3-06",
+      "language": "zh-CN",
+      "level": 3,
+      "mode": "pronunciation",
+      "text": "苹果",
+      "groups": [
+        {
+          "start": 0,
+          "end": 2,
+          "syllables": [
+            {
+              "hanzi": "苹",
+              "pinyin": "píng",
+              "pinyin_numbered": "ping2",
+              "initial": "p",
+              "final": "ing",
+              "phones": [
+                "pʰ",
+                "i",
+                "ŋ"
+              ],
+              "lexical_tone": 2,
+              "surface_tone": 2,
+              "surface_phones": [
+                "pʰ",
+                "i",
+                "ŋ"
+              ],
+              "contour": "rising",
+              "gestures": [
+                "bilabial_closure",
+                "aspiration",
+                "higher_vowel",
+                "front_vowel_or_glide",
+                "velar_nasal_coda",
+                "rhyme_transition"
+              ],
+              "ipa": "pʰiŋ",
+              "surface_pinyin_numbered": "ping2"
+            },
+            {
+              "hanzi": "果",
+              "pinyin": "guǒ",
+              "pinyin_numbered": "guo3",
+              "initial": "g",
+              "final": "uo",
+              "phones": [
+                "k",
+                "w",
+                "ɔ"
+              ],
+              "lexical_tone": 3,
+              "surface_tone": 3,
+              "surface_phones": [
+                "k",
+                "w",
+                "ɔ"
+              ],
+              "contour": "phrase_final_third",
+              "gestures": [
+                "velar_closure",
+                "lip_rounding",
+                "back_vowel_or_glide",
+                "rhyme_transition"
+              ],
+              "ipa": "kwɔ",
+              "surface_pinyin_numbered": "guo3"
+            }
+          ]
+        }
+      ],
+      "word_spans": [
+        {
+          "text": "苹果",
+          "start": 0,
+          "end": 2
+        }
+      ],
+      "focus": null
+    },
+    {
+      "id": "level-3-07",
+      "language": "zh-CN",
+      "level": 3,
+      "mode": "pronunciation",
+      "text": "香蕉",
+      "groups": [
+        {
+          "start": 0,
+          "end": 2,
+          "syllables": [
+            {
+              "hanzi": "香",
+              "pinyin": "xiāng",
+              "pinyin_numbered": "xiang1",
+              "initial": "x",
+              "final": "iang",
+              "phones": [
+                "ɕ",
+                "j",
+                "ɑ",
+                "ŋ"
+              ],
+              "lexical_tone": 1,
+              "surface_tone": 1,
+              "surface_phones": [
+                "ɕ",
+                "j",
+                "ɑ",
+                "ŋ"
+              ],
+              "contour": "high_level",
+              "gestures": [
+                "alveolopalatal_constriction",
+                "lower_vowel",
+                "front_vowel_or_glide",
+                "back_vowel_or_glide",
+                "velar_nasal_coda",
+                "rhyme_transition"
+              ],
+              "ipa": "ɕjɑŋ",
+              "surface_pinyin_numbered": "xiang1"
+            },
+            {
+              "hanzi": "蕉",
+              "pinyin": "jiāo",
+              "pinyin_numbered": "jiao1",
+              "initial": "j",
+              "final": "iao",
+              "phones": [
+                "tɕ",
+                "j",
+                "a",
+                "ʊ̯"
+              ],
+              "lexical_tone": 1,
+              "surface_tone": 1,
+              "surface_phones": [
+                "tɕ",
+                "j",
+                "a",
+                "ʊ̯"
+              ],
+              "contour": "high_level",
+              "gestures": [
+                "alveolopalatal_affrication",
+                "lip_rounding",
+                "lower_vowel",
+                "front_vowel_or_glide",
+                "back_vowel_or_glide",
+                "rhyme_transition"
+              ],
+              "ipa": "tɕjaʊ̯",
+              "surface_pinyin_numbered": "jiao1"
+            }
+          ]
+        }
+      ],
+      "word_spans": [
+        {
+          "text": "香蕉",
+          "start": 0,
+          "end": 2
+        }
+      ],
+      "focus": null
+    },
+    {
+      "id": "level-3-08",
+      "language": "zh-CN",
+      "level": 3,
+      "mode": "pronunciation",
+      "text": "学校",
+      "groups": [
+        {
+          "start": 0,
+          "end": 2,
+          "syllables": [
+            {
+              "hanzi": "学",
+              "pinyin": "xué",
+              "pinyin_numbered": "xue2",
+              "initial": "x",
+              "final": "üe",
+              "phones": [
+                "ɕ",
+                "ɥ",
+                "ɛ"
+              ],
+              "lexical_tone": 2,
+              "surface_tone": 2,
+              "surface_phones": [
+                "ɕ",
+                "ɥ",
+                "ɛ"
+              ],
+              "contour": "rising",
+              "gestures": [
+                "alveolopalatal_constriction",
+                "lip_rounding",
+                "front_vowel_or_glide",
+                "rhyme_transition"
+              ],
+              "ipa": "ɕɥɛ",
+              "surface_pinyin_numbered": "xue2"
+            },
+            {
+              "hanzi": "校",
+              "pinyin": "xiào",
+              "pinyin_numbered": "xiao4",
+              "initial": "x",
+              "final": "iao",
+              "phones": [
+                "ɕ",
+                "j",
+                "a",
+                "ʊ̯"
+              ],
+              "lexical_tone": 4,
+              "surface_tone": 4,
+              "surface_phones": [
+                "ɕ",
+                "j",
+                "a",
+                "ʊ̯"
+              ],
+              "contour": "falling",
+              "gestures": [
+                "alveolopalatal_constriction",
+                "lip_rounding",
+                "lower_vowel",
+                "front_vowel_or_glide",
+                "back_vowel_or_glide",
+                "rhyme_transition"
+              ],
+              "ipa": "ɕjaʊ̯",
+              "surface_pinyin_numbered": "xiao4"
+            }
+          ]
+        }
+      ],
+      "word_spans": [
+        {
+          "text": "学校",
+          "start": 0,
+          "end": 2
+        }
+      ],
+      "focus": null
+    },
+    {
+      "id": "level-3-09",
+      "language": "zh-CN",
+      "level": 3,
+      "mode": "pronunciation",
+      "text": "老师",
+      "groups": [
+        {
+          "start": 0,
+          "end": 2,
+          "syllables": [
+            {
+              "hanzi": "老",
+              "pinyin": "lǎo",
+              "pinyin_numbered": "lao3",
+              "initial": "l",
+              "final": "ao",
+              "phones": [
+                "l",
+                "a",
+                "ʊ̯"
+              ],
+              "lexical_tone": 3,
+              "surface_tone": 3,
+              "surface_phones": [
+                "l",
+                "a",
+                "ʊ̯"
+              ],
+              "contour": "low_third",
+              "gestures": [
+                "alveolar_lateral",
+                "lip_rounding",
+                "lower_vowel",
+                "front_vowel_or_glide",
+                "back_vowel_or_glide",
+                "rhyme_transition"
+              ],
+              "ipa": "laʊ̯",
+              "surface_pinyin_numbered": "lao3"
+            },
+            {
+              "hanzi": "师",
+              "pinyin": "shī",
+              "pinyin_numbered": "shi1",
+              "initial": "sh",
+              "final": "i",
+              "phones": [
+                "ʂ",
+                "ʐ̩"
+              ],
+              "lexical_tone": 1,
+              "surface_tone": 1,
+              "surface_phones": [
+                "ʂ",
+                "ʐ̩"
+              ],
+              "contour": "high_level",
+              "gestures": [
+                "retroflex_constriction"
+              ],
+              "ipa": "ʂʐ̩",
+              "surface_pinyin_numbered": "shi1"
+            }
+          ]
+        }
+      ],
+      "word_spans": [
+        {
+          "text": "老师",
+          "start": 0,
+          "end": 2
+        }
+      ],
+      "focus": null
+    },
+    {
+      "id": "level-3-10",
+      "language": "zh-CN",
+      "level": 3,
+      "mode": "pronunciation",
+      "text": "你好",
+      "groups": [
+        {
+          "start": 0,
+          "end": 2,
+          "syllables": [
+            {
+              "hanzi": "你",
+              "pinyin": "nǐ",
+              "pinyin_numbered": "ni3",
+              "initial": "n",
+              "final": "i",
+              "phones": [
+                "n",
+                "i"
+              ],
+              "lexical_tone": 3,
+              "surface_tone": 2,
+              "surface_phones": [
+                "n",
+                "i"
+              ],
+              "contour": "rising",
+              "gestures": [
+                "alveolar_nasal",
+                "higher_vowel",
+                "front_vowel_or_glide"
+              ],
+              "ipa": "ni",
+              "surface_pinyin_numbered": "ni2"
+            },
+            {
+              "hanzi": "好",
+              "pinyin": "hǎo",
+              "pinyin_numbered": "hao3",
+              "initial": "h",
+              "final": "ao",
+              "phones": [
+                "x",
+                "a",
+                "ʊ̯"
+              ],
+              "lexical_tone": 3,
+              "surface_tone": 3,
+              "surface_phones": [
+                "x",
+                "a",
+                "ʊ̯"
+              ],
+              "contour": "phrase_final_third",
+              "gestures": [
+                "velar_constriction",
+                "lip_rounding",
+                "lower_vowel",
+                "front_vowel_or_glide",
+                "back_vowel_or_glide",
+                "rhyme_transition"
+              ],
+              "ipa": "xaʊ̯",
+              "surface_pinyin_numbered": "hao3"
+            }
+          ]
+        }
+      ],
+      "word_spans": [
+        {
+          "text": "你好",
+          "start": 0,
+          "end": 2
+        }
+      ],
+      "focus": null
+    },
+    {
+      "id": "level-3-11",
+      "language": "zh-CN",
+      "level": 3,
+      "mode": "pronunciation",
+      "text": "谢谢",
+      "groups": [
+        {
+          "start": 0,
+          "end": 2,
+          "syllables": [
+            {
+              "hanzi": "谢",
+              "pinyin": "xiè",
+              "pinyin_numbered": "xie4",
+              "initial": "x",
+              "final": "ie",
+              "phones": [
+                "ɕ",
+                "j",
+                "ɛ"
+              ],
+              "lexical_tone": 4,
+              "surface_tone": 4,
+              "surface_phones": [
+                "ɕ",
+                "j",
+                "ɛ"
+              ],
+              "contour": "falling",
+              "gestures": [
+                "alveolopalatal_constriction",
+                "front_vowel_or_glide",
+                "rhyme_transition"
+              ],
+              "ipa": "ɕjɛ",
+              "surface_pinyin_numbered": "xie4"
+            },
+            {
+              "hanzi": "谢",
+              "pinyin": "xie",
+              "pinyin_numbered": "xie5",
+              "initial": "x",
+              "final": "ie",
+              "phones": [
+                "ɕ",
+                "j",
+                "ɛ"
+              ],
+              "lexical_tone": 5,
+              "surface_tone": 5,
+              "surface_phones": [
+                "ɕ",
+                "j",
+                "ɛ"
+              ],
+              "contour": "neutral",
+              "gestures": [
+                "alveolopalatal_constriction",
+                "front_vowel_or_glide",
+                "rhyme_transition"
+              ],
+              "ipa": "ɕjɛ",
+              "surface_pinyin_numbered": "xie5"
+            }
+          ]
+        }
+      ],
+      "word_spans": [
+        {
+          "text": "谢谢",
+          "start": 0,
+          "end": 2
+        }
+      ],
+      "focus": null
+    },
+    {
+      "id": "level-3-12",
+      "language": "zh-CN",
+      "level": 3,
+      "mode": "pronunciation",
+      "text": "牛奶",
+      "groups": [
+        {
+          "start": 0,
+          "end": 2,
+          "syllables": [
+            {
+              "hanzi": "牛",
+              "pinyin": "niú",
+              "pinyin_numbered": "niu2",
+              "initial": "n",
+              "final": "iou",
+              "phones": [
+                "n",
+                "j",
+                "ə",
+                "ʊ̯"
+              ],
+              "lexical_tone": 2,
+              "surface_tone": 2,
+              "surface_phones": [
+                "n",
+                "j",
+                "ə",
+                "ʊ̯"
+              ],
+              "contour": "rising",
+              "gestures": [
+                "alveolar_nasal",
+                "lip_rounding",
+                "front_vowel_or_glide",
+                "back_vowel_or_glide",
+                "rhyme_transition"
+              ],
+              "ipa": "njəʊ̯",
+              "surface_pinyin_numbered": "niu2"
+            },
+            {
+              "hanzi": "奶",
+              "pinyin": "nǎi",
+              "pinyin_numbered": "nai3",
+              "initial": "n",
+              "final": "ai",
+              "phones": [
+                "n",
+                "a",
+                "ɪ̯"
+              ],
+              "lexical_tone": 3,
+              "surface_tone": 3,
+              "surface_phones": [
+                "n",
+                "a",
+                "ɪ̯"
+              ],
+              "contour": "phrase_final_third",
+              "gestures": [
+                "alveolar_nasal",
+                "lower_vowel",
+                "front_vowel_or_glide",
+                "rhyme_transition"
+              ],
+              "ipa": "naɪ̯",
+              "surface_pinyin_numbered": "nai3"
+            }
+          ]
+        }
+      ],
+      "word_spans": [
+        {
+          "text": "牛奶",
+          "start": 0,
+          "end": 2
+        }
+      ],
+      "focus": null
+    },
+    {
+      "id": "level-3-13",
+      "language": "zh-CN",
+      "level": 3,
+      "mode": "pronunciation",
+      "text": "小鸟",
+      "groups": [
+        {
+          "start": 0,
+          "end": 2,
+          "syllables": [
+            {
+              "hanzi": "小",
+              "pinyin": "xiǎo",
+              "pinyin_numbered": "xiao3",
+              "initial": "x",
+              "final": "iao",
+              "phones": [
+                "ɕ",
+                "j",
+                "a",
+                "ʊ̯"
+              ],
+              "lexical_tone": 3,
+              "surface_tone": 2,
+              "surface_phones": [
+                "ɕ",
+                "j",
+                "a",
+                "ʊ̯"
+              ],
+              "contour": "rising",
+              "gestures": [
+                "alveolopalatal_constriction",
+                "lip_rounding",
+                "lower_vowel",
+                "front_vowel_or_glide",
+                "back_vowel_or_glide",
+                "rhyme_transition"
+              ],
+              "ipa": "ɕjaʊ̯",
+              "surface_pinyin_numbered": "xiao2"
+            },
+            {
+              "hanzi": "鸟",
+              "pinyin": "niǎo",
+              "pinyin_numbered": "niao3",
+              "initial": "n",
+              "final": "iao",
+              "phones": [
+                "n",
+                "j",
+                "a",
+                "ʊ̯"
+              ],
+              "lexical_tone": 3,
+              "surface_tone": 3,
+              "surface_phones": [
+                "n",
+                "j",
+                "a",
+                "ʊ̯"
+              ],
+              "contour": "phrase_final_third",
+              "gestures": [
+                "alveolar_nasal",
+                "lip_rounding",
+                "lower_vowel",
+                "front_vowel_or_glide",
+                "back_vowel_or_glide",
+                "rhyme_transition"
+              ],
+              "ipa": "njaʊ̯",
+              "surface_pinyin_numbered": "niao3"
+            }
+          ]
+        }
+      ],
+      "word_spans": [
+        {
+          "text": "小鸟",
+          "start": 0,
+          "end": 2
+        }
+      ],
+      "focus": null
+    },
+    {
+      "id": "level-3-14",
+      "language": "zh-CN",
+      "level": 3,
+      "mode": "pronunciation",
+      "text": "图书馆",
+      "groups": [
+        {
+          "start": 0,
+          "end": 3,
+          "syllables": [
+            {
+              "hanzi": "图",
+              "pinyin": "tú",
+              "pinyin_numbered": "tu2",
+              "initial": "t",
+              "final": "u",
+              "phones": [
+                "tʰ",
+                "u"
+              ],
+              "lexical_tone": 2,
+              "surface_tone": 2,
+              "surface_phones": [
+                "tʰ",
+                "u"
+              ],
+              "contour": "rising",
+              "gestures": [
+                "alveolar_closure",
+                "aspiration",
+                "lip_rounding",
+                "higher_vowel",
+                "back_vowel_or_glide"
+              ],
+              "ipa": "tʰu",
+              "surface_pinyin_numbered": "tu2"
+            },
+            {
+              "hanzi": "书",
+              "pinyin": "shū",
+              "pinyin_numbered": "shu1",
+              "initial": "sh",
+              "final": "u",
+              "phones": [
+                "ʂ",
+                "u"
+              ],
+              "lexical_tone": 1,
+              "surface_tone": 1,
+              "surface_phones": [
+                "ʂ",
+                "u"
+              ],
+              "contour": "high_level",
+              "gestures": [
+                "retroflex_constriction",
+                "lip_rounding",
+                "higher_vowel",
+                "back_vowel_or_glide"
+              ],
+              "ipa": "ʂu",
+              "surface_pinyin_numbered": "shu1"
+            },
+            {
+              "hanzi": "馆",
+              "pinyin": "guǎn",
+              "pinyin_numbered": "guan3",
+              "initial": "g",
+              "final": "uan",
+              "phones": [
+                "k",
+                "w",
+                "a",
+                "n"
+              ],
+              "lexical_tone": 3,
+              "surface_tone": 3,
+              "surface_phones": [
+                "k",
+                "w",
+                "a",
+                "n"
+              ],
+              "contour": "phrase_final_third",
+              "gestures": [
+                "velar_closure",
+                "lip_rounding",
+                "lower_vowel",
+                "front_vowel_or_glide",
+                "back_vowel_or_glide",
+                "alveolar_nasal_coda",
+                "rhyme_transition"
+              ],
+              "ipa": "kwan",
+              "surface_pinyin_numbered": "guan3"
+            }
+          ]
+        }
+      ],
+      "word_spans": [
+        {
+          "text": "图书馆",
+          "start": 0,
+          "end": 3
+        }
+      ],
+      "focus": null
+    },
+    {
+      "id": "level-3-15",
+      "language": "zh-CN",
+      "level": 3,
+      "mode": "pronunciation",
+      "text": "天气",
+      "groups": [
+        {
+          "start": 0,
+          "end": 2,
+          "syllables": [
+            {
+              "hanzi": "天",
+              "pinyin": "tiān",
+              "pinyin_numbered": "tian1",
+              "initial": "t",
+              "final": "ian",
+              "phones": [
+                "tʰ",
+                "j",
+                "ɛ",
+                "n"
+              ],
+              "lexical_tone": 1,
+              "surface_tone": 1,
+              "surface_phones": [
+                "tʰ",
+                "j",
+                "ɛ",
+                "n"
+              ],
+              "contour": "high_level",
+              "gestures": [
+                "alveolar_closure",
+                "aspiration",
+                "front_vowel_or_glide",
+                "alveolar_nasal_coda",
+                "rhyme_transition"
+              ],
+              "ipa": "tʰjɛn",
+              "surface_pinyin_numbered": "tian1"
+            },
+            {
+              "hanzi": "气",
+              "pinyin": "qì",
+              "pinyin_numbered": "qi4",
+              "initial": "q",
+              "final": "i",
+              "phones": [
+                "tɕʰ",
+                "i"
+              ],
+              "lexical_tone": 4,
+              "surface_tone": 4,
+              "surface_phones": [
+                "tɕʰ",
+                "i"
+              ],
+              "contour": "falling",
+              "gestures": [
+                "alveolopalatal_affrication",
+                "aspiration",
+                "higher_vowel",
+                "front_vowel_or_glide"
+              ],
+              "ipa": "tɕʰi",
+              "surface_pinyin_numbered": "qi4"
+            }
+          ]
+        }
+      ],
+      "word_spans": [
+        {
+          "text": "天气",
+          "start": 0,
+          "end": 2
+        }
+      ],
+      "focus": null
+    },
+    {
+      "id": "level-3-16",
+      "language": "zh-CN",
+      "level": 3,
+      "mode": "pronunciation",
+      "text": "中文",
+      "groups": [
+        {
+          "start": 0,
+          "end": 2,
+          "syllables": [
+            {
+              "hanzi": "中",
+              "pinyin": "zhōng",
+              "pinyin_numbered": "zhong1",
+              "initial": "zh",
+              "final": "ong",
+              "phones": [
+                "ʈʂ",
+                "ʊ",
+                "ŋ"
+              ],
+              "lexical_tone": 1,
+              "surface_tone": 1,
+              "surface_phones": [
+                "ʈʂ",
+                "ʊ",
+                "ŋ"
+              ],
+              "contour": "high_level",
+              "gestures": [
+                "retroflex_affrication",
+                "lip_rounding",
+                "back_vowel_or_glide",
+                "velar_nasal_coda",
+                "rhyme_transition"
+              ],
+              "ipa": "ʈʂʊŋ",
+              "surface_pinyin_numbered": "zhong1"
+            },
+            {
+              "hanzi": "文",
+              "pinyin": "wén",
+              "pinyin_numbered": "wen2",
+              "initial": "",
+              "final": "uen",
+              "phones": [
+                "w",
+                "ə",
+                "n"
+              ],
+              "lexical_tone": 2,
+              "surface_tone": 2,
+              "surface_phones": [
+                "w",
+                "ə",
+                "n"
+              ],
+              "contour": "rising",
+              "gestures": [
+                "lip_rounding",
+                "back_vowel_or_glide",
+                "alveolar_nasal_coda",
+                "rhyme_transition"
+              ],
+              "ipa": "wən",
+              "surface_pinyin_numbered": "wen2"
+            }
+          ]
+        }
+      ],
+      "word_spans": [
+        {
+          "text": "中文",
+          "start": 0,
+          "end": 2
+        }
+      ],
+      "focus": null
+    },
+    {
+      "id": "level-3-17",
+      "language": "zh-CN",
+      "level": 3,
+      "mode": "pronunciation",
+      "text": "学习",
+      "groups": [
+        {
+          "start": 0,
+          "end": 2,
+          "syllables": [
+            {
+              "hanzi": "学",
+              "pinyin": "xué",
+              "pinyin_numbered": "xue2",
+              "initial": "x",
+              "final": "üe",
+              "phones": [
+                "ɕ",
+                "ɥ",
+                "ɛ"
+              ],
+              "lexical_tone": 2,
+              "surface_tone": 2,
+              "surface_phones": [
+                "ɕ",
+                "ɥ",
+                "ɛ"
+              ],
+              "contour": "rising",
+              "gestures": [
+                "alveolopalatal_constriction",
+                "lip_rounding",
+                "front_vowel_or_glide",
+                "rhyme_transition"
+              ],
+              "ipa": "ɕɥɛ",
+              "surface_pinyin_numbered": "xue2"
+            },
+            {
+              "hanzi": "习",
+              "pinyin": "xí",
+              "pinyin_numbered": "xi2",
+              "initial": "x",
+              "final": "i",
+              "phones": [
+                "ɕ",
+                "i"
+              ],
+              "lexical_tone": 2,
+              "surface_tone": 2,
+              "surface_phones": [
+                "ɕ",
+                "i"
+              ],
+              "contour": "rising",
+              "gestures": [
+                "alveolopalatal_constriction",
+                "higher_vowel",
+                "front_vowel_or_glide"
+              ],
+              "ipa": "ɕi",
+              "surface_pinyin_numbered": "xi2"
+            }
+          ]
+        }
+      ],
+      "word_spans": [
+        {
+          "text": "学习",
+          "start": 0,
+          "end": 2
+        }
+      ],
+      "focus": null
+    },
+    {
+      "id": "level-3-18",
+      "language": "zh-CN",
+      "level": 3,
+      "mode": "pronunciation",
+      "text": "每天",
+      "groups": [
+        {
+          "start": 0,
+          "end": 2,
+          "syllables": [
+            {
+              "hanzi": "每",
+              "pinyin": "měi",
+              "pinyin_numbered": "mei3",
+              "initial": "m",
+              "final": "ei",
+              "phones": [
+                "m",
+                "e",
+                "ɪ̯"
+              ],
+              "lexical_tone": 3,
+              "surface_tone": 3,
+              "surface_phones": [
+                "m",
+                "e",
+                "ɪ̯"
+              ],
+              "contour": "low_third",
+              "gestures": [
+                "bilabial_nasal",
+                "front_vowel_or_glide",
+                "rhyme_transition"
+              ],
+              "ipa": "meɪ̯",
+              "surface_pinyin_numbered": "mei3"
+            },
+            {
+              "hanzi": "天",
+              "pinyin": "tiān",
+              "pinyin_numbered": "tian1",
+              "initial": "t",
+              "final": "ian",
+              "phones": [
+                "tʰ",
+                "j",
+                "ɛ",
+                "n"
+              ],
+              "lexical_tone": 1,
+              "surface_tone": 1,
+              "surface_phones": [
+                "tʰ",
+                "j",
+                "ɛ",
+                "n"
+              ],
+              "contour": "high_level",
+              "gestures": [
+                "alveolar_closure",
+                "aspiration",
+                "front_vowel_or_glide",
+                "alveolar_nasal_coda",
+                "rhyme_transition"
+              ],
+              "ipa": "tʰjɛn",
+              "surface_pinyin_numbered": "tian1"
+            }
+          ]
+        }
+      ],
+      "word_spans": [
+        {
+          "text": "每天",
+          "start": 0,
+          "end": 2
+        }
+      ],
+      "focus": null
+    },
+    {
+      "id": "level-3-19",
+      "language": "zh-CN",
+      "level": 3,
+      "mode": "pronunciation",
+      "text": "唱歌",
+      "groups": [
+        {
+          "start": 0,
+          "end": 2,
+          "syllables": [
+            {
+              "hanzi": "唱",
+              "pinyin": "chàng",
+              "pinyin_numbered": "chang4",
+              "initial": "ch",
+              "final": "ang",
+              "phones": [
+                "ʈʂʰ",
+                "ɑ",
+                "ŋ"
+              ],
+              "lexical_tone": 4,
+              "surface_tone": 4,
+              "surface_phones": [
+                "ʈʂʰ",
+                "ɑ",
+                "ŋ"
+              ],
+              "contour": "falling",
+              "gestures": [
+                "retroflex_affrication",
+                "aspiration",
+                "lower_vowel",
+                "back_vowel_or_glide",
+                "velar_nasal_coda",
+                "rhyme_transition"
+              ],
+              "ipa": "ʈʂʰɑŋ",
+              "surface_pinyin_numbered": "chang4"
+            },
+            {
+              "hanzi": "歌",
+              "pinyin": "gē",
+              "pinyin_numbered": "ge1",
+              "initial": "g",
+              "final": "e",
+              "phones": [
+                "k",
+                "ɤ"
+              ],
+              "lexical_tone": 1,
+              "surface_tone": 1,
+              "surface_phones": [
+                "k",
+                "ɤ"
+              ],
+              "contour": "high_level",
+              "gestures": [
+                "velar_closure",
+                "back_vowel_or_glide"
+              ],
+              "ipa": "kɤ",
+              "surface_pinyin_numbered": "ge1"
+            }
+          ]
+        }
+      ],
+      "word_spans": [
+        {
+          "text": "唱歌",
+          "start": 0,
+          "end": 2
+        }
+      ],
+      "focus": null
+    },
+    {
+      "id": "level-3-20",
+      "language": "zh-CN",
+      "level": 3,
+      "mode": "pronunciation",
+      "text": "银行",
+      "groups": [
+        {
+          "start": 0,
+          "end": 2,
+          "syllables": [
+            {
+              "hanzi": "银",
+              "pinyin": "yín",
+              "pinyin_numbered": "yin2",
+              "initial": "",
+              "final": "in",
+              "phones": [
+                "i",
+                "n"
+              ],
+              "lexical_tone": 2,
+              "surface_tone": 2,
+              "surface_phones": [
+                "i",
+                "n"
+              ],
+              "contour": "rising",
+              "gestures": [
+                "higher_vowel",
+                "front_vowel_or_glide",
+                "alveolar_nasal_coda",
+                "rhyme_transition"
+              ],
+              "ipa": "in",
+              "surface_pinyin_numbered": "yin2"
+            },
+            {
+              "hanzi": "行",
+              "pinyin": "háng",
+              "pinyin_numbered": "hang2",
+              "initial": "h",
+              "final": "ang",
+              "phones": [
+                "x",
+                "ɑ",
+                "ŋ"
+              ],
+              "lexical_tone": 2,
+              "surface_tone": 2,
+              "surface_phones": [
+                "x",
+                "ɑ",
+                "ŋ"
+              ],
+              "contour": "rising",
+              "gestures": [
+                "velar_constriction",
+                "lower_vowel",
+                "back_vowel_or_glide",
+                "velar_nasal_coda",
+                "rhyme_transition"
+              ],
+              "ipa": "xɑŋ",
+              "surface_pinyin_numbered": "hang2"
+            }
+          ]
+        }
+      ],
+      "word_spans": [
+        {
+          "text": "银行",
+          "start": 0,
+          "end": 2
+        }
+      ],
+      "focus": null
+    },
+    {
+      "id": "level-3-21",
+      "language": "zh-CN",
+      "level": 3,
+      "mode": "pronunciation",
+      "text": "行走",
+      "groups": [
+        {
+          "start": 0,
+          "end": 2,
+          "syllables": [
+            {
+              "hanzi": "行",
+              "pinyin": "xíng",
+              "pinyin_numbered": "xing2",
+              "initial": "x",
+              "final": "ing",
+              "phones": [
+                "ɕ",
+                "i",
+                "ŋ"
+              ],
+              "lexical_tone": 2,
+              "surface_tone": 2,
+              "surface_phones": [
+                "ɕ",
+                "i",
+                "ŋ"
+              ],
+              "contour": "rising",
+              "gestures": [
+                "alveolopalatal_constriction",
+                "higher_vowel",
+                "front_vowel_or_glide",
+                "velar_nasal_coda",
+                "rhyme_transition"
+              ],
+              "ipa": "ɕiŋ",
+              "surface_pinyin_numbered": "xing2"
+            },
+            {
+              "hanzi": "走",
+              "pinyin": "zǒu",
+              "pinyin_numbered": "zou3",
+              "initial": "z",
+              "final": "ou",
+              "phones": [
+                "ts",
+                "ə",
+                "ʊ̯"
+              ],
+              "lexical_tone": 3,
+              "surface_tone": 3,
+              "surface_phones": [
+                "ts",
+                "ə",
+                "ʊ̯"
+              ],
+              "contour": "phrase_final_third",
+              "gestures": [
+                "alveolar_affrication",
+                "lip_rounding",
+                "back_vowel_or_glide",
+                "rhyme_transition"
+              ],
+              "ipa": "tsəʊ̯",
+              "surface_pinyin_numbered": "zou3"
+            }
+          ]
+        }
+      ],
+      "word_spans": [
+        {
+          "text": "行走",
+          "start": 0,
+          "end": 2
+        }
+      ],
+      "focus": null
+    },
+    {
+      "id": "sentence-01",
+      "language": "zh-CN",
+      "level": 4,
+      "mode": "pronunciation",
+      "text": "我想喝水。",
+      "groups": [
+        {
+          "start": 0,
+          "end": 2,
+          "syllables": [
+            {
+              "hanzi": "我",
+              "pinyin": "wǒ",
+              "pinyin_numbered": "wo3",
+              "initial": "",
+              "final": "uo",
+              "phones": [
+                "w",
+                "ɔ"
+              ],
+              "lexical_tone": 3,
+              "surface_tone": 2,
+              "surface_phones": [
+                "w",
+                "ɔ"
+              ],
+              "contour": "rising",
+              "gestures": [
+                "lip_rounding",
+                "back_vowel_or_glide",
+                "rhyme_transition"
+              ],
+              "ipa": "wɔ",
+              "surface_pinyin_numbered": "wo2"
+            },
+            {
+              "hanzi": "想",
+              "pinyin": "xiǎng",
+              "pinyin_numbered": "xiang3",
+              "initial": "x",
+              "final": "iang",
+              "phones": [
+                "ɕ",
+                "j",
+                "ɑ",
+                "ŋ"
+              ],
+              "lexical_tone": 3,
+              "surface_tone": 3,
+              "surface_phones": [
+                "ɕ",
+                "j",
+                "ɑ",
+                "ŋ"
+              ],
+              "contour": "phrase_final_third",
+              "gestures": [
+                "alveolopalatal_constriction",
+                "lower_vowel",
+                "front_vowel_or_glide",
+                "back_vowel_or_glide",
+                "velar_nasal_coda",
+                "rhyme_transition"
+              ],
+              "ipa": "ɕjɑŋ",
+              "surface_pinyin_numbered": "xiang3"
+            }
+          ]
+        },
+        {
+          "start": 2,
+          "end": 4,
+          "syllables": [
+            {
+              "hanzi": "喝",
+              "pinyin": "hē",
+              "pinyin_numbered": "he1",
+              "initial": "h",
+              "final": "e",
+              "phones": [
+                "x",
+                "ɤ"
+              ],
+              "lexical_tone": 1,
+              "surface_tone": 1,
+              "surface_phones": [
+                "x",
+                "ɤ"
+              ],
+              "contour": "high_level",
+              "gestures": [
+                "velar_constriction",
+                "back_vowel_or_glide"
+              ],
+              "ipa": "xɤ",
+              "surface_pinyin_numbered": "he1"
+            },
+            {
+              "hanzi": "水",
+              "pinyin": "shuǐ",
+              "pinyin_numbered": "shui3",
+              "initial": "sh",
+              "final": "uei",
+              "phones": [
+                "ʂ",
+                "w",
+                "e",
+                "ɪ̯"
+              ],
+              "lexical_tone": 3,
+              "surface_tone": 3,
+              "surface_phones": [
+                "ʂ",
+                "w",
+                "e",
+                "ɪ̯"
+              ],
+              "contour": "phrase_final_third",
+              "gestures": [
+                "retroflex_constriction",
+                "lip_rounding",
+                "front_vowel_or_glide",
+                "back_vowel_or_glide",
+                "rhyme_transition"
+              ],
+              "ipa": "ʂweɪ̯",
+              "surface_pinyin_numbered": "shui3"
+            }
+          ]
+        }
+      ],
+      "word_spans": [
+        {
+          "text": "我",
+          "start": 0,
+          "end": 1
+        },
+        {
+          "text": "想",
+          "start": 1,
+          "end": 2
+        },
+        {
+          "text": "喝",
+          "start": 2,
+          "end": 3
+        },
+        {
+          "text": "水",
+          "start": 3,
+          "end": 4
+        }
+      ],
+      "focus": null
+    },
+    {
+      "id": "sentence-02",
+      "language": "zh-CN",
+      "level": 4,
+      "mode": "pronunciation",
+      "text": "我喜欢吃苹果。",
+      "groups": [
+        {
+          "start": 0,
+          "end": 3,
+          "syllables": [
+            {
+              "hanzi": "我",
+              "pinyin": "wǒ",
+              "pinyin_numbered": "wo3",
+              "initial": "",
+              "final": "uo",
+              "phones": [
+                "w",
+                "ɔ"
+              ],
+              "lexical_tone": 3,
+              "surface_tone": 2,
+              "surface_phones": [
+                "w",
+                "ɔ"
+              ],
+              "contour": "rising",
+              "gestures": [
+                "lip_rounding",
+                "back_vowel_or_glide",
+                "rhyme_transition"
+              ],
+              "ipa": "wɔ",
+              "surface_pinyin_numbered": "wo2"
+            },
+            {
+              "hanzi": "喜",
+              "pinyin": "xǐ",
+              "pinyin_numbered": "xi3",
+              "initial": "x",
+              "final": "i",
+              "phones": [
+                "ɕ",
+                "i"
+              ],
+              "lexical_tone": 3,
+              "surface_tone": 3,
+              "surface_phones": [
+                "ɕ",
+                "i"
+              ],
+              "contour": "low_third",
+              "gestures": [
+                "alveolopalatal_constriction",
+                "higher_vowel",
+                "front_vowel_or_glide"
+              ],
+              "ipa": "ɕi",
+              "surface_pinyin_numbered": "xi3"
+            },
+            {
+              "hanzi": "欢",
+              "pinyin": "huan",
+              "pinyin_numbered": "huan5",
+              "initial": "h",
+              "final": "uan",
+              "phones": [
+                "x",
+                "w",
+                "a",
+                "n"
+              ],
+              "lexical_tone": 5,
+              "surface_tone": 5,
+              "surface_phones": [
+                "x",
+                "w",
+                "a",
+                "n"
+              ],
+              "contour": "neutral",
+              "gestures": [
+                "velar_constriction",
+                "lip_rounding",
+                "lower_vowel",
+                "front_vowel_or_glide",
+                "back_vowel_or_glide",
+                "alveolar_nasal_coda",
+                "rhyme_transition"
+              ],
+              "ipa": "xwan",
+              "surface_pinyin_numbered": "huan5"
+            }
+          ]
+        },
+        {
+          "start": 3,
+          "end": 6,
+          "syllables": [
+            {
+              "hanzi": "吃",
+              "pinyin": "chī",
+              "pinyin_numbered": "chi1",
+              "initial": "ch",
+              "final": "i",
+              "phones": [
+                "ʈʂʰ",
+                "ʐ̩"
+              ],
+              "lexical_tone": 1,
+              "surface_tone": 1,
+              "surface_phones": [
+                "ʈʂʰ",
+                "ʐ̩"
+              ],
+              "contour": "high_level",
+              "gestures": [
+                "retroflex_affrication",
+                "aspiration"
+              ],
+              "ipa": "ʈʂʰʐ̩",
+              "surface_pinyin_numbered": "chi1"
+            },
+            {
+              "hanzi": "苹",
+              "pinyin": "píng",
+              "pinyin_numbered": "ping2",
+              "initial": "p",
+              "final": "ing",
+              "phones": [
+                "pʰ",
+                "i",
+                "ŋ"
+              ],
+              "lexical_tone": 2,
+              "surface_tone": 2,
+              "surface_phones": [
+                "pʰ",
+                "i",
+                "ŋ"
+              ],
+              "contour": "rising",
+              "gestures": [
+                "bilabial_closure",
+                "aspiration",
+                "higher_vowel",
+                "front_vowel_or_glide",
+                "velar_nasal_coda",
+                "rhyme_transition"
+              ],
+              "ipa": "pʰiŋ",
+              "surface_pinyin_numbered": "ping2"
+            },
+            {
+              "hanzi": "果",
+              "pinyin": "guǒ",
+              "pinyin_numbered": "guo3",
+              "initial": "g",
+              "final": "uo",
+              "phones": [
+                "k",
+                "w",
+                "ɔ"
+              ],
+              "lexical_tone": 3,
+              "surface_tone": 3,
+              "surface_phones": [
+                "k",
+                "w",
+                "ɔ"
+              ],
+              "contour": "phrase_final_third",
+              "gestures": [
+                "velar_closure",
+                "lip_rounding",
+                "back_vowel_or_glide",
+                "rhyme_transition"
+              ],
+              "ipa": "kwɔ",
+              "surface_pinyin_numbered": "guo3"
+            }
+          ]
+        }
+      ],
+      "word_spans": [
+        {
+          "text": "我",
+          "start": 0,
+          "end": 1
+        },
+        {
+          "text": "喜欢",
+          "start": 1,
+          "end": 3
+        },
+        {
+          "text": "吃",
+          "start": 3,
+          "end": 4
+        },
+        {
+          "text": "苹果",
+          "start": 4,
+          "end": 6
+        }
+      ],
+      "focus": null
+    },
+    {
+      "id": "sentence-03",
+      "language": "zh-CN",
+      "level": 4,
+      "mode": "pronunciation",
+      "text": "今天的天气很好。",
+      "groups": [
+        {
+          "start": 0,
+          "end": 3,
+          "syllables": [
+            {
+              "hanzi": "今",
+              "pinyin": "jīn",
+              "pinyin_numbered": "jin1",
+              "initial": "j",
+              "final": "in",
+              "phones": [
+                "tɕ",
+                "i",
+                "n"
+              ],
+              "lexical_tone": 1,
+              "surface_tone": 1,
+              "surface_phones": [
+                "tɕ",
+                "i",
+                "n"
+              ],
+              "contour": "high_level",
+              "gestures": [
+                "alveolopalatal_affrication",
+                "higher_vowel",
+                "front_vowel_or_glide",
+                "alveolar_nasal_coda",
+                "rhyme_transition"
+              ],
+              "ipa": "tɕin",
+              "surface_pinyin_numbered": "jin1"
+            },
+            {
+              "hanzi": "天",
+              "pinyin": "tiān",
+              "pinyin_numbered": "tian1",
+              "initial": "t",
+              "final": "ian",
+              "phones": [
+                "tʰ",
+                "j",
+                "ɛ",
+                "n"
+              ],
+              "lexical_tone": 1,
+              "surface_tone": 1,
+              "surface_phones": [
+                "tʰ",
+                "j",
+                "ɛ",
+                "n"
+              ],
+              "contour": "high_level",
+              "gestures": [
+                "alveolar_closure",
+                "aspiration",
+                "front_vowel_or_glide",
+                "alveolar_nasal_coda",
+                "rhyme_transition"
+              ],
+              "ipa": "tʰjɛn",
+              "surface_pinyin_numbered": "tian1"
+            },
+            {
+              "hanzi": "的",
+              "pinyin": "de",
+              "pinyin_numbered": "de5",
+              "initial": "d",
+              "final": "e",
+              "phones": [
+                "t",
+                "ɤ"
+              ],
+              "lexical_tone": 5,
+              "surface_tone": 5,
+              "surface_phones": [
+                "t",
+                "ə"
+              ],
+              "contour": "neutral",
+              "gestures": [
+                "alveolar_closure",
+                "back_vowel_or_glide"
+              ],
+              "ipa": "tɤ",
+              "surface_pinyin_numbered": "de5"
+            }
+          ]
+        },
+        {
+          "start": 3,
+          "end": 7,
+          "syllables": [
+            {
+              "hanzi": "天",
+              "pinyin": "tiān",
+              "pinyin_numbered": "tian1",
+              "initial": "t",
+              "final": "ian",
+              "phones": [
+                "tʰ",
+                "j",
+                "ɛ",
+                "n"
+              ],
+              "lexical_tone": 1,
+              "surface_tone": 1,
+              "surface_phones": [
+                "tʰ",
+                "j",
+                "ɛ",
+                "n"
+              ],
+              "contour": "high_level",
+              "gestures": [
+                "alveolar_closure",
+                "aspiration",
+                "front_vowel_or_glide",
+                "alveolar_nasal_coda",
+                "rhyme_transition"
+              ],
+              "ipa": "tʰjɛn",
+              "surface_pinyin_numbered": "tian1"
+            },
+            {
+              "hanzi": "气",
+              "pinyin": "qì",
+              "pinyin_numbered": "qi4",
+              "initial": "q",
+              "final": "i",
+              "phones": [
+                "tɕʰ",
+                "i"
+              ],
+              "lexical_tone": 4,
+              "surface_tone": 4,
+              "surface_phones": [
+                "tɕʰ",
+                "i"
+              ],
+              "contour": "falling",
+              "gestures": [
+                "alveolopalatal_affrication",
+                "aspiration",
+                "higher_vowel",
+                "front_vowel_or_glide"
+              ],
+              "ipa": "tɕʰi",
+              "surface_pinyin_numbered": "qi4"
+            },
+            {
+              "hanzi": "很",
+              "pinyin": "hěn",
+              "pinyin_numbered": "hen3",
+              "initial": "h",
+              "final": "en",
+              "phones": [
+                "x",
+                "ə",
+                "n"
+              ],
+              "lexical_tone": 3,
+              "surface_tone": 2,
+              "surface_phones": [
+                "x",
+                "ə",
+                "n"
+              ],
+              "contour": "rising",
+              "gestures": [
+                "velar_constriction",
+                "alveolar_nasal_coda",
+                "rhyme_transition"
+              ],
+              "ipa": "xən",
+              "surface_pinyin_numbered": "hen2"
+            },
+            {
+              "hanzi": "好",
+              "pinyin": "hǎo",
+              "pinyin_numbered": "hao3",
+              "initial": "h",
+              "final": "ao",
+              "phones": [
+                "x",
+                "a",
+                "ʊ̯"
+              ],
+              "lexical_tone": 3,
+              "surface_tone": 3,
+              "surface_phones": [
+                "x",
+                "a",
+                "ʊ̯"
+              ],
+              "contour": "phrase_final_third",
+              "gestures": [
+                "velar_constriction",
+                "lip_rounding",
+                "lower_vowel",
+                "front_vowel_or_glide",
+                "back_vowel_or_glide",
+                "rhyme_transition"
+              ],
+              "ipa": "xaʊ̯",
+              "surface_pinyin_numbered": "hao3"
+            }
+          ]
+        }
+      ],
+      "word_spans": [
+        {
+          "text": "今天",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "text": "的",
+          "start": 2,
+          "end": 3
+        },
+        {
+          "text": "天气",
+          "start": 3,
+          "end": 5
+        },
+        {
+          "text": "很",
+          "start": 5,
+          "end": 6
+        },
+        {
+          "text": "好",
+          "start": 6,
+          "end": 7
+        }
+      ],
+      "focus": null
+    },
+    {
+      "id": "sentence-04",
+      "language": "zh-CN",
+      "level": 4,
+      "mode": "pronunciation",
+      "text": "我每天都去学校。",
+      "groups": [
+        {
+          "start": 0,
+          "end": 3,
+          "syllables": [
+            {
+              "hanzi": "我",
+              "pinyin": "wǒ",
+              "pinyin_numbered": "wo3",
+              "initial": "",
+              "final": "uo",
+              "phones": [
+                "w",
+                "ɔ"
+              ],
+              "lexical_tone": 3,
+              "surface_tone": 2,
+              "surface_phones": [
+                "w",
+                "ɔ"
+              ],
+              "contour": "rising",
+              "gestures": [
+                "lip_rounding",
+                "back_vowel_or_glide",
+                "rhyme_transition"
+              ],
+              "ipa": "wɔ",
+              "surface_pinyin_numbered": "wo2"
+            },
+            {
+              "hanzi": "每",
+              "pinyin": "měi",
+              "pinyin_numbered": "mei3",
+              "initial": "m",
+              "final": "ei",
+              "phones": [
+                "m",
+                "e",
+                "ɪ̯"
+              ],
+              "lexical_tone": 3,
+              "surface_tone": 3,
+              "surface_phones": [
+                "m",
+                "e",
+                "ɪ̯"
+              ],
+              "contour": "low_third",
+              "gestures": [
+                "bilabial_nasal",
+                "front_vowel_or_glide",
+                "rhyme_transition"
+              ],
+              "ipa": "meɪ̯",
+              "surface_pinyin_numbered": "mei3"
+            },
+            {
+              "hanzi": "天",
+              "pinyin": "tiān",
+              "pinyin_numbered": "tian1",
+              "initial": "t",
+              "final": "ian",
+              "phones": [
+                "tʰ",
+                "j",
+                "ɛ",
+                "n"
+              ],
+              "lexical_tone": 1,
+              "surface_tone": 1,
+              "surface_phones": [
+                "tʰ",
+                "j",
+                "ɛ",
+                "n"
+              ],
+              "contour": "high_level",
+              "gestures": [
+                "alveolar_closure",
+                "aspiration",
+                "front_vowel_or_glide",
+                "alveolar_nasal_coda",
+                "rhyme_transition"
+              ],
+              "ipa": "tʰjɛn",
+              "surface_pinyin_numbered": "tian1"
+            }
+          ]
+        },
+        {
+          "start": 3,
+          "end": 7,
+          "syllables": [
+            {
+              "hanzi": "都",
+              "pinyin": "dōu",
+              "pinyin_numbered": "dou1",
+              "initial": "d",
+              "final": "ou",
+              "phones": [
+                "t",
+                "ə",
+                "ʊ̯"
+              ],
+              "lexical_tone": 1,
+              "surface_tone": 1,
+              "surface_phones": [
+                "t",
+                "ə",
+                "ʊ̯"
+              ],
+              "contour": "high_level",
+              "gestures": [
+                "alveolar_closure",
+                "lip_rounding",
+                "back_vowel_or_glide",
+                "rhyme_transition"
+              ],
+              "ipa": "təʊ̯",
+              "surface_pinyin_numbered": "dou1"
+            },
+            {
+              "hanzi": "去",
+              "pinyin": "qù",
+              "pinyin_numbered": "qu4",
+              "initial": "q",
+              "final": "ü",
+              "phones": [
+                "tɕʰ",
+                "y"
+              ],
+              "lexical_tone": 4,
+              "surface_tone": 4,
+              "surface_phones": [
+                "tɕʰ",
+                "y"
+              ],
+              "contour": "falling",
+              "gestures": [
+                "alveolopalatal_affrication",
+                "aspiration",
+                "lip_rounding",
+                "higher_vowel",
+                "front_vowel_or_glide"
+              ],
+              "ipa": "tɕʰy",
+              "surface_pinyin_numbered": "qu4"
+            },
+            {
+              "hanzi": "学",
+              "pinyin": "xué",
+              "pinyin_numbered": "xue2",
+              "initial": "x",
+              "final": "üe",
+              "phones": [
+                "ɕ",
+                "ɥ",
+                "ɛ"
+              ],
+              "lexical_tone": 2,
+              "surface_tone": 2,
+              "surface_phones": [
+                "ɕ",
+                "ɥ",
+                "ɛ"
+              ],
+              "contour": "rising",
+              "gestures": [
+                "alveolopalatal_constriction",
+                "lip_rounding",
+                "front_vowel_or_glide",
+                "rhyme_transition"
+              ],
+              "ipa": "ɕɥɛ",
+              "surface_pinyin_numbered": "xue2"
+            },
+            {
+              "hanzi": "校",
+              "pinyin": "xiào",
+              "pinyin_numbered": "xiao4",
+              "initial": "x",
+              "final": "iao",
+              "phones": [
+                "ɕ",
+                "j",
+                "a",
+                "ʊ̯"
+              ],
+              "lexical_tone": 4,
+              "surface_tone": 4,
+              "surface_phones": [
+                "ɕ",
+                "j",
+                "a",
+                "ʊ̯"
+              ],
+              "contour": "falling",
+              "gestures": [
+                "alveolopalatal_constriction",
+                "lip_rounding",
+                "lower_vowel",
+                "front_vowel_or_glide",
+                "back_vowel_or_glide",
+                "rhyme_transition"
+              ],
+              "ipa": "ɕjaʊ̯",
+              "surface_pinyin_numbered": "xiao4"
+            }
+          ]
+        }
+      ],
+      "word_spans": [
+        {
+          "text": "我",
+          "start": 0,
+          "end": 1
+        },
+        {
+          "text": "每天",
+          "start": 1,
+          "end": 3
+        },
+        {
+          "text": "都",
+          "start": 3,
+          "end": 4
+        },
+        {
+          "text": "去",
+          "start": 4,
+          "end": 5
+        },
+        {
+          "text": "学校",
+          "start": 5,
+          "end": 7
+        }
+      ],
+      "focus": null
+    },
+    {
+      "id": "sentence-05",
+      "language": "zh-CN",
+      "level": 4,
+      "mode": "pronunciation",
+      "text": "小鸟在树上唱歌。",
+      "groups": [
+        {
+          "start": 0,
+          "end": 2,
+          "syllables": [
+            {
+              "hanzi": "小",
+              "pinyin": "xiǎo",
+              "pinyin_numbered": "xiao3",
+              "initial": "x",
+              "final": "iao",
+              "phones": [
+                "ɕ",
+                "j",
+                "a",
+                "ʊ̯"
+              ],
+              "lexical_tone": 3,
+              "surface_tone": 2,
+              "surface_phones": [
+                "ɕ",
+                "j",
+                "a",
+                "ʊ̯"
+              ],
+              "contour": "rising",
+              "gestures": [
+                "alveolopalatal_constriction",
+                "lip_rounding",
+                "lower_vowel",
+                "front_vowel_or_glide",
+                "back_vowel_or_glide",
+                "rhyme_transition"
+              ],
+              "ipa": "ɕjaʊ̯",
+              "surface_pinyin_numbered": "xiao2"
+            },
+            {
+              "hanzi": "鸟",
+              "pinyin": "niǎo",
+              "pinyin_numbered": "niao3",
+              "initial": "n",
+              "final": "iao",
+              "phones": [
+                "n",
+                "j",
+                "a",
+                "ʊ̯"
+              ],
+              "lexical_tone": 3,
+              "surface_tone": 3,
+              "surface_phones": [
+                "n",
+                "j",
+                "a",
+                "ʊ̯"
+              ],
+              "contour": "phrase_final_third",
+              "gestures": [
+                "alveolar_nasal",
+                "lip_rounding",
+                "lower_vowel",
+                "front_vowel_or_glide",
+                "back_vowel_or_glide",
+                "rhyme_transition"
+              ],
+              "ipa": "njaʊ̯",
+              "surface_pinyin_numbered": "niao3"
+            }
+          ]
+        },
+        {
+          "start": 2,
+          "end": 7,
+          "syllables": [
+            {
+              "hanzi": "在",
+              "pinyin": "zài",
+              "pinyin_numbered": "zai4",
+              "initial": "z",
+              "final": "ai",
+              "phones": [
+                "ts",
+                "a",
+                "ɪ̯"
+              ],
+              "lexical_tone": 4,
+              "surface_tone": 4,
+              "surface_phones": [
+                "ts",
+                "a",
+                "ɪ̯"
+              ],
+              "contour": "falling",
+              "gestures": [
+                "alveolar_affrication",
+                "lower_vowel",
+                "front_vowel_or_glide",
+                "rhyme_transition"
+              ],
+              "ipa": "tsaɪ̯",
+              "surface_pinyin_numbered": "zai4"
+            },
+            {
+              "hanzi": "树",
+              "pinyin": "shù",
+              "pinyin_numbered": "shu4",
+              "initial": "sh",
+              "final": "u",
+              "phones": [
+                "ʂ",
+                "u"
+              ],
+              "lexical_tone": 4,
+              "surface_tone": 4,
+              "surface_phones": [
+                "ʂ",
+                "u"
+              ],
+              "contour": "falling",
+              "gestures": [
+                "retroflex_constriction",
+                "lip_rounding",
+                "higher_vowel",
+                "back_vowel_or_glide"
+              ],
+              "ipa": "ʂu",
+              "surface_pinyin_numbered": "shu4"
+            },
+            {
+              "hanzi": "上",
+              "pinyin": "shàng",
+              "pinyin_numbered": "shang4",
+              "initial": "sh",
+              "final": "ang",
+              "phones": [
+                "ʂ",
+                "ɑ",
+                "ŋ"
+              ],
+              "lexical_tone": 4,
+              "surface_tone": 4,
+              "surface_phones": [
+                "ʂ",
+                "ɑ",
+                "ŋ"
+              ],
+              "contour": "falling",
+              "gestures": [
+                "retroflex_constriction",
+                "lower_vowel",
+                "back_vowel_or_glide",
+                "velar_nasal_coda",
+                "rhyme_transition"
+              ],
+              "ipa": "ʂɑŋ",
+              "surface_pinyin_numbered": "shang4"
+            },
+            {
+              "hanzi": "唱",
+              "pinyin": "chàng",
+              "pinyin_numbered": "chang4",
+              "initial": "ch",
+              "final": "ang",
+              "phones": [
+                "ʈʂʰ",
+                "ɑ",
+                "ŋ"
+              ],
+              "lexical_tone": 4,
+              "surface_tone": 4,
+              "surface_phones": [
+                "ʈʂʰ",
+                "ɑ",
+                "ŋ"
+              ],
+              "contour": "falling",
+              "gestures": [
+                "retroflex_affrication",
+                "aspiration",
+                "lower_vowel",
+                "back_vowel_or_glide",
+                "velar_nasal_coda",
+                "rhyme_transition"
+              ],
+              "ipa": "ʈʂʰɑŋ",
+              "surface_pinyin_numbered": "chang4"
+            },
+            {
+              "hanzi": "歌",
+              "pinyin": "gē",
+              "pinyin_numbered": "ge1",
+              "initial": "g",
+              "final": "e",
+              "phones": [
+                "k",
+                "ɤ"
+              ],
+              "lexical_tone": 1,
+              "surface_tone": 1,
+              "surface_phones": [
+                "k",
+                "ɤ"
+              ],
+              "contour": "high_level",
+              "gestures": [
+                "velar_closure",
+                "back_vowel_or_glide"
+              ],
+              "ipa": "kɤ",
+              "surface_pinyin_numbered": "ge1"
+            }
+          ]
+        }
+      ],
+      "word_spans": [
+        {
+          "text": "小鸟",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "text": "在",
+          "start": 2,
+          "end": 3
+        },
+        {
+          "text": "树上",
+          "start": 3,
+          "end": 5
+        },
+        {
+          "text": "唱歌",
+          "start": 5,
+          "end": 7
+        }
+      ],
+      "focus": null
+    },
+    {
+      "id": "sentence-06",
+      "language": "zh-CN",
+      "level": 4,
+      "mode": "pronunciation",
+      "text": "我想学习中文。",
+      "groups": [
+        {
+          "start": 0,
+          "end": 2,
+          "syllables": [
+            {
+              "hanzi": "我",
+              "pinyin": "wǒ",
+              "pinyin_numbered": "wo3",
+              "initial": "",
+              "final": "uo",
+              "phones": [
+                "w",
+                "ɔ"
+              ],
+              "lexical_tone": 3,
+              "surface_tone": 2,
+              "surface_phones": [
+                "w",
+                "ɔ"
+              ],
+              "contour": "rising",
+              "gestures": [
+                "lip_rounding",
+                "back_vowel_or_glide",
+                "rhyme_transition"
+              ],
+              "ipa": "wɔ",
+              "surface_pinyin_numbered": "wo2"
+            },
+            {
+              "hanzi": "想",
+              "pinyin": "xiǎng",
+              "pinyin_numbered": "xiang3",
+              "initial": "x",
+              "final": "iang",
+              "phones": [
+                "ɕ",
+                "j",
+                "ɑ",
+                "ŋ"
+              ],
+              "lexical_tone": 3,
+              "surface_tone": 3,
+              "surface_phones": [
+                "ɕ",
+                "j",
+                "ɑ",
+                "ŋ"
+              ],
+              "contour": "phrase_final_third",
+              "gestures": [
+                "alveolopalatal_constriction",
+                "lower_vowel",
+                "front_vowel_or_glide",
+                "back_vowel_or_glide",
+                "velar_nasal_coda",
+                "rhyme_transition"
+              ],
+              "ipa": "ɕjɑŋ",
+              "surface_pinyin_numbered": "xiang3"
+            }
+          ]
+        },
+        {
+          "start": 2,
+          "end": 6,
+          "syllables": [
+            {
+              "hanzi": "学",
+              "pinyin": "xué",
+              "pinyin_numbered": "xue2",
+              "initial": "x",
+              "final": "üe",
+              "phones": [
+                "ɕ",
+                "ɥ",
+                "ɛ"
+              ],
+              "lexical_tone": 2,
+              "surface_tone": 2,
+              "surface_phones": [
+                "ɕ",
+                "ɥ",
+                "ɛ"
+              ],
+              "contour": "rising",
+              "gestures": [
+                "alveolopalatal_constriction",
+                "lip_rounding",
+                "front_vowel_or_glide",
+                "rhyme_transition"
+              ],
+              "ipa": "ɕɥɛ",
+              "surface_pinyin_numbered": "xue2"
+            },
+            {
+              "hanzi": "习",
+              "pinyin": "xí",
+              "pinyin_numbered": "xi2",
+              "initial": "x",
+              "final": "i",
+              "phones": [
+                "ɕ",
+                "i"
+              ],
+              "lexical_tone": 2,
+              "surface_tone": 2,
+              "surface_phones": [
+                "ɕ",
+                "i"
+              ],
+              "contour": "rising",
+              "gestures": [
+                "alveolopalatal_constriction",
+                "higher_vowel",
+                "front_vowel_or_glide"
+              ],
+              "ipa": "ɕi",
+              "surface_pinyin_numbered": "xi2"
+            },
+            {
+              "hanzi": "中",
+              "pinyin": "zhōng",
+              "pinyin_numbered": "zhong1",
+              "initial": "zh",
+              "final": "ong",
+              "phones": [
+                "ʈʂ",
+                "ʊ",
+                "ŋ"
+              ],
+              "lexical_tone": 1,
+              "surface_tone": 1,
+              "surface_phones": [
+                "ʈʂ",
+                "ʊ",
+                "ŋ"
+              ],
+              "contour": "high_level",
+              "gestures": [
+                "retroflex_affrication",
+                "lip_rounding",
+                "back_vowel_or_glide",
+                "velar_nasal_coda",
+                "rhyme_transition"
+              ],
+              "ipa": "ʈʂʊŋ",
+              "surface_pinyin_numbered": "zhong1"
+            },
+            {
+              "hanzi": "文",
+              "pinyin": "wén",
+              "pinyin_numbered": "wen2",
+              "initial": "",
+              "final": "uen",
+              "phones": [
+                "w",
+                "ə",
+                "n"
+              ],
+              "lexical_tone": 2,
+              "surface_tone": 2,
+              "surface_phones": [
+                "w",
+                "ə",
+                "n"
+              ],
+              "contour": "rising",
+              "gestures": [
+                "lip_rounding",
+                "back_vowel_or_glide",
+                "alveolar_nasal_coda",
+                "rhyme_transition"
+              ],
+              "ipa": "wən",
+              "surface_pinyin_numbered": "wen2"
+            }
+          ]
+        }
+      ],
+      "word_spans": [
+        {
+          "text": "我",
+          "start": 0,
+          "end": 1
+        },
+        {
+          "text": "想",
+          "start": 1,
+          "end": 2
+        },
+        {
+          "text": "学习",
+          "start": 2,
+          "end": 4
+        },
+        {
+          "text": "中文",
+          "start": 4,
+          "end": 6
+        }
+      ],
+      "focus": null
+    },
+    {
+      "id": "sentence-07",
+      "language": "zh-CN",
+      "level": 4,
+      "mode": "pronunciation",
+      "text": "我不去买一碗。",
+      "groups": [
+        {
+          "start": 0,
+          "end": 3,
+          "syllables": [
+            {
+              "hanzi": "我",
+              "pinyin": "wǒ",
+              "pinyin_numbered": "wo3",
+              "initial": "",
+              "final": "uo",
+              "phones": [
+                "w",
+                "ɔ"
+              ],
+              "lexical_tone": 3,
+              "surface_tone": 3,
+              "surface_phones": [
+                "w",
+                "ɔ"
+              ],
+              "contour": "low_third",
+              "gestures": [
+                "lip_rounding",
+                "back_vowel_or_glide",
+                "rhyme_transition"
+              ],
+              "ipa": "wɔ",
+              "surface_pinyin_numbered": "wo3"
+            },
+            {
+              "hanzi": "不",
+              "pinyin": "bù",
+              "pinyin_numbered": "bu4",
+              "initial": "b",
+              "final": "u",
+              "phones": [
+                "p",
+                "u"
+              ],
+              "lexical_tone": 4,
+              "surface_tone": 2,
+              "surface_phones": [
+                "p",
+                "u"
+              ],
+              "contour": "rising",
+              "gestures": [
+                "bilabial_closure",
+                "lip_rounding",
+                "higher_vowel",
+                "back_vowel_or_glide"
+              ],
+              "ipa": "pu",
+              "surface_pinyin_numbered": "bu2"
+            },
+            {
+              "hanzi": "去",
+              "pinyin": "qù",
+              "pinyin_numbered": "qu4",
+              "initial": "q",
+              "final": "ü",
+              "phones": [
+                "tɕʰ",
+                "y"
+              ],
+              "lexical_tone": 4,
+              "surface_tone": 4,
+              "surface_phones": [
+                "tɕʰ",
+                "y"
+              ],
+              "contour": "falling",
+              "gestures": [
+                "alveolopalatal_affrication",
+                "aspiration",
+                "lip_rounding",
+                "higher_vowel",
+                "front_vowel_or_glide"
+              ],
+              "ipa": "tɕʰy",
+              "surface_pinyin_numbered": "qu4"
+            }
+          ]
+        },
+        {
+          "start": 3,
+          "end": 6,
+          "syllables": [
+            {
+              "hanzi": "买",
+              "pinyin": "mǎi",
+              "pinyin_numbered": "mai3",
+              "initial": "m",
+              "final": "ai",
+              "phones": [
+                "m",
+                "a",
+                "ɪ̯"
+              ],
+              "lexical_tone": 3,
+              "surface_tone": 3,
+              "surface_phones": [
+                "m",
+                "a",
+                "ɪ̯"
+              ],
+              "contour": "low_third",
+              "gestures": [
+                "bilabial_nasal",
+                "lower_vowel",
+                "front_vowel_or_glide",
+                "rhyme_transition"
+              ],
+              "ipa": "maɪ̯",
+              "surface_pinyin_numbered": "mai3"
+            },
+            {
+              "hanzi": "一",
+              "pinyin": "yī",
+              "pinyin_numbered": "yi1",
+              "initial": "",
+              "final": "i",
+              "phones": [
+                "i"
+              ],
+              "lexical_tone": 1,
+              "surface_tone": 4,
+              "surface_phones": [
+                "i"
+              ],
+              "contour": "falling",
+              "gestures": [
+                "higher_vowel",
+                "front_vowel_or_glide"
+              ],
+              "ipa": "i",
+              "surface_pinyin_numbered": "yi4"
+            },
+            {
+              "hanzi": "碗",
+              "pinyin": "wǎn",
+              "pinyin_numbered": "wan3",
+              "initial": "",
+              "final": "uan",
+              "phones": [
+                "w",
+                "a",
+                "n"
+              ],
+              "lexical_tone": 3,
+              "surface_tone": 3,
+              "surface_phones": [
+                "w",
+                "a",
+                "n"
+              ],
+              "contour": "phrase_final_third",
+              "gestures": [
+                "lip_rounding",
+                "lower_vowel",
+                "front_vowel_or_glide",
+                "back_vowel_or_glide",
+                "alveolar_nasal_coda",
+                "rhyme_transition"
+              ],
+              "ipa": "wan",
+              "surface_pinyin_numbered": "wan3"
+            }
+          ]
+        }
+      ],
+      "word_spans": [
+        {
+          "text": "我",
+          "start": 0,
+          "end": 1
+        },
+        {
+          "text": "不",
+          "start": 1,
+          "end": 2
+        },
+        {
+          "text": "去",
+          "start": 2,
+          "end": 3
+        },
+        {
+          "text": "买",
+          "start": 3,
+          "end": 4
+        },
+        {
+          "text": "一",
+          "start": 4,
+          "end": 5
+        },
+        {
+          "text": "碗",
+          "start": 5,
+          "end": 6
+        }
+      ],
+      "focus": null
+    },
+    {
+      "id": "tone-ma-1",
+      "language": "zh-CN",
+      "level": 1,
+      "mode": "tone",
+      "text": "妈",
+      "groups": [
+        {
+          "start": 0,
+          "end": 1,
+          "syllables": [
+            {
+              "hanzi": "妈",
+              "pinyin": "mā",
+              "pinyin_numbered": "ma1",
+              "initial": "m",
+              "final": "a",
+              "phones": [
+                "m",
+                "a"
+              ],
+              "lexical_tone": 1,
+              "surface_tone": 1,
+              "surface_phones": [
+                "m",
+                "a"
+              ],
+              "contour": "high_level",
+              "gestures": [
+                "bilabial_nasal",
+                "lower_vowel",
+                "front_vowel_or_glide"
+              ],
+              "ipa": "ma",
+              "surface_pinyin_numbered": "ma1"
+            }
+          ]
+        }
+      ],
+      "word_spans": [
+        {
+          "text": "妈",
+          "start": 0,
+          "end": 1
+        }
+      ],
+      "focus": null
+    },
+    {
+      "id": "tone-ma-2",
+      "language": "zh-CN",
+      "level": 1,
+      "mode": "tone",
+      "text": "麻",
+      "groups": [
+        {
+          "start": 0,
+          "end": 1,
+          "syllables": [
+            {
+              "hanzi": "麻",
+              "pinyin": "má",
+              "pinyin_numbered": "ma2",
+              "initial": "m",
+              "final": "a",
+              "phones": [
+                "m",
+                "a"
+              ],
+              "lexical_tone": 2,
+              "surface_tone": 2,
+              "surface_phones": [
+                "m",
+                "a"
+              ],
+              "contour": "rising",
+              "gestures": [
+                "bilabial_nasal",
+                "lower_vowel",
+                "front_vowel_or_glide"
+              ],
+              "ipa": "ma",
+              "surface_pinyin_numbered": "ma2"
+            }
+          ]
+        }
+      ],
+      "word_spans": [
+        {
+          "text": "麻",
+          "start": 0,
+          "end": 1
+        }
+      ],
+      "focus": null
+    },
+    {
+      "id": "tone-ma-3",
+      "language": "zh-CN",
+      "level": 1,
+      "mode": "tone",
+      "text": "马",
+      "groups": [
+        {
+          "start": 0,
+          "end": 1,
+          "syllables": [
+            {
+              "hanzi": "马",
+              "pinyin": "mǎ",
+              "pinyin_numbered": "ma3",
+              "initial": "m",
+              "final": "a",
+              "phones": [
+                "m",
+                "a"
+              ],
+              "lexical_tone": 3,
+              "surface_tone": 3,
+              "surface_phones": [
+                "m",
+                "a"
+              ],
+              "contour": "full_third",
+              "gestures": [
+                "bilabial_nasal",
+                "lower_vowel",
+                "front_vowel_or_glide"
+              ],
+              "ipa": "ma",
+              "surface_pinyin_numbered": "ma3"
+            }
+          ]
+        }
+      ],
+      "word_spans": [
+        {
+          "text": "马",
+          "start": 0,
+          "end": 1
+        }
+      ],
+      "focus": null
+    },
+    {
+      "id": "tone-ma-4",
+      "language": "zh-CN",
+      "level": 1,
+      "mode": "tone",
+      "text": "骂",
+      "groups": [
+        {
+          "start": 0,
+          "end": 1,
+          "syllables": [
+            {
+              "hanzi": "骂",
+              "pinyin": "mà",
+              "pinyin_numbered": "ma4",
+              "initial": "m",
+              "final": "a",
+              "phones": [
+                "m",
+                "a"
+              ],
+              "lexical_tone": 4,
+              "surface_tone": 4,
+              "surface_phones": [
+                "m",
+                "a"
+              ],
+              "contour": "falling",
+              "gestures": [
+                "bilabial_nasal",
+                "lower_vowel",
+                "front_vowel_or_glide"
+              ],
+              "ipa": "ma",
+              "surface_pinyin_numbered": "ma4"
+            }
+          ]
+        }
+      ],
+      "word_spans": [
+        {
+          "text": "骂",
+          "start": 0,
+          "end": 1
+        }
+      ],
+      "focus": null
+    },
+    {
+      "id": "tone-ma-5",
+      "language": "zh-CN",
+      "level": 1,
+      "mode": "tone",
+      "text": "吗",
+      "groups": [
+        {
+          "start": 0,
+          "end": 1,
+          "syllables": [
+            {
+              "hanzi": "吗",
+              "pinyin": "ma",
+              "pinyin_numbered": "ma5",
+              "initial": "m",
+              "final": "a",
+              "phones": [
+                "m",
+                "a"
+              ],
+              "lexical_tone": 5,
+              "surface_tone": 5,
+              "surface_phones": [
+                "m",
+                "a"
+              ],
+              "contour": "neutral",
+              "gestures": [
+                "bilabial_nasal",
+                "lower_vowel",
+                "front_vowel_or_glide"
+              ],
+              "ipa": "ma",
+              "surface_pinyin_numbered": "ma5"
+            }
+          ]
+        }
+      ],
+      "word_spans": [
+        {
+          "text": "吗",
+          "start": 0,
+          "end": 1
+        }
+      ],
+      "focus": null
+    }
+  ]
+}

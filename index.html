@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#f3f5f2" />
+  <link rel="icon" href="data:," />
+  <meta name="description" content="Virtual Speech Therapy pronunciation practice in English, Finnish, Spanish and Mandarin with the original CHIMERA 3D head." />
+  <title>Virtual Speech Therapy</title>
+</head>
+<body>
+  <header class="masthead">
+    <div class="mast-inner">
+      <div class="brand"><span class="brand-icon" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></span><strong data-copy="brand">Virtual Speech Therapy</strong></div>
+      <div class="preferences">
+        <label><span data-copy="practiceLanguage">Practice language</span><select id="language"><option value="en">English</option><option value="fi-FI">Suomi</option><option value="es-ES">Español</option><option value="zh-CN">中文</option></select></label>
+        <label><span data-copy="interfaceLanguage">Interface</span><select id="interface"><option value="en">English</option><option value="zh-CN">简体中文</option></select></label>
+      </div>
+    </div>
+  </header>
+  <main id="practice">
+    <div class="topline"><h1 data-copy="heading">Pronunciation practice</h1><span id="progress" class="progress" aria-live="polite"></span></div>
+    <nav id="levels" aria-label="Practice levels"></nav>
+    <div class="practice-grid">
+      <section class="studio" aria-labelledby="demo-title">
+        <div class="studio-label"><h2 id="demo-title" data-copy="articulation">Articulation</h2><span class="engine-label">CHIMERA 3D</span></div>
+        <div id="avatar" aria-label="Three-dimensional articulation demonstration"></div>
+        <div class="studio-controls"><span id="gesture"></span><button type="button" id="reset-view" data-copy="resetView">Reset view</button></div>
+      </section>
+      <section class="exercise" aria-labelledby="item-title">
+        <div class="exercise-top"><div><div class="small-label" data-copy="target">Current target</div><h2 id="item-title">me</h2></div><button id="tone-mode" type="button" hidden data-copy="tones">Tone practice</button></div>
+        <div id="pronunciation" class="pronunciation"></div><div id="subtarget" class="subtarget" hidden></div>
+        <label class="item-picker"><span data-copy="exercise">Exercise</span><select id="item"></select></label>
+        <div class="demo-actions"><button id="play" type="button" data-copy="listen">Listen</button><button id="slow" type="button" data-copy="slow">Slow playback</button></div>
+        <div class="record-area"><button id="record" type="button" class="primary" data-copy="record">Start practice</button><button id="next" type="button" data-copy="next">Next</button></div>
+        <div class="result" aria-live="polite"><p id="status"></p><div id="recognition" hidden></div><button id="drill" type="button" hidden></button></div>
+        <audio id="recording" controls hidden></audio>
+      </section>
+    </div>
+    <section class="analysis-grid">
+      <section id="pitch-card" class="section-card" hidden><h2 data-copy="pitch">Pitch contour</h2><canvas id="pitch" role="img"></canvas><div class="legend"><span class="target-key" data-copy="targetPitch">Illustrative target</span><span class="observed-key" data-copy="measuredPitch">Your recording</span></div></section>
+      <section class="section-card support">
+        <h2 data-copy="session">Practice settings</h2>
+        <button id="camera-toggle" type="button" data-copy="cameraOn">Enable camera</button><span id="camera-status" role="status"></span>
+        <video id="camera" muted playsinline hidden></video>
+        <details><summary data-copy="advanced">Advanced analysis</summary><dl id="advanced"></dl><label class="api-label"><span data-copy="apiUrl">Analysis server URL (optional)</span><input id="api" inputmode="url" placeholder="https://…" /></label><button id="save-api" type="button" data-copy="save">Save</button><p id="api-status" role="status"></p></details>
+        <details><summary data-copy="privacy">Privacy and use</summary><p data-copy="privacyText"></p></details>
+      </section>
+    </section>
+    <footer><a href="https://github.com/DrWangZezhao/virtual-speech-therapy" data-copy="source">Source and licenses</a><span data-copy="clinical">Practice aid for speech rehabilitation</span></footer>
+  </main>
+  <script type="module" src="/src/app.js"></script>
+</body>
+</html>
