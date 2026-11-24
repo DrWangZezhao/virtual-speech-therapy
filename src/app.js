@@ -24,10 +24,15 @@ demoAudio.preload='auto';
 let courses=[], media={}, avatar, cameraStop, micStop, worker, recordingURL;
 let cameraState;
 
-async function fetchJSON(path){
-  const response=await fetch(new URL(path,document.baseURI));
+async function fetchJSON(path, options){
+  const response=await fetch(new URL(path,document.baseURI),options);
   if(!response.ok)throw new Error(String(response.status));
   return response.json();
+}
+function versionedAsset(path, revision){
+  const url=new URL(path,document.baseURI);
+  if(revision)url.searchParams.set('v',revision);
+  return url;
 }
 function choices(){return courses.filter(item=>item.language===state.lang && (state.tones ? item.mode==='tone':item.level===state.level && item.mode!=='tone'));}
 function active(){return choices()[state.position];}
@@ -153,13 +158,13 @@ function showResult(){
 async function play(speed){
   const item=active(), asset=media[item?.id];if(!asset || !item)return;
   demoAudio.pause();
-  const audioURL=new URL(asset.audio,document.baseURI).href;
+  const audioURL=versionedAsset(asset.audio,asset.audio_revision).href;
   if(demoAudio.src!==audioURL)demoAudio.src=audioURL;
   demoAudio.currentTime=0;demoAudio.playbackRate=speed;
   const playing=demoAudio.play();
   try{
     await playing;
-    const track=await fetchJSON(asset.animation);
+    const track=await fetchJSON(versionedAsset(asset.animation,asset.animation_revision));
     if(item===active())avatar?.demonstrate(track,demoAudio,Boolean(item.focus || syllables(item).length===1));
   }catch{status('audioFailed');}
 }
@@ -306,7 +311,7 @@ $('hosted-analysis').onchange=event=>saveStorage('vst-hosted-consent',event.targ
 $('reset-view').onclick=()=>avatar?.reset();
 new ResizeObserver(paintPitch).observe($('pitch'));
 setButtonState();
-Promise.all([fetchJSON('data/curriculum.zh-CN.json'),fetchJSON('data/curriculum.other.json'),fetchJSON('data/demos.json')]).then(([mandarin,others,assets])=>{
+Promise.all([fetchJSON('data/curriculum.zh-CN.json'),fetchJSON('data/curriculum.other.json'),fetchJSON('data/demos.json',{cache:'no-cache'})]).then(([mandarin,others,assets])=>{
   courses=[...mandarin.items,...others];media=assets;showExercise();
 }).catch(error=>{console.error(error);status('startupFailed');});
 import('./avatar.js').then(module=>module.createAvatar($('avatar'))).then(result=>{avatar=result;}).catch(error=>{

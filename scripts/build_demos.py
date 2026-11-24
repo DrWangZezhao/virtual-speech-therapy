@@ -2,6 +2,7 @@
 from argparse import ArgumentParser
 from concurrent.futures import ThreadPoolExecutor
 from copy import deepcopy
+from hashlib import sha256
 import json
 from pathlib import Path
 import subprocess
@@ -65,6 +66,8 @@ def build_item(item, cli, upstream, mappings, reference):
         track = {'keys': original['keys'], 'frames': frames[::2], 'duration': source_duration}
         track_path.write_text(json.dumps(track, separators=(',', ':')) + '\n')
     media = {'audio': f'data/audio/{stem}.mp3', 'animation': f'data/artic/{stem}.json',
+             'audio_revision': sha256(audio_path.read_bytes()).hexdigest()[:12],
+             'animation_revision': sha256(track_path.read_bytes()).hexdigest()[:12],
              'audio_kind': reference_file.get('kind', 'human') if reference_file else 'espeak',
              'duration': round(source_duration, 3)}
     if reference_file:

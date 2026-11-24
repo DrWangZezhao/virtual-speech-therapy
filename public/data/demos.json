@@ -9,7 +9,9 @@
       "license": "Apache 2.0 model",
       "license_url": "https://www.apache.org/licenses/LICENSE-2.0",
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
-    }
+    },
+    "audio_revision": "12f3ab539043",
+    "animation_revision": "39732a48047b"
   },
   "initial-p": {
     "audio": "data/audio/initial-p.mp3",
@@ -21,7 +23,9 @@
       "license": "Apache 2.0 model",
       "license_url": "https://www.apache.org/licenses/LICENSE-2.0",
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
-    }
+    },
+    "audio_revision": "81a8091d81a8",
+    "animation_revision": "cdeb257cb9cd"
   },
   "initial-m": {
     "audio": "data/audio/initial-m.mp3",
@@ -34,7 +38,9 @@
       "license_url": "https://creativecommons.org/licenses/by/2.0/fr/deed.en",
       "source": "https://commons.wikimedia.org/wiki/File:Zh-m%C4%81ma.ogg",
       "edits": "First syllable taken from māma from 0.18 to 0.62 seconds, faded, and transcoded to mono MP3."
-    }
+    },
+    "audio_revision": "b2f709248e75",
+    "animation_revision": "dcc9d8909ab8"
   },
   "initial-f": {
     "audio": "data/audio/initial-f.mp3",
@@ -46,7 +52,9 @@
       "license": "Apache 2.0 model",
       "license_url": "https://www.apache.org/licenses/LICENSE-2.0",
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
-    }
+    },
+    "audio_revision": "25f40f17fa06",
+    "animation_revision": "da0f36add0fb"
   },
   "initial-d": {
     "audio": "data/audio/initial-d.mp3",
@@ -58,7 +66,9 @@
       "license": "Apache 2.0 model",
       "license_url": "https://www.apache.org/licenses/LICENSE-2.0",
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
-    }
+    },
+    "audio_revision": "ba9ace2ff28e",
+    "animation_revision": "9a0e9768f85f"
   },
   "initial-t": {
     "audio": "data/audio/initial-t.mp3",
@@ -70,7 +80,9 @@
       "license": "Apache 2.0 model",
       "license_url": "https://www.apache.org/licenses/LICENSE-2.0",
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
-    }
+    },
+    "audio_revision": "ccc375d553bb",
+    "animation_revision": "df2e400888d7"
   },
   "initial-n": {
     "audio": "data/audio/initial-n.mp3",
@@ -82,7 +94,9 @@
       "license": "Apache 2.0 model",
       "license_url": "https://www.apache.org/licenses/LICENSE-2.0",
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
-    }
+    },
+    "audio_revision": "dcf0eb0d89bf",
+    "animation_revision": "f3a1cd4258cf"
   },
   "initial-l": {
     "audio": "data/audio/initial-l.mp3",
@@ -94,7 +108,9 @@
       "license": "Apache 2.0 model",
       "license_url": "https://www.apache.org/licenses/LICENSE-2.0",
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
-    }
+    },
+    "audio_revision": "c27a804afa33",
+    "animation_revision": "1462e7bd5b8e"
   },
   "initial-g": {
     "audio": "data/audio/initial-g.mp3",
@@ -106,7 +122,9 @@
       "license": "Apache 2.0 model",
       "license_url": "https://www.apache.org/licenses/LICENSE-2.0",
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
-    }
+    },
+    "audio_revision": "67c3575a270e",
+    "animation_revision": "5e139850b621"
   },
   "initial-k": {
     "audio": "data/audio/initial-k.mp3",
@@ -118,7 +136,9 @@
       "license": "Apache 2.0 model",
       "license_url": "https://www.apache.org/licenses/LICENSE-2.0",
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
-    }
+    },
+    "audio_revision": "b8f716254619",
+    "animation_revision": "657dbd456861"
   },
   "initial-h": {
     "audio": "data/audio/initial-h.mp3",
@@ -130,7 +150,9 @@
       "license": "Apache 2.0 model",
       "license_url": "https://www.apache.org/licenses/LICENSE-2.0",
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
-    }
+    },
+    "audio_revision": "1662a729dda1",
+    "animation_revision": "4e732ed566e0"
   },
   "initial-j": {
     "audio": "data/audio/initial-j.mp3",
@@ -142,7 +164,9 @@
       "license": "Apache 2.0 model",
       "license_url": "https://www.apache.org/licenses/LICENSE-2.0",
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
-    }
+    },
+    "audio_revision": "88fdfcb87e85",
+    "animation_revision": "6d6ceeb548e9"
   },
   "initial-q": {
     "audio": "data/audio/initial-q.mp3",
@@ -154,7 +178,9 @@
       "license": "Apache 2.0 model",
       "license_url": "https://www.apache.org/licenses/LICENSE-2.0",
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
-    }
+    },
+    "audio_revision": "e50c8a341b00",
+    "animation_revision": "4dd3e3c29177"
   },
   "initial-x": {
     "audio": "data/audio/initial-x.mp3",
@@ -166,7 +192,9 @@
       "license": "Apache 2.0 model",
       "license_url": "https://www.apache.org/licenses/LICENSE-2.0",
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
-    }
+    },
+    "audio_revision": "5b11b2b78f57",
+    "animation_revision": "7f179e3ae744"
   },
   "initial-zh": {
     "audio": "data/audio/initial-zh.mp3",
@@ -178,7 +206,9 @@
       "license": "Apache 2.0 model",
       "license_url": "https://www.apache.org/licenses/LICENSE-2.0",
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
-    }
+    },
+    "audio_revision": "03970ee325cc",
+    "animation_revision": "ae20e5956b7f"
   },
   "initial-ch": {
     "audio": "data/audio/initial-ch.mp3",
@@ -190,7 +220,9 @@
       "license": "Apache 2.0 model",
       "license_url": "https://www.apache.org/licenses/LICENSE-2.0",
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
-    }
+    },
+    "audio_revision": "633fb04f4f40",
+    "animation_revision": "03da2579292d"
   },
   "initial-sh": {
     "audio": "data/audio/initial-sh.mp3",
@@ -202,7 +234,9 @@
       "license": "Apache 2.0 model",
       "license_url": "https://www.apache.org/licenses/LICENSE-2.0",
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
-    }
+    },
+    "audio_revision": "3e94b403da33",
+    "animation_revision": "541eddc83741"
   },
   "initial-r": {
     "audio": "data/audio/initial-r.mp3",
@@ -214,7 +248,9 @@
       "license": "Apache 2.0 model",
       "license_url": "https://www.apache.org/licenses/LICENSE-2.0",
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
-    }
+    },
+    "audio_revision": "212399b03d3f",
+    "animation_revision": "4410e561de82"
   },
   "initial-z": {
     "audio": "data/audio/initial-z.mp3",
@@ -226,7 +262,9 @@
       "license": "Apache 2.0 model",
       "license_url": "https://www.apache.org/licenses/LICENSE-2.0",
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
-    }
+    },
+    "audio_revision": "b2ce5ebb254d",
+    "animation_revision": "825b02880745"
   },
   "initial-c": {
     "audio": "data/audio/initial-c.mp3",
@@ -238,7 +276,9 @@
       "license": "Apache 2.0 model",
       "license_url": "https://www.apache.org/licenses/LICENSE-2.0",
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
-    }
+    },
+    "audio_revision": "188eee0c6f1b",
+    "animation_revision": "02b466329b3a"
   },
   "initial-s": {
     "audio": "data/audio/initial-s.mp3",
@@ -250,7 +290,9 @@
       "license": "Apache 2.0 model",
       "license_url": "https://www.apache.org/licenses/LICENSE-2.0",
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
-    }
+    },
+    "audio_revision": "7f442b138056",
+    "animation_revision": "7743ecbae849"
   },
   "vowel-a": {
     "audio": "data/audio/vowel-a.mp3",
@@ -262,7 +304,9 @@
       "license": "Apache 2.0 model",
       "license_url": "https://www.apache.org/licenses/LICENSE-2.0",
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
-    }
+    },
+    "audio_revision": "420dcfb60c6f",
+    "animation_revision": "6e97f21c9a3f"
   },
   "vowel-o": {
     "audio": "data/audio/vowel-o.mp3",
@@ -274,7 +318,9 @@
       "license": "Apache 2.0 model",
       "license_url": "https://www.apache.org/licenses/LICENSE-2.0",
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
-    }
+    },
+    "audio_revision": "dab9643b4aea",
+    "animation_revision": "46946c122284"
   },
   "vowel-e": {
     "audio": "data/audio/vowel-e.mp3",
@@ -286,7 +332,9 @@
       "license": "Apache 2.0 model",
       "license_url": "https://www.apache.org/licenses/LICENSE-2.0",
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
-    }
+    },
+    "audio_revision": "f67c13bf5912",
+    "animation_revision": "7ed7ea5b852b"
   },
   "vowel-i": {
     "audio": "data/audio/vowel-i.mp3",
@@ -298,7 +346,9 @@
       "license": "Apache 2.0 model",
       "license_url": "https://www.apache.org/licenses/LICENSE-2.0",
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
-    }
+    },
+    "audio_revision": "498bbaa1da80",
+    "animation_revision": "9d53162632c1"
   },
   "vowel-u": {
     "audio": "data/audio/vowel-u.mp3",
@@ -310,7 +360,9 @@
       "license": "Apache 2.0 model",
       "license_url": "https://www.apache.org/licenses/LICENSE-2.0",
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
-    }
+    },
+    "audio_revision": "4ce9d211a06f",
+    "animation_revision": "d9e02a751287"
   },
   "vowel-ü": {
     "audio": "data/audio/vowel-ü.mp3",
@@ -322,7 +374,9 @@
       "license": "Apache 2.0 model",
       "license_url": "https://www.apache.org/licenses/LICENSE-2.0",
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
-    }
+    },
+    "audio_revision": "a974e8b3172b",
+    "animation_revision": "8e318c5c76b3"
   },
   "level-2-01": {
     "audio": "data/audio/level-2-01.mp3",
@@ -334,7 +388,9 @@
       "license": "Apache 2.0 model",
       "license_url": "https://www.apache.org/licenses/LICENSE-2.0",
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
-    }
+    },
+    "audio_revision": "12f3ab539043",
+    "animation_revision": "39732a48047b"
   },
   "level-2-02": {
     "audio": "data/audio/level-2-02.mp3",
@@ -346,7 +402,9 @@
       "license": "Apache 2.0 model",
       "license_url": "https://www.apache.org/licenses/LICENSE-2.0",
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
-    }
+    },
+    "audio_revision": "81a8091d81a8",
+    "animation_revision": "cdeb257cb9cd"
   },
   "level-2-03": {
     "audio": "data/audio/level-2-03.mp3",
@@ -359,7 +417,9 @@
       "license_url": "https://creativecommons.org/licenses/by/2.0/fr/deed.en",
       "source": "https://commons.wikimedia.org/wiki/File:Zh-m%C4%81ma.ogg",
       "edits": "First syllable taken from māma from 0.18 to 0.62 seconds, faded, and transcoded to mono MP3."
-    }
+    },
+    "audio_revision": "b2f709248e75",
+    "animation_revision": "dcc9d8909ab8"
   },
   "level-2-04": {
     "audio": "data/audio/level-2-04.mp3",
@@ -371,7 +431,9 @@
       "license": "Apache 2.0 model",
       "license_url": "https://www.apache.org/licenses/LICENSE-2.0",
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
-    }
+    },
+    "audio_revision": "25f40f17fa06",
+    "animation_revision": "da0f36add0fb"
   },
   "level-2-05": {
     "audio": "data/audio/level-2-05.mp3",
@@ -383,7 +445,9 @@
       "license": "Apache 2.0 model",
       "license_url": "https://www.apache.org/licenses/LICENSE-2.0",
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
-    }
+    },
+    "audio_revision": "ba9ace2ff28e",
+    "animation_revision": "9a0e9768f85f"
   },
   "level-2-06": {
     "audio": "data/audio/level-2-06.mp3",
@@ -395,7 +459,9 @@
       "license": "Apache 2.0 model",
       "license_url": "https://www.apache.org/licenses/LICENSE-2.0",
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
-    }
+    },
+    "audio_revision": "ccc375d553bb",
+    "animation_revision": "df2e400888d7"
   },
   "level-2-07": {
     "audio": "data/audio/level-2-07.mp3",
@@ -407,7 +473,9 @@
       "license": "Apache 2.0 model",
       "license_url": "https://www.apache.org/licenses/LICENSE-2.0",
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
-    }
+    },
+    "audio_revision": "dcf0eb0d89bf",
+    "animation_revision": "f3a1cd4258cf"
   },
   "level-2-08": {
     "audio": "data/audio/level-2-08.mp3",
@@ -419,7 +487,9 @@
       "license": "Apache 2.0 model",
       "license_url": "https://www.apache.org/licenses/LICENSE-2.0",
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
-    }
+    },
+    "audio_revision": "c27a804afa33",
+    "animation_revision": "1462e7bd5b8e"
   },
   "level-2-09": {
     "audio": "data/audio/level-2-09.mp3",
@@ -431,7 +501,9 @@
       "license": "Apache 2.0 model",
       "license_url": "https://www.apache.org/licenses/LICENSE-2.0",
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
-    }
+    },
+    "audio_revision": "88fdfcb87e85",
+    "animation_revision": "6d6ceeb548e9"
   },
   "level-2-10": {
     "audio": "data/audio/level-2-10.mp3",
@@ -443,7 +515,9 @@
       "license": "Apache 2.0 model",
       "license_url": "https://www.apache.org/licenses/LICENSE-2.0",
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
-    }
+    },
+    "audio_revision": "e50c8a341b00",
+    "animation_revision": "4dd3e3c29177"
   },
   "level-2-11": {
     "audio": "data/audio/level-2-11.mp3",
@@ -455,7 +529,9 @@
       "license": "Apache 2.0 model",
       "license_url": "https://www.apache.org/licenses/LICENSE-2.0",
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
-    }
+    },
+    "audio_revision": "5b11b2b78f57",
+    "animation_revision": "7f179e3ae744"
   },
   "level-2-12": {
     "audio": "data/audio/level-2-12.mp3",
@@ -467,7 +543,9 @@
       "license": "Apache 2.0 model",
       "license_url": "https://www.apache.org/licenses/LICENSE-2.0",
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
-    }
+    },
+    "audio_revision": "03970ee325cc",
+    "animation_revision": "ae20e5956b7f"
   },
   "level-2-13": {
     "audio": "data/audio/level-2-13.mp3",
@@ -479,7 +557,9 @@
       "license": "Apache 2.0 model",
       "license_url": "https://www.apache.org/licenses/LICENSE-2.0",
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
-    }
+    },
+    "audio_revision": "633fb04f4f40",
+    "animation_revision": "03da2579292d"
   },
   "level-2-14": {
     "audio": "data/audio/level-2-14.mp3",
@@ -491,7 +571,9 @@
       "license": "Apache 2.0 model",
       "license_url": "https://www.apache.org/licenses/LICENSE-2.0",
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
-    }
+    },
+    "audio_revision": "3e94b403da33",
+    "animation_revision": "541eddc83741"
   },
   "level-2-15": {
     "audio": "data/audio/level-2-15.mp3",
@@ -503,7 +585,9 @@
       "license": "Apache 2.0 model",
       "license_url": "https://www.apache.org/licenses/LICENSE-2.0",
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
-    }
+    },
+    "audio_revision": "b2ce5ebb254d",
+    "animation_revision": "825b02880745"
   },
   "level-2-16": {
     "audio": "data/audio/level-2-16.mp3",
@@ -515,7 +599,9 @@
       "license": "Apache 2.0 model",
       "license_url": "https://www.apache.org/licenses/LICENSE-2.0",
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
-    }
+    },
+    "audio_revision": "188eee0c6f1b",
+    "animation_revision": "02b466329b3a"
   },
   "level-2-17": {
     "audio": "data/audio/level-2-17.mp3",
@@ -527,7 +613,9 @@
       "license": "Apache 2.0 model",
       "license_url": "https://www.apache.org/licenses/LICENSE-2.0",
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
-    }
+    },
+    "audio_revision": "7f442b138056",
+    "animation_revision": "7743ecbae849"
   },
   "level-2-18": {
     "audio": "data/audio/level-2-18.mp3",
@@ -539,7 +627,9 @@
       "license": "Apache 2.0 model",
       "license_url": "https://www.apache.org/licenses/LICENSE-2.0",
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
-    }
+    },
+    "audio_revision": "0654e569056b",
+    "animation_revision": "9fc534dcd696"
   },
   "level-2-19": {
     "audio": "data/audio/level-2-19.mp3",
@@ -551,7 +641,9 @@
       "license": "Apache 2.0 model",
       "license_url": "https://www.apache.org/licenses/LICENSE-2.0",
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
-    }
+    },
+    "audio_revision": "906ea47cf4c5",
+    "animation_revision": "8f2202080567"
   },
   "level-2-20": {
     "audio": "data/audio/level-2-20.mp3",
@@ -563,7 +655,9 @@
       "license": "Apache 2.0 model",
       "license_url": "https://www.apache.org/licenses/LICENSE-2.0",
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
-    }
+    },
+    "audio_revision": "3cac3f0592f3",
+    "animation_revision": "cb13920da4bd"
   },
   "level-2-21": {
     "audio": "data/audio/level-2-21.mp3",
@@ -575,7 +669,9 @@
       "license": "Apache 2.0 model",
       "license_url": "https://www.apache.org/licenses/LICENSE-2.0",
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
-    }
+    },
+    "audio_revision": "66f4306e8523",
+    "animation_revision": "baa1051d6b18"
   },
   "level-2-22": {
     "audio": "data/audio/level-2-22.mp3",
@@ -587,7 +683,9 @@
       "license": "Apache 2.0 model",
       "license_url": "https://www.apache.org/licenses/LICENSE-2.0",
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
-    }
+    },
+    "audio_revision": "ac97e4eb548f",
+    "animation_revision": "e06bb482b428"
   },
   "level-2-23": {
     "audio": "data/audio/level-2-23.mp3",
@@ -599,7 +697,9 @@
       "license": "Apache 2.0 model",
       "license_url": "https://www.apache.org/licenses/LICENSE-2.0",
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
-    }
+    },
+    "audio_revision": "d515343ba343",
+    "animation_revision": "24f8a7bbd51b"
   },
   "level-2-24": {
     "audio": "data/audio/level-2-24.mp3",
@@ -611,7 +711,9 @@
       "license": "Apache 2.0 model",
       "license_url": "https://www.apache.org/licenses/LICENSE-2.0",
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
-    }
+    },
+    "audio_revision": "7c117c4893af",
+    "animation_revision": "59c91f377684"
   },
   "level-2-25": {
     "audio": "data/audio/level-2-25.mp3",
@@ -623,7 +725,9 @@
       "license": "Apache 2.0 model",
       "license_url": "https://www.apache.org/licenses/LICENSE-2.0",
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
-    }
+    },
+    "audio_revision": "90cfb94b3dfa",
+    "animation_revision": "7cbcda36011a"
   },
   "level-2-26": {
     "audio": "data/audio/level-2-26.mp3",
@@ -635,7 +739,9 @@
       "license": "Apache 2.0 model",
       "license_url": "https://www.apache.org/licenses/LICENSE-2.0",
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
-    }
+    },
+    "audio_revision": "9db7c454a4cd",
+    "animation_revision": "2b0ee48aad8c"
   },
   "level-2-27": {
     "audio": "data/audio/level-2-27.mp3",
@@ -647,7 +753,9 @@
       "license": "Apache 2.0 model",
       "license_url": "https://www.apache.org/licenses/LICENSE-2.0",
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
-    }
+    },
+    "audio_revision": "47178a84ce3e",
+    "animation_revision": "24fc62c49981"
   },
   "level-2-28": {
     "audio": "data/audio/level-2-28.mp3",
@@ -659,7 +767,9 @@
       "license": "Apache 2.0 model",
       "license_url": "https://www.apache.org/licenses/LICENSE-2.0",
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
-    }
+    },
+    "audio_revision": "0d46666897f9",
+    "animation_revision": "695f02bdd64d"
   },
   "level-2-29": {
     "audio": "data/audio/level-2-29.mp3",
@@ -671,7 +781,9 @@
       "license": "Apache 2.0 model",
       "license_url": "https://www.apache.org/licenses/LICENSE-2.0",
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
-    }
+    },
+    "audio_revision": "2afaeaf5247f",
+    "animation_revision": "ecfb0df8c596"
   },
   "level-2-30": {
     "audio": "data/audio/level-2-30.mp3",
@@ -683,7 +795,9 @@
       "license": "Apache 2.0 model",
       "license_url": "https://www.apache.org/licenses/LICENSE-2.0",
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
-    }
+    },
+    "audio_revision": "ac4839cbf9c9",
+    "animation_revision": "fca0ae4d9e35"
   },
   "level-2-31": {
     "audio": "data/audio/level-2-31.mp3",
@@ -695,7 +809,9 @@
       "license": "Apache 2.0 model",
       "license_url": "https://www.apache.org/licenses/LICENSE-2.0",
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
-    }
+    },
+    "audio_revision": "3eefd2379dbc",
+    "animation_revision": "50a0cde30e44"
   },
   "level-2-32": {
     "audio": "data/audio/level-2-32.mp3",
@@ -707,7 +823,9 @@
       "license": "Apache 2.0 model",
       "license_url": "https://www.apache.org/licenses/LICENSE-2.0",
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
-    }
+    },
+    "audio_revision": "8461af4b2758",
+    "animation_revision": "d9a6241f2ce4"
   },
   "level-2-33": {
     "audio": "data/audio/level-2-33.mp3",
@@ -719,7 +837,9 @@
       "license": "Apache 2.0 model",
       "license_url": "https://www.apache.org/licenses/LICENSE-2.0",
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
-    }
+    },
+    "audio_revision": "c6690f201efe",
+    "animation_revision": "32c124d22420"
   },
   "level-2-34": {
     "audio": "data/audio/level-2-34.mp3",
@@ -731,7 +851,9 @@
       "license": "Apache 2.0 model",
       "license_url": "https://www.apache.org/licenses/LICENSE-2.0",
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
-    }
+    },
+    "audio_revision": "65c8c2fd2ee3",
+    "animation_revision": "0cbe290bb676"
   },
   "level-2-35": {
     "audio": "data/audio/level-2-35.mp3",
@@ -743,7 +865,9 @@
       "license": "Apache 2.0 model",
       "license_url": "https://www.apache.org/licenses/LICENSE-2.0",
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
-    }
+    },
+    "audio_revision": "c7484e9ef9c5",
+    "animation_revision": "292cff84ac1d"
   },
   "level-2-36": {
     "audio": "data/audio/level-2-36.mp3",
@@ -755,7 +879,9 @@
       "license": "Apache 2.0 model",
       "license_url": "https://www.apache.org/licenses/LICENSE-2.0",
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
-    }
+    },
+    "audio_revision": "4ce9d211a06f",
+    "animation_revision": "d9e02a751287"
   },
   "level-2-37": {
     "audio": "data/audio/level-2-37.mp3",
@@ -768,7 +894,9 @@
       "license_url": "https://creativecommons.org/licenses/by/2.0/fr/deed.en",
       "source": "https://commons.wikimedia.org/wiki/File:Zh-m%C4%81ma.ogg",
       "edits": "Transcoded to mono MP3 and leading silence trimmed."
-    }
+    },
+    "audio_revision": "41362d701edd",
+    "animation_revision": "311d712d6970"
   },
   "level-2-38": {
     "audio": "data/audio/level-2-38.mp3",
@@ -780,7 +908,9 @@
       "license": "Apache 2.0 model",
       "license_url": "https://www.apache.org/licenses/LICENSE-2.0",
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
-    }
+    },
+    "audio_revision": "6bc96de40982",
+    "animation_revision": "1f4c3c4c5669"
   },
   "level-3-01": {
     "audio": "data/audio/level-3-01.mp3",
@@ -793,7 +923,9 @@
       "license_url": "https://creativecommons.org/licenses/by/2.0/fr/deed.en",
       "source": "https://commons.wikimedia.org/wiki/File:Zh-m%C7%8E.ogg",
       "edits": "Transcoded to mono MP3 and leading silence trimmed."
-    }
+    },
+    "audio_revision": "bf86b993ddb5",
+    "animation_revision": "df7b9899ef3f"
   },
   "level-3-02": {
     "audio": "data/audio/level-3-02.mp3",
@@ -805,7 +937,9 @@
       "license": "Apache 2.0 model",
       "license_url": "https://www.apache.org/licenses/LICENSE-2.0",
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
-    }
+    },
+    "audio_revision": "21a3e7431217",
+    "animation_revision": "d945662b2a00"
   },
   "level-3-03": {
     "audio": "data/audio/level-3-03.mp3",
@@ -818,7 +952,9 @@
       "license_url": "https://creativecommons.org/licenses/by/2.0/fr/deed.en",
       "source": "https://commons.wikimedia.org/wiki/File:Zh-m%C4%81ma.ogg",
       "edits": "First syllable taken from māma from 0.18 to 0.62 seconds, faded, and transcoded to mono MP3."
-    }
+    },
+    "audio_revision": "b2f709248e75",
+    "animation_revision": "dcc9d8909ab8"
   },
   "level-3-04": {
     "audio": "data/audio/level-3-04.mp3",
@@ -831,7 +967,9 @@
       "license_url": "https://creativecommons.org/licenses/by/2.0/fr/deed.en",
       "source": "https://commons.wikimedia.org/wiki/File:Zh-m%C4%81ma.ogg",
       "edits": "Transcoded to mono MP3 and leading silence trimmed."
-    }
+    },
+    "audio_revision": "41362d701edd",
+    "animation_revision": "311d712d6970"
   },
   "level-3-05": {
     "audio": "data/audio/level-3-05.mp3",
@@ -844,7 +982,9 @@
       "license_url": "https://creativecommons.org/licenses/by/2.0/fr/deed.en",
       "source": "https://commons.wikimedia.org/wiki/File:Zh-b%C3%A0ba.ogg",
       "edits": "Transcoded to mono MP3 and leading silence trimmed."
-    }
+    },
+    "audio_revision": "535131c76d12",
+    "animation_revision": "f07944900a7b"
   },
   "level-3-06": {
     "audio": "data/audio/level-3-06.mp3",
@@ -857,7 +997,9 @@
       "license_url": "https://creativecommons.org/licenses/by/2.0/fr/deed.en",
       "source": "https://commons.wikimedia.org/wiki/File:Zh-p%C3%ADnggu%C7%92.ogg",
       "edits": "Transcoded to mono MP3 and leading silence trimmed."
-    }
+    },
+    "audio_revision": "61093d28f792",
+    "animation_revision": "f54249220815"
   },
   "level-3-07": {
     "audio": "data/audio/level-3-07.mp3",
@@ -870,7 +1012,9 @@
       "license_url": "https://creativecommons.org/licenses/by/2.0/fr/deed.en",
       "source": "https://commons.wikimedia.org/wiki/File:Zh-xi%C4%81ngji%C4%81o.ogg",
       "edits": "Transcoded to mono MP3 and leading silence trimmed."
-    }
+    },
+    "audio_revision": "775314374ff5",
+    "animation_revision": "8a675a3c488c"
   },
   "level-3-08": {
     "audio": "data/audio/level-3-08.mp3",
@@ -883,7 +1027,9 @@
       "license_url": "https://creativecommons.org/licenses/by/2.0/fr/deed.en",
       "source": "https://commons.wikimedia.org/wiki/File:Zh-xu%C3%A9xi%C3%A0o.ogg",
       "edits": "Transcoded to mono MP3 and leading silence trimmed."
-    }
+    },
+    "audio_revision": "99039340bd46",
+    "animation_revision": "b23a13bd264c"
   },
   "level-3-09": {
     "audio": "data/audio/level-3-09.mp3",
@@ -896,7 +1042,9 @@
       "license_url": "https://creativecommons.org/licenses/by/2.0/fr/deed.en",
       "source": "https://commons.wikimedia.org/wiki/File:Zh-l%C7%8Eosh%C4%AB.ogg",
       "edits": "Transcoded to mono MP3 and leading silence trimmed."
-    }
+    },
+    "audio_revision": "ddfe7da466da",
+    "animation_revision": "fea2ba2d77d1"
   },
   "level-3-10": {
     "audio": "data/audio/level-3-10.mp3",
@@ -908,7 +1056,9 @@
       "license": "Apache 2.0 model",
       "license_url": "https://www.apache.org/licenses/LICENSE-2.0",
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
-    }
+    },
+    "audio_revision": "9da2ab527de0",
+    "animation_revision": "05b70c602d6d"
   },
   "level-3-11": {
     "audio": "data/audio/level-3-11.mp3",
@@ -920,7 +1070,9 @@
       "license": "Apache 2.0 model",
       "license_url": "https://www.apache.org/licenses/LICENSE-2.0",
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
-    }
+    },
+    "audio_revision": "96f8e42e15fe",
+    "animation_revision": "55ba89b72437"
   },
   "level-3-12": {
     "audio": "data/audio/level-3-12.mp3",
@@ -932,7 +1084,9 @@
       "license": "Apache 2.0 model",
       "license_url": "https://www.apache.org/licenses/LICENSE-2.0",
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
-    }
+    },
+    "audio_revision": "b10c99652035",
+    "animation_revision": "7799711209c3"
   },
   "level-3-13": {
     "audio": "data/audio/level-3-13.mp3",
@@ -944,7 +1098,9 @@
       "license": "Apache 2.0 model",
       "license_url": "https://www.apache.org/licenses/LICENSE-2.0",
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
-    }
+    },
+    "audio_revision": "d5cafec30429",
+    "animation_revision": "65bdd25ec04f"
   },
   "level-3-14": {
     "audio": "data/audio/level-3-14.mp3",
@@ -956,7 +1112,9 @@
       "license": "Apache 2.0 model",
       "license_url": "https://www.apache.org/licenses/LICENSE-2.0",
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
-    }
+    },
+    "audio_revision": "5d13905d1491",
+    "animation_revision": "c487e516c75a"
   },
   "level-3-15": {
     "audio": "data/audio/level-3-15.mp3",
@@ -968,7 +1126,9 @@
       "license": "Apache 2.0 model",
       "license_url": "https://www.apache.org/licenses/LICENSE-2.0",
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
-    }
+    },
+    "audio_revision": "c89b66484e43",
+    "animation_revision": "42c9c00557dd"
   },
   "level-3-16": {
     "audio": "data/audio/level-3-16.mp3",
@@ -980,7 +1140,9 @@
       "license": "Apache 2.0 model",
       "license_url": "https://www.apache.org/licenses/LICENSE-2.0",
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
-    }
+    },
+    "audio_revision": "4957a75cc9f5",
+    "animation_revision": "376552ad1521"
   },
   "level-3-17": {
     "audio": "data/audio/level-3-17.mp3",
@@ -992,7 +1154,9 @@
       "license": "Apache 2.0 model",
       "license_url": "https://www.apache.org/licenses/LICENSE-2.0",
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
-    }
+    },
+    "audio_revision": "8a90f2b413d7",
+    "animation_revision": "a043a14495a9"
   },
   "level-3-18": {
     "audio": "data/audio/level-3-18.mp3",
@@ -1004,7 +1168,9 @@
       "license": "Apache 2.0 model",
       "license_url": "https://www.apache.org/licenses/LICENSE-2.0",
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
-    }
+    },
+    "audio_revision": "09c765991ecd",
+    "animation_revision": "f4123060faf5"
   },
   "level-3-19": {
     "audio": "data/audio/level-3-19.mp3",
@@ -1016,7 +1182,9 @@
       "license": "Apache 2.0 model",
       "license_url": "https://www.apache.org/licenses/LICENSE-2.0",
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
-    }
+    },
+    "audio_revision": "5d6fff20a146",
+    "animation_revision": "a272add3c011"
   },
   "level-3-20": {
     "audio": "data/audio/level-3-20.mp3",
@@ -1028,7 +1196,9 @@
       "license": "Apache 2.0 model",
       "license_url": "https://www.apache.org/licenses/LICENSE-2.0",
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
-    }
+    },
+    "audio_revision": "7422848484d6",
+    "animation_revision": "855cb2f8c71d"
   },
   "level-3-21": {
     "audio": "data/audio/level-3-21.mp3",
@@ -1040,7 +1210,9 @@
       "license": "Apache 2.0 model",
       "license_url": "https://www.apache.org/licenses/LICENSE-2.0",
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
-    }
+    },
+    "audio_revision": "bee9e6a349c7",
+    "animation_revision": "ed63ae4049bd"
   },
   "sentence-01": {
     "audio": "data/audio/sentence-01.mp3",
@@ -1052,7 +1224,9 @@
       "license": "Apache 2.0 model",
       "license_url": "https://www.apache.org/licenses/LICENSE-2.0",
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
-    }
+    },
+    "audio_revision": "f49ea9b33b6a",
+    "animation_revision": "08ddb3c4cedc"
   },
   "sentence-02": {
     "audio": "data/audio/sentence-02.mp3",
@@ -1064,7 +1238,9 @@
       "license": "Apache 2.0 model",
       "license_url": "https://www.apache.org/licenses/LICENSE-2.0",
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
-    }
+    },
+    "audio_revision": "a2d771eda550",
+    "animation_revision": "31b1dd31e90f"
   },
   "sentence-03": {
     "audio": "data/audio/sentence-03.mp3",
@@ -1076,7 +1252,9 @@
       "license": "Apache 2.0 model",
       "license_url": "https://www.apache.org/licenses/LICENSE-2.0",
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
-    }
+    },
+    "audio_revision": "c2e32b4b1d9d",
+    "animation_revision": "0421f37b91dd"
   },
   "sentence-04": {
     "audio": "data/audio/sentence-04.mp3",
@@ -1088,7 +1266,9 @@
       "license": "Apache 2.0 model",
       "license_url": "https://www.apache.org/licenses/LICENSE-2.0",
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
-    }
+    },
+    "audio_revision": "d6c9824f2231",
+    "animation_revision": "578b0ebbb088"
   },
   "sentence-05": {
     "audio": "data/audio/sentence-05.mp3",
@@ -1100,7 +1280,9 @@
       "license": "Apache 2.0 model",
       "license_url": "https://www.apache.org/licenses/LICENSE-2.0",
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
-    }
+    },
+    "audio_revision": "40d0a07af3f5",
+    "animation_revision": "548ce652feb2"
   },
   "sentence-06": {
     "audio": "data/audio/sentence-06.mp3",
@@ -1112,7 +1294,9 @@
       "license": "Apache 2.0 model",
       "license_url": "https://www.apache.org/licenses/LICENSE-2.0",
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
-    }
+    },
+    "audio_revision": "1b2639a5dd74",
+    "animation_revision": "2442576be40f"
   },
   "sentence-07": {
     "audio": "data/audio/sentence-07.mp3",
@@ -1124,7 +1308,9 @@
       "license": "Apache 2.0 model",
       "license_url": "https://www.apache.org/licenses/LICENSE-2.0",
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
-    }
+    },
+    "audio_revision": "99eb711a2071",
+    "animation_revision": "cf0cbaff22e4"
   },
   "tone-ma-1": {
     "audio": "data/audio/tone-ma-1.mp3",
@@ -1137,7 +1323,9 @@
       "license_url": "https://creativecommons.org/licenses/by/2.0/fr/deed.en",
       "source": "https://commons.wikimedia.org/wiki/File:Zh-m%C4%81ma.ogg",
       "edits": "First syllable taken from māma from 0.18 to 0.62 seconds, faded, and transcoded to mono MP3."
-    }
+    },
+    "audio_revision": "b2f709248e75",
+    "animation_revision": "dcc9d8909ab8"
   },
   "tone-ma-2": {
     "audio": "data/audio/tone-ma-2.mp3",
@@ -1150,7 +1338,9 @@
       "license_url": "https://creativecommons.org/licenses/by-sa/3.0/us/deed.en",
       "source": "https://commons.wikimedia.org/wiki/File:Zh-m%C3%A1.ogg",
       "edits": "Transcoded to mono MP3 and leading silence trimmed."
-    }
+    },
+    "audio_revision": "b799ff531aa8",
+    "animation_revision": "e9da354a4af6"
   },
   "tone-ma-3": {
     "audio": "data/audio/tone-ma-3.mp3",
@@ -1163,7 +1353,9 @@
       "license_url": "https://creativecommons.org/licenses/by/2.0/fr/deed.en",
       "source": "https://commons.wikimedia.org/wiki/File:Zh-m%C7%8E.ogg",
       "edits": "Transcoded to mono MP3 and leading silence trimmed."
-    }
+    },
+    "audio_revision": "bf86b993ddb5",
+    "animation_revision": "df7b9899ef3f"
   },
   "tone-ma-4": {
     "audio": "data/audio/tone-ma-4.mp3",
@@ -1176,7 +1368,9 @@
       "license_url": "https://creativecommons.org/licenses/by-sa/3.0/us/deed.en",
       "source": "https://commons.wikimedia.org/wiki/File:Zh-m%C3%A0.ogg",
       "edits": "Transcoded to mono MP3 and leading silence trimmed."
-    }
+    },
+    "audio_revision": "e6c9162f7edf",
+    "animation_revision": "1a06f6006d1a"
   },
   "tone-ma-5": {
     "audio": "data/audio/tone-ma-5.mp3",
@@ -1189,7 +1383,9 @@
       "license_url": "https://creativecommons.org/licenses/by/2.0/fr/deed.en",
       "source": "https://commons.wikimedia.org/wiki/File:Zh-ma.ogg",
       "edits": "Transcoded to mono MP3 and leading silence trimmed."
-    }
+    },
+    "audio_revision": "530713765cb6",
+    "animation_revision": "665329fc655e"
   },
   "en-1-1": {
     "audio": "data/audio/en-1-1.mp3",
@@ -1201,7 +1397,9 @@
       "license": "Apache 2.0 model",
       "license_url": "https://www.apache.org/licenses/LICENSE-2.0",
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
-    }
+    },
+    "audio_revision": "3dcdfc4736fc",
+    "animation_revision": "428eda5a1723"
   },
   "en-1-2": {
     "audio": "data/audio/en-1-2.mp3",
@@ -1213,7 +1411,9 @@
       "license": "Apache 2.0 model",
       "license_url": "https://www.apache.org/licenses/LICENSE-2.0",
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
-    }
+    },
+    "audio_revision": "644bb5cfd65a",
+    "animation_revision": "cdadf52578af"
   },
   "en-1-3": {
     "audio": "data/audio/en-1-3.mp3",
@@ -1225,7 +1425,9 @@
       "license": "Apache 2.0 model",
       "license_url": "https://www.apache.org/licenses/LICENSE-2.0",
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
-    }
+    },
+    "audio_revision": "dbab98dd677e",
+    "animation_revision": "12e1d0bec291"
   },
   "en-2-1": {
     "audio": "data/audio/en-2-1.mp3",
@@ -1237,7 +1439,9 @@
       "license": "Apache 2.0 model",
       "license_url": "https://www.apache.org/licenses/LICENSE-2.0",
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
-    }
+    },
+    "audio_revision": "cc296ee329a5",
+    "animation_revision": "588028b3ec9b"
   },
   "en-2-2": {
     "audio": "data/audio/en-2-2.mp3",
@@ -1249,7 +1453,9 @@
       "license": "Apache 2.0 model",
       "license_url": "https://www.apache.org/licenses/LICENSE-2.0",
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
-    }
+    },
+    "audio_revision": "b6e958785c33",
+    "animation_revision": "120a76f84659"
   },
   "en-2-3": {
     "audio": "data/audio/en-2-3.mp3",
@@ -1261,7 +1467,9 @@
       "license": "Apache 2.0 model",
       "license_url": "https://www.apache.org/licenses/LICENSE-2.0",
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
-    }
+    },
+    "audio_revision": "8ef19f949ab3",
+    "animation_revision": "c157ea7c83e0"
   },
   "en-3-1": {
     "audio": "data/audio/en-3-1.mp3",
@@ -1273,7 +1481,9 @@
       "license": "Apache 2.0 model",
       "license_url": "https://www.apache.org/licenses/LICENSE-2.0",
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
-    }
+    },
+    "audio_revision": "de536d11f9cc",
+    "animation_revision": "26780659d7fd"
   },
   "en-3-2": {
     "audio": "data/audio/en-3-2.mp3",
@@ -1285,7 +1495,9 @@
       "license": "Apache 2.0 model",
       "license_url": "https://www.apache.org/licenses/LICENSE-2.0",
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
-    }
+    },
+    "audio_revision": "a87b01b15fc0",
+    "animation_revision": "b02c13f9fd45"
   },
   "en-3-3": {
     "audio": "data/audio/en-3-3.mp3",
@@ -1297,7 +1509,9 @@
       "license": "Apache 2.0 model",
       "license_url": "https://www.apache.org/licenses/LICENSE-2.0",
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
-    }
+    },
+    "audio_revision": "b75b9985cb6f",
+    "animation_revision": "2d13c08efc28"
   },
   "en-3-4": {
     "audio": "data/audio/en-3-4.mp3",
@@ -1309,7 +1523,9 @@
       "license": "Apache 2.0 model",
       "license_url": "https://www.apache.org/licenses/LICENSE-2.0",
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
-    }
+    },
+    "audio_revision": "bcbaa4b45b11",
+    "animation_revision": "0dc19e551ce9"
   },
   "en-4-1": {
     "audio": "data/audio/en-4-1.mp3",
@@ -1321,7 +1537,9 @@
       "license": "Apache 2.0 model",
       "license_url": "https://www.apache.org/licenses/LICENSE-2.0",
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
-    }
+    },
+    "audio_revision": "a18f834180bd",
+    "animation_revision": "068d40e93939"
   },
   "en-4-2": {
     "audio": "data/audio/en-4-2.mp3",
@@ -1333,7 +1551,9 @@
       "license": "Apache 2.0 model",
       "license_url": "https://www.apache.org/licenses/LICENSE-2.0",
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
-    }
+    },
+    "audio_revision": "566888307a1c",
+    "animation_revision": "fab721c4b128"
   },
   "en-4-3": {
     "audio": "data/audio/en-4-3.mp3",
@@ -1345,7 +1565,9 @@
       "license": "Apache 2.0 model",
       "license_url": "https://www.apache.org/licenses/LICENSE-2.0",
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
-    }
+    },
+    "audio_revision": "cb0ea4e9f05e",
+    "animation_revision": "0668b42e4517"
   },
   "es-ES-1-1": {
     "audio": "data/audio/es-ES-1-1.mp3",
@@ -1357,7 +1579,9 @@
       "license": "Apache 2.0 model",
       "license_url": "https://www.apache.org/licenses/LICENSE-2.0",
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
-    }
+    },
+    "audio_revision": "833789d18e1d",
+    "animation_revision": "ec01838c935b"
   },
   "es-ES-1-2": {
     "audio": "data/audio/es-ES-1-2.mp3",
@@ -1369,7 +1593,9 @@
       "license": "Apache 2.0 model",
       "license_url": "https://www.apache.org/licenses/LICENSE-2.0",
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
-    }
+    },
+    "audio_revision": "a97bf0c6ab68",
+    "animation_revision": "e23d336b4bcf"
   },
   "es-ES-1-3": {
     "audio": "data/audio/es-ES-1-3.mp3",
@@ -1381,7 +1607,9 @@
       "license": "Apache 2.0 model",
       "license_url": "https://www.apache.org/licenses/LICENSE-2.0",
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
-    }
+    },
+    "audio_revision": "2e5247ccee79",
+    "animation_revision": "821750ede5d2"
   },
   "es-ES-2-1": {
     "audio": "data/audio/es-ES-2-1.mp3",
@@ -1393,7 +1621,9 @@
       "license": "Apache 2.0 model",
       "license_url": "https://www.apache.org/licenses/LICENSE-2.0",
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
-    }
+    },
+    "audio_revision": "0228713ac267",
+    "animation_revision": "66cd3a9fd1e2"
   },
   "es-ES-2-2": {
     "audio": "data/audio/es-ES-2-2.mp3",
@@ -1405,7 +1635,9 @@
       "license": "Apache 2.0 model",
       "license_url": "https://www.apache.org/licenses/LICENSE-2.0",
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
-    }
+    },
+    "audio_revision": "db5899858156",
+    "animation_revision": "e448f8475ea9"
   },
   "es-ES-2-3": {
     "audio": "data/audio/es-ES-2-3.mp3",
@@ -1417,7 +1649,9 @@
       "license": "Apache 2.0 model",
       "license_url": "https://www.apache.org/licenses/LICENSE-2.0",
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
-    }
+    },
+    "audio_revision": "e917f67d98a3",
+    "animation_revision": "3fb71bbbed02"
   },
   "es-ES-2-4": {
     "audio": "data/audio/es-ES-2-4.mp3",
@@ -1429,7 +1663,9 @@
       "license": "Apache 2.0 model",
       "license_url": "https://www.apache.org/licenses/LICENSE-2.0",
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
-    }
+    },
+    "audio_revision": "ed5dc7cb2d6f",
+    "animation_revision": "8a5bc79749df"
   },
   "es-ES-3-1": {
     "audio": "data/audio/es-ES-3-1.mp3",
@@ -1441,7 +1677,9 @@
       "license": "Apache 2.0 model",
       "license_url": "https://www.apache.org/licenses/LICENSE-2.0",
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
-    }
+    },
+    "audio_revision": "3580ba982930",
+    "animation_revision": "4cc43e8b9e20"
   },
   "es-ES-3-2": {
     "audio": "data/audio/es-ES-3-2.mp3",
@@ -1453,7 +1691,9 @@
       "license": "Apache 2.0 model",
       "license_url": "https://www.apache.org/licenses/LICENSE-2.0",
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
-    }
+    },
+    "audio_revision": "d5ff4b9045eb",
+    "animation_revision": "37d887941abd"
   },
   "es-ES-3-3": {
     "audio": "data/audio/es-ES-3-3.mp3",
@@ -1465,7 +1705,9 @@
       "license": "Apache 2.0 model",
       "license_url": "https://www.apache.org/licenses/LICENSE-2.0",
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
-    }
+    },
+    "audio_revision": "37aaefd63a94",
+    "animation_revision": "eafd5d7edb16"
   },
   "es-ES-3-4": {
     "audio": "data/audio/es-ES-3-4.mp3",
@@ -1477,7 +1719,9 @@
       "license": "Apache 2.0 model",
       "license_url": "https://www.apache.org/licenses/LICENSE-2.0",
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
-    }
+    },
+    "audio_revision": "917956687340",
+    "animation_revision": "fbdac32f0553"
   },
   "es-ES-4-1": {
     "audio": "data/audio/es-ES-4-1.mp3",
@@ -1489,7 +1733,9 @@
       "license": "Apache 2.0 model",
       "license_url": "https://www.apache.org/licenses/LICENSE-2.0",
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
-    }
+    },
+    "audio_revision": "21b0fba9f993",
+    "animation_revision": "48b31b0ac5bf"
   },
   "es-ES-4-2": {
     "audio": "data/audio/es-ES-4-2.mp3",
@@ -1501,7 +1747,9 @@
       "license": "Apache 2.0 model",
       "license_url": "https://www.apache.org/licenses/LICENSE-2.0",
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
-    }
+    },
+    "audio_revision": "30f47ba2010c",
+    "animation_revision": "c456826367a0"
   },
   "es-ES-4-3": {
     "audio": "data/audio/es-ES-4-3.mp3",
@@ -1513,7 +1761,9 @@
       "license": "Apache 2.0 model",
       "license_url": "https://www.apache.org/licenses/LICENSE-2.0",
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
-    }
+    },
+    "audio_revision": "efd237d5324e",
+    "animation_revision": "82243278ab50"
   },
   "fi-FI-1-1": {
     "audio": "data/audio/fi-FI-1-1.mp3",
@@ -1525,7 +1775,9 @@
       "license": "CC0 voice dataset",
       "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
       "source": "https://huggingface.co/rhasspy/piper-voices/tree/375a0fe641dea077c2a47b4e9a056d6da521eed3/fi/fi_FI/harri/medium"
-    }
+    },
+    "audio_revision": "57f885bd4c66",
+    "animation_revision": "942e00ec8ad7"
   },
   "fi-FI-1-2": {
     "audio": "data/audio/fi-FI-1-2.mp3",
@@ -1537,7 +1789,9 @@
       "license": "CC0 voice dataset",
       "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
       "source": "https://huggingface.co/rhasspy/piper-voices/tree/375a0fe641dea077c2a47b4e9a056d6da521eed3/fi/fi_FI/harri/medium"
-    }
+    },
+    "audio_revision": "f84002af407a",
+    "animation_revision": "814589ee7b49"
   },
   "fi-FI-1-3": {
     "audio": "data/audio/fi-FI-1-3.mp3",
@@ -1549,7 +1803,9 @@
       "license": "CC0 voice dataset",
       "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
       "source": "https://huggingface.co/rhasspy/piper-voices/tree/375a0fe641dea077c2a47b4e9a056d6da521eed3/fi/fi_FI/harri/medium"
-    }
+    },
+    "audio_revision": "4a8350b78da0",
+    "animation_revision": "e675e4482c73"
   },
   "fi-FI-2-1": {
     "audio": "data/audio/fi-FI-2-1.mp3",
@@ -1561,7 +1817,9 @@
       "license": "CC0 voice dataset",
       "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
       "source": "https://huggingface.co/rhasspy/piper-voices/tree/375a0fe641dea077c2a47b4e9a056d6da521eed3/fi/fi_FI/harri/medium"
-    }
+    },
+    "audio_revision": "f99020fd4a42",
+    "animation_revision": "f4a0c1ce5808"
   },
   "fi-FI-2-2": {
     "audio": "data/audio/fi-FI-2-2.mp3",
@@ -1573,7 +1831,9 @@
       "license": "CC0 voice dataset",
       "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
       "source": "https://huggingface.co/rhasspy/piper-voices/tree/375a0fe641dea077c2a47b4e9a056d6da521eed3/fi/fi_FI/harri/medium"
-    }
+    },
+    "audio_revision": "92c2ef0203d9",
+    "animation_revision": "4c777c9d2145"
   },
   "fi-FI-2-3": {
     "audio": "data/audio/fi-FI-2-3.mp3",
@@ -1585,7 +1845,9 @@
       "license": "CC0 voice dataset",
       "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
       "source": "https://huggingface.co/rhasspy/piper-voices/tree/375a0fe641dea077c2a47b4e9a056d6da521eed3/fi/fi_FI/harri/medium"
-    }
+    },
+    "audio_revision": "c5ddca8ffa45",
+    "animation_revision": "2d1dbafc9641"
   },
   "fi-FI-2-4": {
     "audio": "data/audio/fi-FI-2-4.mp3",
@@ -1597,7 +1859,9 @@
       "license": "CC0 voice dataset",
       "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
       "source": "https://huggingface.co/rhasspy/piper-voices/tree/375a0fe641dea077c2a47b4e9a056d6da521eed3/fi/fi_FI/harri/medium"
-    }
+    },
+    "audio_revision": "19020f4cbe4f",
+    "animation_revision": "d5bd4a742c80"
   },
   "fi-FI-3-1": {
     "audio": "data/audio/fi-FI-3-1.mp3",
@@ -1609,7 +1873,9 @@
       "license": "CC0 voice dataset",
       "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
       "source": "https://huggingface.co/rhasspy/piper-voices/tree/375a0fe641dea077c2a47b4e9a056d6da521eed3/fi/fi_FI/harri/medium"
-    }
+    },
+    "audio_revision": "b97cdc28a168",
+    "animation_revision": "063cc25aed57"
   },
   "fi-FI-3-2": {
     "audio": "data/audio/fi-FI-3-2.mp3",
@@ -1621,7 +1887,9 @@
       "license": "CC0 voice dataset",
       "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
       "source": "https://huggingface.co/rhasspy/piper-voices/tree/375a0fe641dea077c2a47b4e9a056d6da521eed3/fi/fi_FI/harri/medium"
-    }
+    },
+    "audio_revision": "03a7cd3340ab",
+    "animation_revision": "a76632992bf1"
   },
   "fi-FI-3-3": {
     "audio": "data/audio/fi-FI-3-3.mp3",
@@ -1633,7 +1901,9 @@
       "license": "CC0 voice dataset",
       "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
       "source": "https://huggingface.co/rhasspy/piper-voices/tree/375a0fe641dea077c2a47b4e9a056d6da521eed3/fi/fi_FI/harri/medium"
-    }
+    },
+    "audio_revision": "bc4fa5b0d3a6",
+    "animation_revision": "447aae6ec215"
   },
   "fi-FI-3-4": {
     "audio": "data/audio/fi-FI-3-4.mp3",
@@ -1645,7 +1915,9 @@
       "license": "CC0 voice dataset",
       "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
       "source": "https://huggingface.co/rhasspy/piper-voices/tree/375a0fe641dea077c2a47b4e9a056d6da521eed3/fi/fi_FI/harri/medium"
-    }
+    },
+    "audio_revision": "3d9cb4fb079b",
+    "animation_revision": "a13c29fc580e"
   },
   "fi-FI-4-1": {
     "audio": "data/audio/fi-FI-4-1.mp3",
@@ -1657,7 +1929,9 @@
       "license": "CC0 voice dataset",
       "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
       "source": "https://huggingface.co/rhasspy/piper-voices/tree/375a0fe641dea077c2a47b4e9a056d6da521eed3/fi/fi_FI/harri/medium"
-    }
+    },
+    "audio_revision": "7a9296994679",
+    "animation_revision": "507552b3276d"
   },
   "fi-FI-4-2": {
     "audio": "data/audio/fi-FI-4-2.mp3",
@@ -1669,7 +1943,9 @@
       "license": "CC0 voice dataset",
       "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
       "source": "https://huggingface.co/rhasspy/piper-voices/tree/375a0fe641dea077c2a47b4e9a056d6da521eed3/fi/fi_FI/harri/medium"
-    }
+    },
+    "audio_revision": "1ee4050d0e8f",
+    "animation_revision": "cdc1fe14172a"
   },
   "fi-FI-4-3": {
     "audio": "data/audio/fi-FI-4-3.mp3",
@@ -1681,6 +1957,8 @@
       "license": "CC0 voice dataset",
       "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
       "source": "https://huggingface.co/rhasspy/piper-voices/tree/375a0fe641dea077c2a47b4e9a056d6da521eed3/fi/fi_FI/harri/medium"
-    }
+    },
+    "audio_revision": "0d25426d1c47",
+    "animation_revision": "9e650b43e149"
   }
 }
