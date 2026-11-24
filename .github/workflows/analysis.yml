@@ -1,0 +1,41 @@
+name: Verify analysis container
+on:
+  push:
+    paths:
+      - backend/**
+      - public/data/curriculum.*.json
+      - .dockerignore
+      - .github/workflows/analysis.yml
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  smoke:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v5
+      - run: docker build --file backend/Dockerfile --tag vst-analysis .
+      - name: Run real Mandarin reference recording through the container
+        shell: bash
+        run: |
+          set -euo pipefail
+          docker run --detach --name vst-analysis --cpus=2 --memory=6g -p 127.0.0.1:8787:8787 vst-analysis
+          trap 'docker logs vst-analysis' EXIT
+          for attempt in $(seq 1 30); do
+            if curl -fsS http://127.0.0.1:8787/api/health > /tmp/vst-health.json; then break; fi
+            sleep 2
+          done
+          python -c 'import json; h=json.load(open("/tmp/vst-health.json")); assert h["whisper"] and h["phoneme_model"]'
+          ffmpeg -nostdin -v error -i public/data/audio/tone-ma-3.mp3 -ar 16000 -ac 1 -c:a pcm_s16le /tmp/vst-reference.wav
+          curl --fail-with-body --max-time 95 -H 'Content-Type: audio/wav' --data-binary @/tmp/vst-reference.wav \
+            'http://127.0.0.1:8787/api/analyze?exercise=tone-ma-3' > /tmp/vst-analysis.json
+          python - <<'PY'
+          import json
+          result = json.load(open('/tmp/vst-analysis.json'))
+          assert not result['unavailable'], result['unavailable']
+          assert result['text'] and result['segments'], result
+          assert any(point['hz'] is not None for point in result['pitch'])
+          assert result['alignment_status'] == 'aligned' and result['alignment']['tone_regions'], result
+          print('Whisper, Wav2Vec2, Praat and MFA returned results for the reference recording.')
+          PY

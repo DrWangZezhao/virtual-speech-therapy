@@ -93,9 +93,21 @@ def force_align(payload, item):
         audio, transcript, output = (directory / name for name in ('practice.wav', 'practice.lab', 'alignment.json'))
         audio.write_bytes(payload)
         transcript.write_text(text, encoding='utf-8')
-        subprocess.run([MFA, 'align_one', str(audio), str(transcript), 'mandarin_china_mfa', 'mandarin_mfa', str(output),
-                        '--output_format', 'json', '--no_tokenization', '--quiet'],
-                       check=True, timeout=38, capture_output=True)
+        environment = os.environ.copy()
+        mfa_bin = Path(MFA)
+        if mfa_bin.is_absolute():
+            environment['PATH'] = f"{mfa_bin.parent}{os.pathsep}{environment.get('PATH', os.defpath)}"
+        model_home = environment.get('VST_MFA_MODELS')
+        if model_home:
+            dictionary = str(Path(model_home) / 'dictionary' / 'mandarin_china_mfa.dict')
+            acoustic = str(Path(model_home) / 'acoustic' / 'mandarin_mfa.zip')
+            environment['MFA_ROOT_DIR'] = str(directory / 'mfa')
+        else:
+            dictionary, acoustic = 'mandarin_china_mfa', 'mandarin_mfa'
+        subprocess.run([MFA, 'align_one', str(audio), str(transcript), dictionary, acoustic, str(output),
+                        '--output_format', 'json', '--no_tokenization', '--quiet', '--num_jobs', '1',
+                        '--temporary_directory', str(directory / 'work'), '--final_clean'],
+                       check=True, timeout=38, capture_output=True, env=environment)
         tiers = json.loads(output.read_text())['tiers']
         words = tiers['words']['entries']
         phone_entries = tiers['phones']['entries']

@@ -1,0 +1,9 @@
+**
+!backend/
+!backend/*.py
+!backend/requirements.txt
+!backend/Dockerfile
+!public/
+!public/data/
+!public/data/curriculum.zh-CN.json
+!public/data/curriculum.other.json

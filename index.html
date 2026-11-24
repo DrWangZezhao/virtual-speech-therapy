@@ -41,6 +41,7 @@
       <section id="pitch-card" class="section-card" hidden><h2 data-copy="pitch">Pitch contour</h2><canvas id="pitch" role="img"></canvas><div class="legend"><span class="target-key" data-copy="targetPitch">Illustrative target</span><span class="observed-key" data-copy="measuredPitch">Your recording</span></div></section>
       <section class="section-card support">
         <h2 data-copy="session">Practice settings</h2>
+        <label id="hosted-choice" hidden><input id="hosted-analysis" type="checkbox" /><span data-copy="hostedAnalysis">Send my recordings to the analysis server</span></label>
         <button id="camera-toggle" type="button" data-copy="cameraOn">Enable camera</button><span id="camera-status" role="status"></span>
         <video id="camera" muted playsinline hidden></video>
         <details><summary data-copy="advanced">Advanced analysis</summary><dl id="advanced"></dl><label class="api-label"><span data-copy="apiUrl">Analysis server URL (optional)</span><input id="api" inputmode="url" placeholder="https://…" /></label><button id="save-api" type="button" data-copy="save">Save</button><p id="api-status" role="status"></p></details>

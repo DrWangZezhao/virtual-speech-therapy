@@ -5,7 +5,8 @@ import {audiblePitchDirection,capture,decode,pitchPreview,wav} from './recording
 
 const $ = id => document.getElementById(id);
 const translate = Converter({from:'tw',to:'cn'});
-const apiDefault = (import.meta.env.VITE_API_URL || (import.meta.env.DEV ? '/api' : '')).replace(/\/$/,'');
+const hostedApi = (import.meta.env.VITE_API_URL || '').replace(/\/$/,'');
+const apiDefault = import.meta.env.DEV ? '/api' : '';
 const voices = {'en':'english','fi-FI':'finnish','es-ES':'spanish','zh-CN':'chinese'};
 const contours = {1:[.78,.81,.83,.81,.79],2:[.29,.32,.48,.67,.88],3:[.48,.28,.17,.25,.59],4:[.91,.73,.51,.32,.18],5:[.52,.49,.41]};
 const readStorage = (key, fallback) => {
@@ -190,10 +191,11 @@ async function analyzeRecording(blob,item,id){
     state.sessionPitch.push(...state.observed.filter(point=>point.hz).map(point=>point.hz));
     state.sessionPitch=state.sessionPitch.slice(-2000);
     paintPitch();
-    if(state.api){
+    const endpoint=state.api || ($('hosted-analysis').checked ? hostedApi : '');
+    if(endpoint){
       status('analyzing');
       try{
-        const response=await fetch(`${state.api}/analyze?exercise=${encodeURIComponent(item.id)}`,{
+        const response=await fetch(`${endpoint}/analyze?exercise=${encodeURIComponent(item.id)}`,{
           method:'POST',headers:{'Content-Type':'audio/wav'},body:wav(samples),signal:AbortSignal.timeout(95000)});
         if(!response.ok)throw new Error(String(response.status));
         state.result=await response.json();
@@ -307,6 +309,9 @@ $('record').onclick=toggleCapture;
 $('camera-toggle').onclick=toggleCamera;
 $('save-api').onclick=setApi;
 $('api').value=state.api.startsWith('/')?'':state.api;
+$('hosted-choice').hidden=!hostedApi;
+$('hosted-analysis').checked=Boolean(hostedApi && readStorage('vst-hosted-consent','')===hostedApi);
+$('hosted-analysis').onchange=event=>saveStorage('vst-hosted-consent',event.target.checked?hostedApi:'');
 $('reset-view').onclick=()=>avatar?.reset();
 new ResizeObserver(paintPitch).observe($('pitch'));
 setButtonState();
