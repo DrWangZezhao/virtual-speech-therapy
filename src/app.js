@@ -1,10 +1,9 @@
 import './style.css';
-import {Converter} from 'opencc-js';
 import {copy} from './copy.js';
 import {audiblePitchDirection,capture,decode,pitchPreview,wav} from './recording.js';
+import {compareTranscription} from './transcription.js';
 
 const $ = id => document.getElementById(id);
-const translate = Converter({from:'tw',to:'cn'});
 const hostedApi = (import.meta.env.VITE_API_URL || '').replace(/\/$/,'');
 const apiDefault = import.meta.env.DEV ? '/api' : '';
 const voices = {'en':'english','fi-FI':'finnish','es-ES':'spanish','zh-CN':'chinese'};
@@ -34,17 +33,6 @@ function choices(){return courses.filter(item=>item.language===state.lang && (st
 function active(){return choices()[state.position];}
 function syllables(item){return item?.groups.flatMap(group=>group.syllables) ?? [];}
 function status(key){state.status=key; $('status').textContent=t()[key]??'';}
-function plain(text){return text.normalize('NFKC').toLowerCase().replace(/[^\p{L}\p{M}\p{N}]/gu,'');}
-function normalized(text){return plain(state.lang==='zh-CN'?translate(text):text);}
-function distance(reference, observed){
-  let previous=Array.from({length:observed.length+1},(_,i)=>i);
-  for(let i=0;i<reference.length;i++){
-    const row=[i+1];
-    for(let j=0;j<observed.length;j++) row.push(Math.min(row[j]+1,previous[j+1]+1,previous[j]+(reference[i]!==observed[j])));
-    previous=row;
-  }
-  return previous.at(-1);
-}
 function labelFor(item){return item.focus ? `${item.focus.value} · ${item.text}` : item.text;}
 function setButtonState(){
   const lock=state.recording || state.busy;
@@ -121,36 +109,38 @@ function showResult(){
   addDetail(list,t().surface,sounds.map(sound=>sound.surface_pinyin_numbered).join(' '));
   const asset=media[item.id];
   if(asset?.credit){
-    addDetail(list,t().listen,`${t().audioHuman} · ${asset.credit.author} · ${asset.credit.license}`);
+    const recordingType = asset.audio_kind === 'human' ? t().audioHuman : t().audioNeural;
+    addDetail(list,t().listen,`${recordingType} · ${asset.credit.author} · ${asset.credit.license}`);
     const link=document.createElement('a');link.href=asset.credit.source;link.rel='noopener noreferrer';link.target='_blank';link.textContent=t().source;
     const license=document.createElement('a');license.href=asset.credit.license_url;license.rel='noopener noreferrer';license.target='_blank';license.textContent=asset.credit.license;
     list.lastElementChild.append(' ',link,' · ',license);
   }else addDetail(list,t().listen,t().audioSynth);
   $('recognition').hidden=!result;
   $('drill').hidden=true;
+  $('status').hidden=Boolean(result && state.status==='saved');
   if(!result)return;
-  const hasText=typeof result.text==='string';
-  const reference=normalized(item.text), observed=hasText?normalized(result.text):'';
-  const diffs=distance([...reference],[...observed]);
-  const textMatches=Boolean(hasText && reference && reference===observed);
-  $('recognition').textContent=result.match==='matched'?t().match:
-    hasText?(result.text?`${textMatches?t().matching:t().transcript} · ${result.text}`:t().noText):'';
-  if(item.mode==='tone'){
-    const direction=audiblePitchDirection(state.observed,state.sessionPitch);
-    if(direction){
-      const observation=state.locale==='zh-CN'?(direction==='pitchRise'?'录音中可测到的音高总体上升。':'录音中可测到的音高总体下降。'):
-        (direction==='pitchRise'?'Pitch rose across the voiced part of your recording.':'Pitch fell across the voiced part of your recording.');
-      const line=document.createElement('div');line.textContent=observation;$('recognition').append(line);
-    }
-  }
-  addDetail(list,t().score,hasText&&reference?`${Math.round(100*diffs/[...reference].length)}%`:null);
+  const comparison=compareTranscription(item.text,result.text,state.lang);
+  const verdict=$('transcript-verdict');
+  verdict.dataset.result=comparison.status;
+  verdict.textContent=t().transcriptVerdicts[comparison.status];
+  $('transcript-target').textContent=item.text;
+  $('transcript-target').lang=state.lang;
+  $('transcript-heard').textContent=comparison.actual.length?result.text:t().transcriptVerdicts[comparison.status];
+  $('transcript-heard').lang=comparison.actual.length?state.lang:state.locale;
+  const direction=item.mode==='tone'?audiblePitchDirection(state.observed,state.sessionPitch):null;
+  $('pitch-observation').hidden=!direction;
+  $('pitch-observation').textContent=direction?t()[direction]:'';
+  const pronunciation=result.match==='matched'?t().match:result.source==='praat'?t().uncertain:t().unavailable;
+  $('pronunciation-result').textContent=`${t().pronunciationResult} · ${pronunciation}`;
+  addDetail(list,state.lang==='zh-CN'?t().score:t().wordScore,comparison.errorRate===null?null:`${Math.round(100*comparison.errorRate)}%`);
   addDetail(list,t().segment,result.segments?.length?`${t().uncertain} · ${result.segments.join(' ')}`:t().unavailable);
   if(state.lang==='zh-CN')addDetail(list,t().tone,result.tone==='matched'?t().matching:t().uncertain);
   if(state.observed.length)addDetail(list,t().pitch,result.source==='praat'?t().serverPitch:t().localPitch);
   addDetail(list,t().words,result.alignment?.words?.map(([a,b,word])=>`${word} ${a.toFixed(2)}–${b.toFixed(2)} s`).join(' · '));
   addDetail(list,t().phones,result.alignment?.phones?.map(([a,b,ph])=>`${ph} ${a.toFixed(2)}–${b.toFixed(2)} s`).join(' · '));
-  const targetWord=hasText&&diffs===1&&item.level===4&&reference.length===observed.length?
-    item.word_spans.find(word=>[...reference].some((c,i)=>c!==observed[i]&&i>=word.start&&i<word.end)):null;
+  const {expected,actual,edits}=comparison;
+  const targetWord=state.lang==='zh-CN'&&edits===1&&item.level===4&&expected.length===actual.length?
+    item.word_spans.find(word=>expected.some((c,i)=>c!==actual[i]&&i>=word.start&&i<word.end)):null;
   if(targetWord){
     const candidates=courses.filter(word=>word.language===state.lang&&word.level===3&&word.mode!=='tone');
     const position=candidates.findIndex(word=>word.text===targetWord.text);
@@ -228,6 +218,7 @@ async function toggleCapture(){
   if(!active()||state.busy)return;
   demoAudio.pause();avatar?.clear();
   state.busy=true;state.result=null;state.observed=[];const item=active(),id=++state.request;
+  showResult();
   setButtonState();
   try{
     micStop=await capture(blob=>analyzeRecording(blob,item,id));
@@ -304,7 +295,7 @@ $('next').onclick=()=>{
   else status('allSet');
 };
 $('play').onclick=()=>play(1);
-$('slow').onclick=()=>play(.66);
+$('slow').onclick=()=>play(.78);
 $('record').onclick=toggleCapture;
 $('camera-toggle').onclick=toggleCamera;
 $('save-api').onclick=setApi;

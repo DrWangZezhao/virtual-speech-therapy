@@ -44,3 +44,16 @@ test('pitch observations use relative motion and abstain on unreliable frames',(
   }
   assert.equal(audiblePitchDirection([],[]),null);
 });
+
+test('transcription verdict compares written content and preserves word boundaries',async()=>{
+  const {compareTranscription}=await import('../src/transcription.js');
+  assert.equal(compareTranscription('I see you.','i see you!','en').status,'matched');
+  assert.equal(compareTranscription('an ice','a nice','en').status,'different');
+  assert.equal(compareTranscription("Don't go.",'Don’t go','en').status,'matched');
+  assert.equal(compareTranscription('學校。','学校','zh-CN').status,'matched');
+  assert.equal(compareTranscription('我要去学校。','我要去學校：','zh-CN').status,'matched');
+  assert.equal(compareTranscription('¡Sí!','si','es-ES').status,'different');
+  assert.equal(compareTranscription('Minä olen Ana.','MINÄ olen Ana','fi-FI').status,'matched');
+  assert.equal(compareTranscription('me','…','en').status,'empty');
+  assert.equal(compareTranscription('me',null,'en').status,'unavailable');
+});

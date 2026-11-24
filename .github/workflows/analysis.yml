@@ -15,6 +15,8 @@ jobs:
     timeout-minutes: 25
     steps:
       - uses: actions/checkout@v5
+      - name: Install the audio fixture decoder
+        run: sudo apt-get update -qq && sudo apt-get install -y --no-install-recommends ffmpeg
       - run: docker build --file backend/Dockerfile --tag vst-analysis .
       - name: Run real Mandarin reference recording through the container
         shell: bash

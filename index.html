@@ -33,7 +33,19 @@
         <label class="item-picker"><span data-copy="exercise">Exercise</span><select id="item"></select></label>
         <div class="demo-actions"><button id="play" type="button" data-copy="listen">Listen</button><button id="slow" type="button" data-copy="slow">Slow playback</button></div>
         <div class="record-area"><button id="record" type="button" class="primary" data-copy="record">Start practice</button><button id="next" type="button" data-copy="next">Next</button></div>
-        <div class="result" aria-live="polite"><p id="status"></p><div id="recognition" hidden></div><button id="drill" type="button" hidden></button></div>
+        <div class="result" aria-live="polite">
+          <p id="status"></p>
+          <section id="recognition" class="transcript-card" aria-labelledby="transcript-title" hidden>
+            <div class="transcript-heading"><h3 id="transcript-title" data-copy="transcript">Transcription</h3><span id="transcript-verdict" class="verdict"></span></div>
+            <dl class="transcript-rows">
+              <div><dt data-copy="targetText">Target text</dt><dd id="transcript-target"></dd></div>
+              <div><dt data-copy="heard">Heard</dt><dd id="transcript-heard"></dd></div>
+            </dl>
+            <p id="pitch-observation" hidden></p>
+            <p id="pronunciation-result" class="pronunciation-result"></p>
+          </section>
+          <button id="drill" type="button" hidden></button>
+        </div>
         <audio id="recording" controls hidden></audio>
       </section>
     </div>

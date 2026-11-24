@@ -65,9 +65,10 @@ def build_item(item, cli, upstream, mappings, reference):
         track = {'keys': original['keys'], 'frames': frames[::2], 'duration': source_duration}
         track_path.write_text(json.dumps(track, separators=(',', ':')) + '\n')
     media = {'audio': f'data/audio/{stem}.mp3', 'animation': f'data/artic/{stem}.json',
-             'audio_kind': 'human' if reference_file else 'espeak', 'duration': round(source_duration, 3)}
+             'audio_kind': reference_file.get('kind', 'human') if reference_file else 'espeak',
+             'duration': round(source_duration, 3)}
     if reference_file:
-        media['credit'] = {k: v for k, v in reference_file.items() if k != 'path'}
+        media['credit'] = {k: v for k, v in reference_file.items() if k not in ('path', 'kind')}
     return stem, media
 
 
@@ -78,7 +79,8 @@ if __name__ == '__main__':
     parser.add_argument('mandarin_inventory', type=Path)
     parser.add_argument('--references', type=Path)
     args = parser.parse_args()
-    mappings = json.loads(args.mandarin_inventory.read_text())['map']
+    inventory = json.loads(args.mandarin_inventory.read_text())
+    mappings = inventory.get('map', inventory)
     references = json.loads(args.references.read_text()) if args.references else {}
     mandarin = json.loads((DATA / 'curriculum.zh-CN.json').read_text())['items']
     others = list(items())
@@ -89,4 +91,5 @@ if __name__ == '__main__':
     with ThreadPoolExecutor(max_workers=4) as pool:
         media = dict(pool.map(lambda item: build_item(item, args.chimera_cli.resolve(), args.chimera_source.resolve(), mappings, references), mandarin + others))
     (DATA / 'demos.json').write_text(json.dumps(media, ensure_ascii=False, indent=2) + '\n')
-    print(f'Built {len(media)} demonstrations, {sum(x["audio_kind"] == "human" for x in media.values())} human recordings')
+    kinds = {kind: sum(item['audio_kind'] == kind for item in media.values()) for kind in ('human', 'neural', 'espeak')}
+    print(f'Built {len(media)} demonstrations: {kinds}')

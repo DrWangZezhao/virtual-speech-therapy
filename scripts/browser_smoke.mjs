@@ -49,6 +49,8 @@ try{
   await page.locator('#recording').waitFor({state:'visible'});
   await page.waitForFunction(()=>document.querySelector('#record').textContent.includes('重新练习'),null,{timeout:140000});
   console.log('RECORDING',await page.locator('#status').textContent(),await page.locator('#recognition').textContent());
-  assert.ok((await page.locator('#recognition').textContent()).includes('·'), 'Real Whisper transcription expected');
+  assert.equal(await page.locator('#transcript-target').textContent(),'马');
+  assert.ok((await page.locator('#transcript-heard').textContent()).trim().length>0,'Real Whisper transcription expected');
+  assert.equal(await page.locator('#transcript-verdict').textContent(),'文字不一致');
   console.log('Camera denial, microphone pipeline, local Whisper inference, and attempt count verified');
 }finally{await browser.close();}
