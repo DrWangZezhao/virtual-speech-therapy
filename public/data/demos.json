@@ -11,7 +11,7 @@
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
     },
     "audio_revision": "12f3ab539043",
-    "animation_revision": "39732a48047b"
+    "animation_revision": "d9c6bec9793a"
   },
   "initial-p": {
     "audio": "data/audio/initial-p.mp3",
@@ -25,7 +25,7 @@
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
     },
     "audio_revision": "81a8091d81a8",
-    "animation_revision": "cdeb257cb9cd"
+    "animation_revision": "a1555de56e80"
   },
   "initial-m": {
     "audio": "data/audio/initial-m.mp3",
@@ -40,7 +40,7 @@
       "edits": "First syllable taken from māma from 0.18 to 0.62 seconds, faded, and transcoded to mono MP3."
     },
     "audio_revision": "b2f709248e75",
-    "animation_revision": "dcc9d8909ab8"
+    "animation_revision": "ff8759177a67"
   },
   "initial-f": {
     "audio": "data/audio/initial-f.mp3",
@@ -54,7 +54,7 @@
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
     },
     "audio_revision": "25f40f17fa06",
-    "animation_revision": "da0f36add0fb"
+    "animation_revision": "c97617796d8c"
   },
   "initial-d": {
     "audio": "data/audio/initial-d.mp3",
@@ -68,7 +68,7 @@
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
     },
     "audio_revision": "ba9ace2ff28e",
-    "animation_revision": "9a0e9768f85f"
+    "animation_revision": "7a9c2c889264"
   },
   "initial-t": {
     "audio": "data/audio/initial-t.mp3",
@@ -82,7 +82,7 @@
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
     },
     "audio_revision": "ccc375d553bb",
-    "animation_revision": "df2e400888d7"
+    "animation_revision": "1b39d1c44ad1"
   },
   "initial-n": {
     "audio": "data/audio/initial-n.mp3",
@@ -96,7 +96,7 @@
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
     },
     "audio_revision": "dcf0eb0d89bf",
-    "animation_revision": "f3a1cd4258cf"
+    "animation_revision": "6ad7142a3319"
   },
   "initial-l": {
     "audio": "data/audio/initial-l.mp3",
@@ -110,7 +110,7 @@
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
     },
     "audio_revision": "c27a804afa33",
-    "animation_revision": "1462e7bd5b8e"
+    "animation_revision": "d077c257e6a0"
   },
   "initial-g": {
     "audio": "data/audio/initial-g.mp3",
@@ -124,7 +124,7 @@
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
     },
     "audio_revision": "67c3575a270e",
-    "animation_revision": "5e139850b621"
+    "animation_revision": "f4afa9c96eb7"
   },
   "initial-k": {
     "audio": "data/audio/initial-k.mp3",
@@ -138,7 +138,7 @@
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
     },
     "audio_revision": "b8f716254619",
-    "animation_revision": "657dbd456861"
+    "animation_revision": "4dbdb33b4281"
   },
   "initial-h": {
     "audio": "data/audio/initial-h.mp3",
@@ -152,7 +152,7 @@
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
     },
     "audio_revision": "1662a729dda1",
-    "animation_revision": "4e732ed566e0"
+    "animation_revision": "6553cfc4848b"
   },
   "initial-j": {
     "audio": "data/audio/initial-j.mp3",
@@ -166,7 +166,7 @@
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
     },
     "audio_revision": "88fdfcb87e85",
-    "animation_revision": "6d6ceeb548e9"
+    "animation_revision": "d95680a7db92"
   },
   "initial-q": {
     "audio": "data/audio/initial-q.mp3",
@@ -180,7 +180,7 @@
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
     },
     "audio_revision": "e50c8a341b00",
-    "animation_revision": "4dd3e3c29177"
+    "animation_revision": "f39c2c8b428b"
   },
   "initial-x": {
     "audio": "data/audio/initial-x.mp3",
@@ -194,7 +194,7 @@
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
     },
     "audio_revision": "5b11b2b78f57",
-    "animation_revision": "7f179e3ae744"
+    "animation_revision": "e1d18ada448f"
   },
   "initial-zh": {
     "audio": "data/audio/initial-zh.mp3",
@@ -208,7 +208,7 @@
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
     },
     "audio_revision": "03970ee325cc",
-    "animation_revision": "ae20e5956b7f"
+    "animation_revision": "b396edebfce7"
   },
   "initial-ch": {
     "audio": "data/audio/initial-ch.mp3",
@@ -222,7 +222,7 @@
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
     },
     "audio_revision": "633fb04f4f40",
-    "animation_revision": "03da2579292d"
+    "animation_revision": "4b4386cf9a45"
   },
   "initial-sh": {
     "audio": "data/audio/initial-sh.mp3",
@@ -236,7 +236,7 @@
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
     },
     "audio_revision": "3e94b403da33",
-    "animation_revision": "541eddc83741"
+    "animation_revision": "8704ad8ed56c"
   },
   "initial-r": {
     "audio": "data/audio/initial-r.mp3",
@@ -250,7 +250,7 @@
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
     },
     "audio_revision": "212399b03d3f",
-    "animation_revision": "4410e561de82"
+    "animation_revision": "7070937a1739"
   },
   "initial-z": {
     "audio": "data/audio/initial-z.mp3",
@@ -264,7 +264,7 @@
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
     },
     "audio_revision": "b2ce5ebb254d",
-    "animation_revision": "825b02880745"
+    "animation_revision": "3bfd7219acad"
   },
   "initial-c": {
     "audio": "data/audio/initial-c.mp3",
@@ -278,7 +278,7 @@
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
     },
     "audio_revision": "188eee0c6f1b",
-    "animation_revision": "02b466329b3a"
+    "animation_revision": "9b87e9f87424"
   },
   "initial-s": {
     "audio": "data/audio/initial-s.mp3",
@@ -292,7 +292,7 @@
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
     },
     "audio_revision": "7f442b138056",
-    "animation_revision": "7743ecbae849"
+    "animation_revision": "60a2816b82a2"
   },
   "vowel-a": {
     "audio": "data/audio/vowel-a.mp3",
@@ -306,7 +306,7 @@
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
     },
     "audio_revision": "420dcfb60c6f",
-    "animation_revision": "6e97f21c9a3f"
+    "animation_revision": "89c1d2b3e9c6"
   },
   "vowel-o": {
     "audio": "data/audio/vowel-o.mp3",
@@ -320,7 +320,7 @@
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
     },
     "audio_revision": "dab9643b4aea",
-    "animation_revision": "46946c122284"
+    "animation_revision": "fddafa91c2a2"
   },
   "vowel-e": {
     "audio": "data/audio/vowel-e.mp3",
@@ -334,7 +334,7 @@
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
     },
     "audio_revision": "f67c13bf5912",
-    "animation_revision": "7ed7ea5b852b"
+    "animation_revision": "6c699af7f651"
   },
   "vowel-i": {
     "audio": "data/audio/vowel-i.mp3",
@@ -348,7 +348,7 @@
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
     },
     "audio_revision": "498bbaa1da80",
-    "animation_revision": "9d53162632c1"
+    "animation_revision": "afa1a4fad832"
   },
   "vowel-u": {
     "audio": "data/audio/vowel-u.mp3",
@@ -362,7 +362,7 @@
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
     },
     "audio_revision": "4ce9d211a06f",
-    "animation_revision": "d9e02a751287"
+    "animation_revision": "864a8301445d"
   },
   "vowel-ü": {
     "audio": "data/audio/vowel-ü.mp3",
@@ -376,7 +376,7 @@
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
     },
     "audio_revision": "a974e8b3172b",
-    "animation_revision": "8e318c5c76b3"
+    "animation_revision": "bef80bdb243c"
   },
   "level-2-01": {
     "audio": "data/audio/level-2-01.mp3",
@@ -390,7 +390,7 @@
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
     },
     "audio_revision": "12f3ab539043",
-    "animation_revision": "39732a48047b"
+    "animation_revision": "d9c6bec9793a"
   },
   "level-2-02": {
     "audio": "data/audio/level-2-02.mp3",
@@ -404,7 +404,7 @@
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
     },
     "audio_revision": "81a8091d81a8",
-    "animation_revision": "cdeb257cb9cd"
+    "animation_revision": "a1555de56e80"
   },
   "level-2-03": {
     "audio": "data/audio/level-2-03.mp3",
@@ -419,7 +419,7 @@
       "edits": "First syllable taken from māma from 0.18 to 0.62 seconds, faded, and transcoded to mono MP3."
     },
     "audio_revision": "b2f709248e75",
-    "animation_revision": "dcc9d8909ab8"
+    "animation_revision": "ff8759177a67"
   },
   "level-2-04": {
     "audio": "data/audio/level-2-04.mp3",
@@ -433,7 +433,7 @@
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
     },
     "audio_revision": "25f40f17fa06",
-    "animation_revision": "da0f36add0fb"
+    "animation_revision": "c97617796d8c"
   },
   "level-2-05": {
     "audio": "data/audio/level-2-05.mp3",
@@ -447,7 +447,7 @@
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
     },
     "audio_revision": "ba9ace2ff28e",
-    "animation_revision": "9a0e9768f85f"
+    "animation_revision": "7a9c2c889264"
   },
   "level-2-06": {
     "audio": "data/audio/level-2-06.mp3",
@@ -461,7 +461,7 @@
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
     },
     "audio_revision": "ccc375d553bb",
-    "animation_revision": "df2e400888d7"
+    "animation_revision": "1b39d1c44ad1"
   },
   "level-2-07": {
     "audio": "data/audio/level-2-07.mp3",
@@ -475,7 +475,7 @@
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
     },
     "audio_revision": "dcf0eb0d89bf",
-    "animation_revision": "f3a1cd4258cf"
+    "animation_revision": "6ad7142a3319"
   },
   "level-2-08": {
     "audio": "data/audio/level-2-08.mp3",
@@ -489,7 +489,7 @@
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
     },
     "audio_revision": "c27a804afa33",
-    "animation_revision": "1462e7bd5b8e"
+    "animation_revision": "d077c257e6a0"
   },
   "level-2-09": {
     "audio": "data/audio/level-2-09.mp3",
@@ -503,7 +503,7 @@
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
     },
     "audio_revision": "88fdfcb87e85",
-    "animation_revision": "6d6ceeb548e9"
+    "animation_revision": "d95680a7db92"
   },
   "level-2-10": {
     "audio": "data/audio/level-2-10.mp3",
@@ -517,7 +517,7 @@
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
     },
     "audio_revision": "e50c8a341b00",
-    "animation_revision": "4dd3e3c29177"
+    "animation_revision": "f39c2c8b428b"
   },
   "level-2-11": {
     "audio": "data/audio/level-2-11.mp3",
@@ -531,7 +531,7 @@
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
     },
     "audio_revision": "5b11b2b78f57",
-    "animation_revision": "7f179e3ae744"
+    "animation_revision": "e1d18ada448f"
   },
   "level-2-12": {
     "audio": "data/audio/level-2-12.mp3",
@@ -545,7 +545,7 @@
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
     },
     "audio_revision": "03970ee325cc",
-    "animation_revision": "ae20e5956b7f"
+    "animation_revision": "b396edebfce7"
   },
   "level-2-13": {
     "audio": "data/audio/level-2-13.mp3",
@@ -559,7 +559,7 @@
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
     },
     "audio_revision": "633fb04f4f40",
-    "animation_revision": "03da2579292d"
+    "animation_revision": "4b4386cf9a45"
   },
   "level-2-14": {
     "audio": "data/audio/level-2-14.mp3",
@@ -573,7 +573,7 @@
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
     },
     "audio_revision": "3e94b403da33",
-    "animation_revision": "541eddc83741"
+    "animation_revision": "8704ad8ed56c"
   },
   "level-2-15": {
     "audio": "data/audio/level-2-15.mp3",
@@ -587,7 +587,7 @@
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
     },
     "audio_revision": "b2ce5ebb254d",
-    "animation_revision": "825b02880745"
+    "animation_revision": "3bfd7219acad"
   },
   "level-2-16": {
     "audio": "data/audio/level-2-16.mp3",
@@ -601,7 +601,7 @@
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
     },
     "audio_revision": "188eee0c6f1b",
-    "animation_revision": "02b466329b3a"
+    "animation_revision": "9b87e9f87424"
   },
   "level-2-17": {
     "audio": "data/audio/level-2-17.mp3",
@@ -615,7 +615,7 @@
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
     },
     "audio_revision": "7f442b138056",
-    "animation_revision": "7743ecbae849"
+    "animation_revision": "60a2816b82a2"
   },
   "level-2-18": {
     "audio": "data/audio/level-2-18.mp3",
@@ -629,7 +629,7 @@
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
     },
     "audio_revision": "0654e569056b",
-    "animation_revision": "9fc534dcd696"
+    "animation_revision": "1d2ee9c6149c"
   },
   "level-2-19": {
     "audio": "data/audio/level-2-19.mp3",
@@ -643,7 +643,7 @@
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
     },
     "audio_revision": "906ea47cf4c5",
-    "animation_revision": "8f2202080567"
+    "animation_revision": "0e9d45406a46"
   },
   "level-2-20": {
     "audio": "data/audio/level-2-20.mp3",
@@ -657,7 +657,7 @@
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
     },
     "audio_revision": "3cac3f0592f3",
-    "animation_revision": "cb13920da4bd"
+    "animation_revision": "915c0c928860"
   },
   "level-2-21": {
     "audio": "data/audio/level-2-21.mp3",
@@ -671,7 +671,7 @@
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
     },
     "audio_revision": "66f4306e8523",
-    "animation_revision": "baa1051d6b18"
+    "animation_revision": "ef2fd4327b19"
   },
   "level-2-22": {
     "audio": "data/audio/level-2-22.mp3",
@@ -685,7 +685,7 @@
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
     },
     "audio_revision": "ac97e4eb548f",
-    "animation_revision": "e06bb482b428"
+    "animation_revision": "9d2f59cd5a0a"
   },
   "level-2-23": {
     "audio": "data/audio/level-2-23.mp3",
@@ -699,7 +699,7 @@
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
     },
     "audio_revision": "d515343ba343",
-    "animation_revision": "24f8a7bbd51b"
+    "animation_revision": "efdfc1f8de4c"
   },
   "level-2-24": {
     "audio": "data/audio/level-2-24.mp3",
@@ -713,7 +713,7 @@
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
     },
     "audio_revision": "7c117c4893af",
-    "animation_revision": "59c91f377684"
+    "animation_revision": "676e60b347ff"
   },
   "level-2-25": {
     "audio": "data/audio/level-2-25.mp3",
@@ -727,7 +727,7 @@
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
     },
     "audio_revision": "90cfb94b3dfa",
-    "animation_revision": "7cbcda36011a"
+    "animation_revision": "86bba48094a2"
   },
   "level-2-26": {
     "audio": "data/audio/level-2-26.mp3",
@@ -741,7 +741,7 @@
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
     },
     "audio_revision": "9db7c454a4cd",
-    "animation_revision": "2b0ee48aad8c"
+    "animation_revision": "7170df4ee0b7"
   },
   "level-2-27": {
     "audio": "data/audio/level-2-27.mp3",
@@ -755,7 +755,7 @@
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
     },
     "audio_revision": "47178a84ce3e",
-    "animation_revision": "24fc62c49981"
+    "animation_revision": "9601507faba1"
   },
   "level-2-28": {
     "audio": "data/audio/level-2-28.mp3",
@@ -769,7 +769,7 @@
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
     },
     "audio_revision": "0d46666897f9",
-    "animation_revision": "695f02bdd64d"
+    "animation_revision": "db2c0c79157d"
   },
   "level-2-29": {
     "audio": "data/audio/level-2-29.mp3",
@@ -783,7 +783,7 @@
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
     },
     "audio_revision": "2afaeaf5247f",
-    "animation_revision": "ecfb0df8c596"
+    "animation_revision": "4bba15fc479d"
   },
   "level-2-30": {
     "audio": "data/audio/level-2-30.mp3",
@@ -797,7 +797,7 @@
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
     },
     "audio_revision": "ac4839cbf9c9",
-    "animation_revision": "fca0ae4d9e35"
+    "animation_revision": "9f538eb86d0c"
   },
   "level-2-31": {
     "audio": "data/audio/level-2-31.mp3",
@@ -811,7 +811,7 @@
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
     },
     "audio_revision": "3eefd2379dbc",
-    "animation_revision": "50a0cde30e44"
+    "animation_revision": "e0278f3aae39"
   },
   "level-2-32": {
     "audio": "data/audio/level-2-32.mp3",
@@ -825,7 +825,7 @@
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
     },
     "audio_revision": "8461af4b2758",
-    "animation_revision": "d9a6241f2ce4"
+    "animation_revision": "9b8ed6a0addd"
   },
   "level-2-33": {
     "audio": "data/audio/level-2-33.mp3",
@@ -839,7 +839,7 @@
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
     },
     "audio_revision": "c6690f201efe",
-    "animation_revision": "32c124d22420"
+    "animation_revision": "40f933e6d60d"
   },
   "level-2-34": {
     "audio": "data/audio/level-2-34.mp3",
@@ -853,7 +853,7 @@
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
     },
     "audio_revision": "65c8c2fd2ee3",
-    "animation_revision": "0cbe290bb676"
+    "animation_revision": "87d36ed9fe14"
   },
   "level-2-35": {
     "audio": "data/audio/level-2-35.mp3",
@@ -867,7 +867,7 @@
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
     },
     "audio_revision": "c7484e9ef9c5",
-    "animation_revision": "292cff84ac1d"
+    "animation_revision": "db0e9edc8ee1"
   },
   "level-2-36": {
     "audio": "data/audio/level-2-36.mp3",
@@ -881,7 +881,7 @@
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
     },
     "audio_revision": "4ce9d211a06f",
-    "animation_revision": "d9e02a751287"
+    "animation_revision": "864a8301445d"
   },
   "level-2-37": {
     "audio": "data/audio/level-2-37.mp3",
@@ -896,7 +896,7 @@
       "edits": "Transcoded to mono MP3 and leading silence trimmed."
     },
     "audio_revision": "41362d701edd",
-    "animation_revision": "311d712d6970"
+    "animation_revision": "40de20baada6"
   },
   "level-2-38": {
     "audio": "data/audio/level-2-38.mp3",
@@ -910,7 +910,7 @@
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
     },
     "audio_revision": "6bc96de40982",
-    "animation_revision": "1f4c3c4c5669"
+    "animation_revision": "dae12fa51db8"
   },
   "level-3-01": {
     "audio": "data/audio/level-3-01.mp3",
@@ -925,7 +925,7 @@
       "edits": "Transcoded to mono MP3 and leading silence trimmed."
     },
     "audio_revision": "bf86b993ddb5",
-    "animation_revision": "df7b9899ef3f"
+    "animation_revision": "e7d63d2c4dd9"
   },
   "level-3-02": {
     "audio": "data/audio/level-3-02.mp3",
@@ -939,7 +939,7 @@
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
     },
     "audio_revision": "21a3e7431217",
-    "animation_revision": "d945662b2a00"
+    "animation_revision": "54dedb6c7912"
   },
   "level-3-03": {
     "audio": "data/audio/level-3-03.mp3",
@@ -954,7 +954,7 @@
       "edits": "First syllable taken from māma from 0.18 to 0.62 seconds, faded, and transcoded to mono MP3."
     },
     "audio_revision": "b2f709248e75",
-    "animation_revision": "dcc9d8909ab8"
+    "animation_revision": "ff8759177a67"
   },
   "level-3-04": {
     "audio": "data/audio/level-3-04.mp3",
@@ -969,7 +969,7 @@
       "edits": "Transcoded to mono MP3 and leading silence trimmed."
     },
     "audio_revision": "41362d701edd",
-    "animation_revision": "311d712d6970"
+    "animation_revision": "40de20baada6"
   },
   "level-3-05": {
     "audio": "data/audio/level-3-05.mp3",
@@ -984,7 +984,7 @@
       "edits": "Transcoded to mono MP3 and leading silence trimmed."
     },
     "audio_revision": "535131c76d12",
-    "animation_revision": "f07944900a7b"
+    "animation_revision": "f982dec585ad"
   },
   "level-3-06": {
     "audio": "data/audio/level-3-06.mp3",
@@ -999,7 +999,7 @@
       "edits": "Transcoded to mono MP3 and leading silence trimmed."
     },
     "audio_revision": "61093d28f792",
-    "animation_revision": "f54249220815"
+    "animation_revision": "6479e0b2a749"
   },
   "level-3-07": {
     "audio": "data/audio/level-3-07.mp3",
@@ -1014,7 +1014,7 @@
       "edits": "Transcoded to mono MP3 and leading silence trimmed."
     },
     "audio_revision": "775314374ff5",
-    "animation_revision": "8a675a3c488c"
+    "animation_revision": "37f35f388280"
   },
   "level-3-08": {
     "audio": "data/audio/level-3-08.mp3",
@@ -1029,7 +1029,7 @@
       "edits": "Transcoded to mono MP3 and leading silence trimmed."
     },
     "audio_revision": "99039340bd46",
-    "animation_revision": "b23a13bd264c"
+    "animation_revision": "8845cd68c68e"
   },
   "level-3-09": {
     "audio": "data/audio/level-3-09.mp3",
@@ -1044,7 +1044,7 @@
       "edits": "Transcoded to mono MP3 and leading silence trimmed."
     },
     "audio_revision": "ddfe7da466da",
-    "animation_revision": "fea2ba2d77d1"
+    "animation_revision": "2e03acc062a2"
   },
   "level-3-10": {
     "audio": "data/audio/level-3-10.mp3",
@@ -1058,7 +1058,7 @@
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
     },
     "audio_revision": "9da2ab527de0",
-    "animation_revision": "05b70c602d6d"
+    "animation_revision": "e0c2724f2504"
   },
   "level-3-11": {
     "audio": "data/audio/level-3-11.mp3",
@@ -1072,7 +1072,7 @@
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
     },
     "audio_revision": "96f8e42e15fe",
-    "animation_revision": "55ba89b72437"
+    "animation_revision": "d4f22fb58f5c"
   },
   "level-3-12": {
     "audio": "data/audio/level-3-12.mp3",
@@ -1086,7 +1086,7 @@
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
     },
     "audio_revision": "b10c99652035",
-    "animation_revision": "7799711209c3"
+    "animation_revision": "ed8e687e8d9e"
   },
   "level-3-13": {
     "audio": "data/audio/level-3-13.mp3",
@@ -1100,7 +1100,7 @@
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
     },
     "audio_revision": "d5cafec30429",
-    "animation_revision": "65bdd25ec04f"
+    "animation_revision": "aee452922e87"
   },
   "level-3-14": {
     "audio": "data/audio/level-3-14.mp3",
@@ -1114,7 +1114,7 @@
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
     },
     "audio_revision": "5d13905d1491",
-    "animation_revision": "c487e516c75a"
+    "animation_revision": "bfd43871509f"
   },
   "level-3-15": {
     "audio": "data/audio/level-3-15.mp3",
@@ -1128,7 +1128,7 @@
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
     },
     "audio_revision": "c89b66484e43",
-    "animation_revision": "42c9c00557dd"
+    "animation_revision": "ca4af5e51aec"
   },
   "level-3-16": {
     "audio": "data/audio/level-3-16.mp3",
@@ -1142,7 +1142,7 @@
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
     },
     "audio_revision": "4957a75cc9f5",
-    "animation_revision": "376552ad1521"
+    "animation_revision": "efc540212057"
   },
   "level-3-17": {
     "audio": "data/audio/level-3-17.mp3",
@@ -1156,7 +1156,7 @@
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
     },
     "audio_revision": "8a90f2b413d7",
-    "animation_revision": "a043a14495a9"
+    "animation_revision": "9f2f53f3678f"
   },
   "level-3-18": {
     "audio": "data/audio/level-3-18.mp3",
@@ -1170,7 +1170,7 @@
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
     },
     "audio_revision": "09c765991ecd",
-    "animation_revision": "f4123060faf5"
+    "animation_revision": "ca7807de3677"
   },
   "level-3-19": {
     "audio": "data/audio/level-3-19.mp3",
@@ -1184,7 +1184,7 @@
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
     },
     "audio_revision": "5d6fff20a146",
-    "animation_revision": "a272add3c011"
+    "animation_revision": "7bac44371d47"
   },
   "level-3-20": {
     "audio": "data/audio/level-3-20.mp3",
@@ -1198,7 +1198,7 @@
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
     },
     "audio_revision": "7422848484d6",
-    "animation_revision": "855cb2f8c71d"
+    "animation_revision": "bd8c8b29a52c"
   },
   "level-3-21": {
     "audio": "data/audio/level-3-21.mp3",
@@ -1212,7 +1212,7 @@
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
     },
     "audio_revision": "bee9e6a349c7",
-    "animation_revision": "ed63ae4049bd"
+    "animation_revision": "9d11671d4370"
   },
   "sentence-01": {
     "audio": "data/audio/sentence-01.mp3",
@@ -1226,7 +1226,7 @@
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
     },
     "audio_revision": "f49ea9b33b6a",
-    "animation_revision": "08ddb3c4cedc"
+    "animation_revision": "85138f376ac7"
   },
   "sentence-02": {
     "audio": "data/audio/sentence-02.mp3",
@@ -1240,7 +1240,7 @@
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
     },
     "audio_revision": "a2d771eda550",
-    "animation_revision": "31b1dd31e90f"
+    "animation_revision": "7e3aa1b2da29"
   },
   "sentence-03": {
     "audio": "data/audio/sentence-03.mp3",
@@ -1254,7 +1254,7 @@
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
     },
     "audio_revision": "c2e32b4b1d9d",
-    "animation_revision": "0421f37b91dd"
+    "animation_revision": "202e050fba60"
   },
   "sentence-04": {
     "audio": "data/audio/sentence-04.mp3",
@@ -1268,7 +1268,7 @@
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
     },
     "audio_revision": "d6c9824f2231",
-    "animation_revision": "578b0ebbb088"
+    "animation_revision": "0ed0505c261b"
   },
   "sentence-05": {
     "audio": "data/audio/sentence-05.mp3",
@@ -1282,7 +1282,7 @@
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
     },
     "audio_revision": "40d0a07af3f5",
-    "animation_revision": "548ce652feb2"
+    "animation_revision": "c028264902e4"
   },
   "sentence-06": {
     "audio": "data/audio/sentence-06.mp3",
@@ -1296,7 +1296,7 @@
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
     },
     "audio_revision": "1b2639a5dd74",
-    "animation_revision": "2442576be40f"
+    "animation_revision": "4848f541d232"
   },
   "sentence-07": {
     "audio": "data/audio/sentence-07.mp3",
@@ -1310,7 +1310,7 @@
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
     },
     "audio_revision": "99eb711a2071",
-    "animation_revision": "cf0cbaff22e4"
+    "animation_revision": "2f4c23dc99a3"
   },
   "tone-ma-1": {
     "audio": "data/audio/tone-ma-1.mp3",
@@ -1325,7 +1325,7 @@
       "edits": "First syllable taken from māma from 0.18 to 0.62 seconds, faded, and transcoded to mono MP3."
     },
     "audio_revision": "b2f709248e75",
-    "animation_revision": "dcc9d8909ab8"
+    "animation_revision": "ff8759177a67"
   },
   "tone-ma-2": {
     "audio": "data/audio/tone-ma-2.mp3",
@@ -1340,7 +1340,7 @@
       "edits": "Transcoded to mono MP3 and leading silence trimmed."
     },
     "audio_revision": "b799ff531aa8",
-    "animation_revision": "e9da354a4af6"
+    "animation_revision": "ef9e1add5b21"
   },
   "tone-ma-3": {
     "audio": "data/audio/tone-ma-3.mp3",
@@ -1355,7 +1355,7 @@
       "edits": "Transcoded to mono MP3 and leading silence trimmed."
     },
     "audio_revision": "bf86b993ddb5",
-    "animation_revision": "df7b9899ef3f"
+    "animation_revision": "e7d63d2c4dd9"
   },
   "tone-ma-4": {
     "audio": "data/audio/tone-ma-4.mp3",
@@ -1370,7 +1370,7 @@
       "edits": "Transcoded to mono MP3 and leading silence trimmed."
     },
     "audio_revision": "e6c9162f7edf",
-    "animation_revision": "1a06f6006d1a"
+    "animation_revision": "c30d5d6cc299"
   },
   "tone-ma-5": {
     "audio": "data/audio/tone-ma-5.mp3",
@@ -1385,7 +1385,7 @@
       "edits": "Transcoded to mono MP3 and leading silence trimmed."
     },
     "audio_revision": "530713765cb6",
-    "animation_revision": "665329fc655e"
+    "animation_revision": "973c68ea7c33"
   },
   "en-1-1": {
     "audio": "data/audio/en-1-1.mp3",
@@ -1399,7 +1399,7 @@
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
     },
     "audio_revision": "3dcdfc4736fc",
-    "animation_revision": "428eda5a1723"
+    "animation_revision": "62191f16682e"
   },
   "en-1-2": {
     "audio": "data/audio/en-1-2.mp3",
@@ -1413,7 +1413,7 @@
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
     },
     "audio_revision": "644bb5cfd65a",
-    "animation_revision": "cdadf52578af"
+    "animation_revision": "f2985af0ccbf"
   },
   "en-1-3": {
     "audio": "data/audio/en-1-3.mp3",
@@ -1427,7 +1427,7 @@
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
     },
     "audio_revision": "dbab98dd677e",
-    "animation_revision": "12e1d0bec291"
+    "animation_revision": "85bb7523dce8"
   },
   "en-2-1": {
     "audio": "data/audio/en-2-1.mp3",
@@ -1441,7 +1441,7 @@
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
     },
     "audio_revision": "cc296ee329a5",
-    "animation_revision": "588028b3ec9b"
+    "animation_revision": "4a9e3a9b83b1"
   },
   "en-2-2": {
     "audio": "data/audio/en-2-2.mp3",
@@ -1455,7 +1455,7 @@
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
     },
     "audio_revision": "b6e958785c33",
-    "animation_revision": "120a76f84659"
+    "animation_revision": "33b31d0bdba0"
   },
   "en-2-3": {
     "audio": "data/audio/en-2-3.mp3",
@@ -1469,7 +1469,7 @@
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
     },
     "audio_revision": "8ef19f949ab3",
-    "animation_revision": "c157ea7c83e0"
+    "animation_revision": "323be2120e6b"
   },
   "en-3-1": {
     "audio": "data/audio/en-3-1.mp3",
@@ -1483,7 +1483,7 @@
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
     },
     "audio_revision": "de536d11f9cc",
-    "animation_revision": "26780659d7fd"
+    "animation_revision": "9e36d017d40b"
   },
   "en-3-2": {
     "audio": "data/audio/en-3-2.mp3",
@@ -1497,7 +1497,7 @@
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
     },
     "audio_revision": "a87b01b15fc0",
-    "animation_revision": "b02c13f9fd45"
+    "animation_revision": "24d4b15fa0fb"
   },
   "en-3-3": {
     "audio": "data/audio/en-3-3.mp3",
@@ -1511,7 +1511,7 @@
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
     },
     "audio_revision": "b75b9985cb6f",
-    "animation_revision": "2d13c08efc28"
+    "animation_revision": "485e0a2038b7"
   },
   "en-3-4": {
     "audio": "data/audio/en-3-4.mp3",
@@ -1525,7 +1525,7 @@
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
     },
     "audio_revision": "bcbaa4b45b11",
-    "animation_revision": "0dc19e551ce9"
+    "animation_revision": "7e55ec1f4b8c"
   },
   "en-4-1": {
     "audio": "data/audio/en-4-1.mp3",
@@ -1539,7 +1539,7 @@
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
     },
     "audio_revision": "a18f834180bd",
-    "animation_revision": "068d40e93939"
+    "animation_revision": "fa8e6fdf9818"
   },
   "en-4-2": {
     "audio": "data/audio/en-4-2.mp3",
@@ -1553,7 +1553,7 @@
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
     },
     "audio_revision": "566888307a1c",
-    "animation_revision": "fab721c4b128"
+    "animation_revision": "87321d52b32a"
   },
   "en-4-3": {
     "audio": "data/audio/en-4-3.mp3",
@@ -1567,7 +1567,7 @@
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
     },
     "audio_revision": "cb0ea4e9f05e",
-    "animation_revision": "0668b42e4517"
+    "animation_revision": "b7d8ff30fd6f"
   },
   "es-ES-1-1": {
     "audio": "data/audio/es-ES-1-1.mp3",
@@ -1581,7 +1581,7 @@
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
     },
     "audio_revision": "833789d18e1d",
-    "animation_revision": "ec01838c935b"
+    "animation_revision": "8dfdb473dd09"
   },
   "es-ES-1-2": {
     "audio": "data/audio/es-ES-1-2.mp3",
@@ -1595,7 +1595,7 @@
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
     },
     "audio_revision": "a97bf0c6ab68",
-    "animation_revision": "e23d336b4bcf"
+    "animation_revision": "416a6d454c1e"
   },
   "es-ES-1-3": {
     "audio": "data/audio/es-ES-1-3.mp3",
@@ -1609,7 +1609,7 @@
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
     },
     "audio_revision": "2e5247ccee79",
-    "animation_revision": "821750ede5d2"
+    "animation_revision": "b43f52bb4b87"
   },
   "es-ES-2-1": {
     "audio": "data/audio/es-ES-2-1.mp3",
@@ -1623,7 +1623,7 @@
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
     },
     "audio_revision": "0228713ac267",
-    "animation_revision": "66cd3a9fd1e2"
+    "animation_revision": "d55970ecbeab"
   },
   "es-ES-2-2": {
     "audio": "data/audio/es-ES-2-2.mp3",
@@ -1637,7 +1637,7 @@
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
     },
     "audio_revision": "db5899858156",
-    "animation_revision": "e448f8475ea9"
+    "animation_revision": "2ad4e69648a1"
   },
   "es-ES-2-3": {
     "audio": "data/audio/es-ES-2-3.mp3",
@@ -1651,7 +1651,7 @@
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
     },
     "audio_revision": "e917f67d98a3",
-    "animation_revision": "3fb71bbbed02"
+    "animation_revision": "8eff56a9be6d"
   },
   "es-ES-2-4": {
     "audio": "data/audio/es-ES-2-4.mp3",
@@ -1665,7 +1665,7 @@
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
     },
     "audio_revision": "ed5dc7cb2d6f",
-    "animation_revision": "8a5bc79749df"
+    "animation_revision": "381ee5bdca3d"
   },
   "es-ES-3-1": {
     "audio": "data/audio/es-ES-3-1.mp3",
@@ -1679,7 +1679,7 @@
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
     },
     "audio_revision": "3580ba982930",
-    "animation_revision": "4cc43e8b9e20"
+    "animation_revision": "1007892aa15d"
   },
   "es-ES-3-2": {
     "audio": "data/audio/es-ES-3-2.mp3",
@@ -1693,7 +1693,7 @@
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
     },
     "audio_revision": "d5ff4b9045eb",
-    "animation_revision": "37d887941abd"
+    "animation_revision": "ee6f61558ed0"
   },
   "es-ES-3-3": {
     "audio": "data/audio/es-ES-3-3.mp3",
@@ -1707,7 +1707,7 @@
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
     },
     "audio_revision": "37aaefd63a94",
-    "animation_revision": "eafd5d7edb16"
+    "animation_revision": "a7c37bd11196"
   },
   "es-ES-3-4": {
     "audio": "data/audio/es-ES-3-4.mp3",
@@ -1721,7 +1721,7 @@
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
     },
     "audio_revision": "917956687340",
-    "animation_revision": "fbdac32f0553"
+    "animation_revision": "46020ec6045e"
   },
   "es-ES-4-1": {
     "audio": "data/audio/es-ES-4-1.mp3",
@@ -1735,7 +1735,7 @@
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
     },
     "audio_revision": "21b0fba9f993",
-    "animation_revision": "48b31b0ac5bf"
+    "animation_revision": "c55d76e0da19"
   },
   "es-ES-4-2": {
     "audio": "data/audio/es-ES-4-2.mp3",
@@ -1749,7 +1749,7 @@
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
     },
     "audio_revision": "30f47ba2010c",
-    "animation_revision": "c456826367a0"
+    "animation_revision": "c73d56f27541"
   },
   "es-ES-4-3": {
     "audio": "data/audio/es-ES-4-3.mp3",
@@ -1763,7 +1763,7 @@
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
     },
     "audio_revision": "efd237d5324e",
-    "animation_revision": "82243278ab50"
+    "animation_revision": "e78900267b51"
   },
   "fi-FI-1-1": {
     "audio": "data/audio/fi-FI-1-1.mp3",
@@ -1777,7 +1777,7 @@
       "source": "https://huggingface.co/rhasspy/piper-voices/tree/375a0fe641dea077c2a47b4e9a056d6da521eed3/fi/fi_FI/harri/medium"
     },
     "audio_revision": "57f885bd4c66",
-    "animation_revision": "942e00ec8ad7"
+    "animation_revision": "e5c3c1f7a0c6"
   },
   "fi-FI-1-2": {
     "audio": "data/audio/fi-FI-1-2.mp3",
@@ -1791,7 +1791,7 @@
       "source": "https://huggingface.co/rhasspy/piper-voices/tree/375a0fe641dea077c2a47b4e9a056d6da521eed3/fi/fi_FI/harri/medium"
     },
     "audio_revision": "f84002af407a",
-    "animation_revision": "814589ee7b49"
+    "animation_revision": "d869de437d74"
   },
   "fi-FI-1-3": {
     "audio": "data/audio/fi-FI-1-3.mp3",
@@ -1805,7 +1805,7 @@
       "source": "https://huggingface.co/rhasspy/piper-voices/tree/375a0fe641dea077c2a47b4e9a056d6da521eed3/fi/fi_FI/harri/medium"
     },
     "audio_revision": "4a8350b78da0",
-    "animation_revision": "e675e4482c73"
+    "animation_revision": "68ea9c1e37a4"
   },
   "fi-FI-2-1": {
     "audio": "data/audio/fi-FI-2-1.mp3",
@@ -1819,7 +1819,7 @@
       "source": "https://huggingface.co/rhasspy/piper-voices/tree/375a0fe641dea077c2a47b4e9a056d6da521eed3/fi/fi_FI/harri/medium"
     },
     "audio_revision": "f99020fd4a42",
-    "animation_revision": "f4a0c1ce5808"
+    "animation_revision": "87063ae0be4e"
   },
   "fi-FI-2-2": {
     "audio": "data/audio/fi-FI-2-2.mp3",
@@ -1833,7 +1833,7 @@
       "source": "https://huggingface.co/rhasspy/piper-voices/tree/375a0fe641dea077c2a47b4e9a056d6da521eed3/fi/fi_FI/harri/medium"
     },
     "audio_revision": "92c2ef0203d9",
-    "animation_revision": "4c777c9d2145"
+    "animation_revision": "8c5c9c5443f3"
   },
   "fi-FI-2-3": {
     "audio": "data/audio/fi-FI-2-3.mp3",
@@ -1847,7 +1847,7 @@
       "source": "https://huggingface.co/rhasspy/piper-voices/tree/375a0fe641dea077c2a47b4e9a056d6da521eed3/fi/fi_FI/harri/medium"
     },
     "audio_revision": "c5ddca8ffa45",
-    "animation_revision": "2d1dbafc9641"
+    "animation_revision": "a8afa3055d94"
   },
   "fi-FI-2-4": {
     "audio": "data/audio/fi-FI-2-4.mp3",
@@ -1861,7 +1861,7 @@
       "source": "https://huggingface.co/rhasspy/piper-voices/tree/375a0fe641dea077c2a47b4e9a056d6da521eed3/fi/fi_FI/harri/medium"
     },
     "audio_revision": "19020f4cbe4f",
-    "animation_revision": "d5bd4a742c80"
+    "animation_revision": "6a06cd62ca71"
   },
   "fi-FI-3-1": {
     "audio": "data/audio/fi-FI-3-1.mp3",
@@ -1875,7 +1875,7 @@
       "source": "https://huggingface.co/rhasspy/piper-voices/tree/375a0fe641dea077c2a47b4e9a056d6da521eed3/fi/fi_FI/harri/medium"
     },
     "audio_revision": "b97cdc28a168",
-    "animation_revision": "063cc25aed57"
+    "animation_revision": "35167ae0c08b"
   },
   "fi-FI-3-2": {
     "audio": "data/audio/fi-FI-3-2.mp3",
@@ -1889,7 +1889,7 @@
       "source": "https://huggingface.co/rhasspy/piper-voices/tree/375a0fe641dea077c2a47b4e9a056d6da521eed3/fi/fi_FI/harri/medium"
     },
     "audio_revision": "03a7cd3340ab",
-    "animation_revision": "a76632992bf1"
+    "animation_revision": "f963b25283f7"
   },
   "fi-FI-3-3": {
     "audio": "data/audio/fi-FI-3-3.mp3",
@@ -1903,7 +1903,7 @@
       "source": "https://huggingface.co/rhasspy/piper-voices/tree/375a0fe641dea077c2a47b4e9a056d6da521eed3/fi/fi_FI/harri/medium"
     },
     "audio_revision": "bc4fa5b0d3a6",
-    "animation_revision": "447aae6ec215"
+    "animation_revision": "b52e2b012ef3"
   },
   "fi-FI-3-4": {
     "audio": "data/audio/fi-FI-3-4.mp3",
@@ -1917,7 +1917,7 @@
       "source": "https://huggingface.co/rhasspy/piper-voices/tree/375a0fe641dea077c2a47b4e9a056d6da521eed3/fi/fi_FI/harri/medium"
     },
     "audio_revision": "3d9cb4fb079b",
-    "animation_revision": "a13c29fc580e"
+    "animation_revision": "6668a23d6f76"
   },
   "fi-FI-4-1": {
     "audio": "data/audio/fi-FI-4-1.mp3",
@@ -1931,7 +1931,7 @@
       "source": "https://huggingface.co/rhasspy/piper-voices/tree/375a0fe641dea077c2a47b4e9a056d6da521eed3/fi/fi_FI/harri/medium"
     },
     "audio_revision": "7a9296994679",
-    "animation_revision": "507552b3276d"
+    "animation_revision": "3626c20545fa"
   },
   "fi-FI-4-2": {
     "audio": "data/audio/fi-FI-4-2.mp3",
@@ -1945,7 +1945,7 @@
       "source": "https://huggingface.co/rhasspy/piper-voices/tree/375a0fe641dea077c2a47b4e9a056d6da521eed3/fi/fi_FI/harri/medium"
     },
     "audio_revision": "1ee4050d0e8f",
-    "animation_revision": "cdc1fe14172a"
+    "animation_revision": "7b495b9407e5"
   },
   "fi-FI-4-3": {
     "audio": "data/audio/fi-FI-4-3.mp3",
@@ -1959,7 +1959,7 @@
       "source": "https://huggingface.co/rhasspy/piper-voices/tree/375a0fe641dea077c2a47b4e9a056d6da521eed3/fi/fi_FI/harri/medium"
     },
     "audio_revision": "0d25426d1c47",
-    "animation_revision": "9e650b43e149"
+    "animation_revision": "7e69cfaf82e1"
   },
   "zh-CN-pair-1-a": {
     "audio": "data/audio/zh-CN-pair-1-a.mp3",
@@ -1973,7 +1973,7 @@
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
     },
     "audio_revision": "6cbe0e8b0b10",
-    "animation_revision": "d156a9e728bb"
+    "animation_revision": "604e0875d767"
   },
   "zh-CN-pair-1-b": {
     "audio": "data/audio/zh-CN-pair-1-b.mp3",
@@ -1987,7 +1987,7 @@
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
     },
     "audio_revision": "49dd5ae9b4a8",
-    "animation_revision": "725ed9ac2e9d"
+    "animation_revision": "a624a8dacc8e"
   },
   "zh-CN-pair-2-a": {
     "audio": "data/audio/zh-CN-pair-2-a.mp3",
@@ -2001,7 +2001,7 @@
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
     },
     "audio_revision": "bd34d761342e",
-    "animation_revision": "f700a4fae0c9"
+    "animation_revision": "8dd8fcba3299"
   },
   "zh-CN-pair-2-b": {
     "audio": "data/audio/zh-CN-pair-2-b.mp3",
@@ -2015,7 +2015,7 @@
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
     },
     "audio_revision": "ad48325124c1",
-    "animation_revision": "0495ef002872"
+    "animation_revision": "e65d6712b1a5"
   },
   "zh-CN-pair-3-a": {
     "audio": "data/audio/zh-CN-pair-3-a.mp3",
@@ -2029,7 +2029,7 @@
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
     },
     "audio_revision": "76f996b6fc64",
-    "animation_revision": "6463f8c1df2a"
+    "animation_revision": "c7e28bffadc4"
   },
   "zh-CN-pair-3-b": {
     "audio": "data/audio/zh-CN-pair-3-b.mp3",
@@ -2043,7 +2043,7 @@
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
     },
     "audio_revision": "b2779d6d9fe5",
-    "animation_revision": "55bdf10875b6"
+    "animation_revision": "e22d9c64e967"
   },
   "zh-CN-everyday-1": {
     "audio": "data/audio/zh-CN-everyday-1.mp3",
@@ -2057,7 +2057,7 @@
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
     },
     "audio_revision": "b4b0b3d0b01f",
-    "animation_revision": "5a791ba2df87"
+    "animation_revision": "7130866b1f18"
   },
   "zh-CN-everyday-2": {
     "audio": "data/audio/zh-CN-everyday-2.mp3",
@@ -2071,7 +2071,7 @@
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
     },
     "audio_revision": "f316ecbcf0e7",
-    "animation_revision": "55ba1173b6c6"
+    "animation_revision": "9133cd88bb49"
   },
   "zh-CN-everyday-3": {
     "audio": "data/audio/zh-CN-everyday-3.mp3",
@@ -2085,7 +2085,7 @@
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
     },
     "audio_revision": "37bd68524e7c",
-    "animation_revision": "8396a1139f40"
+    "animation_revision": "ebc55e613814"
   },
   "zh-CN-everyday-4": {
     "audio": "data/audio/zh-CN-everyday-4.mp3",
@@ -2099,7 +2099,7 @@
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
     },
     "audio_revision": "0365eaec8ea9",
-    "animation_revision": "9302330d3f20"
+    "animation_revision": "2f32f45628ad"
   },
   "zh-CN-everyday-5": {
     "audio": "data/audio/zh-CN-everyday-5.mp3",
@@ -2113,7 +2113,7 @@
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
     },
     "audio_revision": "fe193b82afce",
-    "animation_revision": "b55e9c08853e"
+    "animation_revision": "15d66c0bdd7e"
   },
   "en-3-5": {
     "audio": "data/audio/en-3-5.mp3",
@@ -2127,7 +2127,7 @@
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
     },
     "audio_revision": "efb4c3108d6e",
-    "animation_revision": "e95f266f634a"
+    "animation_revision": "955730ef9390"
   },
   "en-3-6": {
     "audio": "data/audio/en-3-6.mp3",
@@ -2141,7 +2141,7 @@
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
     },
     "audio_revision": "f63b274f55ad",
-    "animation_revision": "6385ac610722"
+    "animation_revision": "822b6c4f1e0a"
   },
   "en-3-7": {
     "audio": "data/audio/en-3-7.mp3",
@@ -2155,7 +2155,7 @@
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
     },
     "audio_revision": "a6dadf7f88a8",
-    "animation_revision": "b40b1554f9f8"
+    "animation_revision": "a391cb5c0d46"
   },
   "en-3-8": {
     "audio": "data/audio/en-3-8.mp3",
@@ -2169,7 +2169,7 @@
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
     },
     "audio_revision": "baefbed900e0",
-    "animation_revision": "2c52e6771bab"
+    "animation_revision": "75e0d6542ac7"
   },
   "en-pair-1-a": {
     "audio": "data/audio/en-pair-1-a.mp3",
@@ -2183,7 +2183,7 @@
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
     },
     "audio_revision": "f02537f7a845",
-    "animation_revision": "7891c9a2da48"
+    "animation_revision": "56b7c8fa43c8"
   },
   "en-pair-1-b": {
     "audio": "data/audio/en-pair-1-b.mp3",
@@ -2197,7 +2197,7 @@
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
     },
     "audio_revision": "39d9936a93a6",
-    "animation_revision": "57f84904a579"
+    "animation_revision": "4ef519c4750f"
   },
   "en-pair-2-a": {
     "audio": "data/audio/en-pair-2-a.mp3",
@@ -2211,7 +2211,7 @@
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
     },
     "audio_revision": "a044de3d4b00",
-    "animation_revision": "eeac2d54795e"
+    "animation_revision": "c81c4a101cbe"
   },
   "en-pair-2-b": {
     "audio": "data/audio/en-pair-2-b.mp3",
@@ -2225,7 +2225,7 @@
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
     },
     "audio_revision": "1b03361b42b7",
-    "animation_revision": "b5ec94305606"
+    "animation_revision": "5bbb25f215b9"
   },
   "en-pair-3-a": {
     "audio": "data/audio/en-pair-3-a.mp3",
@@ -2239,7 +2239,7 @@
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
     },
     "audio_revision": "a99b162b99f0",
-    "animation_revision": "2bfca6247524"
+    "animation_revision": "61502f8b8963"
   },
   "en-pair-3-b": {
     "audio": "data/audio/en-pair-3-b.mp3",
@@ -2253,7 +2253,7 @@
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
     },
     "audio_revision": "a4ded540665c",
-    "animation_revision": "ffd45ea2d4b5"
+    "animation_revision": "d5f9211c2f46"
   },
   "en-pair-4-a": {
     "audio": "data/audio/en-pair-4-a.mp3",
@@ -2267,7 +2267,7 @@
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
     },
     "audio_revision": "755a77b0b141",
-    "animation_revision": "232079fdf18a"
+    "animation_revision": "4560271c48a9"
   },
   "en-pair-4-b": {
     "audio": "data/audio/en-pair-4-b.mp3",
@@ -2281,7 +2281,7 @@
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
     },
     "audio_revision": "3b98808cf30a",
-    "animation_revision": "7ef7369882d9"
+    "animation_revision": "19775f09eca1"
   },
   "en-everyday-1": {
     "audio": "data/audio/en-everyday-1.mp3",
@@ -2295,7 +2295,7 @@
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
     },
     "audio_revision": "98b50d3f601a",
-    "animation_revision": "225135f16ec1"
+    "animation_revision": "bd6edf354885"
   },
   "en-everyday-2": {
     "audio": "data/audio/en-everyday-2.mp3",
@@ -2309,7 +2309,7 @@
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
     },
     "audio_revision": "a45fbdff8214",
-    "animation_revision": "9a5a3eac2d08"
+    "animation_revision": "a6f958974519"
   },
   "en-everyday-3": {
     "audio": "data/audio/en-everyday-3.mp3",
@@ -2323,7 +2323,7 @@
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
     },
     "audio_revision": "07f9562c8ac8",
-    "animation_revision": "64a9e1d87c4d"
+    "animation_revision": "4c46c0d31bee"
   },
   "en-everyday-4": {
     "audio": "data/audio/en-everyday-4.mp3",
@@ -2337,7 +2337,7 @@
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
     },
     "audio_revision": "d9c37c2d52c1",
-    "animation_revision": "fff7e1ed390b"
+    "animation_revision": "16a0e440ccad"
   },
   "es-ES-3-5": {
     "audio": "data/audio/es-ES-3-5.mp3",
@@ -2351,7 +2351,7 @@
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
     },
     "audio_revision": "81de0465f5f5",
-    "animation_revision": "f8a021dc0d91"
+    "animation_revision": "5c2e6ee49c20"
   },
   "es-ES-3-6": {
     "audio": "data/audio/es-ES-3-6.mp3",
@@ -2365,7 +2365,7 @@
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
     },
     "audio_revision": "cb52c0cb3bfc",
-    "animation_revision": "b0c70524a872"
+    "animation_revision": "b5a0062eda61"
   },
   "es-ES-3-7": {
     "audio": "data/audio/es-ES-3-7.mp3",
@@ -2379,7 +2379,7 @@
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
     },
     "audio_revision": "f9e497e9ed4f",
-    "animation_revision": "12062ed311c6"
+    "animation_revision": "dc2a63a4387c"
   },
   "es-ES-3-8": {
     "audio": "data/audio/es-ES-3-8.mp3",
@@ -2393,7 +2393,7 @@
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
     },
     "audio_revision": "44d36bab86f1",
-    "animation_revision": "cfcda5cefdf0"
+    "animation_revision": "523c12c5507a"
   },
   "es-ES-3-9": {
     "audio": "data/audio/es-ES-3-9.mp3",
@@ -2407,7 +2407,7 @@
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
     },
     "audio_revision": "4df2fb2818de",
-    "animation_revision": "bc44984af79b"
+    "animation_revision": "502ad2f4a1a3"
   },
   "es-ES-pair-1-a": {
     "audio": "data/audio/es-ES-pair-1-a.mp3",
@@ -2421,7 +2421,7 @@
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
     },
     "audio_revision": "2a5970434f4a",
-    "animation_revision": "6c0cfe8b96cf"
+    "animation_revision": "d944ca6f8d59"
   },
   "es-ES-pair-1-b": {
     "audio": "data/audio/es-ES-pair-1-b.mp3",
@@ -2435,7 +2435,7 @@
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
     },
     "audio_revision": "943b8b692056",
-    "animation_revision": "bfe16f14bd9a"
+    "animation_revision": "5b6dd0dbca14"
   },
   "es-ES-pair-2-a": {
     "audio": "data/audio/es-ES-pair-2-a.mp3",
@@ -2449,7 +2449,7 @@
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
     },
     "audio_revision": "bca4ee92807f",
-    "animation_revision": "d6905252181e"
+    "animation_revision": "9b08084ae636"
   },
   "es-ES-pair-2-b": {
     "audio": "data/audio/es-ES-pair-2-b.mp3",
@@ -2463,7 +2463,7 @@
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
     },
     "audio_revision": "de459b944d35",
-    "animation_revision": "6d6607fed18e"
+    "animation_revision": "eb5ab953ef00"
   },
   "es-ES-pair-3-a": {
     "audio": "data/audio/es-ES-pair-3-a.mp3",
@@ -2477,7 +2477,7 @@
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
     },
     "audio_revision": "1087e29dbb17",
-    "animation_revision": "0bd1e0415dcf"
+    "animation_revision": "81d50f239412"
   },
   "es-ES-pair-3-b": {
     "audio": "data/audio/es-ES-pair-3-b.mp3",
@@ -2491,7 +2491,7 @@
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
     },
     "audio_revision": "abdc4062e480",
-    "animation_revision": "80afcffd9126"
+    "animation_revision": "784b68cbd178"
   },
   "es-ES-pair-4-a": {
     "audio": "data/audio/es-ES-pair-4-a.mp3",
@@ -2505,7 +2505,7 @@
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
     },
     "audio_revision": "6582bf0ecbbc",
-    "animation_revision": "175d19ee35d2"
+    "animation_revision": "260b9e3d2e26"
   },
   "es-ES-pair-4-b": {
     "audio": "data/audio/es-ES-pair-4-b.mp3",
@@ -2519,7 +2519,7 @@
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
     },
     "audio_revision": "1217fde2f160",
-    "animation_revision": "1526369555da"
+    "animation_revision": "8701f53779df"
   },
   "es-ES-pair-5-a": {
     "audio": "data/audio/es-ES-pair-5-a.mp3",
@@ -2533,7 +2533,7 @@
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
     },
     "audio_revision": "146b6cb59777",
-    "animation_revision": "fa4fec7bbd21"
+    "animation_revision": "9ff2d1933769"
   },
   "es-ES-pair-5-b": {
     "audio": "data/audio/es-ES-pair-5-b.mp3",
@@ -2547,7 +2547,7 @@
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
     },
     "audio_revision": "8c7d25e060a3",
-    "animation_revision": "e687e04e170e"
+    "animation_revision": "59782ed9ace8"
   },
   "es-ES-pair-6-a": {
     "audio": "data/audio/es-ES-pair-6-a.mp3",
@@ -2561,7 +2561,7 @@
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
     },
     "audio_revision": "2d7793d24650",
-    "animation_revision": "1e2551bf4254"
+    "animation_revision": "28e25684b4d3"
   },
   "es-ES-pair-6-b": {
     "audio": "data/audio/es-ES-pair-6-b.mp3",
@@ -2575,7 +2575,7 @@
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
     },
     "audio_revision": "348e6a80e6a5",
-    "animation_revision": "f5a7af43ff69"
+    "animation_revision": "d9078e74a340"
   },
   "es-ES-everyday-1": {
     "audio": "data/audio/es-ES-everyday-1.mp3",
@@ -2589,7 +2589,7 @@
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
     },
     "audio_revision": "5fbfd9b8d83b",
-    "animation_revision": "506692fb925e"
+    "animation_revision": "79926811aabf"
   },
   "es-ES-everyday-2": {
     "audio": "data/audio/es-ES-everyday-2.mp3",
@@ -2603,7 +2603,7 @@
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
     },
     "audio_revision": "2edbb760ffdc",
-    "animation_revision": "b246fa5c31b6"
+    "animation_revision": "66445e88c71e"
   },
   "es-ES-everyday-3": {
     "audio": "data/audio/es-ES-everyday-3.mp3",
@@ -2617,7 +2617,7 @@
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
     },
     "audio_revision": "5f2267d989e8",
-    "animation_revision": "a6de3788a1d6"
+    "animation_revision": "508a04160860"
   },
   "es-ES-everyday-4": {
     "audio": "data/audio/es-ES-everyday-4.mp3",
@@ -2631,7 +2631,7 @@
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
     },
     "audio_revision": "90295758ee43",
-    "animation_revision": "3f3e4cfcdcac"
+    "animation_revision": "4d128cc7b63e"
   },
   "es-ES-everyday-5": {
     "audio": "data/audio/es-ES-everyday-5.mp3",
@@ -2645,7 +2645,7 @@
       "source": "https://huggingface.co/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987"
     },
     "audio_revision": "57784a3a49ff",
-    "animation_revision": "94d8ce1a4111"
+    "animation_revision": "de6021319499"
   },
   "fi-FI-3-5": {
     "audio": "data/audio/fi-FI-3-5.mp3",
@@ -2659,7 +2659,7 @@
       "source": "https://huggingface.co/rhasspy/piper-voices/tree/375a0fe641dea077c2a47b4e9a056d6da521eed3/fi/fi_FI/harri/medium"
     },
     "audio_revision": "7aed14e9b310",
-    "animation_revision": "c65d8c9f95c9"
+    "animation_revision": "c3b728214088"
   },
   "fi-FI-3-6": {
     "audio": "data/audio/fi-FI-3-6.mp3",
@@ -2673,7 +2673,7 @@
       "source": "https://huggingface.co/rhasspy/piper-voices/tree/375a0fe641dea077c2a47b4e9a056d6da521eed3/fi/fi_FI/harri/medium"
     },
     "audio_revision": "1b5b54e99245",
-    "animation_revision": "ed26a64566eb"
+    "animation_revision": "ca5bc20cc552"
   },
   "fi-FI-3-7": {
     "audio": "data/audio/fi-FI-3-7.mp3",
@@ -2687,7 +2687,7 @@
       "source": "https://huggingface.co/rhasspy/piper-voices/tree/375a0fe641dea077c2a47b4e9a056d6da521eed3/fi/fi_FI/harri/medium"
     },
     "audio_revision": "1d16fc3cfde0",
-    "animation_revision": "6ef0647636f2"
+    "animation_revision": "fdb007dc3705"
   },
   "fi-FI-3-8": {
     "audio": "data/audio/fi-FI-3-8.mp3",
@@ -2701,7 +2701,7 @@
       "source": "https://huggingface.co/rhasspy/piper-voices/tree/375a0fe641dea077c2a47b4e9a056d6da521eed3/fi/fi_FI/harri/medium"
     },
     "audio_revision": "e0665fd73636",
-    "animation_revision": "a58d63b56025"
+    "animation_revision": "209df0bc95a2"
   },
   "fi-FI-3-9": {
     "audio": "data/audio/fi-FI-3-9.mp3",
@@ -2715,7 +2715,7 @@
       "source": "https://huggingface.co/rhasspy/piper-voices/tree/375a0fe641dea077c2a47b4e9a056d6da521eed3/fi/fi_FI/harri/medium"
     },
     "audio_revision": "5021f0c472fa",
-    "animation_revision": "451cc9524851"
+    "animation_revision": "fa8c5ba783fb"
   },
   "fi-FI-pair-1-a": {
     "audio": "data/audio/fi-FI-pair-1-a.mp3",
@@ -2729,7 +2729,7 @@
       "source": "https://huggingface.co/rhasspy/piper-voices/tree/375a0fe641dea077c2a47b4e9a056d6da521eed3/fi/fi_FI/harri/medium"
     },
     "audio_revision": "f345367b848c",
-    "animation_revision": "5f4171ccb472"
+    "animation_revision": "2cd69758b9a4"
   },
   "fi-FI-pair-1-b": {
     "audio": "data/audio/fi-FI-pair-1-b.mp3",
@@ -2743,7 +2743,7 @@
       "source": "https://huggingface.co/rhasspy/piper-voices/tree/375a0fe641dea077c2a47b4e9a056d6da521eed3/fi/fi_FI/harri/medium"
     },
     "audio_revision": "5195c9be4d06",
-    "animation_revision": "3951eff54d8a"
+    "animation_revision": "913e9e2ce455"
   },
   "fi-FI-pair-2-a": {
     "audio": "data/audio/fi-FI-pair-2-a.mp3",
@@ -2757,7 +2757,7 @@
       "source": "https://huggingface.co/rhasspy/piper-voices/tree/375a0fe641dea077c2a47b4e9a056d6da521eed3/fi/fi_FI/harri/medium"
     },
     "audio_revision": "c965fb5f76c0",
-    "animation_revision": "3abb15dfe324"
+    "animation_revision": "2d6f50f281b6"
   },
   "fi-FI-pair-2-b": {
     "audio": "data/audio/fi-FI-pair-2-b.mp3",
@@ -2771,7 +2771,7 @@
       "source": "https://huggingface.co/rhasspy/piper-voices/tree/375a0fe641dea077c2a47b4e9a056d6da521eed3/fi/fi_FI/harri/medium"
     },
     "audio_revision": "7941327c6beb",
-    "animation_revision": "6d069e9caa99"
+    "animation_revision": "3c2bb3119447"
   },
   "fi-FI-pair-3-a": {
     "audio": "data/audio/fi-FI-pair-3-a.mp3",
@@ -2785,7 +2785,7 @@
       "source": "https://huggingface.co/rhasspy/piper-voices/tree/375a0fe641dea077c2a47b4e9a056d6da521eed3/fi/fi_FI/harri/medium"
     },
     "audio_revision": "d0bd5ca338c0",
-    "animation_revision": "ff7be3cc8e53"
+    "animation_revision": "e46d7cff1317"
   },
   "fi-FI-pair-3-b": {
     "audio": "data/audio/fi-FI-pair-3-b.mp3",
@@ -2799,7 +2799,7 @@
       "source": "https://huggingface.co/rhasspy/piper-voices/tree/375a0fe641dea077c2a47b4e9a056d6da521eed3/fi/fi_FI/harri/medium"
     },
     "audio_revision": "50cb39d24f7d",
-    "animation_revision": "5dc624a1c41f"
+    "animation_revision": "0f7fcd123b8a"
   },
   "fi-FI-pair-4-a": {
     "audio": "data/audio/fi-FI-pair-4-a.mp3",
@@ -2813,7 +2813,7 @@
       "source": "https://huggingface.co/rhasspy/piper-voices/tree/375a0fe641dea077c2a47b4e9a056d6da521eed3/fi/fi_FI/harri/medium"
     },
     "audio_revision": "afab433fb567",
-    "animation_revision": "2ee64322c5ea"
+    "animation_revision": "e34e509a1fc1"
   },
   "fi-FI-pair-4-b": {
     "audio": "data/audio/fi-FI-pair-4-b.mp3",
@@ -2827,7 +2827,7 @@
       "source": "https://huggingface.co/rhasspy/piper-voices/tree/375a0fe641dea077c2a47b4e9a056d6da521eed3/fi/fi_FI/harri/medium"
     },
     "audio_revision": "39c2f6d29397",
-    "animation_revision": "5b58290feaa7"
+    "animation_revision": "96335f1f858f"
   },
   "fi-FI-everyday-1": {
     "audio": "data/audio/fi-FI-everyday-1.mp3",
@@ -2841,7 +2841,7 @@
       "source": "https://huggingface.co/rhasspy/piper-voices/tree/375a0fe641dea077c2a47b4e9a056d6da521eed3/fi/fi_FI/harri/medium"
     },
     "audio_revision": "ea5bac734ef8",
-    "animation_revision": "3fbe3d3d19a0"
+    "animation_revision": "de307aada177"
   },
   "fi-FI-everyday-2": {
     "audio": "data/audio/fi-FI-everyday-2.mp3",
@@ -2855,7 +2855,7 @@
       "source": "https://huggingface.co/rhasspy/piper-voices/tree/375a0fe641dea077c2a47b4e9a056d6da521eed3/fi/fi_FI/harri/medium"
     },
     "audio_revision": "c3f4896950e6",
-    "animation_revision": "297c5430a48e"
+    "animation_revision": "b2a0c1bde6ca"
   },
   "fi-FI-everyday-3": {
     "audio": "data/audio/fi-FI-everyday-3.mp3",
@@ -2869,7 +2869,7 @@
       "source": "https://huggingface.co/rhasspy/piper-voices/tree/375a0fe641dea077c2a47b4e9a056d6da521eed3/fi/fi_FI/harri/medium"
     },
     "audio_revision": "2dca36aba353",
-    "animation_revision": "696048e1a7d5"
+    "animation_revision": "bae761955f4d"
   },
   "fi-FI-everyday-4": {
     "audio": "data/audio/fi-FI-everyday-4.mp3",
@@ -2883,6 +2883,6 @@
       "source": "https://huggingface.co/rhasspy/piper-voices/tree/375a0fe641dea077c2a47b4e9a056d6da521eed3/fi/fi_FI/harri/medium"
     },
     "audio_revision": "7bb63beb5707",
-    "animation_revision": "c931c9c7bc16"
+    "animation_revision": "7a56b1c73d58"
   }
 }

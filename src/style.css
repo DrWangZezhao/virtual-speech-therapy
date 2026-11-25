@@ -320,3 +320,13 @@ dd { min-width: 0; margin: 0; overflow-wrap: anywhere; }
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { transition: none !important; }
 }
+
+.sound-explorer{max-width:440px;margin:12px auto 0;text-align:left;font-size:.82rem;color:#b8b8c5}
+.sound-explorer summary{cursor:pointer;text-align:center;padding:8px}
+.sound-buttons{display:flex;flex-wrap:wrap;gap:6px;justify-content:center;margin:10px 0}
+.sound-buttons button{padding:6px 10px;min-width:40px;border:1px solid #3a3340;border-radius:12px;background:#151218;color:#eee}
+.sound-buttons button[aria-pressed="true"]{border-color:#f2a2b7;color:#f2a2b7}
+.timeline-label{display:block;margin:12px 0 4px}
+#mouth-timeline{width:100%;accent-color:#f2a2b7;cursor:ew-resize}
+.timeline-controls{display:flex;align-items:center;justify-content:space-between}
+#sound-hint{font-size:.78rem;line-height:1.4}

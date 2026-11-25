@@ -58,6 +58,7 @@
         </button>
         <button id="coach-entry" class="exercise-picker coach-entry" type="button" data-copy="coachEntry">Talk with coach</button>
       </div>
+      <p id="coach-notice" class="muted" data-copy="coachNotice" hidden></p>
       <h1 id="item-title">me</h1>
       <p id="pronunciation" class="pronunciation"></p>
       <p id="subtarget" class="subtarget" hidden></p>
@@ -79,6 +80,14 @@
         </button>
       </div>
 
+      <details id="sound-explorer" class="sound-explorer">
+        <summary data-copy="exploreSounds">Explore sounds</summary>
+        <div id="sound-buttons" class="sound-buttons" aria-label="Speech sounds"></div>
+        <p id="sound-hint" class="muted" aria-live="polite"></p>
+        <label class="timeline-label" for="mouth-timeline" data-copy="mouthTimeline">Drag to inspect the mouth</label>
+        <input id="mouth-timeline" type="range" min="0" max="1" step="0.01" value="0" />
+        <div class="timeline-controls"><button id="timeline-play" class="quiet-button" type="button" data-copy="playPause">Play / pause</button><output id="timeline-time">0.00 s</output></div>
+      </details>
       <div class="feedback">
         <p id="status" role="status"></p>
         <section id="recognition" class="feedback-line" aria-label="Transcription" hidden>
@@ -93,6 +102,7 @@
     <section id="coach-panel" class="exercise coach-panel" aria-label="Voice coach" hidden>
       <p id="coach-phase" role="status"></p>
       <p id="coach-caption" aria-live="polite"></p>
+      <p id="coach-voice-note" class="muted" data-copy="voiceUnavailable" hidden></p>
       <div class="practice-actions">
         <button id="coach-end" type="button" data-copy="coachEnd">End conversation</button>
       </div>
@@ -125,7 +135,7 @@
     <video id="camera" muted playsinline hidden></video>
     <details>
       <summary data-copy="coachSettings">Voice coach settings</summary>
-      <label id="local-model-option" class="switch" hidden><input id="coach-local" type="checkbox" /><span data-copy="coachLocal">Use DeepSeek on this device (1.4 GB download)</span></label>
+      <label id="local-model-option" class="switch" hidden><input id="coach-local" type="checkbox" /><span data-copy="coachLocal">Use free on-device model (2.3 GB download)</span></label>
       <label class="field"><span data-copy="coachKey">DeepSeek API key (optional)</span><input id="coach-key" type="password" autocomplete="off" spellcheck="false" /></label>
       <p class="muted" data-copy="coachPrivacy">With an API key, the coach sends written transcripts to DeepSeek. Voice recordings stay in this browser. The key is held until you close or reload this page.</p>
     </details>

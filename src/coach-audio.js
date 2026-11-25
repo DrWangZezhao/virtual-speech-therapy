@@ -54,7 +54,7 @@ export async function openCoachMic(signal) {
           voiceSince = 0;
           if (!voiced) level = Math.min(.014,level * .96 + rms * .04);
         }
-        if ((voiced && now-lastVoice>725) || now-start>10800) finish();
+        if ((voiced && now-lastVoice>1800) || now-start>25000) finish();
       }
       recorder.ondataavailable = event => { if (event.data.size) chunks.push(event.data); };
       recorder.onstop = () => resolve(voiced ? new Blob(chunks,{type:recorder.mimeType}) : null);
@@ -77,9 +77,23 @@ export async function openCoachMic(signal) {
   };
 }
 
-export function speakCoach(text, language, signal) {
+export async function speakCoach(text, language, signal, onSpeaking = () => {}) {
   const synthesis = window.speechSynthesis;
   if (!synthesis || signal.aborted) return Promise.resolve(false);
+  if (!synthesis.getVoices().length) {
+    await new Promise(resolve => {
+      const done = () => {
+        clearTimeout(timer);
+        synthesis.removeEventListener('voiceschanged', done);
+        signal.removeEventListener('abort', done);
+        resolve();
+      };
+      const timer = setTimeout(done, 1500);
+      synthesis.addEventListener('voiceschanged', done, {once:true});
+      signal.addEventListener('abort', done, {once:true});
+    });
+  }
+  if (signal.aborted) return false;
   const locale = language === 'en' ? 'en-US' : language;
   return new Promise(resolve => {
     const utterance = new SpeechSynthesisUtterance(text);
@@ -94,10 +108,14 @@ export function speakCoach(text, language, signal) {
     const complete = success => {
       clearTimeout(timer);
       signal.removeEventListener('abort', cancel);
+      onSpeaking(false);
       resolve(success);
     };
     const cancel = () => { synthesis.cancel(); complete(false); };
-    const timer = setTimeout(cancel, 16000);
+    const timer = setTimeout(cancel, 45000);
+    utterance.onstart = () => onSpeaking(true);
+    utterance.onpause = () => onSpeaking(false);
+    utterance.onresume = () => onSpeaking(true);
     utterance.onend = () => complete(true);
     utterance.onerror = () => complete(false);
     signal.addEventListener('abort', cancel, {once:true});
